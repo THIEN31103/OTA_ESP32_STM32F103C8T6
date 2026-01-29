@@ -1,0 +1,2 @@
+source E:/ESP32-IDF-SOFTWARE/CODE/Update_Firmware/build/gdbinit/symbols
+source E:/ESP32-IDF-SOFTWARE/CODE/Update_Firmware/build/gdbinit/connect

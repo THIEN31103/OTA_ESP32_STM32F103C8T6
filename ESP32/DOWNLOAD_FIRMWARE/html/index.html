@@ -1,0 +1,23 @@
+<!DOCTYPE HTML><html>
+<head>
+  <title>CONFIG_WIFI</title>
+</head>
+<body>
+<h1> NHAP THONG TIN WIFI</h1>
+<label>SSID: </label>
+<input type="text" id="ssid"><br><br>
+<label>PASS: </label>
+<input type="text" id="pass"><br><br>
+<button onclick="myFuction_btn()">Send</button>
+<script>
+var xhttp1 = new XMLHttpRequest();
+function myFuction_btn(){
+  var ssid = document.getElementById("ssid").value;
+  var pass = document.getElementById("pass").value;
+  xhttp1.open("POST", "/post_data", true);
+  xhttp1.send(ssid+'@'+pass+'@');
+}
+
+</script>
+</body>
+</html>

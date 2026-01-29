@@ -1,0 +1,1935 @@
+ets Jul 29 2019 12:21:46
+
+rst:0x1 (POWERON_RESET),boot:0x13 (SPI_FAST_FLASH_BOOT)
+configsip: 0, SPIWP:0xee
+clk_drv:0x00,q_drv:0x00,d_drv:0x00,cs0_drv:0x00,hd_drv:0x00,wp_drv:0x00
+mode:DIO, clock div:2
+load:0x3fff0030,len:6276
+load:0x40078000,len:15736
+load:0x40080400,len:4
+load:0x40080404,len:3860
+entry 0x4008063c
+[0;32mI (29) boot: ESP-IDF HEAD-HASH-NOTFOUND 2nd stage bootloader[0m
+[0;32mI (29) boot: compile time Jan  9 2026 12:34:56[0m
+[0;32mI (30) boot: Multicore bootloader[0m
+[0;32mI (32) boot: chip revision: v3.1[0m
+[0;32mI (35) boot.esp32: SPI Speed      : 40MHz[0m
+[0;32mI (38) boot.esp32: SPI Mode       : DIO[0m
+[0;32mI (42) boot.esp32: SPI Flash Size : 4MB[0m
+[0;32mI (45) boot: Enabling RNG early entropy source...[0m
+[0;32mI (50) boot: Partition Table:[0m
+[0;32mI (53) boot: ## Label            Usage          Type ST Offset   Length[0m
+[0;32mI (59) boot:  0 nvs              WiFi data        01 02 00009000 00006000[0m
+[0;32mI (65) boot:  1 phy_init         RF data          01 01 0000f000 00001000[0m
+[0;32mI (72) boot:  2 factory          factory app      00 00 00010000 00100000[0m
+[0;32mI (78) boot: End of partition table[0m
+[0;32mI (82) esp_image: segment 0: paddr=00010020 vaddr=3f400020 size=1cda0h (118176) map[0m
+[0;32mI (130) esp_image: segment 1: paddr=0002cdc8 vaddr=3ffb0000 size=03250h ( 12880) load[0m
+[0;32mI (135) esp_image: segment 2: paddr=00030020 vaddr=400d0020 size=92088h (598152) map[0m
+[0;32mI (339) esp_image: segment 3: paddr=000c20b0 vaddr=3ffb3250 size=00e3ch (  3644) load[0m
+[0;32mI (341) esp_image: segment 4: paddr=000c2ef4 vaddr=40080000 size=189d4h (100820) load[0m
+[0;32mI (382) esp_image: segment 5: paddr=000db8d0 vaddr=50000000 size=0001ch (    28) load[0m
+[0;32mI (394) boot: Loaded app from partition at offset 0x10000[0m
+[0;32mI (394) boot: Disabling RNG early entropy source...[0m
+[0;32mI (405) cpu_start: Multicore app[0m
+[0;32mI (413) cpu_start: Pro cpu start user code[0m
+[0;32mI (413) cpu_start: cpu freq: 160000000 Hz[0m
+[0;32mI (413) app_init: Application information:[0m
+[0;32mI (413) app_init: Project name:     Update_Firmware[0m
+[0;32mI (418) app_init: App version:      1[0m
+[0;32mI (421) app_init: Compile time:     Jan  9 2026 12:34:50[0m
+[0;32mI (426) app_init: ELF file SHA256:  86938e267...[0m
+[0;32mI (431) app_init: ESP-IDF:          HEAD-HASH-NOTFOUND[0m
+[0;32mI (436) efuse_init: Min chip rev:     v0.0[0m
+[0;32mI (439) efuse_init: Max chip rev:     v3.99 [0m
+[0;32mI (443) efuse_init: Chip rev:         v3.1[0m
+[0;32mI (447) heap_init: Initializing. RAM available for dynamic allocation:[0m
+[0;32mI (454) heap_init: At 3FFAE6E0 len 00001920 (6 KiB): DRAM[0m
+[0;32mI (459) heap_init: At 3FFB8CA8 len 00027358 (156 KiB): DRAM[0m
+[0;32mI (464) heap_init: At 3FFE0440 len 00003AE0 (14 KiB): D/IRAM[0m
+[0;32mI (469) heap_init: At 3FFE4350 len 0001BCB0 (111 KiB): D/IRAM[0m
+[0;32mI (475) heap_init: At 400989D4 len 0000762C (29 KiB): IRAM[0m
+[0;32mI (482) spi_flash: detected chip: generic[0m
+[0;32mI (484) spi_flash: flash io: dio[0m
+[0;32mI (488) main_task: Started on CPU0[0m
+[0;32mI (498) main_task: Calling app_main()[0m
+[0;32mI (498) MAIN: [APP] Startup..[0m
+[0;32mI (498) MAIN: [APP] Free memory: 275988 bytes[0m
+[0;32mI (498) MAIN: [APP] IDF version: HEAD-HASH-NOTFOUND[0m
+[0;32mI (548) wifi:wifi driver task: 3ffc0fcc, prio:23, stack:6656, core=0[0m
+[0;32mI (558) wifi:wifi firmware version: e8ce6e2[0m
+[0;32mI (558) wifi:wifi certification version: v7.0[0m
+[0;32mI (568) wifi:config NVS flash: enabled[0m
+[0;32mI (568) wifi:config nano formatting: disabled[0m
+[0;32mI (568) wifi:Init data frame dynamic rx buffer num: 32[0m
+[0;32mI (568) wifi:Init static rx mgmt buffer num: 5[0m
+[0;32mI (578) wifi:Init management short buffer num: 32[0m
+[0;32mI (578) wifi:Init dynamic tx buffer num: 32[0m
+[0;32mI (588) wifi:Init static rx buffer size: 1600[0m
+[0;32mI (588) wifi:Init static rx buffer num: 10[0m
+[0;32mI (588) wifi:Init dynamic rx buffer num: 32[0m
+[0;32mI (598) wifi_init: rx ba win: 6[0m
+[0;32mI (598) wifi_init: accept mbox: 6[0m
+[0;32mI (598) wifi_init: tcpip mbox: 32[0m
+[0;32mI (608) wifi_init: udp mbox: 6[0m
+[0;32mI (608) wifi_init: tcp mbox: 6[0m
+[0;32mI (608) wifi_init: tcp tx win: 5760[0m
+[0;32mI (618) wifi_init: tcp rx win: 5760[0m
+[0;32mI (618) wifi_init: tcp mss: 1440[0m
+[0;32mI (618) wifi_init: WiFi IRAM OP enabled[0m
+[0;32mI (628) wifi_init: WiFi RX IRAM OP enabled[0m
+[0;32mI (628) phy_init: phy_version 4861,b71b5ad,Aug  5 2025,11:16:06[0m
+[0;32mI (718) wifi:mode : sta (d4:e9:f4:c4:01:c8)[0m
+[0;32mI (718) wifi:enable tsf[0m
+[0;32mI (728) wifi:new:<11,0>, old:<1,0>, ap:<255,255>, sta:<11,0>, prof:1, snd_ch_cfg:0x0[0m
+[0;32mI (728) wifi:state: init -> auth (0xb0)[0m
+[0;32mI (768) wifi:state: auth -> assoc (0x0)[0m
+[0;32mI (808) wifi:state: assoc -> run (0x10)[0m
+[0;32mI (908) wifi:connected with NGO VAN THAM, aid = 3, channel 11, BW20, bssid = 4c:12:e8:8e:81:80[0m
+[0;32mI (908) wifi:security: WPA2-PSK, phy: bgn, rssi: -50[0m
+[0;32mI (908) wifi:pm start, type: 1[0m
+
+[0;32mI (908) wifi:dp: 1, bi: 102400, li: 3, scale listen interval from 307200 us to 307200 us[0m
+[0;32mI (988) wifi:AP's beacon interval = 102400 us, DTIM period = 1[0m
+[0;32mI (2148) CONFIG_WIFI: got ip:192.168.1.4[0m
+[0;32mI (2148) esp_netif_handlers: sta ip: 192.168.1.4, mask: 255.255.255.0, gw: 192.168.1.1[0m
+[0;32mI (2148) CONFIG_WIFI: WFIF CONNECTED[0m
+[0;32mI (2148) HTTP_CLIENT: Init OK: server=192.168.1.9 port=8000[0m
+[0;32mI (2158) uart: queue free spaces: 20[0m
+[0;32mI (2158) HTTP_CLIENT: DNS lookup succeeded. IP=192.168.1.9[0m
+[0;32mI (2158) HTTP_CLIENT: Allocated socket[0m
+[0;32mI (2178) wifi:<ba-add>idx:0 (ifx:0, 4c:12:e8:8e:81:80), tid:0, ssn:5, winSize:64[0m
+[0;32mI (2178) HTTP_CLIENT: Connected[0m
+[0;32mI (2178) HTTP_CLIENT: Socket send success[0m
+[0;32mI (2178) HTTP_CLIENT: Set socket receiving timeout success[0m
+[0;32mI (2198) HTTP_CLIENT: Done read response HTTP![0m
+[0;32mI (2298) HTTP_CLIENT: DNS lookup succeeded. IP=192.168.1.9[0m
+[0;32mI (2298) HTTP_CLIENT: Allocated socket[0m
+[0;32mI (2298) HTTP_CLIENT: Connected[0m
+[0;32mI (2308) HTTP_CLIENT: Socket send success[0m
+[0;32mI (2308) HTTP_CLIENT: Set socket receiving timeout success[0m
+[0;32mI (2318) HTTP_CLIENT: Done read response HTTP![0m
+[0;32mI (2418) HTTP_CLIENT: DNS lookup succeeded. IP=192.168.1.9[0m
+[0;32mI (2418) HTTP_CLIENT: Allocated socket[0m
+[0;32mI (2528) HTTP_CLIENT: Connected[0m
+[0;32mI (2528) HTTP_CLIENT: Socket send success[0m
+[0;32mI (2528) HTTP_CLIENT: Set socket receiving timeout success[0m
+[0;32mI (2538) HTTP_CLIENT: Done read response HTTP![0m
+[0;32mI (2638) HTTP_CLIENT: DNS lookup succeeded. IP=192.168.1.9[0m
+[0;32mI (2638) HTTP_CLIENT: Allocated socket[0m
+[0;32mI (2638) HTTP_CLIENT: Connected[0m
+[0;32mI (2638) HTTP_CLIENT: Socket send success[0m
+[0;32mI (2648) HTTP_CLIENT: Set socket receiving timeout success[0m
+[0;32mI (2648) HTTP_CLIENT: Done read response HTTP![0m
+[0;32mI (2748) HTTP_CLIENT: DNS lookup succeeded. IP=192.168.1.9[0m
+[0;32mI (2748) HTTP_CLIENT: Allocated socket[0m
+[0;32mI (2748) HTTP_CLIENT: Connected[0m
+[0;32mI (2748) HTTP_CLIENT: Socket send success[0m
+[0;32mI (2758) HTTP_CLIENT: Set socket receiving timeout success[0m
+[0;32mI (2758) HTTP_CLIENT: Done read response HTTP![0m
+[0;32mI (2858) HTTP_CLIENT: DNS lookup succeeded. IP=192.168.1.9[0m
+[0;32mI (2858) HTTP_CLIENT: Allocated socket[0m
+[0;32mI (2858) HTTP_CLIENT: Connected[0m
+[0;32mI (2858) HTTP_CLIENT: Socket send success[0m
+[0;32mI (2868) HTTP_CLIENT: Set socket receiving timeout success[0m
+[0;32mI (2868) HTTP_CLIENT: Done read response HTTP![0m
+[0;32mI (2968) HTTP_CLIENT: DNS lookup succeeded. IP=192.168.1.9[0m
+[0;32mI (2968) HTTP_CLIENT: Allocated socket[0m
+[0;32mI (2968) HTTP_CLIENT: Connected[0m
+[0;32mI (2968) HTTP_CLIENT: Socket send success[0m
+[0;32mI (2978) HTTP_CLIENT: Set socket receiving timeout success[0m
+[0;32mI (2978) HTTP_CLIENT: Done read response HTTP![0m
+[0;32mI (3078) HTTP_CLIENT: DNS lookup succeeded. IP=192.168.1.9[0m
+[0;32mI (3078) HTTP_CLIENT: Allocated socket[0m
+[0;32mI (3078) HTTP_CLIENT: Connected[0m
+[0;32mI (3078) HTTP_CLIENT: Socket send success[0m
+[0;32mI (3088) HTTP_CLIENT: Set socket receiving timeout success[0m
+[0;32mI (3088) HTTP_CLIENT: Done read response HTTP![0m
+[0;32mI (3188) HTTP_CLIENT: DNS lookup succeeded. IP=192.168.1.9[0m
+[0;32mI (3188) HTTP_CLIENT: Allocated socket[0m
+[0;32mI (3188) HTTP_CLIENT: Connected[0m
+[0;32mI (3188) HTTP_CLIENT: Socket send success[0m
+[0;32mI (3198) HTTP_CLIENT: Set socket receiving timeout success[0m
+[0;32mI (3198) HTTP_CLIENT: Done read response HTTP![0m
+[0;32mI (3298) HTTP_CLIENT: DNS lookup succeeded. IP=192.168.1.9[0m
+[0;32mI (3298) HTTP_CLIENT: Allocated socket[0m
+[0;32mI (3298) HTTP_CLIENT: Connected[0m
+[0;32mI (3298) HTTP_CLIENT: Socket send success[0m
+[0;32mI (3308) HTTP_CLIENT: Set socket receiving timeout success[0m
+[0;32mI (3318) HTTP_CLIENT: Done read response HTTP![0m
+[0;32mI (3418) HTTP_CLIENT: DNS lookup succeeded. IP=192.168.1.9[0m
+[0;32mI (3418) HTTP_CLIENT: Allocated socket[0m
+[0;32mI (3418) HTTP_CLIENT: Connected[0m
+[0;32mI (3418) HTTP_CLIENT: Socket send success[0m
+[0;32mI (3428) HTTP_CLIENT: Set socket receiving timeout success[0m
+[0;32mI (3428) HTTP_CLIENT: Done read response HTTP![0m
+[0;32mI (3528) HTTP_CLIENT: DNS lookup succeeded. IP=192.168.1.9[0m
+[0;32mI (3528) HTTP_CLIENT: Allocated socket[0m
+[0;32mI (3528) HTTP_CLIENT: Connected[0m
+[0;32mI (3538) HTTP_CLIENT: Socket send success[0m
+[0;32mI (3538) HTTP_CLIENT: Set socket receiving timeout success[0m
+[0;32mI (3538) HTTP_CLIENT: Done read response HTTP![0m
+[0;32mI (3638) HTTP_CLIENT: DNS lookup succeeded. IP=192.168.1.9[0m
+[0;32mI (3638) HTTP_CLIENT: Allocated socket[0m
+[0;32mI (3638) HTTP_CLIENT: Connected[0m
+[0;32mI (3648) HTTP_CLIENT: Socket send success[0m
+[0;32mI (3648) HTTP_CLIENT: Set socket receiving timeout success[0m
+[0;32mI (3648) HTTP_CLIENT: Done read response HTTP![0m
+[0;32mI (3758) HTTP_CLIENT: DNS lookup succeeded. IP=192.168.1.9[0m
+[0;32mI (3758) HTTP_CLIENT: Allocated socket[0m
+[0;32mI (3758) HTTP_CLIENT: Connected[0m
+[0;32mI (3768) HTTP_CLIENT: Socket send success[0m
+[0;32mI (3768) HTTP_CLIENT: Set socket receiving timeout success[0m
+[0;32mI (3768) HTTP_CLIENT: Done read response HTTP![0m
+[0;32mI (3868) HTTP_CLIENT: DNS lookup succeeded. IP=192.168.1.9[0m
+[0;32mI (3868) HTTP_CLIENT: Allocated socket[0m
+[0;32mI (3868) HTTP_CLIENT: Connected[0m
+[0;32mI (3868) HTTP_CLIENT: Socket send success[0m
+[0;32mI (3878) HTTP_CLIENT: Set socket receiving timeout success[0m
+[0;32mI (3878) HTTP_CLIENT: Done read response HTTP![0m
+[0;32mI (3978) HTTP_CLIENT: DNS lookup succeeded. IP=192.168.1.9[0m
+[0;32mI (3978) HTTP_CLIENT: Allocated socket[0m
+[0;32mI (3978) HTTP_CLIENT: Connected[0m
+[0;32mI (3978) HTTP_CLIENT: Socket send success[0m
+[0;32mI (3988) HTTP_CLIENT: Set socket receiving timeout success[0m
+[0;32mI (3988) HTTP_CLIENT: Done read response HTTP![0m
+[0;32mI (4088) HTTP_CLIENT: DNS lookup succeeded. IP=192.168.1.9[0m
+[0;32mI (4088) HTTP_CLIENT: Allocated socket[0m
+[0;32mI (4088) HTTP_CLIENT: Connected[0m
+[0;32mI (4088) HTTP_CLIENT: Socket send success[0m
+[0;32mI (4098) HTTP_CLIENT: Set socket receiving timeout success[0m
+[0;32mI (4098) HTTP_CLIENT: Done read response HTTP![0m
+[0;32mI (4198) HTTP_CLIENT: DNS lookup succeeded. IP=192.168.1.9[0m
+[0;32mI (4198) HTTP_CLIENT: Allocated socket[0m
+[0;32mI (4198) HTTP_CLIENT: Connected[0m
+[0;32mI (4198) HTTP_CLIENT: Socket send success[0m
+[0;32mI (4208) HTTP_CLIENT: Set socket receiving timeout success[0m
+[0;32mI (4208) HTTP_CLIENT: Done read response HTTP![0m
+[0;32mI (4308) HTTP_CLIENT: DNS lookup succeeded. IP=192.168.1.9[0m
+[0;32mI (4308) HTTP_CLIENT: Allocated socket[0m
+[0;32mI (4308) HTTP_CLIENT: Connected[0m
+[0;32mI (4308) HTTP_CLIENT: Socket send success[0m
+[0;32mI (4318) HTTP_CLIENT: Set socket receiving timeout success[0m
+[0;32mI (4318) HTTP_CLIENT: Done read response HTTP![0m
+[0;32mI (4418) HTTP_CLIENT: DNS lookup succeeded. IP=192.168.1.9[0m
+[0;32mI (4418) HTTP_CLIENT: Allocated socket[0m
+[0;32mI (4448) HTTP_CLIENT: Connected[0m
+[0;32mI (4448) HTTP_CLIENT: Socket send success[0m
+[0;32mI (4448) HTTP_CLIENT: Set socket receiving timeout success[0m
+[0;32mI (4458) HTTP_CLIENT: Done read response HTTP![0m
+[0;32mI (4558) HTTP_CLIENT: DNS lookup succeeded. IP=192.168.1.9[0m
+[0;32mI (4558) HTTP_CLIENT: Allocated socket[0m
+[0;32mI (4558) HTTP_CLIENT: Connected[0m
+[0;32mI (4558) HTTP_CLIENT: Socket send success[0m
+[0;32mI (4558) HTTP_CLIENT: Set socket receiving timeout success[0m
+[0;32mI (4568) HTTP_CLIENT: Done read response HTTP![0m
+[0;32mI (4668) HTTP_CLIENT: DNS lookup succeeded. IP=192.168.1.9[0m
+[0;32mI (4668) HTTP_CLIENT: Allocated socket[0m
+[0;32mI (4778) HTTP_CLIENT: Connected[0m
+[0;32mI (4778) HTTP_CLIENT: Socket send success[0m
+[0;32mI (4778) HTTP_CLIENT: Set socket receiving timeout success[0m
+[0;32mI (4788) HTTP_CLIENT: Done read response HTTP![0m
+[0;32mI (4888) HTTP_CLIENT: DNS lookup succeeded. IP=192.168.1.9[0m
+[0;32mI (4888) HTTP_CLIENT: Allocated socket[0m
+[0;32mI (4888) HTTP_CLIENT: Connected[0m
+[0;32mI (4898) HTTP_CLIENT: Socket send success[0m
+[0;32mI (4898) HTTP_CLIENT: Set socket receiving timeout success[0m
+[0;32mI (4898) HTTP_CLIENT: Done read response HTTP![0m
+[0;32mI (4998) HTTP_CLIENT: DNS lookup succeeded. IP=192.168.1.9[0m
+[0;32mI (4998) HTTP_CLIENT: Allocated socket[0m
+[0;32mI (4998) HTTP_CLIENT: Connected[0m
+[0;32mI (4998) HTTP_CLIENT: Socket send success[0m
+[0;32mI (5008) HTTP_CLIENT: Set socket receiving timeout success[0m
+[0;32mI (5008) HTTP_CLIENT: Done read response HTTP![0m
+[0;32mI (5108) HTTP_CLIENT: DNS lookup succeeded. IP=192.168.1.9[0m
+[0;32mI (5108) HTTP_CLIENT: Allocated socket[0m
+[0;32mI (5108) HTTP_CLIENT: Connected[0m
+[0;32mI (5108) HTTP_CLIENT: Socket send success[0m
+[0;32mI (5118) HTTP_CLIENT: Set socket receiving timeout success[0m
+[0;32mI (5118) HTTP_CLIENT: Done read response HTTP![0m
+[0;32mI (5218) HTTP_CLIENT: DNS lookup succeeded. IP=192.168.1.9[0m
+[0;32mI (5218) HTTP_CLIENT: Allocated socket[0m
+[0;32mI (5218) HTTP_CLIENT: Connected[0m
+[0;32mI (5218) HTTP_CLIENT: Socket send success[0m
+[0;32mI (5228) HTTP_CLIENT: Set socket receiving timeout success[0m
+[0;32mI (5238) HTTP_CLIENT: Done read response HTTP![0m
+[0;32mI (5338) HTTP_CLIENT: DNS lookup succeeded. IP=192.168.1.9[0m
+[0;32mI (5338) HTTP_CLIENT: Allocated socket[0m
+[0;32mI (5338) HTTP_CLIENT: Connected[0m
+[0;32mI (5338) HTTP_CLIENT: Socket send success[0m
+[0;32mI (5348) HTTP_CLIENT: Set socket receiving timeout success[0m
+[0;32mI (5348) HTTP_CLIENT: Done read response HTTP![0m
+[0;32mI (5448) HTTP_CLIENT: DNS lookup succeeded. IP=192.168.1.9[0m
+[0;32mI (5448) HTTP_CLIENT: Allocated socket[0m
+[0;32mI (5448) HTTP_CLIENT: Connected[0m
+[0;32mI (5448) HTTP_CLIENT: Socket send success[0m
+[0;32mI (5458) HTTP_CLIENT: Set socket receiving timeout success[0m
+[0;32mI (5458) HTTP_CLIENT: Done read response HTTP![0m
+[0;32mI (5558) HTTP_CLIENT: DNS lookup succeeded. IP=192.168.1.9[0m
+[0;32mI (5558) HTTP_CLIENT: Allocated socket[0m
+[0;32mI (5558) HTTP_CLIENT: Connected[0m
+[0;32mI (5558) HTTP_CLIENT: Socket send success[0m
+[0;32mI (5558) HTTP_CLIENT: Set socket receiving timeout success[0m
+[0;32mI (5568) HTTP_CLIENT: Done read response HTTP![0m
+[0;32mI (5668) HTTP_CLIENT: DNS lookup succeeded. IP=192.168.1.9[0m
+[0;32mI (5668) HTTP_CLIENT: Allocated socket[0m
+[0;32mI (5668) HTTP_CLIENT: Connected[0m
+[0;32mI (5678) HTTP_CLIENT: Socket send success[0m
+[0;32mI (5678) HTTP_CLIENT: Set socket receiving timeout success[0m
+[0;32mI (5678) HTTP_CLIENT: Done read response HTTP![0m
+[0;32mI (5778) HTTP_CLIENT: DNS lookup succeeded. IP=192.168.1.9[0m
+[0;32mI (5778) HTTP_CLIENT: Allocated socket[0m
+[0;32mI (5778) HTTP_CLIENT: Connected[0m
+[0;32mI (5778) HTTP_CLIENT: Socket send success[0m
+[0;32mI (5788) HTTP_CLIENT: Set socket receiving timeout success[0m
+[0;32mI (5788) HTTP_CLIENT: Done read response HTTP![0m
+[0;32mI (5888) HTTP_CLIENT: DNS lookup succeeded. IP=192.168.1.9[0m
+[0;32mI (5888) HTTP_CLIENT: Allocated socket[0m
+[0;32mI (5888) HTTP_CLIENT: Connected[0m
+[0;32mI (5888) HTTP_CLIENT: Socket send success[0m
+[0;32mI (5898) HTTP_CLIENT: Set socket receiving timeout success[0m
+[0;32mI (5898) HTTP_CLIENT: Done read response HTTP![0m
+[0;32mI (5998) HTTP_CLIENT: DNS lookup succeeded. IP=192.168.1.9[0m
+[0;32mI (5998) HTTP_CLIENT: Allocated socket[0m
+[0;32mI (6008) HTTP_CLIENT: Connected[0m
+[0;32mI (6008) HTTP_CLIENT: Socket send success[0m
+[0;32mI (6008) HTTP_CLIENT: Set socket receiving timeout success[0m
+[0;32mI (6018) HTTP_CLIENT: Done read response HTTP![0m
+[0;32mI (6118) HTTP_CLIENT: DNS lookup succeeded. IP=192.168.1.9[0m
+[0;32mI (6118) HTTP_CLIENT: Allocated socket[0m
+[0;32mI (6208) HTTP_CLIENT: Connected[0m
+[0;32mI (6218) HTTP_CLIENT: Socket send success[0m
+[0;32mI (6218) HTTP_CLIENT: Set socket receiving timeout success[0m
+[0;32mI (6218) HTTP_CLIENT: Done read response HTTP![0m
+[0;32mI (6318) HTTP_CLIENT: DNS lookup succeeded. IP=192.168.1.9[0m
+[0;32mI (6318) HTTP_CLIENT: Allocated socket[0m
+[0;32mI (6418) HTTP_CLIENT: Connected[0m
+[0;32mI (6418) HTTP_CLIENT: Socket send success[0m
+[0;32mI (6418) HTTP_CLIENT: Set socket receiving timeout success[0m
+[0;32mI (6428) HTTP_CLIENT: Done read response HTTP![0m
+[0;32mI (6528) HTTP_CLIENT: DNS lookup succeeded. IP=192.168.1.9[0m
+[0;32mI (6528) HTTP_CLIENT: Allocated socket[0m
+[0;32mI (6528) HTTP_CLIENT: Connected[0m
+[0;32mI (6538) HTTP_CLIENT: Socket send success[0m
+[0;32mI (6538) HTTP_CLIENT: Set socket receiving timeout success[0m
+[0;32mI (6538) HTTP_CLIENT: Done read response HTTP![0m
+[0;32mI (6638) HTTP_CLIENT: DNS lookup succeeded. IP=192.168.1.9[0m
+[0;32mI (6638) HTTP_CLIENT: Allocated socket[0m
+[0;32mI (6718) HTTP_CLIENT: Connected[0m
+[0;32mI (6728) HTTP_CLIENT: Socket send success[0m
+[0;32mI (6728) HTTP_CLIENT: Set socket receiving timeout success[0m
+[0;32mI (6728) HTTP_CLIENT: Done read response HTTP![0m
+[0;32mI (6828) HTTP_CLIENT: DNS lookup succeeded. IP=192.168.1.9[0m
+[0;32mI (6828) HTTP_CLIENT: Allocated socket[0m
+[0;32mI (6828) HTTP_CLIENT: Connected[0m
+[0;32mI (6838) HTTP_CLIENT: Socket send success[0m
+[0;32mI (6838) HTTP_CLIENT: Set socket receiving timeout success[0m
+[0;32mI (6838) HTTP_CLIENT: Done read response HTTP![0m
+[0;32mI (6938) HTTP_CLIENT: DNS lookup succeeded. IP=192.168.1.9[0m
+[0;32mI (6938) HTTP_CLIENT: Allocated socket[0m
+[0;32mI (7028) HTTP_CLIENT: Connected[0m
+[0;32mI (7038) HTTP_CLIENT: Socket send success[0m
+[0;32mI (7038) HTTP_CLIENT: Set socket receiving timeout success[0m
+[0;32mI (7038) HTTP_CLIENT: Done read response HTTP![0m
+[0;32mI (7138) HTTP_CLIENT: DNS lookup succeeded. IP=192.168.1.9[0m
+[0;32mI (7138) HTTP_CLIENT: Allocated socket[0m
+[0;32mI (7138) HTTP_CLIENT: Connected[0m
+[0;32mI (7138) HTTP_CLIENT: Socket send success[0m
+[0;32mI (7148) HTTP_CLIENT: Set socket receiving timeout success[0m
+[0;32mI (7148) HTTP_CLIENT: Done read response HTTP![0m
+[0;32mI (7148) HTTP_CLIENT: DNS lookup succeeded. IP=192.168.1.9[0m
+[0;32mI (7158) HTTP_CLIENT: Allocated socket[0m
+[0;32mI (7158) HTTP_CLIENT: Connected[0m
+[0;32mI (7168) HTTP_CLIENT: Socket send success[0m
+[0;32mI (7168) HTTP_CLIENT: Set socket receiving timeout success[0m
+[0;32mI (7178) HTTP_CLIENT: Done read response HTTP![0m
+[0;32mI (7278) HTTP_CLIENT: DNS lookup succeeded. IP=192.168.1.9[0m
+[0;32mI (7278) HTTP_CLIENT: Allocated socket[0m
+[0;32mI (7278) HTTP_CLIENT: Connected[0m
+[0;32mI (7278) HTTP_CLIENT: Socket send success[0m
+[0;32mI (7288) HTTP_CLIENT: Set socket receiving timeout success[0m
+[0;32mI (7288) HTTP_CLIENT: Done read response HTTP![0m
+[0;32mI (7298) HTTP_CLIENT: DNS lookup succeeded. IP=192.168.1.9[0m
+[0;32mI (7298) HTTP_CLIENT: Allocated socket[0m
+[0;32mI (7298) HTTP_CLIENT: Connected[0m
+[0;32mI (7298) HTTP_CLIENT: Socket send success[0m
+[0;32mI (7308) HTTP_CLIENT: Set socket receiving timeout success[0m
+[0;32mI (7308) HTTP_CLIENT: Done read response HTTP![0m
+[0;32mI (7408) HTTP_CLIENT: DNS lookup succeeded. IP=192.168.1.9[0m
+[0;32mI (7408) HTTP_CLIENT: Allocated socket[0m
+[0;32mI (7408) HTTP_CLIENT: Connected[0m
+[0;32mI (7418) HTTP_CLIENT: Socket send success[0m
+[0;32mI (7418) HTTP_CLIENT: Set socket receiving timeout success[0m
+[0;32mI (7418) HTTP_CLIENT: Done read response HTTP![0m
+[0;32mI (7428) HTTP_CLIENT: DNS lookup succeeded. IP=192.168.1.9[0m
+[0;32mI (7428) HTTP_CLIENT: Allocated socket[0m
+[0;32mI (7428) HTTP_CLIENT: Connected[0m
+[0;32mI (7428) HTTP_CLIENT: Socket send success[0m
+[0;32mI (7438) HTTP_CLIENT: Set socket receiving timeout success[0m
+[0;32mI (7438) HTTP_CLIENT: Done read response HTTP![0m
+[0;32mI (7548) HTTP_CLIENT: DNS lookup succeeded. IP=192.168.1.9[0m
+[0;32mI (7548) HTTP_CLIENT: Allocated socket[0m
+[0;32mI (7548) HTTP_CLIENT: Connected[0m
+[0;32mI (7548) HTTP_CLIENT: Socket send success[0m
+[0;32mI (7548) HTTP_CLIENT: Set socket receiving timeout success[0m
+[0;32mI (7558) HTTP_CLIENT: Done read response HTTP![0m
+[0;32mI (7568) HTTP_CLIENT: DNS lookup succeeded. IP=192.168.1.9[0m
+[0;32mI (7568) HTTP_CLIENT: Allocated socket[0m
+[0;32mI (7568) HTTP_CLIENT: Connected[0m
+[0;32mI (7568) HTTP_CLIENT: Socket send success[0m
+[0;32mI (7578) HTTP_CLIENT: Set socket receiving timeout success[0m
+[0;32mI (7578) HTTP_CLIENT: Done read response HTTP![0m
+[0;32mI (7678) HTTP_CLIENT: DNS lookup succeeded. IP=192.168.1.9[0m
+[0;32mI (7678) HTTP_CLIENT: Allocated socket[0m
+[0;32mI (7678) HTTP_CLIENT: Connected[0m
+[0;32mI (7678) HTTP_CLIENT: Socket send success[0m
+[0;32mI (7688) HTTP_CLIENT: Set socket receiving timeout success[0m
+[0;32mI (7688) HTTP_CLIENT: Done read response HTTP![0m
+[0;32mI (7788) HTTP_CLIENT: DNS lookup succeeded. IP=192.168.1.9[0m
+[0;32mI (7788) HTTP_CLIENT: Allocated socket[0m
+[0;32mI (7788) HTTP_CLIENT: Connected[0m
+[0;32mI (7798) HTTP_CLIENT: Socket send success[0m
+[0;32mI (7798) HTTP_CLIENT: Set socket receiving timeout success[0m
+[0;32mI (7798) HTTP_CLIENT: Done read response HTTP![0m
+[0;32mI (7898) HTTP_CLIENT: DNS lookup succeeded. IP=192.168.1.9[0m
+[0;32mI (7898) HTTP_CLIENT: Allocated socket[0m
+[0;32mI (7898) HTTP_CLIENT: Connected[0m
+[0;32mI (7908) HTTP_CLIENT: Socket send success[0m
+[0;32mI (7908) HTTP_CLIENT: Set socket receiving timeout success[0m
+[0;32mI (7908) HTTP_CLIENT: Done read response HTTP![0m
+[0;32mI (8008) HTTP_CLIENT: DNS lookup succeeded. IP=192.168.1.9[0m
+[0;32mI (8008) HTTP_CLIENT: Allocated socket[0m
+[0;32mI (8008) HTTP_CLIENT: Connected[0m
+[0;32mI (8008) HTTP_CLIENT: Socket send success[0m
+[0;32mI (8018) HTTP_CLIENT: Set socket receiving timeout success[0m
+[0;32mI (8018) HTTP_CLIENT: Done read response HTTP![0m
+[0;32mI (8118) HTTP_CLIENT: DNS lookup succeeded. IP=192.168.1.9[0m
+[0;32mI (8118) HTTP_CLIENT: Allocated socket[0m
+[0;32mI (8118) HTTP_CLIENT: Connected[0m
+[0;32mI (8128) HTTP_CLIENT: Socket send success[0m
+[0;32mI (8128) HTTP_CLIENT: Set socket receiving timeout success[0m
+[0;32mI (8128) HTTP_CLIENT: Done read response HTTP![0m
+[0;32mI (8228) HTTP_CLIENT: DNS lookup succeeded. IP=192.168.1.9[0m
+[0;32mI (8228) HTTP_CLIENT: Allocated socket[0m
+[0;32mI (8228) HTTP_CLIENT: Connected[0m
+[0;32mI (8238) HTTP_CLIENT: Socket send success[0m
+[0;32mI (8238) HTTP_CLIENT: Set socket receiving timeout success[0m
+[0;32mI (8238) HTTP_CLIENT: Done read response HTTP![0m
+[0;32mI (8338) HTTP_CLIENT: DNS lookup succeeded. IP=192.168.1.9[0m
+[0;32mI (8338) HTTP_CLIENT: Allocated socket[0m
+[0;32mI (8338) HTTP_CLIENT: Connected[0m
+[0;32mI (8338) HTTP_CLIENT: Socket send success[0m
+[0;32mI (8348) HTTP_CLIENT: Set socket receiving timeout success[0m
+[0;32mI (8348) HTTP_CLIENT: Done read response HTTP![0m
+[0;32mI (8448) HTTP_CLIENT: DNS lookup succeeded. IP=192.168.1.9[0m
+[0;32mI (8448) HTTP_CLIENT: Allocated socket[0m
+[0;32mI (8568) HTTP_CLIENT: Connected[0m
+[0;32mI (8568) HTTP_CLIENT: Socket send success[0m
+[0;32mI (8568) HTTP_CLIENT: Set socket receiving timeout success[0m
+[0;32mI (8578) HTTP_CLIENT: Done read response HTTP![0m
+[0;32mI (8678) HTTP_CLIENT: DNS lookup succeeded. IP=192.168.1.9[0m
+[0;32mI (8678) HTTP_CLIENT: Allocated socket[0m
+[0;32mI (8678) HTTP_CLIENT: Connected[0m
+[0;32mI (8678) HTTP_CLIENT: Socket send success[0m
+[0;32mI (8688) HTTP_CLIENT: Set socket receiving timeout success[0m
+[0;32mI (8688) HTTP_CLIENT: Done read response HTTP![0m
+[0;32mI (8788) HTTP_CLIENT: DNS lookup succeeded. IP=192.168.1.9[0m
+[0;32mI (8788) HTTP_CLIENT: Allocated socket[0m
+[0;32mI (8788) HTTP_CLIENT: Connected[0m
+[0;32mI (8788) HTTP_CLIENT: Socket send success[0m
+[0;32mI (8798) HTTP_CLIENT: Set socket receiving timeout success[0m
+[0;32mI (8798) HTTP_CLIENT: Done read response HTTP![0m
+[0;32mI (8898) HTTP_CLIENT: DNS lookup succeeded. IP=192.168.1.9[0m
+[0;32mI (8898) HTTP_CLIENT: Allocated socket[0m
+[0;32mI (8898) HTTP_CLIENT: Connected[0m
+[0;32mI (8898) HTTP_CLIENT: Socket send success[0m
+[0;32mI (8908) HTTP_CLIENT: Set socket receiving timeout success[0m
+[0;32mI (8908) HTTP_CLIENT: Done read response HTTP![0m
+[0;32mI (9008) HTTP_CLIENT: DNS lookup succeeded. IP=192.168.1.9[0m
+[0;32mI (9008) HTTP_CLIENT: Allocated socket[0m
+[0;32mI (9008) HTTP_CLIENT: Connected[0m
+[0;32mI (9008) HTTP_CLIENT: Socket send success[0m
+[0;32mI (9018) HTTP_CLIENT: Set socket receiving timeout success[0m
+[0;32mI (9018) HTTP_CLIENT: Done read response HTTP![0m
+[0;32mI (9118) HTTP_CLIENT: DNS lookup succeeded. IP=192.168.1.9[0m
+[0;32mI (9118) HTTP_CLIENT: Allocated socket[0m
+[0;32mI (9118) HTTP_CLIENT: Connected[0m
+[0;32mI (9118) HTTP_CLIENT: Socket send success[0m
+[0;32mI (9128) HTTP_CLIENT: Set socket receiving timeout success[0m
+[0;32mI (9128) HTTP_CLIENT: Done read response HTTP![0m
+[0;32mI (9228) HTTP_CLIENT: DNS lookup succeeded. IP=192.168.1.9[0m
+[0;32mI (9228) HTTP_CLIENT: Allocated socket[0m
+[0;32mI (9228) HTTP_CLIENT: Connected[0m
+[0;32mI (9238) HTTP_CLIENT: Socket send success[0m
+[0;32mI (9238) HTTP_CLIENT: Set socket receiving timeout success[0m
+[0;32mI (9238) HTTP_CLIENT: Done read response HTTP![0m
+[0;32mI (9338) HTTP_CLIENT: DNS lookup succeeded. IP=192.168.1.9[0m
+[0;32mI (9338) HTTP_CLIENT: Allocated socket[0m
+[0;32mI (9338) HTTP_CLIENT: Connected[0m
+[0;32mI (9348) HTTP_CLIENT: Socket send success[0m
+[0;32mI (9348) HTTP_CLIENT: Set socket receiving timeout success[0m
+[0;32mI (9348) HTTP_CLIENT: Done read response HTTP![0m
+[0;32mI (9458) HTTP_CLIENT: DNS lookup succeeded. IP=192.168.1.9[0m
+[0;32mI (9458) HTTP_CLIENT: Allocated socket[0m
+[0;32mI (9458) HTTP_CLIENT: Connected[0m
+[0;32mI (9458) HTTP_CLIENT: Socket send success[0m
+[0;32mI (9468) HTTP_CLIENT: Set socket receiving timeout success[0m
+[0;32mI (9468) HTTP_CLIENT: Done read response HTTP![0m
+[0;32mI (9568) HTTP_CLIENT: DNS lookup succeeded. IP=192.168.1.9[0m
+[0;32mI (9568) HTTP_CLIENT: Allocated socket[0m
+[0;32mI (9568) HTTP_CLIENT: Connected[0m
+[0;32mI (9568) HTTP_CLIENT: Socket send success[0m
+[0;32mI (9578) HTTP_CLIENT: Set socket receiving timeout success[0m
+[0;32mI (9578) HTTP_CLIENT: Done read response HTTP![0m
+[0;32mI (9678) HTTP_CLIENT: DNS lookup succeeded. IP=192.168.1.9[0m
+[0;32mI (9678) HTTP_CLIENT: Allocated socket[0m
+[0;32mI (9678) HTTP_CLIENT: Connected[0m
+[0;32mI (9678) HTTP_CLIENT: Socket send success[0m
+[0;32mI (9688) HTTP_CLIENT: Set socket receiving timeout success[0m
+[0;32mI (9698) HTTP_CLIENT: Done read response HTTP![0m
+[0;32mI (9798) HTTP_CLIENT: DNS lookup succeeded. IP=192.168.1.9[0m
+[0;32mI (9798) HTTP_CLIENT: Allocated socket[0m
+[0;32mI (9798) HTTP_CLIENT: Connected[0m
+[0;32mI (9798) HTTP_CLIENT: Socket send success[0m
+[0;32mI (9808) HTTP_CLIENT: Set socket receiving timeout success[0m
+[0;32mI (9808) HTTP_CLIENT: Done read response HTTP![0m
+[0;32mI (9908) HTTP_CLIENT: DNS lookup succeeded. IP=192.168.1.9[0m
+[0;32mI (9908) HTTP_CLIENT: Allocated socket[0m
+[0;32mI (9908) HTTP_CLIENT: Connected[0m
+[0;32mI (9908) HTTP_CLIENT: Socket send success[0m
+[0;32mI (9918) HTTP_CLIENT: Set socket receiving timeout success[0m
+[0;32mI (9928) HTTP_CLIENT: Done read response HTTP![0m
+[0;32mI (10028) HTTP_CLIENT: DNS lookup succeeded. IP=192.168.1.9[0m
+[0;32mI (10028) HTTP_CLIENT: Allocated socket[0m
+[0;32mI (10028) HTTP_CLIENT: Connected[0m
+[0;32mI (10038) HTTP_CLIENT: Socket send success[0m
+[0;32mI (10038) HTTP_CLIENT: Set socket receiving timeout success[0m
+[0;32mI (10038) HTTP_CLIENT: Done read response HTTP![0m
+[0;32mI (10148) HTTP_CLIENT: DNS lookup succeeded. IP=192.168.1.9[0m
+[0;32mI (10148) HTTP_CLIENT: Allocated socket[0m
+[0;32mI (10148) HTTP_CLIENT: Connected[0m
+[0;32mI (10148) HTTP_CLIENT: Socket send success[0m
+[0;32mI (10158) HTTP_CLIENT: Set socket receiving timeout success[0m
+[0;32mI (10158) HTTP_CLIENT: Done read response HTTP![0m
+[0;32mI (10258) HTTP_CLIENT: DNS lookup succeeded. IP=192.168.1.9[0m
+[0;32mI (10258) HTTP_CLIENT: Allocated socket[0m
+[0;32mI (10258) HTTP_CLIENT: Connected[0m
+[0;32mI (10258) HTTP_CLIENT: Socket send success[0m
+[0;32mI (10268) HTTP_CLIENT: Set socket receiving timeout success[0m
+[0;32mI (10268) HTTP_CLIENT: Done read response HTTP![0m
+[0;32mI (10368) HTTP_CLIENT: DNS lookup succeeded. IP=192.168.1.9[0m
+[0;32mI (10368) HTTP_CLIENT: Allocated socket[0m
+[0;32mI (10368) HTTP_CLIENT: Connected[0m
+[0;32mI (10368) HTTP_CLIENT: Socket send success[0m
+[0;32mI (10378) HTTP_CLIENT: Set socket receiving timeout success[0m
+[0;32mI (10378) HTTP_CLIENT: Done read response HTTP![0m
+[0;32mI (10478) HTTP_CLIENT: DNS lookup succeeded. IP=192.168.1.9[0m
+[0;32mI (10478) HTTP_CLIENT: Allocated socket[0m
+[0;32mI (10478) HTTP_CLIENT: Connected[0m
+[0;32mI (10478) HTTP_CLIENT: Socket send success[0m
+[0;32mI (10488) HTTP_CLIENT: Set socket receiving timeout success[0m
+[0;32mI (10488) HTTP_CLIENT: Done read response HTTP![0m
+[0;32mI (10588) HTTP_CLIENT: DNS lookup succeeded. IP=192.168.1.9[0m
+[0;32mI (10588) HTTP_CLIENT: Allocated socket[0m
+[0;32mI (10588) HTTP_CLIENT: Connected[0m
+[0;32mI (10588) HTTP_CLIENT: Socket send success[0m
+[0;32mI (10598) HTTP_CLIENT: Set socket receiving timeout success[0m
+[0;32mI (10598) HTTP_CLIENT: Done read response HTTP![0m
+[0;32mI (10698) HTTP_CLIENT: DNS lookup succeeded. IP=192.168.1.9[0m
+[0;32mI (10698) HTTP_CLIENT: Allocated socket[0m
+[0;32mI (10698) HTTP_CLIENT: Connected[0m
+[0;32mI (10698) HTTP_CLIENT: Socket send success[0m
+[0;32mI (10708) HTTP_CLIENT: Set socket receiving timeout success[0m
+[0;32mI (10708) HTTP_CLIENT: Done read response HTTP![0m
+[0;32mI (10808) HTTP_CLIENT: DNS lookup succeeded. IP=192.168.1.9[0m
+[0;32mI (10808) HTTP_CLIENT: Allocated socket[0m
+[0;32mI (10808) HTTP_CLIENT: Connected[0m
+[0;32mI (10818) HTTP_CLIENT: Socket send success[0m
+[0;32mI (10818) HTTP_CLIENT: Set socket receiving timeout success[0m
+[0;32mI (10828) HTTP_CLIENT: Done read response HTTP![0m
+[0;32mI (10928) HTTP_CLIENT: DNS lookup succeeded. IP=192.168.1.9[0m
+[0;32mI (10928) HTTP_CLIENT: Allocated socket[0m
+[0;32mI (10928) HTTP_CLIENT: Connected[0m
+[0;32mI (10938) HTTP_CLIENT: Socket send success[0m
+[0;32mI (10938) HTTP_CLIENT: Set socket receiving timeout success[0m
+[0;32mI (10938) HTTP_CLIENT: Done read response HTTP![0m
+[0;32mI (11048) HTTP_CLIENT: DNS lookup succeeded. IP=192.168.1.9[0m
+[0;32mI (11048) HTTP_CLIENT: Allocated socket[0m
+[0;32mI (11048) HTTP_CLIENT: Connected[0m
+[0;32mI (11048) HTTP_CLIENT: Socket send success[0m
+[0;32mI (11058) HTTP_CLIENT: Set socket receiving timeout success[0m
+[0;32mI (11058) HTTP_CLIENT: Done read response HTTP![0m
+[0;32mI (11158) HTTP_CLIENT: DNS lookup succeeded. IP=192.168.1.9[0m
+[0;32mI (11158) HTTP_CLIENT: Allocated socket[0m
+[0;32mI (11158) HTTP_CLIENT: Connected[0m
+[0;32mI (11158) HTTP_CLIENT: Socket send success[0m
+[0;32mI (11168) HTTP_CLIENT: Set socket receiving timeout success[0m
+[0;32mI (11168) HTTP_CLIENT: Done read response HTTP![0m
+[0;32mI (11268) HTTP_CLIENT: DNS lookup succeeded. IP=192.168.1.9[0m
+[0;32mI (11268) HTTP_CLIENT: Allocated socket[0m
+[0;32mI (11268) HTTP_CLIENT: Connected[0m
+[0;32mI (11268) HTTP_CLIENT: Socket send success[0m
+[0;32mI (11278) HTTP_CLIENT: Set socket receiving timeout success[0m
+[0;32mI (11278) HTTP_CLIENT: Done read response HTTP![0m
+[0;32mI (11378) HTTP_CLIENT: DNS lookup succeeded. IP=192.168.1.9[0m
+[0;32mI (11378) HTTP_CLIENT: Allocated socket[0m
+[0;32mI (11378) HTTP_CLIENT: Connected[0m
+[0;32mI (11388) HTTP_CLIENT: Socket send success[0m
+[0;32mI (11388) HTTP_CLIENT: Set socket receiving timeout success[0m
+[0;32mI (11388) HTTP_CLIENT: Done read response HTTP![0m
+[0;32mI (11488) HTTP_CLIENT: DNS lookup succeeded. IP=192.168.1.9[0m
+[0;32mI (11488) HTTP_CLIENT: Allocated socket[0m
+[0;32mI (11488) HTTP_CLIENT: Connected[0m
+[0;32mI (11488) HTTP_CLIENT: Socket send success[0m
+[0;32mI (11498) HTTP_CLIENT: Set socket receiving timeout success[0m
+[0;32mI (11498) HTTP_CLIENT: Done read response HTTP![0m
+[0;32mI (11598) HTTP_CLIENT: DNS lookup succeeded. IP=192.168.1.9[0m
+[0;32mI (11598) HTTP_CLIENT: Allocated socket[0m
+[0;32mI (11598) HTTP_CLIENT: Connected[0m
+[0;32mI (11598) HTTP_CLIENT: Socket send success[0m
+[0;32mI (11608) HTTP_CLIENT: Set socket receiving timeout success[0m
+[0;32mI (11608) HTTP_CLIENT: Done read response HTTP![0m
+[0;32mI (11708) HTTP_CLIENT: DNS lookup succeeded. IP=192.168.1.9[0m
+[0;32mI (11708) HTTP_CLIENT: Allocated socket[0m
+[0;32mI (11708) HTTP_CLIENT: Connected[0m
+[0;32mI (11708) HTTP_CLIENT: Socket send success[0m
+[0;32mI (11718) HTTP_CLIENT: Set socket receiving timeout success[0m
+[0;32mI (11718) HTTP_CLIENT: Done read response HTTP![0m
+[0;32mI (11818) HTTP_CLIENT: DNS lookup succeeded. IP=192.168.1.9[0m
+[0;32mI (11818) HTTP_CLIENT: Allocated socket[0m
+[0;32mI (11818) HTTP_CLIENT: Connected[0m
+[0;32mI (11818) HTTP_CLIENT: Socket send success[0m
+[0;32mI (11828) HTTP_CLIENT: Set socket receiving timeout success[0m
+[0;32mI (11828) HTTP_CLIENT: Done read response HTTP![0m
+[0;32mI (11928) HTTP_CLIENT: DNS lookup succeeded. IP=192.168.1.9[0m
+[0;32mI (11928) HTTP_CLIENT: Allocated socket[0m
+[0;32mI (11928) HTTP_CLIENT: Connected[0m
+[0;32mI (11928) HTTP_CLIENT: Socket send success[0m
+[0;32mI (11938) HTTP_CLIENT: Set socket receiving timeout success[0m
+[0;32mI (11948) HTTP_CLIENT: Done read response HTTP![0m
+[0;32mI (11948) HTTP_CLIENT: DNS lookup succeeded. IP=192.168.1.9[0m
+[0;32mI (11948) HTTP_CLIENT: Allocated socket[0m
+[0;32mI (11948) HTTP_CLIENT: Connected[0m
+[0;32mI (11958) HTTP_CLIENT: Socket send success[0m
+[0;32mI (11958) HTTP_CLIENT: Set socket receiving timeout success[0m
+[0;32mI (11968) HTTP_CLIENT: Done read response HTTP![0m
+[0;32mI (12068) HTTP_CLIENT: DNS lookup succeeded. IP=192.168.1.9[0m
+[0;32mI (12068) HTTP_CLIENT: Allocated socket[0m
+[0;32mI (12068) HTTP_CLIENT: Connected[0m
+[0;32mI (12068) HTTP_CLIENT: Socket send success[0m
+[0;32mI (12078) HTTP_CLIENT: Set socket receiving timeout success[0m
+[0;32mI (12078) HTTP_CLIENT: Done read response HTTP![0m
+[0;32mI (12078) HTTP_CLIENT: DNS lookup succeeded. IP=192.168.1.9[0m
+[0;32mI (12088) HTTP_CLIENT: Allocated socket[0m
+[0;32mI (12088) HTTP_CLIENT: Connected[0m
+[0;32mI (12098) HTTP_CLIENT: Socket send success[0m
+[0;32mI (12098) HTTP_CLIENT: Set socket receiving timeout success[0m
+[0;32mI (12098) HTTP_CLIENT: Done read response HTTP![0m
+[0;32mI (12208) HTTP_CLIENT: DNS lookup succeeded. IP=192.168.1.9[0m
+[0;32mI (12208) HTTP_CLIENT: Allocated socket[0m
+[0;32mI (12208) HTTP_CLIENT: Connected[0m
+[0;32mI (12208) HTTP_CLIENT: Socket send success[0m
+[0;32mI (12218) HTTP_CLIENT: Set socket receiving timeout success[0m
+[0;32mI (12218) HTTP_CLIENT: Done read response HTTP![0m
+[0;32mI (12228) HTTP_CLIENT: DNS lookup succeeded. IP=192.168.1.9[0m
+[0;32mI (12228) HTTP_CLIENT: Allocated socket[0m
+[0;32mI (12228) HTTP_CLIENT: Connected[0m
+[0;32mI (12238) HTTP_CLIENT: Socket send success[0m
+[0;32mI (12238) HTTP_CLIENT: Set socket receiving timeout success[0m
+[0;32mI (12238) HTTP_CLIENT: Done read response HTTP![0m
+[0;32mI (12348) HTTP_CLIENT: DNS lookup succeeded. IP=192.168.1.9[0m
+[0;32mI (12348) HTTP_CLIENT: Allocated socket[0m
+[0;32mI (12358) HTTP_CLIENT: Connected[0m
+[0;32mI (12358) HTTP_CLIENT: Socket send success[0m
+[0;32mI (12358) HTTP_CLIENT: Set socket receiving timeout success[0m
+[0;32mI (12368) HTTP_CLIENT: Done read response HTTP![0m
+[0;32mI (12368) HTTP_CLIENT: DNS lookup succeeded. IP=192.168.1.9[0m
+[0;32mI (12368) HTTP_CLIENT: Allocated socket[0m
+[0;32mI (12368) HTTP_CLIENT: Connected[0m
+[0;32mI (12378) HTTP_CLIENT: Socket send success[0m
+[0;32mI (12378) HTTP_CLIENT: Set socket receiving timeout success[0m
+[0;32mI (12388) HTTP_CLIENT: Done read response HTTP![0m
+[0;32mI (12488) HTTP_CLIENT: DNS lookup succeeded. IP=192.168.1.9[0m
+[0;32mI (12488) HTTP_CLIENT: Allocated socket[0m
+[0;32mI (12488) HTTP_CLIENT: Connected[0m
+[0;32mI (12488) HTTP_CLIENT: Socket send success[0m
+[0;32mI (12498) HTTP_CLIENT: Set socket receiving timeout success[0m
+[0;32mI (12498) HTTP_CLIENT: Done read response HTTP![0m
+[0;32mI (12508) HTTP_CLIENT: DNS lookup succeeded. IP=192.168.1.9[0m
+[0;32mI (12508) HTTP_CLIENT: Allocated socket[0m
+[0;32mI (12508) HTTP_CLIENT: Connected[0m
+[0;32mI (12508) HTTP_CLIENT: Socket send success[0m
+[0;32mI (12518) HTTP_CLIENT: Set socket receiving timeout success[0m
+[0;32mI (12518) HTTP_CLIENT: Done read response HTTP![0m
+[0;32mI (12628) HTTP_CLIENT: DNS lookup succeeded. IP=192.168.1.9[0m
+[0;32mI (12628) HTTP_CLIENT: Allocated socket[0m
+[0;32mI (12628) HTTP_CLIENT: Connected[0m
+[0;32mI (12628) HTTP_CLIENT: Socket send success[0m
+[0;32mI (12638) HTTP_CLIENT: Set socket receiving timeout success[0m
+[0;32mI (12638) HTTP_CLIENT: Done read response HTTP![0m
+[0;32mI (12638) HTTP_CLIENT: DNS lookup succeeded. IP=192.168.1.9[0m
+[0;32mI (12648) HTTP_CLIENT: Allocated socket[0m
+[0;32mI (12648) HTTP_CLIENT: Connected[0m
+[0;32mI (12658) HTTP_CLIENT: Socket send success[0m
+[0;32mI (12658) HTTP_CLIENT: Set socket receiving timeout success[0m
+[0;32mI (12668) HTTP_CLIENT: Done read response HTTP![0m
+[0;32mI (12768) HTTP_CLIENT: DNS lookup succeeded. IP=192.168.1.9[0m
+[0;32mI (12768) HTTP_CLIENT: Allocated socket[0m
+[0;32mI (12768) HTTP_CLIENT: Connected[0m
+[0;32mI (12768) HTTP_CLIENT: Socket send success[0m
+[0;32mI (12778) HTTP_CLIENT: Set socket receiving timeout success[0m
+[0;32mI (12778) HTTP_CLIENT: Done read response HTTP![0m
+[0;32mI (12788) HTTP_CLIENT: DNS lookup succeeded. IP=192.168.1.9[0m
+[0;32mI (12788) HTTP_CLIENT: Allocated socket[0m
+[0;32mI (12788) HTTP_CLIENT: Connected[0m
+[0;32mI (12798) HTTP_CLIENT: Socket send success[0m
+[0;32mI (12798) HTTP_CLIENT: Set socket receiving timeout success[0m
+[0;32mI (12798) HTTP_CLIENT: Done read response HTTP![0m
+[0;32mI (12908) HTTP_CLIENT: DNS lookup succeeded. IP=192.168.1.9[0m
+[0;32mI (12908) HTTP_CLIENT: Allocated socket[0m
+[0;32mI (12908) HTTP_CLIENT: Connected[0m
+[0;32mI (12908) HTTP_CLIENT: Socket send success[0m
+[0;32mI (12918) HTTP_CLIENT: Set socket receiving timeout success[0m
+[0;32mI (12918) HTTP_CLIENT: Done read response HTTP![0m
+[0;32mI (12918) HTTP_CLIENT: DNS lookup succeeded. IP=192.168.1.9[0m
+[0;32mI (12928) HTTP_CLIENT: Allocated socket[0m
+[0;32mI (12928) HTTP_CLIENT: Connected[0m
+[0;32mI (12938) HTTP_CLIENT: Socket send success[0m
+[0;32mI (12938) HTTP_CLIENT: Set socket receiving timeout success[0m
+[0;32mI (12938) HTTP_CLIENT: Done read response HTTP![0m
+[0;32mI (13048) HTTP_CLIENT: DNS lookup succeeded. IP=192.168.1.9[0m
+[0;32mI (13048) HTTP_CLIENT: Allocated socket[0m
+[0;32mI (13048) HTTP_CLIENT: Connected[0m
+[0;32mI (13048) HTTP_CLIENT: Socket send success[0m
+[0;32mI (13058) HTTP_CLIENT: Set socket receiving timeout success[0m
+[0;32mI (13058) HTTP_CLIENT: Done read response HTTP![0m
+[0;32mI (13068) HTTP_CLIENT: DNS lookup succeeded. IP=192.168.1.9[0m
+[0;32mI (13068) HTTP_CLIENT: Allocated socket[0m
+[0;32mI (13068) HTTP_CLIENT: Connected[0m
+[0;32mI (13078) HTTP_CLIENT: Socket send success[0m
+[0;32mI (13078) HTTP_CLIENT: Set socket receiving timeout success[0m
+[0;32mI (13078) HTTP_CLIENT: Done read response HTTP![0m
+[0;32mI (13188) HTTP_CLIENT: DNS lookup succeeded. IP=192.168.1.9[0m
+[0;32mI (13188) HTTP_CLIENT: Allocated socket[0m
+[0;32mI (13188) HTTP_CLIENT: Connected[0m
+[0;32mI (13188) HTTP_CLIENT: Socket send success[0m
+[0;32mI (13198) HTTP_CLIENT: Set socket receiving timeout success[0m
+[0;32mI (13198) HTTP_CLIENT: Done read response HTTP![0m
+[0;32mI (13198) HTTP_CLIENT: DNS lookup succeeded. IP=192.168.1.9[0m
+[0;32mI (13208) HTTP_CLIENT: Allocated socket[0m
+[0;32mI (13208) HTTP_CLIENT: Connected[0m
+[0;32mI (13218) HTTP_CLIENT: Socket send success[0m
+[0;32mI (13218) HTTP_CLIENT: Set socket receiving timeout success[0m
+[0;32mI (13218) HTTP_CLIENT: Done read response HTTP![0m
+[0;32mI (13328) HTTP_CLIENT: DNS lookup succeeded. IP=192.168.1.9[0m
+[0;32mI (13328) HTTP_CLIENT: Allocated socket[0m
+[0;32mI (13328) HTTP_CLIENT: Connected[0m
+[0;32mI (13328) HTTP_CLIENT: Socket send success[0m
+[0;32mI (13338) HTTP_CLIENT: Set socket receiving timeout success[0m
+[0;32mI (13338) HTTP_CLIENT: Done read response HTTP![0m
+[0;32mI (13348) HTTP_CLIENT: DNS lookup succeeded. IP=192.168.1.9[0m
+[0;32mI (13348) HTTP_CLIENT: Allocated socket[0m
+[0;32mI (13348) HTTP_CLIENT: Connected[0m
+[0;32mI (13358) HTTP_CLIENT: Socket send success[0m
+[0;32mI (13358) HTTP_CLIENT: Set socket receiving timeout success[0m
+[0;32mI (13358) HTTP_CLIENT: Done read response HTTP![0m
+[0;32mI (13468) HTTP_CLIENT: DNS lookup succeeded. IP=192.168.1.9[0m
+[0;32mI (13468) HTTP_CLIENT: Allocated socket[0m
+[0;32mI (13468) HTTP_CLIENT: Connected[0m
+[0;32mI (13478) HTTP_CLIENT: Socket send success[0m
+[0;32mI (13478) HTTP_CLIENT: Set socket receiving timeout success[0m
+[0;32mI (13488) HTTP_CLIENT: Done read response HTTP![0m
+[0;32mI (13488) HTTP_CLIENT: DNS lookup succeeded. IP=192.168.1.9[0m
+[0;32mI (13488) HTTP_CLIENT: Allocated socket[0m
+[0;32mI (13488) HTTP_CLIENT: Connected[0m
+[0;32mI (13498) HTTP_CLIENT: Socket send success[0m
+[0;32mI (13498) HTTP_CLIENT: Set socket receiving timeout success[0m
+[0;32mI (13498) HTTP_CLIENT: Done read response HTTP![0m
+[0;32mI (13608) HTTP_CLIENT: DNS lookup succeeded. IP=192.168.1.9[0m
+[0;32mI (13608) HTTP_CLIENT: Allocated socket[0m
+[0;32mI (13608) HTTP_CLIENT: Connected[0m
+[0;32mI (13608) HTTP_CLIENT: Socket send success[0m
+[0;32mI (13618) HTTP_CLIENT: Set socket receiving timeout success[0m
+[0;32mI (13618) HTTP_CLIENT: Done read response HTTP![0m
+[0;32mI (13618) HTTP_CLIENT: DNS lookup succeeded. IP=192.168.1.9[0m
+[0;32mI (13628) HTTP_CLIENT: Allocated socket[0m
+[0;32mI (13628) HTTP_CLIENT: Connected[0m
+[0;32mI (13638) HTTP_CLIENT: Socket send success[0m
+[0;32mI (13638) HTTP_CLIENT: Set socket receiving timeout success[0m
+[0;32mI (13638) HTTP_CLIENT: Done read response HTTP![0m
+[0;32mI (13748) HTTP_CLIENT: DNS lookup succeeded. IP=192.168.1.9[0m
+[0;32mI (13748) HTTP_CLIENT: Allocated socket[0m
+[0;32mI (13758) HTTP_CLIENT: Connected[0m
+[0;32mI (13768) HTTP_CLIENT: Socket send success[0m
+[0;32mI (13768) HTTP_CLIENT: Set socket receiving timeout success[0m
+[0;32mI (13768) HTTP_CLIENT: Done read response HTTP![0m
+[0;32mI (13778) HTTP_CLIENT: DNS lookup succeeded. IP=192.168.1.9[0m
+[0;32mI (13778) HTTP_CLIENT: Allocated socket[0m
+[0;32mI (13778) HTTP_CLIENT: Connected[0m
+[0;32mI (13788) HTTP_CLIENT: Socket send success[0m
+[0;32mI (13788) HTTP_CLIENT: Set socket receiving timeout success[0m
+[0;32mI (13798) HTTP_CLIENT: Done read response HTTP![0m
+[0;32mI (13898) HTTP_CLIENT: DNS lookup succeeded. IP=192.168.1.9[0m
+[0;32mI (13898) HTTP_CLIENT: Allocated socket[0m
+[0;32mI (13898) HTTP_CLIENT: Connected[0m
+[0;32mI (13908) HTTP_CLIENT: Socket send success[0m
+[0;32mI (13908) HTTP_CLIENT: Set socket receiving timeout success[0m
+[0;32mI (13908) HTTP_CLIENT: Done read response HTTP![0m
+[0;32mI (13918) HTTP_CLIENT: DNS lookup succeeded. IP=192.168.1.9[0m
+[0;32mI (13918) HTTP_CLIENT: Allocated socket[0m
+[0;32mI (13918) HTTP_CLIENT: Connected[0m
+[0;32mI (13928) HTTP_CLIENT: Socket send success[0m
+[0;32mI (13928) HTTP_CLIENT: Set socket receiving timeout success[0m
+[0;32mI (13928) HTTP_CLIENT: Done read response HTTP![0m
+[0;32mI (14038) HTTP_CLIENT: DNS lookup succeeded. IP=192.168.1.9[0m
+[0;32mI (14038) HTTP_CLIENT: Allocated socket[0m
+[0;32mI (14038) HTTP_CLIENT: Connected[0m
+[0;32mI (14038) HTTP_CLIENT: Socket send success[0m
+[0;32mI (14048) HTTP_CLIENT: Set socket receiving timeout success[0m
+[0;32mI (14048) HTTP_CLIENT: Done read response HTTP![0m
+[0;32mI (14048) HTTP_CLIENT: DNS lookup succeeded. IP=192.168.1.9[0m
+[0;32mI (14058) HTTP_CLIENT: Allocated socket[0m
+[0;32mI (14058) HTTP_CLIENT: Connected[0m
+[0;32mI (14068) HTTP_CLIENT: Socket send success[0m
+[0;32mI (14068) HTTP_CLIENT: Set socket receiving timeout success[0m
+[0;32mI (14068) HTTP_CLIENT: Done read response HTTP![0m
+[0;32mI (14178) HTTP_CLIENT: DNS lookup succeeded. IP=192.168.1.9[0m
+[0;32mI (14178) HTTP_CLIENT: Allocated socket[0m
+[0;32mI (14178) HTTP_CLIENT: Connected[0m
+[0;32mI (14178) HTTP_CLIENT: Socket send success[0m
+[0;32mI (14188) HTTP_CLIENT: Set socket receiving timeout success[0m
+[0;32mI (14188) HTTP_CLIENT: Done read response HTTP![0m
+[0;32mI (14198) HTTP_CLIENT: DNS lookup succeeded. IP=192.168.1.9[0m
+[0;32mI (14198) HTTP_CLIENT: Allocated socket[0m
+[0;32mI (14208) HTTP_CLIENT: Connected[0m
+[0;32mI (14208) HTTP_CLIENT: Socket send success[0m
+[0;32mI (14208) HTTP_CLIENT: Set socket receiving timeout success[0m
+[0;32mI (14218) HTTP_CLIENT: Done read response HTTP![0m
+[0;32mI (14318) HTTP_CLIENT: DNS lookup succeeded. IP=192.168.1.9[0m
+[0;32mI (14318) HTTP_CLIENT: Allocated socket[0m
+[0;32mI (14318) HTTP_CLIENT: Connected[0m
+[0;32mI (14318) HTTP_CLIENT: Socket send success[0m
+[0;32mI (14328) HTTP_CLIENT: Set socket receiving timeout success[0m
+[0;32mI (14338) HTTP_CLIENT: Done read response HTTP![0m
+[0;32mI (14438) HTTP_CLIENT: DNS lookup succeeded. IP=192.168.1.9[0m
+[0;32mI (14438) HTTP_CLIENT: Allocated socket[0m
+[0;32mI (14438) HTTP_CLIENT: Connected[0m
+[0;32mI (14438) HTTP_CLIENT: Socket send success[0m
+[0;32mI (14448) HTTP_CLIENT: Set socket receiving timeout success[0m
+[0;32mI (14448) HTTP_CLIENT: Done read response HTTP![0m
+[0;32mI (14548) HTTP_CLIENT: DNS lookup succeeded. IP=192.168.1.9[0m
+[0;32mI (14548) HTTP_CLIENT: Allocated socket[0m
+[0;32mI (14548) HTTP_CLIENT: Connected[0m
+[0;32mI (14548) HTTP_CLIENT: Socket send success[0m
+[0;32mI (14558) HTTP_CLIENT: Set socket receiving timeout success[0m
+[0;32mI (14558) HTTP_CLIENT: Done read response HTTP![0m
+[0;32mI (14658) HTTP_CLIENT: DNS lookup succeeded. IP=192.168.1.9[0m
+[0;32mI (14658) HTTP_CLIENT: Allocated socket[0m
+[0;32mI (14658) HTTP_CLIENT: Connected[0m
+[0;32mI (14658) HTTP_CLIENT: Socket send success[0m
+[0;32mI (14668) HTTP_CLIENT: Set socket receiving timeout success[0m
+[0;32mI (14668) HTTP_CLIENT: Done read response HTTP![0m
+[0;32mI (14768) HTTP_CLIENT: DNS lookup succeeded. IP=192.168.1.9[0m
+[0;32mI (14768) HTTP_CLIENT: Allocated socket[0m
+[0;32mI (14768) HTTP_CLIENT: Connected[0m
+[0;32mI (14778) HTTP_CLIENT: Socket send success[0m
+[0;32mI (14778) HTTP_CLIENT: Set socket receiving timeout success[0m
+[0;32mI (14778) HTTP_CLIENT: Done read response HTTP![0m
+[0;32mI (14878) HTTP_CLIENT: DNS lookup succeeded. IP=192.168.1.9[0m
+[0;32mI (14878) HTTP_CLIENT: Allocated socket[0m
+[0;32mI (14878) HTTP_CLIENT: Connected[0m
+[0;32mI (14888) HTTP_CLIENT: Socket send success[0m
+[0;32mI (14888) HTTP_CLIENT: Set socket receiving timeout success[0m
+[0;32mI (14888) HTTP_CLIENT: Done read response HTTP![0m
+[0;32mI (14988) HTTP_CLIENT: DNS lookup succeeded. IP=192.168.1.9[0m
+[0;32mI (14988) HTTP_CLIENT: Allocated socket[0m
+[0;32mI (15118) HTTP_CLIENT: Connected[0m
+[0;32mI (15118) HTTP_CLIENT: Socket send success[0m
+[0;32mI (15118) HTTP_CLIENT: Set socket receiving timeout success[0m
+[0;32mI (15128) HTTP_CLIENT: Done read response HTTP![0m
+[0;32mI (15228) HTTP_CLIENT: DNS lookup succeeded. IP=192.168.1.9[0m
+[0;32mI (15228) HTTP_CLIENT: Allocated socket[0m
+[0;32mI (15228) HTTP_CLIENT: Connected[0m
+[0;32mI (15238) HTTP_CLIENT: Socket send success[0m
+[0;32mI (15238) HTTP_CLIENT: Set socket receiving timeout success[0m
+[0;32mI (15238) HTTP_CLIENT: Done read response HTTP![0m
+[0;32mI (15338) HTTP_CLIENT: DNS lookup succeeded. IP=192.168.1.9[0m
+[0;32mI (15338) HTTP_CLIENT: Allocated socket[0m
+[0;32mI (15338) HTTP_CLIENT: Connected[0m
+[0;32mI (15338) HTTP_CLIENT: Socket send success[0m
+[0;32mI (15348) HTTP_CLIENT: Set socket receiving timeout success[0m
+[0;32mI (15348) HTTP_CLIENT: Done read response HTTP![0m
+[0;32mI (15448) HTTP_CLIENT: DNS lookup succeeded. IP=192.168.1.9[0m
+[0;32mI (15448) HTTP_CLIENT: Allocated socket[0m
+[0;32mI (15448) HTTP_CLIENT: Connected[0m
+[0;32mI (15448) HTTP_CLIENT: Socket send success[0m
+[0;32mI (15458) HTTP_CLIENT: Set socket receiving timeout success[0m
+[0;32mI (15458) HTTP_CLIENT: Done read response HTTP![0m
+[0;32mI (15468) HTTP_CLIENT: DNS lookup succeeded. IP=192.168.1.9[0m
+[0;32mI (15468) HTTP_CLIENT: Allocated socket[0m
+[0;32mI (15468) HTTP_CLIENT: Connected[0m
+[0;32mI (15478) HTTP_CLIENT: Socket send success[0m
+[0;32mI (15478) HTTP_CLIENT: Set socket receiving timeout success[0m
+[0;32mI (15478) HTTP_CLIENT: Done read response HTTP![0m
+[0;32mI (15588) HTTP_CLIENT: DNS lookup succeeded. IP=192.168.1.9[0m
+[0;32mI (15588) HTTP_CLIENT: Allocated socket[0m
+[0;32mI (15588) HTTP_CLIENT: Connected[0m
+[0;32mI (15598) HTTP_CLIENT: Socket send success[0m
+[0;32mI (15598) HTTP_CLIENT: Set socket receiving timeout success[0m
+[0;32mI (15598) HTTP_CLIENT: Done read response HTTP![0m
+[0;32mI (15608) HTTP_CLIENT: DNS lookup succeeded. IP=192.168.1.9[0m
+[0;32mI (15608) HTTP_CLIENT: Allocated socket[0m
+[0;32mI (15608) HTTP_CLIENT: Connected[0m
+[0;32mI (15618) HTTP_CLIENT: Socket send success[0m
+[0;32mI (15618) HTTP_CLIENT: Set socket receiving timeout success[0m
+[0;32mI (15618) HTTP_CLIENT: Done read response HTTP![0m
+[0;32mI (15728) HTTP_CLIENT: DNS lookup succeeded. IP=192.168.1.9[0m
+[0;32mI (15728) HTTP_CLIENT: Allocated socket[0m
+[0;32mI (15728) HTTP_CLIENT: Connected[0m
+[0;32mI (15738) HTTP_CLIENT: Socket send success[0m
+[0;32mI (15738) HTTP_CLIENT: Set socket receiving timeout success[0m
+[0;32mI (15748) HTTP_CLIENT: Done read response HTTP![0m
+[0;32mI (15748) HTTP_CLIENT: DNS lookup succeeded. IP=192.168.1.9[0m
+[0;32mI (15748) HTTP_CLIENT: Allocated socket[0m
+[0;32mI (15758) HTTP_CLIENT: Connected[0m
+[0;32mI (15758) HTTP_CLIENT: Socket send success[0m
+[0;32mI (15758) HTTP_CLIENT: Set socket receiving timeout success[0m
+[0;32mI (15768) HTTP_CLIENT: Done read response HTTP![0m
+[0;32mI (15868) HTTP_CLIENT: DNS lookup succeeded. IP=192.168.1.9[0m
+[0;32mI (15868) HTTP_CLIENT: Allocated socket[0m
+[0;32mI (15868) HTTP_CLIENT: Connected[0m
+[0;32mI (15868) HTTP_CLIENT: Socket send success[0m
+[0;32mI (15878) HTTP_CLIENT: Set socket receiving timeout success[0m
+[0;32mI (15878) HTTP_CLIENT: Done read response HTTP![0m
+[0;32mI (15878) HTTP_CLIENT: DNS lookup succeeded. IP=192.168.1.9[0m
+[0;32mI (15888) HTTP_CLIENT: Allocated socket[0m
+[0;32mI (15888) HTTP_CLIENT: Connected[0m
+[0;32mI (15898) HTTP_CLIENT: Socket send success[0m
+[0;32mI (15898) HTTP_CLIENT: Set socket receiving timeout success[0m
+[0;32mI (15898) HTTP_CLIENT: Done read response HTTP![0m
+[0;32mI (16008) HTTP_CLIENT: DNS lookup succeeded. IP=192.168.1.9[0m
+[0;32mI (16008) HTTP_CLIENT: Allocated socket[0m
+[0;32mI (16008) HTTP_CLIENT: Connected[0m
+[0;32mI (16008) HTTP_CLIENT: Socket send success[0m
+[0;32mI (16018) HTTP_CLIENT: Set socket receiving timeout success[0m
+[0;32mI (16018) HTTP_CLIENT: Done read response HTTP![0m
+[0;32mI (16018) HTTP_CLIENT: DNS lookup succeeded. IP=192.168.1.9[0m
+[0;32mI (16028) HTTP_CLIENT: Allocated socket[0m
+[0;32mI (16028) HTTP_CLIENT: Connected[0m
+[0;32mI (16038) HTTP_CLIENT: Socket send success[0m
+[0;32mI (16038) HTTP_CLIENT: Set socket receiving timeout success[0m
+[0;32mI (16048) HTTP_CLIENT: Done read response HTTP![0m
+[0;32mI (16148) HTTP_CLIENT: DNS lookup succeeded. IP=192.168.1.9[0m
+[0;32mI (16148) HTTP_CLIENT: Allocated socket[0m
+[0;32mI (16148) HTTP_CLIENT: Connected[0m
+[0;32mI (16148) HTTP_CLIENT: Socket send success[0m
+[0;32mI (16148) HTTP_CLIENT: Set socket receiving timeout success[0m
+[0;32mI (16158) HTTP_CLIENT: Done read response HTTP![0m
+[0;32mI (16168) HTTP_CLIENT: DNS lookup succeeded. IP=192.168.1.9[0m
+[0;32mI (16168) HTTP_CLIENT: Allocated socket[0m
+[0;32mI (16168) HTTP_CLIENT: Connected[0m
+[0;32mI (16178) HTTP_CLIENT: Socket send success[0m
+[0;32mI (16178) HTTP_CLIENT: Set socket receiving timeout success[0m
+[0;32mI (16178) HTTP_CLIENT: Done read response HTTP![0m
+[0;32mI (16288) HTTP_CLIENT: DNS lookup succeeded. IP=192.168.1.9[0m
+[0;32mI (16288) HTTP_CLIENT: Allocated socket[0m
+[0;32mI (16288) HTTP_CLIENT: Connected[0m
+[0;32mI (16288) HTTP_CLIENT: Socket send success[0m
+[0;32mI (16298) HTTP_CLIENT: Set socket receiving timeout success[0m
+[0;32mI (16298) HTTP_CLIENT: Done read response HTTP![0m
+[0;32mI (16298) HTTP_CLIENT: DNS lookup succeeded. IP=192.168.1.9[0m
+[0;32mI (16308) HTTP_CLIENT: Allocated socket[0m
+[0;32mI (16308) HTTP_CLIENT: Connected[0m
+[0;32mI (16318) HTTP_CLIENT: Socket send success[0m
+[0;32mI (16318) HTTP_CLIENT: Set socket receiving timeout success[0m
+[0;32mI (16318) HTTP_CLIENT: Done read response HTTP![0m
+[0;32mI (16428) HTTP_CLIENT: DNS lookup succeeded. IP=192.168.1.9[0m
+[0;32mI (16428) HTTP_CLIENT: Allocated socket[0m
+[0;32mI (16428) HTTP_CLIENT: Connected[0m
+[0;32mI (16428) HTTP_CLIENT: Socket send success[0m
+[0;32mI (16438) HTTP_CLIENT: Set socket receiving timeout success[0m
+[0;32mI (16438) HTTP_CLIENT: Done read response HTTP![0m
+[0;32mI (16448) HTTP_CLIENT: DNS lookup succeeded. IP=192.168.1.9[0m
+[0;32mI (16448) HTTP_CLIENT: Allocated socket[0m
+[0;32mI (16448) HTTP_CLIENT: Connected[0m
+[0;32mI (16458) HTTP_CLIENT: Socket send success[0m
+[0;32mI (16458) HTTP_CLIENT: Set socket receiving timeout success[0m
+[0;32mI (16458) HTTP_CLIENT: Done read response HTTP![0m
+[0;32mI (16568) HTTP_CLIENT: DNS lookup succeeded. IP=192.168.1.9[0m
+[0;32mI (16568) HTTP_CLIENT: Allocated socket[0m
+[0;32mI (16658) HTTP_CLIENT: Connected[0m
+[0;32mI (16658) HTTP_CLIENT: Socket send success[0m
+[0;32mI (16668) HTTP_CLIENT: Set socket receiving timeout success[0m
+[0;32mI (16668) HTTP_CLIENT: Done read response HTTP![0m
+[0;32mI (16668) HTTP_CLIENT: DNS lookup succeeded. IP=192.168.1.9[0m
+[0;32mI (16678) HTTP_CLIENT: Allocated socket[0m
+[0;32mI (16678) HTTP_CLIENT: Connected[0m
+[0;32mI (16688) HTTP_CLIENT: Socket send success[0m
+[0;32mI (16688) HTTP_CLIENT: Set socket receiving timeout success[0m
+[0;32mI (16698) HTTP_CLIENT: Done read response HTTP![0m
+[0;32mI (16798) HTTP_CLIENT: DNS lookup succeeded. IP=192.168.1.9[0m
+[0;32mI (16798) HTTP_CLIENT: Allocated socket[0m
+[0;32mI (16798) HTTP_CLIENT: Connected[0m
+[0;32mI (16798) HTTP_CLIENT: Socket send success[0m
+[0;32mI (16808) HTTP_CLIENT: Set socket receiving timeout success[0m
+[0;32mI (16808) HTTP_CLIENT: Done read response HTTP![0m
+[0;32mI (16818) HTTP_CLIENT: DNS lookup succeeded. IP=192.168.1.9[0m
+[0;32mI (16818) HTTP_CLIENT: Allocated socket[0m
+[0;32mI (16818) HTTP_CLIENT: Connected[0m
+[0;32mI (16828) HTTP_CLIENT: Socket send success[0m
+[0;32mI (16828) HTTP_CLIENT: Set socket receiving timeout success[0m
+[0;32mI (16828) HTTP_CLIENT: Done read response HTTP![0m
+[0;32mI (16938) HTTP_CLIENT: DNS lookup succeeded. IP=192.168.1.9[0m
+[0;32mI (16938) HTTP_CLIENT: Allocated socket[0m
+[0;32mI (16938) HTTP_CLIENT: Connected[0m
+[0;32mI (16938) HTTP_CLIENT: Socket send success[0m
+[0;32mI (16948) HTTP_CLIENT: Set socket receiving timeout success[0m
+[0;32mI (16948) HTTP_CLIENT: Done read response HTTP![0m
+[0;32mI (16948) HTTP_CLIENT: DNS lookup succeeded. IP=192.168.1.9[0m
+[0;32mI (16958) HTTP_CLIENT: Allocated socket[0m
+[0;32mI (16958) HTTP_CLIENT: Connected[0m
+[0;32mI (16968) HTTP_CLIENT: Socket send success[0m
+[0;32mI (16968) HTTP_CLIENT: Set socket receiving timeout success[0m
+[0;32mI (16968) HTTP_CLIENT: Done read response HTTP![0m
+[0;32mI (17078) HTTP_CLIENT: DNS lookup succeeded. IP=192.168.1.9[0m
+[0;32mI (17078) HTTP_CLIENT: Allocated socket[0m
+[0;32mI (17078) HTTP_CLIENT: Connected[0m
+[0;32mI (17078) HTTP_CLIENT: Socket send success[0m
+[0;32mI (17088) HTTP_CLIENT: Set socket receiving timeout success[0m
+[0;32mI (17088) HTTP_CLIENT: Done read response HTTP![0m
+[0;32mI (17098) HTTP_CLIENT: DNS lookup succeeded. IP=192.168.1.9[0m
+[0;32mI (17098) HTTP_CLIENT: Allocated socket[0m
+[0;32mI (17098) HTTP_CLIENT: Connected[0m
+[0;32mI (17108) HTTP_CLIENT: Socket send success[0m
+[0;32mI (17108) HTTP_CLIENT: Set socket receiving timeout success[0m
+[0;32mI (17108) HTTP_CLIENT: Done read response HTTP![0m
+[0;32mI (17218) HTTP_CLIENT: DNS lookup succeeded. IP=192.168.1.9[0m
+[0;32mI (17218) HTTP_CLIENT: Allocated socket[0m
+[0;32mI (17218) HTTP_CLIENT: Connected[0m
+[0;32mI (17218) HTTP_CLIENT: Socket send success[0m
+[0;32mI (17228) HTTP_CLIENT: Set socket receiving timeout success[0m
+[0;32mI (17228) HTTP_CLIENT: Done read response HTTP![0m
+[0;32mI (17228) HTTP_CLIENT: DNS lookup succeeded. IP=192.168.1.9[0m
+[0;32mI (17238) HTTP_CLIENT: Allocated socket[0m
+[0;32mI (17238) HTTP_CLIENT: Connected[0m
+[0;32mI (17238) HTTP_CLIENT: Socket send success[0m
+[0;32mI (17248) HTTP_CLIENT: Set socket receiving timeout success[0m
+[0;32mI (17248) HTTP_CLIENT: Done read response HTTP![0m
+[0;32mI (17358) HTTP_CLIENT: DNS lookup succeeded. IP=192.168.1.9[0m
+[0;32mI (17358) HTTP_CLIENT: Allocated socket[0m
+[0;32mI (17358) HTTP_CLIENT: Connected[0m
+[0;32mI (17368) HTTP_CLIENT: Socket send success[0m
+[0;32mI (17368) HTTP_CLIENT: Set socket receiving timeout success[0m
+[0;32mI (17368) HTTP_CLIENT: Done read response HTTP![0m
+[0;32mI (17378) HTTP_CLIENT: DNS lookup succeeded. IP=192.168.1.9[0m
+[0;32mI (17378) HTTP_CLIENT: Allocated socket[0m
+[0;32mI (17378) HTTP_CLIENT: Connected[0m
+[0;32mI (17388) HTTP_CLIENT: Socket send success[0m
+[0;32mI (17388) HTTP_CLIENT: Set socket receiving timeout success[0m
+[0;32mI (17388) HTTP_CLIENT: Done read response HTTP![0m
+[0;32mI (17498) HTTP_CLIENT: DNS lookup succeeded. IP=192.168.1.9[0m
+[0;32mI (17498) HTTP_CLIENT: Allocated socket[0m
+[0;32mI (17498) HTTP_CLIENT: Connected[0m
+[0;32mI (17508) HTTP_CLIENT: Socket send success[0m
+[0;32mI (17508) HTTP_CLIENT: Set socket receiving timeout success[0m
+[0;32mI (17508) HTTP_CLIENT: Done read response HTTP![0m
+[0;32mI (17518) HTTP_CLIENT: DNS lookup succeeded. IP=192.168.1.9[0m
+[0;32mI (17518) HTTP_CLIENT: Allocated socket[0m
+[0;32mI (17518) HTTP_CLIENT: Connected[0m
+[0;32mI (17528) HTTP_CLIENT: Socket send success[0m
+[0;32mI (17528) HTTP_CLIENT: Set socket receiving timeout success[0m
+[0;32mI (17538) HTTP_CLIENT: Done read response HTTP![0m
+[0;32mI (17638) HTTP_CLIENT: DNS lookup succeeded. IP=192.168.1.9[0m
+[0;32mI (17638) HTTP_CLIENT: Allocated socket[0m
+[0;32mI (17638) HTTP_CLIENT: Connected[0m
+[0;32mI (17638) HTTP_CLIENT: Socket send success[0m
+[0;32mI (17638) HTTP_CLIENT: Set socket receiving timeout success[0m
+[0;32mI (17658) HTTP_CLIENT: Done read response HTTP![0m
+[0;32mI (17658) HTTP_CLIENT: DNS lookup succeeded. IP=192.168.1.9[0m
+[0;32mI (17658) HTTP_CLIENT: Allocated socket[0m
+[0;32mI (17658) HTTP_CLIENT: Connected[0m
+[0;32mI (17668) HTTP_CLIENT: Socket send success[0m
+[0;32mI (17668) HTTP_CLIENT: Set socket receiving timeout success[0m
+[0;32mI (17668) HTTP_CLIENT: Done read response HTTP![0m
+[0;32mI (17778) HTTP_CLIENT: DNS lookup succeeded. IP=192.168.1.9[0m
+[0;32mI (17778) HTTP_CLIENT: Allocated socket[0m
+[0;32mI (17788) HTTP_CLIENT: Connected[0m
+[0;32mI (17788) HTTP_CLIENT: Socket send success[0m
+[0;32mI (17788) HTTP_CLIENT: Set socket receiving timeout success[0m
+[0;32mI (17798) HTTP_CLIENT: Done read response HTTP![0m
+[0;32mI (17798) HTTP_CLIENT: DNS lookup succeeded. IP=192.168.1.9[0m
+[0;32mI (17798) HTTP_CLIENT: Allocated socket[0m
+[0;32mI (17808) HTTP_CLIENT: Connected[0m
+[0;32mI (17808) HTTP_CLIENT: Socket send success[0m
+[0;32mI (17808) HTTP_CLIENT: Set socket receiving timeout success[0m
+[0;32mI (17818) HTTP_CLIENT: Done read response HTTP![0m
+[0;32mI (17918) HTTP_CLIENT: DNS lookup succeeded. IP=192.168.1.9[0m
+[0;32mI (17918) HTTP_CLIENT: Allocated socket[0m
+[0;32mI (17918) HTTP_CLIENT: Connected[0m
+[0;32mI (17928) HTTP_CLIENT: Socket send success[0m
+[0;32mI (17928) HTTP_CLIENT: Set socket receiving timeout success[0m
+[0;32mI (17928) HTTP_CLIENT: Done read response HTTP![0m
+[0;32mI (17938) HTTP_CLIENT: DNS lookup succeeded. IP=192.168.1.9[0m
+[0;32mI (17938) HTTP_CLIENT: Allocated socket[0m
+[0;32mI (17938) HTTP_CLIENT: Connected[0m
+[0;32mI (17948) HTTP_CLIENT: Socket send success[0m
+[0;32mI (17948) HTTP_CLIENT: Set socket receiving timeout success[0m
+[0;32mI (17948) HTTP_CLIENT: Done read response HTTP![0m
+[0;32mI (18058) HTTP_CLIENT: DNS lookup succeeded. IP=192.168.1.9[0m
+[0;32mI (18058) HTTP_CLIENT: Allocated socket[0m
+[0;32mI (18058) HTTP_CLIENT: Connected[0m
+[0;32mI (18058) HTTP_CLIENT: Socket send success[0m
+[0;32mI (18068) HTTP_CLIENT: Set socket receiving timeout success[0m
+[0;32mI (18068) HTTP_CLIENT: Done read response HTTP![0m
+[0;32mI (18068) HTTP_CLIENT: DNS lookup succeeded. IP=192.168.1.9[0m
+[0;32mI (18078) HTTP_CLIENT: Allocated socket[0m
+[0;32mI (18078) HTTP_CLIENT: Connected[0m
+[0;32mI (18088) HTTP_CLIENT: Socket send success[0m
+[0;32mI (18088) HTTP_CLIENT: Set socket receiving timeout success[0m
+[0;32mI (18098) HTTP_CLIENT: Done read response HTTP![0m
+[0;32mI (18198) HTTP_CLIENT: DNS lookup succeeded. IP=192.168.1.9[0m
+[0;32mI (18198) HTTP_CLIENT: Allocated socket[0m
+[0;32mI (18198) HTTP_CLIENT: Connected[0m
+[0;32mI (18198) HTTP_CLIENT: Socket send success[0m
+[0;32mI (18208) HTTP_CLIENT: Set socket receiving timeout success[0m
+[0;32mI (18208) HTTP_CLIENT: Done read response HTTP![0m
+[0;32mI (18208) HTTP_CLIENT: DNS lookup succeeded. IP=192.168.1.9[0m
+[0;32mI (18218) HTTP_CLIENT: Allocated socket[0m
+[0;32mI (18218) HTTP_CLIENT: Connected[0m
+[0;32mI (18228) HTTP_CLIENT: Socket send success[0m
+[0;32mI (18228) HTTP_CLIENT: Set socket receiving timeout success[0m
+[0;32mI (18238) HTTP_CLIENT: Done read response HTTP![0m
+[0;32mI (18338) HTTP_CLIENT: DNS lookup succeeded. IP=192.168.1.9[0m
+[0;32mI (18338) HTTP_CLIENT: Allocated socket[0m
+[0;32mI (18338) HTTP_CLIENT: Connected[0m
+[0;32mI (18338) HTTP_CLIENT: Socket send success[0m
+[0;32mI (18348) HTTP_CLIENT: Set socket receiving timeout success[0m
+[0;32mI (18348) HTTP_CLIENT: Done read response HTTP![0m
+[0;32mI (18348) HTTP_CLIENT: DNS lookup succeeded. IP=192.168.1.9[0m
+[0;32mI (18358) HTTP_CLIENT: Allocated socket[0m
+[0;32mI (18358) HTTP_CLIENT: Connected[0m
+[0;32mI (18368) HTTP_CLIENT: Socket send success[0m
+[0;32mI (18368) HTTP_CLIENT: Set socket receiving timeout success[0m
+[0;32mI (18368) HTTP_CLIENT: Done read response HTTP![0m
+[0;32mI (18478) HTTP_CLIENT: DNS lookup succeeded. IP=192.168.1.9[0m
+[0;32mI (18478) HTTP_CLIENT: Allocated socket[0m
+[0;32mI (18478) HTTP_CLIENT: Connected[0m
+[0;32mI (18478) HTTP_CLIENT: Socket send success[0m
+[0;32mI (18488) HTTP_CLIENT: Set socket receiving timeout success[0m
+[0;32mI (18488) HTTP_CLIENT: Done read response HTTP![0m
+[0;32mI (18488) HTTP_CLIENT: DNS lookup succeeded. IP=192.168.1.9[0m
+[0;32mI (18498) HTTP_CLIENT: Allocated socket[0m
+[0;32mI (18498) HTTP_CLIENT: Connected[0m
+[0;32mI (18508) HTTP_CLIENT: Socket send success[0m
+[0;32mI (18508) HTTP_CLIENT: Set socket receiving timeout success[0m
+[0;32mI (18508) HTTP_CLIENT: Done read response HTTP![0m
+[0;32mI (18618) HTTP_CLIENT: DNS lookup succeeded. IP=192.168.1.9[0m
+[0;32mI (18618) HTTP_CLIENT: Allocated socket[0m
+[0;32mI (18618) HTTP_CLIENT: Connected[0m
+[0;32mI (18628) HTTP_CLIENT: Socket send success[0m
+[0;32mI (18628) HTTP_CLIENT: Set socket receiving timeout success[0m
+[0;32mI (18628) HTTP_CLIENT: Done read response HTTP![0m
+[0;32mI (18628) HTTP_CLIENT: DNS lookup succeeded. IP=192.168.1.9[0m
+[0;32mI (18638) HTTP_CLIENT: Allocated socket[0m
+[0;32mI (18638) HTTP_CLIENT: Connected[0m
+[0;32mI (18648) HTTP_CLIENT: Socket send success[0m
+[0;32mI (18648) HTTP_CLIENT: Set socket receiving timeout success[0m
+[0;32mI (18648) HTTP_CLIENT: Done read response HTTP![0m
+[0;32mI (18758) HTTP_CLIENT: DNS lookup succeeded. IP=192.168.1.9[0m
+[0;32mI (18758) HTTP_CLIENT: Allocated socket[0m
+[0;32mI (18758) HTTP_CLIENT: Connected[0m
+[0;32mI (18768) HTTP_CLIENT: Socket send success[0m
+[0;32mI (18768) HTTP_CLIENT: Set socket receiving timeout success[0m
+[0;32mI (18768) HTTP_CLIENT: Done read response HTTP![0m
+[0;32mI (18768) HTTP_CLIENT: DNS lookup succeeded. IP=192.168.1.9[0m
+[0;32mI (18778) HTTP_CLIENT: Allocated socket[0m
+[0;32mI (18778) HTTP_CLIENT: Connected[0m
+[0;32mI (18788) HTTP_CLIENT: Socket send success[0m
+[0;32mI (18788) HTTP_CLIENT: Set socket receiving timeout success[0m
+[0;32mI (18788) HTTP_CLIENT: Done read response HTTP![0m
+[0;32mI (18898) HTTP_CLIENT: DNS lookup succeeded. IP=192.168.1.9[0m
+[0;32mI (18898) HTTP_CLIENT: Allocated socket[0m
+[0;32mI (18898) HTTP_CLIENT: Connected[0m
+[0;32mI (18908) HTTP_CLIENT: Socket send success[0m
+[0;32mI (18908) HTTP_CLIENT: Set socket receiving timeout success[0m
+[0;32mI (18918) HTTP_CLIENT: Done read response HTTP![0m
+[0;32mI (18918) HTTP_CLIENT: DNS lookup succeeded. IP=192.168.1.9[0m
+[0;32mI (18918) HTTP_CLIENT: Allocated socket[0m
+[0;32mI (18928) HTTP_CLIENT: Connected[0m
+[0;32mI (18928) HTTP_CLIENT: Socket send success[0m
+[0;32mI (18928) HTTP_CLIENT: Set socket receiving timeout success[0m
+[0;32mI (18938) HTTP_CLIENT: Done read response HTTP![0m
+[0;32mI (19038) HTTP_CLIENT: DNS lookup succeeded. IP=192.168.1.9[0m
+[0;32mI (19038) HTTP_CLIENT: Allocated socket[0m
+[0;32mI (19038) HTTP_CLIENT: Connected[0m
+[0;32mI (19048) HTTP_CLIENT: Socket send success[0m
+[0;32mI (19048) HTTP_CLIENT: Set socket receiving timeout success[0m
+[0;32mI (19048) HTTP_CLIENT: Done read response HTTP![0m
+[0;32mI (19058) HTTP_CLIENT: DNS lookup succeeded. IP=192.168.1.9[0m
+[0;32mI (19058) HTTP_CLIENT: Allocated socket[0m
+[0;32mI (19058) HTTP_CLIENT: Connected[0m
+[0;32mI (19068) HTTP_CLIENT: Socket send success[0m
+[0;32mI (19068) HTTP_CLIENT: Set socket receiving timeout success[0m
+[0;32mI (19068) HTTP_CLIENT: Done read response HTTP![0m
+[0;32mI (19178) HTTP_CLIENT: DNS lookup succeeded. IP=192.168.1.9[0m
+[0;32mI (19178) HTTP_CLIENT: Allocated socket[0m
+[0;32mI (19188) HTTP_CLIENT: Connected[0m
+[0;32mI (19188) HTTP_CLIENT: Socket send success[0m
+[0;32mI (19188) HTTP_CLIENT: Set socket receiving timeout success[0m
+[0;32mI (19198) HTTP_CLIENT: Done read response HTTP![0m
+[0;32mI (19198) HTTP_CLIENT: DNS lookup succeeded. IP=192.168.1.9[0m
+[0;32mI (19198) HTTP_CLIENT: Allocated socket[0m
+[0;32mI (19208) HTTP_CLIENT: Connected[0m
+[0;32mI (19218) HTTP_CLIENT: Socket send success[0m
+[0;32mI (19218) HTTP_CLIENT: Set socket receiving timeout success[0m
+[0;32mI (19228) HTTP_CLIENT: Done read response HTTP![0m
+[0;32mI (19328) HTTP_CLIENT: DNS lookup succeeded. IP=192.168.1.9[0m
+[0;32mI (19328) HTTP_CLIENT: Allocated socket[0m
+[0;32mI (19328) HTTP_CLIENT: Connected[0m
+[0;32mI (19328) HTTP_CLIENT: Socket send success[0m
+[0;32mI (19338) HTTP_CLIENT: Set socket receiving timeout success[0m
+[0;32mI (19338) HTTP_CLIENT: Done read response HTTP![0m
+[0;32mI (19348) HTTP_CLIENT: DNS lookup succeeded. IP=192.168.1.9[0m
+[0;32mI (19348) HTTP_CLIENT: Allocated socket[0m
+[0;32mI (19348) HTTP_CLIENT: Connected[0m
+[0;32mI (19358) HTTP_CLIENT: Socket send success[0m
+[0;32mI (19358) HTTP_CLIENT: Set socket receiving timeout success[0m
+[0;32mI (19358) HTTP_CLIENT: Done read response HTTP![0m
+[0;32mI (19468) HTTP_CLIENT: DNS lookup succeeded. IP=192.168.1.9[0m
+[0;32mI (19468) HTTP_CLIENT: Allocated socket[0m
+[0;32mI (19498) HTTP_CLIENT: Connected[0m
+[0;32mI (19498) HTTP_CLIENT: Socket send success[0m
+[0;32mI (19498) HTTP_CLIENT: Set socket receiving timeout success[0m
+[0;32mI (19508) HTTP_CLIENT: Done read response HTTP![0m
+[0;32mI (19508) HTTP_CLIENT: DNS lookup succeeded. IP=192.168.1.9[0m
+[0;32mI (19508) HTTP_CLIENT: Allocated socket[0m
+[0;32mI (19518) HTTP_CLIENT: Connected[0m
+[0;32mI (19518) HTTP_CLIENT: Socket send success[0m
+[0;32mI (19518) HTTP_CLIENT: Set socket receiving timeout success[0m
+[0;32mI (19528) HTTP_CLIENT: Done read response HTTP![0m
+[0;32mI (19628) HTTP_CLIENT: DNS lookup succeeded. IP=192.168.1.9[0m
+[0;32mI (19628) HTTP_CLIENT: Allocated socket[0m
+[0;32mI (19628) HTTP_CLIENT: Connected[0m
+[0;32mI (19628) HTTP_CLIENT: Socket send success[0m
+[0;32mI (19638) HTTP_CLIENT: Set socket receiving timeout success[0m
+[0;32mI (19638) HTTP_CLIENT: Done read response HTTP![0m
+[0;32mI (19648) HTTP_CLIENT: DNS lookup succeeded. IP=192.168.1.9[0m
+[0;32mI (19648) HTTP_CLIENT: Allocated socket[0m
+[0;32mI (19648) HTTP_CLIENT: Connected[0m
+[0;32mI (19648) HTTP_CLIENT: Socket send success[0m
+[0;32mI (19658) HTTP_CLIENT: Set socket receiving timeout success[0m
+[0;32mI (19658) HTTP_CLIENT: Done read response HTTP![0m
+[0;32mI (19768) HTTP_CLIENT: DNS lookup succeeded. IP=192.168.1.9[0m
+[0;32mI (19768) HTTP_CLIENT: Allocated socket[0m
+[0;32mI (19768) HTTP_CLIENT: Connected[0m
+[0;32mI (19768) HTTP_CLIENT: Socket send success[0m
+[0;32mI (19778) HTTP_CLIENT: Set socket receiving timeout success[0m
+[0;32mI (19778) HTTP_CLIENT: Done read response HTTP![0m
+[0;32mI (19788) HTTP_CLIENT: DNS lookup succeeded. IP=192.168.1.9[0m
+[0;32mI (19788) HTTP_CLIENT: Allocated socket[0m
+[0;32mI (19788) HTTP_CLIENT: Connected[0m
+[0;32mI (19798) HTTP_CLIENT: Socket send success[0m
+[0;32mI (19798) HTTP_CLIENT: Set socket receiving timeout success[0m
+[0;32mI (19798) HTTP_CLIENT: Done read response HTTP![0m
+[0;32mI (19908) HTTP_CLIENT: DNS lookup succeeded. IP=192.168.1.9[0m
+[0;32mI (19908) HTTP_CLIENT: Allocated socket[0m
+[0;32mI (19908) HTTP_CLIENT: Connected[0m
+[0;32mI (19918) HTTP_CLIENT: Socket send success[0m
+[0;32mI (19918) HTTP_CLIENT: Set socket receiving timeout success[0m
+[0;32mI (19918) HTTP_CLIENT: Done read response HTTP![0m
+[0;32mI (19918) HTTP_CLIENT: DNS lookup succeeded. IP=192.168.1.9[0m
+[0;32mI (19928) HTTP_CLIENT: Allocated socket[0m
+[0;32mI (19928) HTTP_CLIENT: Connected[0m
+[0;32mI (19938) HTTP_CLIENT: Socket send success[0m
+[0;32mI (19938) HTTP_CLIENT: Set socket receiving timeout success[0m
+[0;32mI (19948) HTTP_CLIENT: Done read response HTTP![0m
+[0;32mI (20048) HTTP_CLIENT: DNS lookup succeeded. IP=192.168.1.9[0m
+[0;32mI (20048) HTTP_CLIENT: Allocated socket[0m
+[0;32mI (20048) HTTP_CLIENT: Connected[0m
+[0;32mI (20048) HTTP_CLIENT: Socket send success[0m
+[0;32mI (20058) HTTP_CLIENT: Set socket receiving timeout success[0m
+[0;32mI (20058) HTTP_CLIENT: Done read response HTTP![0m
+[0;32mI (20058) HTTP_CLIENT: DNS lookup succeeded. IP=192.168.1.9[0m
+[0;32mI (20068) HTTP_CLIENT: Allocated socket[0m
+[0;32mI (20068) HTTP_CLIENT: Connected[0m
+[0;32mI (20078) HTTP_CLIENT: Socket send success[0m
+[0;32mI (20078) HTTP_CLIENT: Set socket receiving timeout success[0m
+[0;32mI (20078) HTTP_CLIENT: Done read response HTTP![0m
+[0;32mI (20188) HTTP_CLIENT: DNS lookup succeeded. IP=192.168.1.9[0m
+[0;32mI (20188) HTTP_CLIENT: Allocated socket[0m
+[0;32mI (20188) HTTP_CLIENT: Connected[0m
+[0;32mI (20198) HTTP_CLIENT: Socket send success[0m
+[0;32mI (20198) HTTP_CLIENT: Set socket receiving timeout success[0m
+[0;32mI (20198) HTTP_CLIENT: Done read response HTTP![0m
+[0;32mI (20198) HTTP_CLIENT: DNS lookup succeeded. IP=192.168.1.9[0m
+[0;32mI (20208) HTTP_CLIENT: Allocated socket[0m
+[0;32mI (20208) HTTP_CLIENT: Connected[0m
+[0;32mI (20218) HTTP_CLIENT: Socket send success[0m
+[0;32mI (20218) HTTP_CLIENT: Set socket receiving timeout success[0m
+[0;32mI (20218) HTTP_CLIENT: Done read response HTTP![0m
+[0;32mI (20328) HTTP_CLIENT: DNS lookup succeeded. IP=192.168.1.9[0m
+[0;32mI (20328) HTTP_CLIENT: Allocated socket[0m
+[0;32mI (20328) HTTP_CLIENT: Connected[0m
+[0;32mI (20338) HTTP_CLIENT: Socket send success[0m
+[0;32mI (20338) HTTP_CLIENT: Set socket receiving timeout success[0m
+[0;32mI (20338) HTTP_CLIENT: Done read response HTTP![0m
+[0;32mI (20348) HTTP_CLIENT: DNS lookup succeeded. IP=192.168.1.9[0m
+[0;32mI (20348) HTTP_CLIENT: Allocated socket[0m
+[0;32mI (20348) HTTP_CLIENT: Connected[0m
+[0;32mI (20358) HTTP_CLIENT: Socket send success[0m
+[0;32mI (20358) HTTP_CLIENT: Set socket receiving timeout success[0m
+[0;32mI (20358) HTTP_CLIENT: Done read response HTTP![0m
+[0;32mI (20468) HTTP_CLIENT: DNS lookup succeeded. IP=192.168.1.9[0m
+[0;32mI (20468) HTTP_CLIENT: Allocated socket[0m
+[0;32mI (20468) HTTP_CLIENT: Connected[0m
+[0;32mI (20468) HTTP_CLIENT: Socket send success[0m
+[0;32mI (20478) HTTP_CLIENT: Set socket receiving timeout success[0m
+[0;32mI (20478) HTTP_CLIENT: Done read response HTTP![0m
+[0;32mI (20488) HTTP_CLIENT: DNS lookup succeeded. IP=192.168.1.9[0m
+[0;32mI (20488) HTTP_CLIENT: Allocated socket[0m
+[0;32mI (20488) HTTP_CLIENT: Connected[0m
+[0;32mI (20488) HTTP_CLIENT: Socket send success[0m
+[0;32mI (20498) HTTP_CLIENT: Set socket receiving timeout success[0m
+[0;32mI (20498) HTTP_CLIENT: Done read response HTTP![0m
+[0;32mI (20608) HTTP_CLIENT: DNS lookup succeeded. IP=192.168.1.9[0m
+[0;32mI (20608) HTTP_CLIENT: Allocated socket[0m
+[0;32mI (20608) HTTP_CLIENT: Connected[0m
+[0;32mI (20618) HTTP_CLIENT: Socket send success[0m
+[0;32mI (20618) HTTP_CLIENT: Set socket receiving timeout success[0m
+[0;32mI (20618) HTTP_CLIENT: Done read response HTTP![0m
+[0;32mI (20618) HTTP_CLIENT: DNS lookup succeeded. IP=192.168.1.9[0m
+[0;32mI (20628) HTTP_CLIENT: Allocated socket[0m
+[0;32mI (20628) HTTP_CLIENT: Connected[0m
+[0;32mI (20638) HTTP_CLIENT: Socket send success[0m
+[0;32mI (20638) HTTP_CLIENT: Set socket receiving timeout success[0m
+[0;32mI (20638) HTTP_CLIENT: Done read response HTTP![0m
+[0;32mI (20748) HTTP_CLIENT: DNS lookup succeeded. IP=192.168.1.9[0m
+[0;32mI (20748) HTTP_CLIENT: Allocated socket[0m
+[0;32mI (20748) HTTP_CLIENT: Connected[0m
+[0;32mI (20758) HTTP_CLIENT: Socket send success[0m
+[0;32mI (20758) HTTP_CLIENT: Set socket receiving timeout success[0m
+[0;32mI (20758) HTTP_CLIENT: Done read response HTTP![0m
+[0;32mI (20758) HTTP_CLIENT: DNS lookup succeeded. IP=192.168.1.9[0m
+[0;32mI (20768) HTTP_CLIENT: Allocated socket[0m
+[0;32mI (20768) HTTP_CLIENT: Connected[0m
+[0;32mI (20778) HTTP_CLIENT: Socket send success[0m
+[0;32mI (20778) HTTP_CLIENT: Set socket receiving timeout success[0m
+[0;32mI (20778) HTTP_CLIENT: Done read response HTTP![0m
+[0;32mI (20888) HTTP_CLIENT: DNS lookup succeeded. IP=192.168.1.9[0m
+[0;32mI (20888) HTTP_CLIENT: Allocated socket[0m
+[0;32mI (20888) HTTP_CLIENT: Connected[0m
+[0;32mI (20888) HTTP_CLIENT: Socket send success[0m
+[0;32mI (20898) HTTP_CLIENT: Set socket receiving timeout success[0m
+[0;32mI (20898) HTTP_CLIENT: Done read response HTTP![0m
+[0;32mI (20898) HTTP_CLIENT: DNS lookup succeeded. IP=192.168.1.9[0m
+[0;32mI (20908) HTTP_CLIENT: Allocated socket[0m
+[0;32mI (20908) HTTP_CLIENT: Connected[0m
+[0;32mI (20918) HTTP_CLIENT: Socket send success[0m
+[0;32mI (20918) HTTP_CLIENT: Set socket receiving timeout success[0m
+[0;32mI (20918) HTTP_CLIENT: Done read response HTTP![0m
+[0;32mI (21028) HTTP_CLIENT: DNS lookup succeeded. IP=192.168.1.9[0m
+[0;32mI (21028) HTTP_CLIENT: Allocated socket[0m
+[0;32mI (21028) HTTP_CLIENT: Connected[0m
+[0;32mI (21028) HTTP_CLIENT: Socket send success[0m
+[0;32mI (21038) HTTP_CLIENT: Set socket receiving timeout success[0m
+[0;32mI (21038) HTTP_CLIENT: Done read response HTTP![0m
+[0;32mI (21038) HTTP_CLIENT: DNS lookup succeeded. IP=192.168.1.9[0m
+[0;32mI (21048) HTTP_CLIENT: Allocated socket[0m
+[0;32mI (21048) HTTP_CLIENT: Connected[0m
+[0;32mI (21058) HTTP_CLIENT: Socket send success[0m
+[0;32mI (21058) HTTP_CLIENT: Set socket receiving timeout success[0m
+[0;32mI (21068) HTTP_CLIENT: Done read response HTTP![0m
+[0;32mI (21168) HTTP_CLIENT: DNS lookup succeeded. IP=192.168.1.9[0m
+[0;32mI (21168) HTTP_CLIENT: Allocated socket[0m
+[0;32mI (21268) HTTP_CLIENT: Connected[0m
+[0;32mI (21268) HTTP_CLIENT: Socket send success[0m
+[0;32mI (21268) HTTP_CLIENT: Set socket receiving timeout success[0m
+[0;32mI (21278) HTTP_CLIENT: Done read response HTTP![0m
+[0;32mI (21278) HTTP_CLIENT: DNS lookup succeeded. IP=192.168.1.9[0m
+[0;32mI (21278) HTTP_CLIENT: Allocated socket[0m
+[0;32mI (21288) HTTP_CLIENT: Connected[0m
+[0;32mI (21288) HTTP_CLIENT: Socket send success[0m
+[0;32mI (21288) HTTP_CLIENT: Set socket receiving timeout success[0m
+[0;32mI (21298) HTTP_CLIENT: Done read response HTTP![0m
+[0;32mI (21398) HTTP_CLIENT: DNS lookup succeeded. IP=192.168.1.9[0m
+[0;32mI (21398) HTTP_CLIENT: Allocated socket[0m
+[0;32mI (21398) HTTP_CLIENT: Connected[0m
+[0;32mI (21398) HTTP_CLIENT: Socket send success[0m
+[0;32mI (21408) HTTP_CLIENT: Set socket receiving timeout success[0m
+[0;32mI (21408) HTTP_CLIENT: Done read response HTTP![0m
+[0;32mI (21418) HTTP_CLIENT: DNS lookup succeeded. IP=192.168.1.9[0m
+[0;32mI (21418) HTTP_CLIENT: Allocated socket[0m
+[0;32mI (21418) HTTP_CLIENT: Connected[0m
+[0;32mI (21428) HTTP_CLIENT: Socket send success[0m
+[0;32mI (21428) HTTP_CLIENT: Set socket receiving timeout success[0m
+[0;32mI (21428) HTTP_CLIENT: Done read response HTTP![0m
+[0;32mI (21538) HTTP_CLIENT: DNS lookup succeeded. IP=192.168.1.9[0m
+[0;32mI (21538) HTTP_CLIENT: Allocated socket[0m
+[0;32mI (21538) HTTP_CLIENT: Connected[0m
+[0;32mI (21538) HTTP_CLIENT: Socket send success[0m
+[0;32mI (21548) HTTP_CLIENT: Set socket receiving timeout success[0m
+[0;32mI (21548) HTTP_CLIENT: Done read response HTTP![0m
+[0;32mI (21548) HTTP_CLIENT: DNS lookup succeeded. IP=192.168.1.9[0m
+[0;32mI (21558) HTTP_CLIENT: Allocated socket[0m
+[0;32mI (21558) HTTP_CLIENT: Connected[0m
+[0;32mI (21568) HTTP_CLIENT: Socket send success[0m
+[0;32mI (21568) HTTP_CLIENT: Set socket receiving timeout success[0m
+[0;32mI (21578) HTTP_CLIENT: Done read response HTTP![0m
+[0;32mI (21678) HTTP_CLIENT: DNS lookup succeeded. IP=192.168.1.9[0m
+[0;32mI (21678) HTTP_CLIENT: Allocated socket[0m
+[0;32mI (21678) HTTP_CLIENT: Connected[0m
+[0;32mI (21678) HTTP_CLIENT: Socket send success[0m
+[0;32mI (21688) HTTP_CLIENT: Set socket receiving timeout success[0m
+[0;32mI (21688) HTTP_CLIENT: Done read response HTTP![0m
+[0;32mI (21698) HTTP_CLIENT: DNS lookup succeeded. IP=192.168.1.9[0m
+[0;32mI (21698) HTTP_CLIENT: Allocated socket[0m
+[0;32mI (21698) HTTP_CLIENT: Connected[0m
+[0;32mI (21708) HTTP_CLIENT: Socket send success[0m
+[0;32mI (21708) HTTP_CLIENT: Set socket receiving timeout success[0m
+[0;32mI (21708) HTTP_CLIENT: Done read response HTTP![0m
+[0;32mI (21818) HTTP_CLIENT: DNS lookup succeeded. IP=192.168.1.9[0m
+[0;32mI (21818) HTTP_CLIENT: Allocated socket[0m
+[0;32mI (21848) HTTP_CLIENT: Connected[0m
+[0;32mI (21858) HTTP_CLIENT: Socket send success[0m
+[0;32mI (21858) HTTP_CLIENT: Set socket receiving timeout success[0m
+[0;32mI (21858) HTTP_CLIENT: Done read response HTTP![0m
+[0;32mI (21868) HTTP_CLIENT: DNS lookup succeeded. IP=192.168.1.9[0m
+[0;32mI (21868) HTTP_CLIENT: Allocated socket[0m
+[0;32mI (21878) HTTP_CLIENT: Connected[0m
+[0;32mI (21878) HTTP_CLIENT: Socket send success[0m
+[0;32mI (21878) HTTP_CLIENT: Set socket receiving timeout success[0m
+[0;32mI (21888) HTTP_CLIENT: Done read response HTTP![0m
+[0;32mI (21988) HTTP_CLIENT: DNS lookup succeeded. IP=192.168.1.9[0m
+[0;32mI (21988) HTTP_CLIENT: Allocated socket[0m
+[0;32mI (21988) HTTP_CLIENT: Connected[0m
+[0;32mI (21988) HTTP_CLIENT: Socket send success[0m
+[0;32mI (21998) HTTP_CLIENT: Set socket receiving timeout success[0m
+[0;32mI (21998) HTTP_CLIENT: Done read response HTTP![0m
+[0;32mI (21998) HTTP_CLIENT: DNS lookup succeeded. IP=192.168.1.9[0m
+[0;32mI (22008) HTTP_CLIENT: Allocated socket[0m
+[0;32mI (22008) HTTP_CLIENT: Connected[0m
+[0;32mI (22008) HTTP_CLIENT: Socket send success[0m
+[0;32mI (22018) HTTP_CLIENT: Set socket receiving timeout success[0m
+[0;32mI (22028) HTTP_CLIENT: Done read response HTTP![0m
+[0;32mI (22128) HTTP_CLIENT: DNS lookup succeeded. IP=192.168.1.9[0m
+[0;32mI (22128) HTTP_CLIENT: Allocated socket[0m
+[0;32mI (22128) HTTP_CLIENT: Connected[0m
+[0;32mI (22128) HTTP_CLIENT: Socket send success[0m
+[0;32mI (22138) HTTP_CLIENT: Set socket receiving timeout success[0m
+[0;32mI (22138) HTTP_CLIENT: Done read response HTTP![0m
+[0;32mI (22138) HTTP_CLIENT: DNS lookup succeeded. IP=192.168.1.9[0m
+[0;32mI (22148) HTTP_CLIENT: Allocated socket[0m
+[0;32mI (22148) HTTP_CLIENT: Connected[0m
+[0;32mI (22148) HTTP_CLIENT: Socket send success[0m
+[0;32mI (22158) HTTP_CLIENT: Set socket receiving timeout success[0m
+[0;32mI (22158) HTTP_CLIENT: Done read response HTTP![0m
+[0;32mI (22268) HTTP_CLIENT: DNS lookup succeeded. IP=192.168.1.9[0m
+[0;32mI (22268) HTTP_CLIENT: Allocated socket[0m
+[0;32mI (22268) HTTP_CLIENT: Connected[0m
+[0;32mI (22278) HTTP_CLIENT: Socket send success[0m
+[0;32mI (22278) HTTP_CLIENT: Set socket receiving timeout success[0m
+[0;32mI (22288) HTTP_CLIENT: Done read response HTTP![0m
+[0;32mI (22288) HTTP_CLIENT: DNS lookup succeeded. IP=192.168.1.9[0m
+[0;32mI (22288) HTTP_CLIENT: Allocated socket[0m
+[0;32mI (22298) HTTP_CLIENT: Connected[0m
+[0;32mI (22298) HTTP_CLIENT: Socket send success[0m
+[0;32mI (22298) HTTP_CLIENT: Set socket receiving timeout success[0m
+[0;32mI (22308) HTTP_CLIENT: Done read response HTTP![0m
+[0;32mI (22408) HTTP_CLIENT: DNS lookup succeeded. IP=192.168.1.9[0m
+[0;32mI (22408) HTTP_CLIENT: Allocated socket[0m
+[0;32mI (22408) HTTP_CLIENT: Connected[0m
+[0;32mI (22408) HTTP_CLIENT: Socket send success[0m
+[0;32mI (22418) HTTP_CLIENT: Set socket receiving timeout success[0m
+[0;32mI (22418) HTTP_CLIENT: Done read response HTTP![0m
+[0;32mI (22418) HTTP_CLIENT: DNS lookup succeeded. IP=192.168.1.9[0m
+[0;32mI (22428) HTTP_CLIENT: Allocated socket[0m
+[0;32mI (22438) HTTP_CLIENT: Connected[0m
+[0;32mI (22438) HTTP_CLIENT: Socket send success[0m
+[0;32mI (22438) HTTP_CLIENT: Set socket receiving timeout success[0m
+[0;32mI (22448) HTTP_CLIENT: Done read response HTTP![0m
+[0;32mI (22548) HTTP_CLIENT: DNS lookup succeeded. IP=192.168.1.9[0m
+[0;32mI (22548) HTTP_CLIENT: Allocated socket[0m
+[0;32mI (22548) HTTP_CLIENT: Connected[0m
+[0;32mI (22558) HTTP_CLIENT: Socket send success[0m
+[0;32mI (22558) HTTP_CLIENT: Set socket receiving timeout success[0m
+[0;32mI (22558) HTTP_CLIENT: Done read response HTTP![0m
+[0;32mI (22568) HTTP_CLIENT: DNS lookup succeeded. IP=192.168.1.9[0m
+[0;32mI (22568) HTTP_CLIENT: Allocated socket[0m
+[0;32mI (22568) HTTP_CLIENT: Connected[0m
+[0;32mI (22578) HTTP_CLIENT: Socket send success[0m
+[0;32mI (22578) HTTP_CLIENT: Set socket receiving timeout success[0m
+[0;32mI (22578) HTTP_CLIENT: Done read response HTTP![0m
+[0;32mI (22688) HTTP_CLIENT: DNS lookup succeeded. IP=192.168.1.9[0m
+[0;32mI (22688) HTTP_CLIENT: Allocated socket[0m
+[0;32mI (22688) HTTP_CLIENT: Connected[0m
+[0;32mI (22688) HTTP_CLIENT: Socket send success[0m
+[0;32mI (22698) HTTP_CLIENT: Set socket receiving timeout success[0m
+[0;32mI (22698) HTTP_CLIENT: Done read response HTTP![0m
+[0;32mI (22708) HTTP_CLIENT: DNS lookup succeeded. IP=192.168.1.9[0m
+[0;32mI (22708) HTTP_CLIENT: Allocated socket[0m
+[0;32mI (22708) HTTP_CLIENT: Connected[0m
+[0;32mI (22718) HTTP_CLIENT: Socket send success[0m
+[0;32mI (22718) HTTP_CLIENT: Set socket receiving timeout success[0m
+[0;32mI (22718) HTTP_CLIENT: Done read response HTTP![0m
+[0;32mI (22828) HTTP_CLIENT: DNS lookup succeeded. IP=192.168.1.9[0m
+[0;32mI (22828) HTTP_CLIENT: Allocated socket[0m
+[0;32mI (22828) HTTP_CLIENT: Connected[0m
+[0;32mI (22828) HTTP_CLIENT: Socket send success[0m
+[0;32mI (22838) HTTP_CLIENT: Set socket receiving timeout success[0m
+[0;32mI (22838) HTTP_CLIENT: Done read response HTTP![0m
+[0;32mI (22838) HTTP_CLIENT: DNS lookup succeeded. IP=192.168.1.9[0m
+[0;32mI (22848) HTTP_CLIENT: Allocated socket[0m
+[0;32mI (22848) HTTP_CLIENT: Connected[0m
+[0;32mI (22858) HTTP_CLIENT: Socket send success[0m
+[0;32mI (22858) HTTP_CLIENT: Set socket receiving timeout success[0m
+[0;32mI (22858) HTTP_CLIENT: Done read response HTTP![0m
+[0;32mI (22968) HTTP_CLIENT: DNS lookup succeeded. IP=192.168.1.9[0m
+[0;32mI (22968) HTTP_CLIENT: Allocated socket[0m
+[0;32mI (22968) HTTP_CLIENT: Connected[0m
+[0;32mI (22968) HTTP_CLIENT: Socket send success[0m
+[0;32mI (22978) HTTP_CLIENT: Set socket receiving timeout success[0m
+[0;32mI (22978) HTTP_CLIENT: Done read response HTTP![0m
+[0;32mI (22978) HTTP_CLIENT: DNS lookup succeeded. IP=192.168.1.9[0m
+[0;32mI (22988) HTTP_CLIENT: Allocated socket[0m
+[0;32mI (22988) HTTP_CLIENT: Connected[0m
+[0;32mI (22998) HTTP_CLIENT: Socket send success[0m
+[0;32mI (22998) HTTP_CLIENT: Set socket receiving timeout success[0m
+[0;32mI (23008) HTTP_CLIENT: Done read response HTTP![0m
+[0;32mI (23108) HTTP_CLIENT: DNS lookup succeeded. IP=192.168.1.9[0m
+[0;32mI (23108) HTTP_CLIENT: Allocated socket[0m
+[0;32mI (23108) HTTP_CLIENT: Connected[0m
+[0;32mI (23118) HTTP_CLIENT: Socket send success[0m
+[0;32mI (23118) HTTP_CLIENT: Set socket receiving timeout success[0m
+[0;32mI (23128) HTTP_CLIENT: Done read response HTTP![0m
+[0;32mI (23128) HTTP_CLIENT: DNS lookup succeeded. IP=192.168.1.9[0m
+[0;32mI (23128) HTTP_CLIENT: Allocated socket[0m
+[0;32mI (23138) HTTP_CLIENT: Connected[0m
+[0;32mI (23138) HTTP_CLIENT: Socket send success[0m
+[0;32mI (23138) HTTP_CLIENT: Set socket receiving timeout success[0m
+[0;32mI (23148) HTTP_CLIENT: Done read response HTTP![0m
+[0;32mI (23248) HTTP_CLIENT: DNS lookup succeeded. IP=192.168.1.9[0m
+[0;32mI (23248) HTTP_CLIENT: Allocated socket[0m
+[0;32mI (23248) HTTP_CLIENT: Connected[0m
+[0;32mI (23248) HTTP_CLIENT: Socket send success[0m
+[0;32mI (23258) HTTP_CLIENT: Set socket receiving timeout success[0m
+[0;32mI (23258) HTTP_CLIENT: Done read response HTTP![0m
+[0;32mI (23258) HTTP_CLIENT: DNS lookup succeeded. IP=192.168.1.9[0m
+[0;32mI (23268) HTTP_CLIENT: Allocated socket[0m
+[0;32mI (23268) HTTP_CLIENT: Connected[0m
+[0;32mI (23278) HTTP_CLIENT: Socket send success[0m
+[0;32mI (23278) HTTP_CLIENT: Set socket receiving timeout success[0m
+[0;32mI (23278) HTTP_CLIENT: Done read response HTTP![0m
+[0;32mI (23388) HTTP_CLIENT: DNS lookup succeeded. IP=192.168.1.9[0m
+[0;32mI (23388) HTTP_CLIENT: Allocated socket[0m
+[0;32mI (23388) HTTP_CLIENT: Connected[0m
+[0;32mI (23388) HTTP_CLIENT: Socket send success[0m
+[0;32mI (23398) HTTP_CLIENT: Set socket receiving timeout success[0m
+[0;32mI (23398) HTTP_CLIENT: Done read response HTTP![0m
+[0;32mI (23398) HTTP_CLIENT: DNS lookup succeeded. IP=192.168.1.9[0m
+[0;32mI (23408) HTTP_CLIENT: Allocated socket[0m
+[0;32mI (23418) HTTP_CLIENT: Connected[0m
+[0;32mI (23418) HTTP_CLIENT: Socket send success[0m
+[0;32mI (23418) HTTP_CLIENT: Set socket receiving timeout success[0m
+[0;32mI (23428) HTTP_CLIENT: Done read response HTTP![0m
+[0;32mI (23528) HTTP_CLIENT: DNS lookup succeeded. IP=192.168.1.9[0m
+[0;32mI (23528) HTTP_CLIENT: Allocated socket[0m
+[0;32mI (23528) HTTP_CLIENT: Connected[0m
+[0;32mI (23528) HTTP_CLIENT: Socket send success[0m
+[0;32mI (23538) HTTP_CLIENT: Set socket receiving timeout success[0m
+[0;32mI (23538) HTTP_CLIENT: Done read response HTTP![0m
+[0;32mI (23538) HTTP_CLIENT: DNS lookup succeeded. IP=192.168.1.9[0m
+[0;32mI (23548) HTTP_CLIENT: Allocated socket[0m
+[0;32mI (23548) HTTP_CLIENT: Connected[0m
+[0;32mI (23558) HTTP_CLIENT: Socket send success[0m
+[0;32mI (23558) HTTP_CLIENT: Set socket receiving timeout success[0m
+[0;32mI (23558) HTTP_CLIENT: Done read response HTTP![0m
+[0;32mI (23668) HTTP_CLIENT: DNS lookup succeeded. IP=192.168.1.9[0m
+[0;32mI (23668) HTTP_CLIENT: Allocated socket[0m
+[0;32mI (23668) HTTP_CLIENT: Connected[0m
+[0;32mI (23668) HTTP_CLIENT: Socket send success[0m
+[0;32mI (23678) HTTP_CLIENT: Set socket receiving timeout success[0m
+[0;32mI (23678) HTTP_CLIENT: Done read response HTTP![0m
+[0;32mI (23678) HTTP_CLIENT: DNS lookup succeeded. IP=192.168.1.9[0m
+[0;32mI (23688) HTTP_CLIENT: Allocated socket[0m
+[0;32mI (23688) HTTP_CLIENT: Connected[0m
+[0;32mI (23688) HTTP_CLIENT: Socket send success[0m
+[0;32mI (23698) HTTP_CLIENT: Set socket receiving timeout success[0m
+[0;32mI (23698) HTTP_CLIENT: Done read response HTTP![0m
+[0;32mI (23808) HTTP_CLIENT: DNS lookup succeeded. IP=192.168.1.9[0m
+[0;32mI (23808) HTTP_CLIENT: Allocated socket[0m
+[0;32mI (23928) HTTP_CLIENT: Connected[0m
+[0;32mI (23928) HTTP_CLIENT: Socket send success[0m
+[0;32mI (23928) HTTP_CLIENT: Set socket receiving timeout success[0m
+[0;32mI (23938) HTTP_CLIENT: Done read response HTTP![0m
+[0;32mI (23948) HTTP_CLIENT: DNS lookup succeeded. IP=192.168.1.9[0m
+[0;32mI (23948) HTTP_CLIENT: Allocated socket[0m
+[0;32mI (23948) HTTP_CLIENT: Connected[0m
+[0;32mI (23948) HTTP_CLIENT: Socket send success[0m
+[0;32mI (23948) HTTP_CLIENT: Set socket receiving timeout success[0m
+[0;32mI (23958) HTTP_CLIENT: Done read response HTTP![0m
+[0;32mI (24058) HTTP_CLIENT: DNS lookup succeeded. IP=192.168.1.9[0m
+[0;32mI (24058) HTTP_CLIENT: Allocated socket[0m
+[0;32mI (24058) HTTP_CLIENT: Connected[0m
+[0;32mI (24058) HTTP_CLIENT: Socket send success[0m
+[0;32mI (24068) HTTP_CLIENT: Set socket receiving timeout success[0m
+[0;32mI (24068) HTTP_CLIENT: Done read response HTTP![0m
+[0;32mI (24068) HTTP_CLIENT: DNS lookup succeeded. IP=192.168.1.9[0m
+[0;32mI (24078) HTTP_CLIENT: Allocated socket[0m
+[0;32mI (24078) HTTP_CLIENT: Connected[0m
+[0;32mI (24088) HTTP_CLIENT: Socket send success[0m
+[0;32mI (24088) HTTP_CLIENT: Set socket receiving timeout success[0m
+[0;32mI (24088) HTTP_CLIENT: Done read response HTTP![0m
+[0;32mI (24198) HTTP_CLIENT: DNS lookup succeeded. IP=192.168.1.9[0m
+[0;32mI (24198) HTTP_CLIENT: Allocated socket[0m
+[0;32mI (24198) HTTP_CLIENT: Connected[0m
+[0;32mI (24198) HTTP_CLIENT: Socket send success[0m
+[0;32mI (24208) HTTP_CLIENT: Set socket receiving timeout success[0m
+[0;32mI (24208) HTTP_CLIENT: Done read response HTTP![0m
+[0;32mI (24308) HTTP_CLIENT: DNS lookup succeeded. IP=192.168.1.9[0m
+[0;32mI (24308) HTTP_CLIENT: Allocated socket[0m
+[0;32mI (24308) HTTP_CLIENT: Connected[0m
+[0;32mI (24318) HTTP_CLIENT: Socket send success[0m
+[0;32mI (24318) HTTP_CLIENT: Set socket receiving timeout success[0m
+[0;32mI (24318) HTTP_CLIENT: Done read response HTTP![0m
+[0;32mI (24418) HTTP_CLIENT: DNS lookup succeeded. IP=192.168.1.9[0m
+[0;32mI (24418) HTTP_CLIENT: Allocated socket[0m
+[0;32mI (24418) HTTP_CLIENT: Connected[0m
+[0;32mI (24418) HTTP_CLIENT: Socket send success[0m
+[0;32mI (24428) HTTP_CLIENT: Set socket receiving timeout success[0m
+[0;32mI (24428) HTTP_CLIENT: Done read response HTTP![0m
+[0;32mI (24528) HTTP_CLIENT: DNS lookup succeeded. IP=192.168.1.9[0m
+[0;32mI (24528) HTTP_CLIENT: Allocated socket[0m
+[0;32mI (24528) HTTP_CLIENT: Connected[0m
+[0;32mI (24538) HTTP_CLIENT: Socket send success[0m
+[0;32mI (24538) HTTP_CLIENT: Set socket receiving timeout success[0m
+[0;32mI (24548) HTTP_CLIENT: Done read response HTTP![0m
+[0;32mI (24648) HTTP_CLIENT: DNS lookup succeeded. IP=192.168.1.9[0m
+[0;32mI (24648) HTTP_CLIENT: Allocated socket[0m
+[0;32mI (24648) HTTP_CLIENT: Connected[0m
+[0;32mI (24648) HTTP_CLIENT: Socket send success[0m
+[0;32mI (24648) HTTP_CLIENT: Set socket receiving timeout success[0m
+[0;32mI (24658) HTTP_CLIENT: Done read response HTTP![0m
+[0;32mI (24758) HTTP_CLIENT: DNS lookup succeeded. IP=192.168.1.9[0m
+[0;32mI (24758) HTTP_CLIENT: Allocated socket[0m
+[0;32mI (24758) HTTP_CLIENT: Connected[0m
+[0;32mI (24758) HTTP_CLIENT: Socket send success[0m
+[0;32mI (24768) HTTP_CLIENT: Set socket receiving timeout success[0m
+[0;32mI (24768) HTTP_CLIENT: Done read response HTTP![0m
+[0;32mI (24868) HTTP_CLIENT: DNS lookup succeeded. IP=192.168.1.9[0m
+[0;32mI (24868) HTTP_CLIENT: Allocated socket[0m
+[0;32mI (24868) HTTP_CLIENT: Connected[0m
+[0;32mI (24868) HTTP_CLIENT: Socket send success[0m
+[0;32mI (24878) HTTP_CLIENT: Set socket receiving timeout success[0m
+[0;32mI (24878) HTTP_CLIENT: Done read response HTTP![0m
+[0;32mI (24978) HTTP_CLIENT: DNS lookup succeeded. IP=192.168.1.9[0m
+[0;32mI (24978) HTTP_CLIENT: Allocated socket[0m
+[0;32mI (24978) HTTP_CLIENT: Connected[0m
+[0;32mI (24988) HTTP_CLIENT: Socket send success[0m
+[0;32mI (24988) HTTP_CLIENT: Set socket receiving timeout success[0m
+[0;32mI (24988) HTTP_CLIENT: Done read response HTTP![0m
+[0;32mI (25088) HTTP_CLIENT: DNS lookup succeeded. IP=192.168.1.9[0m
+[0;32mI (25088) HTTP_CLIENT: Allocated socket[0m
+[0;32mI (25088) HTTP_CLIENT: Connected[0m
+[0;32mI (25088) HTTP_CLIENT: Socket send success[0m
+[0;32mI (25098) HTTP_CLIENT: Set socket receiving timeout success[0m
+[0;32mI (25098) HTTP_CLIENT: Done read response HTTP![0m
+[0;32mI (25198) HTTP_CLIENT: DNS lookup succeeded. IP=192.168.1.9[0m
+[0;32mI (25198) HTTP_CLIENT: Allocated socket[0m
+[0;32mI (25198) HTTP_CLIENT: Connected[0m
+[0;32mI (25208) HTTP_CLIENT: Socket send success[0m
+[0;32mI (25208) HTTP_CLIENT: Set socket receiving timeout success[0m
+[0;32mI (25208) HTTP_CLIENT: Done read response HTTP![0m
+[0;32mI (25308) HTTP_CLIENT: DNS lookup succeeded. IP=192.168.1.9[0m
+[0;32mI (25308) HTTP_CLIENT: Allocated socket[0m
+[0;32mI (25308) HTTP_CLIENT: Connected[0m
+[0;32mI (25308) HTTP_CLIENT: Socket send success[0m
+[0;32mI (25318) HTTP_CLIENT: Set socket receiving timeout success[0m
+[0;32mI (25318) HTTP_CLIENT: Done read response HTTP![0m
+[0;32mI (25418) HTTP_CLIENT: DNS lookup succeeded. IP=192.168.1.9[0m
+[0;32mI (25418) HTTP_CLIENT: Allocated socket[0m
+[0;32mI (25418) HTTP_CLIENT: Connected[0m
+[0;32mI (25418) HTTP_CLIENT: Socket send success[0m
+[0;32mI (25428) HTTP_CLIENT: Set socket receiving timeout success[0m
+[0;32mI (25428) HTTP_CLIENT: Done read response HTTP![0m
+[0;32mI (25528) HTTP_CLIENT: DNS lookup succeeded. IP=192.168.1.9[0m
+[0;32mI (25528) HTTP_CLIENT: Allocated socket[0m
+[0;32mI (25528) HTTP_CLIENT: Connected[0m
+[0;32mI (25538) HTTP_CLIENT: Socket send success[0m
+[0;32mI (25538) HTTP_CLIENT: Set socket receiving timeout success[0m
+[0;32mI (25538) HTTP_CLIENT: Done read response HTTP![0m
+[0;32mI (25638) HTTP_CLIENT: DNS lookup succeeded. IP=192.168.1.9[0m
+[0;32mI (25638) HTTP_CLIENT: Allocated socket[0m
+[0;32mI (25638) HTTP_CLIENT: Connected[0m
+[0;32mI (25638) HTTP_CLIENT: Socket send success[0m
+[0;32mI (25638) HTTP_CLIENT: Set socket receiving timeout success[0m
+[0;32mI (25648) HTTP_CLIENT: Done read response HTTP![0m
+[0;32mI (25748) HTTP_CLIENT: DNS lookup succeeded. IP=192.168.1.9[0m
+[0;32mI (25748) HTTP_CLIENT: Allocated socket[0m
+[0;32mI (25748) HTTP_CLIENT: Connected[0m
+[0;32mI (25748) HTTP_CLIENT: Socket send success[0m
+[0;32mI (25758) HTTP_CLIENT: Set socket receiving timeout success[0m
+[0;32mI (25758) HTTP_CLIENT: Done read response HTTP![0m
+[0;32mI (25858) HTTP_CLIENT: DNS lookup succeeded. IP=192.168.1.9[0m
+[0;32mI (25858) HTTP_CLIENT: Allocated socket[0m
+[0;32mI (25858) HTTP_CLIENT: Connected[0m
+[0;32mI (25868) HTTP_CLIENT: Socket send success[0m
+[0;32mI (25868) HTTP_CLIENT: Set socket receiving timeout success[0m
+[0;32mI (25878) HTTP_CLIENT: Done read response HTTP![0m
+[0;32mI (25978) HTTP_CLIENT: DNS lookup succeeded. IP=192.168.1.9[0m
+[0;32mI (25978) HTTP_CLIENT: Allocated socket[0m
+[0;32mI (25978) HTTP_CLIENT: Connected[0m
+[0;32mI (25988) HTTP_CLIENT: Socket send success[0m
+[0;32mI (25988) HTTP_CLIENT: Set socket receiving timeout success[0m
+[0;32mI (25988) HTTP_CLIENT: Done read response HTTP![0m
+[0;32mI (26088) HTTP_CLIENT: DNS lookup succeeded. IP=192.168.1.9[0m
+[0;32mI (26088) HTTP_CLIENT: Allocated socket[0m
+[0;32mI (26088) HTTP_CLIENT: Connected[0m
+[0;32mI (26088) HTTP_CLIENT: Socket send success[0m
+[0;32mI (26098) HTTP_CLIENT: Set socket receiving timeout success[0m
+[0;32mI (26098) HTTP_CLIENT: Done read response HTTP![0m
+[0;32mI (26198) HTTP_CLIENT: DNS lookup succeeded. IP=192.168.1.9[0m
+[0;32mI (26198) HTTP_CLIENT: Allocated socket[0m
+[0;32mI (26198) HTTP_CLIENT: Connected[0m
+[0;32mI (26198) HTTP_CLIENT: Socket send success[0m
+[0;32mI (26208) HTTP_CLIENT: Set socket receiving timeout success[0m
+[0;32mI (26208) HTTP_CLIENT: Done read response HTTP![0m
+[0;32mI (26308) HTTP_CLIENT: DNS lookup succeeded. IP=192.168.1.9[0m
+[0;32mI (26308) HTTP_CLIENT: Allocated socket[0m
+[0;32mI (26308) HTTP_CLIENT: Connected[0m
+[0;32mI (26308) HTTP_CLIENT: Socket send success[0m
+[0;32mI (26318) HTTP_CLIENT: Set socket receiving timeout success[0m
+[0;32mI (26328) HTTP_CLIENT: Done read response HTTP![0m
+[0;32mI (26428) HTTP_CLIENT: DNS lookup succeeded. IP=192.168.1.9[0m
+[0;32mI (26428) HTTP_CLIENT: Allocated socket[0m
+[0;32mI (26428) HTTP_CLIENT: Connected[0m
+[0;32mI (26428) HTTP_CLIENT: Socket send success[0m
+[0;32mI (26438) HTTP_CLIENT: Set socket receiving timeout success[0m
+[0;32mI (26438) HTTP_CLIENT: Done read response HTTP![0m
+[0;32mI (26548) HTTP_CLIENT: DNS lookup succeeded. IP=192.168.1.9[0m
+[0;32mI (26548) HTTP_CLIENT: Allocated socket[0m
+[0;32mI (26548) HTTP_CLIENT: Connected[0m
+[0;32mI (26548) HTTP_CLIENT: Socket send success[0m
+[0;32mI (26558) HTTP_CLIENT: Set socket receiving timeout success[0m
+[0;32mI (26558) HTTP_CLIENT: Done read response HTTP![0m
+[0;32mI (26658) HTTP_CLIENT: DNS lookup succeeded. IP=192.168.1.9[0m
+[0;32mI (26658) HTTP_CLIENT: Allocated socket[0m
+[0;32mI (26658) HTTP_CLIENT: Connected[0m
+[0;32mI (26658) HTTP_CLIENT: Socket send success[0m
+[0;32mI (26668) HTTP_CLIENT: Set socket receiving timeout success[0m
+[0;32mI (26668) HTTP_CLIENT: Done read response HTTP![0m
+[0;32mI (26768) HTTP_CLIENT: DNS lookup succeeded. IP=192.168.1.9[0m
+[0;32mI (26768) HTTP_CLIENT: Allocated socket[0m
+[0;32mI (26768) HTTP_CLIENT: Connected[0m
+[0;32mI (26768) HTTP_CLIENT: Socket send success[0m
+[0;32mI (26778) HTTP_CLIENT: Set socket receiving timeout success[0m
+[0;32mI (26778) HTTP_CLIENT: Done read response HTTP![0m
+[0;32mI (26878) HTTP_CLIENT: DNS lookup succeeded. IP=192.168.1.9[0m
+[0;32mI (26878) HTTP_CLIENT: Allocated socket[0m
+[0;32mI (26878) HTTP_CLIENT: Connected[0m
+[0;32mI (26888) HTTP_CLIENT: Socket send success[0m
+[0;32mI (26888) HTTP_CLIENT: Set socket receiving timeout success[0m
+[0;32mI (26888) HTTP_CLIENT: Done read response HTTP![0m
+[0;32mI (26988) HTTP_CLIENT: DNS lookup succeeded. IP=192.168.1.9[0m
+[0;32mI (26988) HTTP_CLIENT: Allocated socket[0m
+[0;32mI (26988) HTTP_CLIENT: Connected[0m
+[0;32mI (26988) HTTP_CLIENT: Socket send success[0m
+[0;32mI (26998) HTTP_CLIENT: Set socket receiving timeout success[0m
+[0;32mI (27008) HTTP_CLIENT: Done read response HTTP![0m
+[0;32mI (27108) HTTP_CLIENT: DNS lookup succeeded. IP=192.168.1.9[0m
+[0;32mI (27108) HTTP_CLIENT: Allocated socket[0m
+[0;32mI (27108) HTTP_CLIENT: Connected[0m
+[0;32mI (27108) HTTP_CLIENT: Socket send success[0m
+[0;32mI (27118) HTTP_CLIENT: Set socket receiving timeout success[0m
+[0;32mI (27118) HTTP_CLIENT: Done read response HTTP![0m
+[0;32mI (27218) HTTP_CLIENT: DNS lookup succeeded. IP=192.168.1.9[0m
+[0;32mI (27218) HTTP_CLIENT: Allocated socket[0m
+[0;32mI (27218) HTTP_CLIENT: Connected[0m
+[0;32mI (27218) HTTP_CLIENT: Socket send success[0m
+[0;32mI (27228) HTTP_CLIENT: Set socket receiving timeout success[0m
+[0;32mI (27238) HTTP_CLIENT: Done read response HTTP![0m
+[0;32mI (27338) HTTP_CLIENT: DNS lookup succeeded. IP=192.168.1.9[0m
+[0;32mI (27338) HTTP_CLIENT: Allocated socket[0m
+[0;32mI (27378) HTTP_CLIENT: Connected[0m
+[0;32mI (27388) HTTP_CLIENT: Socket send success[0m
+[0;32mI (27388) HTTP_CLIENT: Set socket receiving timeout success[0m
+[0;32mI (27388) HTTP_CLIENT: Done read response HTTP![0m
+[0;32mI (27488) HTTP_CLIENT: DNS lookup succeeded. IP=192.168.1.9[0m
+[0;32mI (27488) HTTP_CLIENT: Allocated socket[0m
+[0;32mI (27488) HTTP_CLIENT: Connected[0m
+[0;32mI (27488) HTTP_CLIENT: Socket send success[0m
+[0;32mI (27498) HTTP_CLIENT: Set socket receiving timeout success[0m
+[0;32mI (27498) HTTP_CLIENT: Done read response HTTP![0m
+[0;32mI (27598) HTTP_CLIENT: DNS lookup succeeded. IP=192.168.1.9[0m
+[0;32mI (27598) HTTP_CLIENT: Allocated socket[0m
+[0;32mI (27598) HTTP_CLIENT: Connected[0m
+[0;32mI (27598) HTTP_CLIENT: Socket send success[0m
+[0;32mI (27608) HTTP_CLIENT: Set socket receiving timeout success[0m
+[0;32mI (27608) HTTP_CLIENT: Done read response HTTP![0m
+[0;32mI (27708) HTTP_CLIENT: DNS lookup succeeded. IP=192.168.1.9[0m
+[0;32mI (27708) HTTP_CLIENT: Allocated socket[0m
+[0;32mI (27708) HTTP_CLIENT: Connected[0m
+[0;32mI (27718) HTTP_CLIENT: Socket send success[0m
+[0;32mI (27718) HTTP_CLIENT: Set socket receiving timeout success[0m
+[0;32mI (27718) HTTP_CLIENT: Done read response HTTP![0m
+[0;32mI (27828) HTTP_CLIENT: DNS lookup succeeded. IP=192.168.1.9[0m
+[0;32mI (27828) HTTP_CLIENT: Allocated socket[0m
+[0;32mI (27828) HTTP_CLIENT: Connected[0m
+[0;32mI (27828) HTTP_CLIENT: Socket send success[0m
+[0;32mI (27838) HTTP_CLIENT: Set socket receiving timeout success[0m
+[0;32mI (27838) HTTP_CLIENT: Done read response HTTP![0m
+[0;32mI (27938) HTTP_CLIENT: DNS lookup succeeded. IP=192.168.1.9[0m
+[0;32mI (27938) HTTP_CLIENT: Allocated socket[0m
+[0;32mI (27938) HTTP_CLIENT: Connected[0m
+[0;32mI (27948) HTTP_CLIENT: Socket send success[0m
+[0;32mI (27948) HTTP_CLIENT: Set socket receiving timeout success[0m
+[0;32mI (27948) HTTP_CLIENT: Done read response HTTP![0m
+[0;32mI (28058) HTTP_CLIENT: DNS lookup succeeded. IP=192.168.1.9[0m
+[0;32mI (28058) HTTP_CLIENT: Allocated socket[0m
+[0;32mI (28058) HTTP_CLIENT: Connected[0m
+[0;32mI (28068) HTTP_CLIENT: Socket send success[0m
+[0;32mI (28068) HTTP_CLIENT: Set socket receiving timeout success[0m
+[0;32mI (28068) HTTP_CLIENT: Done read response HTTP![0m
+[0;32mI (28168) HTTP_CLIENT: DNS lookup succeeded. IP=192.168.1.9[0m
+[0;32mI (28168) HTTP_CLIENT: Allocated socket[0m
+[0;32mI (28168) HTTP_CLIENT: Connected[0m
+[0;32mI (28168) HTTP_CLIENT: Socket send success[0m
+[0;32mI (28178) HTTP_CLIENT: Set socket receiving timeout success[0m
+[0;32mI (28178) HTTP_CLIENT: Done read response HTTP![0m
+[0;32mI (28278) HTTP_CLIENT: DNS lookup succeeded. IP=192.168.1.9[0m
+[0;32mI (28278) HTTP_CLIENT: Allocated socket[0m
+[0;32mI (28278) HTTP_CLIENT: Connected[0m
+[0;32mI (28288) HTTP_CLIENT: Socket send success[0m
+[0;32mI (28288) HTTP_CLIENT: Set socket receiving timeout success[0m
+[0;32mI (28288) HTTP_CLIENT: Done read response HTTP![0m
+[0;32mI (28388) HTTP_CLIENT: DNS lookup succeeded. IP=192.168.1.9[0m
+[0;32mI (28388) HTTP_CLIENT: Allocated socket[0m
+[0;32mI (28388) HTTP_CLIENT: Connected[0m
+[0;32mI (28388) HTTP_CLIENT: Socket send success[0m
+[0;32mI (28398) HTTP_CLIENT: Set socket receiving timeout success[0m
+[0;32mI (28398) HTTP_CLIENT: Done read response HTTP![0m
+[0;32mI (28498) HTTP_CLIENT: DNS lookup succeeded. IP=192.168.1.9[0m
+[0;32mI (28498) HTTP_CLIENT: Allocated socket[0m
+[0;32mI (28498) HTTP_CLIENT: Connected[0m
+[0;32mI (28498) HTTP_CLIENT: Socket send success[0m
+[0;32mI (28508) HTTP_CLIENT: Set socket receiving timeout success[0m
+[0;32mI (28508) HTTP_CLIENT: Done read response HTTP![0m
+[0;32mI (28608) HTTP_CLIENT: DNS lookup succeeded. IP=192.168.1.9[0m
+[0;32mI (28608) HTTP_CLIENT: Allocated socket[0m
+[0;32mI (28608) HTTP_CLIENT: Connected[0m
+[0;32mI (28608) HTTP_CLIENT: Socket send success[0m
+[0;32mI (28618) HTTP_CLIENT: Set socket receiving timeout success[0m
+[0;32mI (28618) HTTP_CLIENT: Done read response HTTP![0m
+[0;32mI (28718) HTTP_CLIENT: DNS lookup succeeded. IP=192.168.1.9[0m
+[0;32mI (28718) HTTP_CLIENT: Allocated socket[0m
+[0;32mI (28718) HTTP_CLIENT: Connected[0m
+[0;32mI (28718) HTTP_CLIENT: Socket send success[0m
+[0;32mI (28728) HTTP_CLIENT: Set socket receiving timeout success[0m
+[0;32mI (28728) HTTP_CLIENT: Done read response HTTP![0m
+[0;32mI (28828) HTTP_CLIENT: DNS lookup succeeded. IP=192.168.1.9[0m
+[0;32mI (28828) HTTP_CLIENT: Allocated socket[0m
+[0;32mI (28828) HTTP_CLIENT: Connected[0m
+[0;32mI (28838) HTTP_CLIENT: Socket send success[0m
+[0;32mI (28838) HTTP_CLIENT: Set socket receiving timeout success[0m
+[0;32mI (28838) HTTP_CLIENT: Done read response HTTP![0m
+[0;32mI (28948) HTTP_CLIENT: DNS lookup succeeded. IP=192.168.1.9[0m
+[0;32mI (28948) HTTP_CLIENT: Allocated socket[0m
+[0;32mI (28948) HTTP_CLIENT: Connected[0m
+[0;32mI (28948) HTTP_CLIENT: Socket send success[0m
+[0;32mI (28958) HTTP_CLIENT: Set socket receiving timeout success[0m
+[0;32mI (28958) HTTP_CLIENT: Done read response HTTP![0m
+[0;32mI (29058) HTTP_CLIENT: DNS lookup succeeded. IP=192.168.1.9[0m
+[0;32mI (29058) HTTP_CLIENT: Allocated socket[0m
+[0;32mI (29058) HTTP_CLIENT: Connected[0m
+[0;32mI (29058) HTTP_CLIENT: Socket send success[0m
+[0;32mI (29068) HTTP_CLIENT: Set socket receiving timeout success[0m
+[0;32mI (29068) HTTP_CLIENT: Done read response HTTP![0m
+[0;32mI (29168) HTTP_CLIENT: DNS lookup succeeded. IP=192.168.1.9[0m
+[0;32mI (29168) HTTP_CLIENT: Allocated socket[0m
+[0;32mI (29248) HTTP_CLIENT: Connected[0m
+[0;32mI (29258) HTTP_CLIENT: Socket send success[0m
+[0;32mI (29258) HTTP_CLIENT: Set socket receiving timeout success[0m
+[0;32mI (29258) HTTP_CLIENT: Done read response HTTP![0m
+[0;32mI (29358) HTTP_CLIENT: DNS lookup succeeded. IP=192.168.1.9[0m
+[0;32mI (29358) HTTP_CLIENT: Allocated socket[0m
+[0;32mI (29358) HTTP_CLIENT: Connected[0m
+[0;32mI (29358) HTTP_CLIENT: Socket send success[0m
+[0;32mI (29368) HTTP_CLIENT: Set socket receiving timeout success[0m
+[0;32mI (29368) HTTP_CLIENT: Done read response HTTP![0m
+[0;32mI (29468) HTTP_CLIENT: DNS lookup succeeded. IP=192.168.1.9[0m
+[0;32mI (29468) HTTP_CLIENT: Allocated socket[0m
+[0;32mI (29558) HTTP_CLIENT: Connected[0m
+[0;32mI (29558) HTTP_CLIENT: Socket send success[0m
+[0;32mI (29558) HTTP_CLIENT: Set socket receiving timeout success[0m
+[0;32mI (29568) HTTP_CLIENT: Done read response HTTP![0m
+[0;32mI (29668) HTTP_CLIENT: DNS lookup succeeded. IP=192.168.1.9[0m
+[0;32mI (29668) HTTP_CLIENT: Allocated socket[0m
+[0;32mI (29668) HTTP_CLIENT: Connected[0m
+[0;32mI (29678) HTTP_CLIENT: Socket send success[0m
+[0;32mI (29678) HTTP_CLIENT: Set socket receiving timeout success[0m
+[0;32mI (29678) HTTP_CLIENT: Done read response HTTP![0m
+[0;32mI (29778) HTTP_CLIENT: DNS lookup succeeded. IP=192.168.1.9[0m
+[0;32mI (29778) HTTP_CLIENT: Allocated socket[0m
+[0;32mI (29778) HTTP_CLIENT: Connected[0m
+[0;32mI (29778) HTTP_CLIENT: Socket send success[0m
+[0;32mI (29788) HTTP_CLIENT: Set socket receiving timeout success[0m
+[0;32mI (29788) HTTP_CLIENT: Done read response HTTP![0m
+[0;32mI (29888) HTTP_CLIENT: DNS lookup succeeded. IP=192.168.1.9[0m
+[0;32mI (29888) HTTP_CLIENT: Allocated socket[0m
+[0;32mI (29888) HTTP_CLIENT: Connected[0m
+[0;32mI (29888) HTTP_CLIENT: Socket send success[0m
+[0;32mI (29898) HTTP_CLIENT: Set socket receiving timeout success[0m
+[0;32mI (29898) HTTP_CLIENT: Done read response HTTP![0m
+[0;32mI (29998) HTTP_CLIENT: DNS lookup succeeded. IP=192.168.1.9[0m
+[0;32mI (29998) HTTP_CLIENT: Allocated socket[0m
+[0;32mI (30038) HTTP_CLIENT: Connected[0m
+[0;32mI (30048) HTTP_CLIENT: Socket send success[0m
+[0;32mI (30048) HTTP_CLIENT: Set socket receiving timeout success[0m
+[0;32mI (30048) HTTP_CLIENT: Done read response HTTP![0m
+[0;32mI (30148) HTTP_CLIENT: DNS lookup succeeded. IP=192.168.1.9[0m
+[0;32mI (30148) HTTP_CLIENT: Allocated socket[0m
+[0;32mI (30148) HTTP_CLIENT: Connected[0m
+[0;32mI (30158) HTTP_CLIENT: Socket send success[0m
+[0;32mI (30158) HTTP_CLIENT: Set socket receiving timeout success[0m
+[0;32mI (30158) HTTP_CLIENT: Done read response HTTP![0m
+[0;32mI (30258) HTTP_CLIENT: DNS lookup succeeded. IP=192.168.1.9[0m
+[0;32mI (30258) HTTP_CLIENT: Allocated socket[0m
+[0;32mI (30258) HTTP_CLIENT: Connected[0m
+[0;32mI (30258) HTTP_CLIENT: Socket send success[0m
+[0;32mI (30268) HTTP_CLIENT: Set socket receiving timeout success[0m
+[0;32mI (30268) HTTP_CLIENT: Done read response HTTP![0m
+[0;32mI (30368) HTTP_CLIENT: DNS lookup succeeded. IP=192.168.1.9[0m
+[0;32mI (30368) HTTP_CLIENT: Allocated socket[0m
+[0;32mI (30368) HTTP_CLIENT: Connected[0m
+[0;32mI (30378) HTTP_CLIENT: Socket send success[0m
+[0;32mI (30378) HTTP_CLIENT: Set socket receiving timeout success[0m
+[0;32mI (30388) HTTP_CLIENT: Done read response HTTP![0m
+[0;32mI (30488) HTTP_CLIENT: DNS lookup succeeded. IP=192.168.1.9[0m
+[0;32mI (30488) HTTP_CLIENT: Allocated socket[0m
+[0;32mI (30488) HTTP_CLIENT: Connected[0m
+[0;32mI (30488) HTTP_CLIENT: Socket send success[0m
+[0;32mI (30498) HTTP_CLIENT: Set socket receiving timeout success[0m
+[0;32mI (30498) HTTP_CLIENT: Done read response HTTP![0m
+[0;32mI (30598) HTTP_CLIENT: DNS lookup succeeded. IP=192.168.1.9[0m
+[0;32mI (30598) HTTP_CLIENT: Allocated socket[0m
+[0;32mI (30598) HTTP_CLIENT: Connected[0m
+[0;32mI (30598) HTTP_CLIENT: Socket send success[0m
+[0;32mI (30608) HTTP_CLIENT: Set socket receiving timeout success[0m
+[0;32mI (30608) HTTP_CLIENT: Done read response HTTP![0m
+[0;32mI (30708) HTTP_CLIENT: DNS lookup succeeded. IP=192.168.1.9[0m
+[0;32mI (30708) HTTP_CLIENT: Allocated socket[0m
+[0;32mI (30708) HTTP_CLIENT: Connected[0m
+[0;32mI (30708) HTTP_CLIENT: Socket send success[0m
+[0;32mI (30718) HTTP_CLIENT: Set socket receiving timeout success[0m
+[0;32mI (30718) HTTP_CLIENT: Done read response HTTP![0m
+[0;32mI (30818) HTTP_CLIENT: DNS lookup succeeded. IP=192.168.1.9[0m
+[0;32mI (30818) HTTP_CLIENT: Allocated socket[0m
+[0;32mI (30818) HTTP_CLIENT: Connected[0m
+[0;32mI (30818) HTTP_CLIENT: Socket send success[0m
+[0;32mI (30828) HTTP_CLIENT: Set socket receiving timeout success[0m
+[0;32mI (30828) HTTP_CLIENT: Done read response HTTP![0m
+[0;32mI (30928) HTTP_CLIENT: DNS lookup succeeded. IP=192.168.1.9[0m
+[0;32mI (30928) HTTP_CLIENT: Allocated socket[0m
+[0;32mI (30928) HTTP_CLIENT: Connected[0m
+[0;32mI (30938) HTTP_CLIENT: Socket send success[0m
+[0;32mI (30938) HTTP_CLIENT: Set socket receiving timeout success[0m
+[0;32mI (30938) HTTP_CLIENT: Done read response HTTP![0m

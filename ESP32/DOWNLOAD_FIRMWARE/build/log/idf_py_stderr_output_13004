@@ -1,0 +1,32 @@
+[0;33m--- Warning: GDB cannot open serial ports accessed as COMx[0m
+[0;33m--- Using \\.\COM5 instead...[0m
+[0;33m--- esp-idf-monitor 1.8.0 on \\.\COM5 115200[0m
+[0;33m--- Quit: Ctrl+] | Menu: Ctrl+T | Help: Ctrl+T followed by Ctrl+H[0m
+[0m--- 0x40080400: [0;33m_init[0m[0m at [0;32m??[0m[0m:[1;31m?[0m
+[0m--- 0x400ddcd7: [0;33mon_wire_bytes[0m[0m at [0;32mE:/ESP32-IDF-SOFTWARE/CODE/Update_Firmware/lib/Min/min.c[0m[0m:[1;31m94[0m
+[0m--- 0x400dc1cc: [0;33mOTA_status[0m[0m at [0;32mE:/ESP32-IDF-SOFTWARE/CODE/Update_Firmware/lib/OTA/ota.c[0m[0m:[1;31m12[0m
+[0m--- 0x400dc1cc: [0;33mOTA_status[0m[0m at [0;32mE:/ESP32-IDF-SOFTWARE/CODE/Update_Firmware/lib/OTA/ota.c[0m[0m:[1;31m12[0m
+[0m--- 0x400dc1cc: [0;33mOTA_status[0m[0m at [0;32mE:/ESP32-IDF-SOFTWARE/CODE/Update_Firmware/lib/OTA/ota.c[0m[0m:[1;31m12[0m
+[0m--- 0x4000c2e0: [0;33mmemcpy[0m[0m in [0;32mROM[0m
+[0m--- 0x4000c2f6: [0;33mmemcpy[0m[0m in [0;32mROM[0m
+[0m--- 0x400ddcd4: [0;33mon_wire_bytes[0m[0m at [0;32mE:/ESP32-IDF-SOFTWARE/CODE/Update_Firmware/lib/Min/min.c[0m[0m:[1;31m94[0m
+[0m--- 0x400ddd5a: [0;33mmin_send_frame[0m[0m at [0;32mE:/ESP32-IDF-SOFTWARE/CODE/Update_Firmware/lib/Min/min.c[0m[0m:[1;31m260[0m
+[0m--- 0x400dbecd: [0;33mbootloader_send_data[0m[0m at [0;32mE:/ESP32-IDF-SOFTWARE/CODE/Update_Firmware/lib/Bootloader_App/bootloader_app.c[0m[0m:[1;31m21[0m
+[0m--- 0x400dbbc6: [0;33mapp_main[0m[0m at [0;32mE:/ESP32-IDF-SOFTWARE/CODE/Update_Firmware/main/app_main.c[0m[0m:[1;31m44[0m
+[0m--- 0x4016004b: [0;33mmain_task[0m[0m at [0;32mE:/ESP32-IDF-SOFTWARE/ENV/frameworks/esp-idf-v5.4.3/components/freertos/app_startup.c[0m[0m:[1;31m208[0m
+[0m--- 0x4008b1c9: [0;33mvPortTaskWrapper[0m[0m at [0;32mE:/ESP32-IDF-SOFTWARE/ENV/frameworks/esp-idf-v5.4.3/components/freertos/FreeRTOS-Kernel/portable/xtensa/port.c[0m[0m:[1;31m139[0m
+[0m--- 0x40080400: [0;33m_init[0m[0m at [0;32m??[0m[0m:[1;31m?[0m
+[0m--- 0x400ddcd7: [0;33mon_wire_bytes[0m[0m at [0;32mE:/ESP32-IDF-SOFTWARE/CODE/Update_Firmware/lib/Min/min.c[0m[0m:[1;31m94[0m
+[0m--- 0x400dc1cc: [0;33mOTA_status[0m[0m at [0;32mE:/ESP32-IDF-SOFTWARE/CODE/Update_Firmware/lib/OTA/ota.c[0m[0m:[1;31m12[0m
+[0m--- 0x400dc1cc: [0;33mOTA_status[0m[0m at [0;32mE:/ESP32-IDF-SOFTWARE/CODE/Update_Firmware/lib/OTA/ota.c[0m[0m:[1;31m12[0m
+[0m--- 0x400dc1cc: [0;33mOTA_status[0m[0m at [0;32mE:/ESP32-IDF-SOFTWARE/CODE/Update_Firmware/lib/OTA/ota.c[0m[0m:[1;31m12[0m
+[0m--- 0x4000c2e0: [0;33mmemcpy[0m[0m in [0;32mROM[0m
+[0m--- 0x4000c2f6: [0;33mmemcpy[0m[0m in [0;32mROM[0m
+[0m--- 0x400ddcd4: [0;33mon_wire_bytes[0m[0m at [0;32mE:/ESP32-IDF-SOFTWARE/CODE/Update_Firmware/lib/Min/min.c[0m[0m:[1;31m94[0m
+[0m--- 0x400ddd5a: [0;33mmin_send_frame[0m[0m at [0;32mE:/ESP32-IDF-SOFTWARE/CODE/Update_Firmware/lib/Min/min.c[0m[0m:[1;31m260[0m
+[0m--- 0x400dbecd: [0;33mbootloader_send_data[0m[0m at [0;32mE:/ESP32-IDF-SOFTWARE/CODE/Update_Firmware/lib/Bootloader_App/bootloader_app.c[0m[0m:[1;31m21[0m
+[0m--- 0x400dbbc6: [0;33mapp_main[0m[0m at [0;32mE:/ESP32-IDF-SOFTWARE/CODE/Update_Firmware/main/app_main.c[0m[0m:[1;31m44[0m
+[0m--- 0x4016004b: [0;33mmain_task[0m[0m at [0;32mE:/ESP32-IDF-SOFTWARE/ENV/frameworks/esp-idf-v5.4.3/components/freertos/app_startup.c[0m[0m:[1;31m208[0m
+[0m--- 0x4008b1c9: [0;33mvPortTaskWrapper[0m[0m at [0;32mE:/ESP32-IDF-SOFTWARE/ENV/frameworks/esp-idf-v5.4.3/components/freertos/FreeRTOS-Kernel/portable/xtensa/port.c[0m[0m:[1;31m139[0m
+[0m--- 0x40080400: [0;33m_init[0m[0m at [0;32m??[0m[0m:[1;31m?[0m
+[0m

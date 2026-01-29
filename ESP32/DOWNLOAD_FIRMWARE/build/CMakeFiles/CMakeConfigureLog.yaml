@@ -1,0 +1,1127 @@
+
+---
+events:
+  -
+    kind: "message-v1"
+    backtrace:
+      - "E:/ESP32-IDF-SOFTWARE/ENV/tools/cmake/3.30.2/share/cmake-3.30/Modules/CMakeDetermineSystem.cmake:200 (message)"
+      - "E:/ESP32-IDF-SOFTWARE/ENV/frameworks/esp-idf-v5.4.3/tools/cmake/project.cmake:571 (__project)"
+      - "CMakeLists.txt:7 (project)"
+    message: |
+      The target system is: Generic -  - 
+      The host system is: Windows - 10.0.26200 - AMD64
+  -
+    kind: "message-v1"
+    backtrace:
+      - "E:/ESP32-IDF-SOFTWARE/ENV/tools/cmake/3.30.2/share/cmake-3.30/Modules/CMakeDetermineCompilerId.cmake:17 (message)"
+      - "E:/ESP32-IDF-SOFTWARE/ENV/tools/cmake/3.30.2/share/cmake-3.30/Modules/CMakeDetermineCompilerId.cmake:64 (__determine_compiler_id_test)"
+      - "E:/ESP32-IDF-SOFTWARE/ENV/tools/cmake/3.30.2/share/cmake-3.30/Modules/CMakeDetermineCCompiler.cmake:123 (CMAKE_DETERMINE_COMPILER_ID)"
+      - "E:/ESP32-IDF-SOFTWARE/ENV/frameworks/esp-idf-v5.4.3/tools/cmake/project.cmake:571 (__project)"
+      - "CMakeLists.txt:7 (project)"
+    message: |
+      Compiling the C compiler identification source file "CMakeCCompilerId.c" succeeded.
+      Compiler: E:/ESP32-IDF-SOFTWARE/ENV/tools/xtensa-esp-elf/esp-14.2.0_20250730/xtensa-esp-elf/bin/xtensa-esp32-elf-gcc.exe 
+      Build flags: -mlongcalls;-Wno-frame-address;-fno-builtin-memcpy;-fno-builtin-memset;-fno-builtin-bzero;-fno-builtin-stpcpy;-fno-builtin-strncpy
+      Id flags:  
+      
+      The output was:
+      0
+      
+      
+      Compilation of the C compiler identification source "CMakeCCompilerId.c" produced "a.out"
+      
+      The C compiler identification is GNU, found in:
+        E:/ESP32-IDF-SOFTWARE/CODE/Update_Firmware/build/CMakeFiles/3.30.2/CompilerIdC/a.out
+      
+  -
+    kind: "message-v1"
+    backtrace:
+      - "E:/ESP32-IDF-SOFTWARE/ENV/tools/cmake/3.30.2/share/cmake-3.30/Modules/CMakeDetermineCompilerId.cmake:17 (message)"
+      - "E:/ESP32-IDF-SOFTWARE/ENV/tools/cmake/3.30.2/share/cmake-3.30/Modules/CMakeDetermineCompilerId.cmake:64 (__determine_compiler_id_test)"
+      - "E:/ESP32-IDF-SOFTWARE/ENV/tools/cmake/3.30.2/share/cmake-3.30/Modules/CMakeDetermineCXXCompiler.cmake:126 (CMAKE_DETERMINE_COMPILER_ID)"
+      - "E:/ESP32-IDF-SOFTWARE/ENV/frameworks/esp-idf-v5.4.3/tools/cmake/project.cmake:571 (__project)"
+      - "CMakeLists.txt:7 (project)"
+    message: |
+      Compiling the CXX compiler identification source file "CMakeCXXCompilerId.cpp" succeeded.
+      Compiler: E:/ESP32-IDF-SOFTWARE/ENV/tools/xtensa-esp-elf/esp-14.2.0_20250730/xtensa-esp-elf/bin/xtensa-esp32-elf-g++.exe 
+      Build flags: -mlongcalls;-Wno-frame-address;-fno-builtin-memcpy;-fno-builtin-memset;-fno-builtin-bzero;-fno-builtin-stpcpy;-fno-builtin-strncpy
+      Id flags:  
+      
+      The output was:
+      0
+      
+      
+      Compilation of the CXX compiler identification source "CMakeCXXCompilerId.cpp" produced "a.out"
+      
+      The CXX compiler identification is GNU, found in:
+        E:/ESP32-IDF-SOFTWARE/CODE/Update_Firmware/build/CMakeFiles/3.30.2/CompilerIdCXX/a.out
+      
+  -
+    kind: "message-v1"
+    backtrace:
+      - "E:/ESP32-IDF-SOFTWARE/ENV/tools/cmake/3.30.2/share/cmake-3.30/Modules/CMakeDetermineCompilerId.cmake:1192 (message)"
+      - "E:/ESP32-IDF-SOFTWARE/ENV/tools/cmake/3.30.2/share/cmake-3.30/Modules/CMakeDetermineASMCompiler.cmake:135 (CMAKE_DETERMINE_COMPILER_ID_VENDOR)"
+      - "E:/ESP32-IDF-SOFTWARE/ENV/frameworks/esp-idf-v5.4.3/tools/cmake/project.cmake:571 (__project)"
+      - "CMakeLists.txt:7 (project)"
+    message: |
+      Checking whether the ASM compiler is GNU using "--version" matched "(GNU assembler)|(GCC)|(Free Software Foundation)":
+      xtensa-esp-elf-gcc.exe (crosstool-NG esp-14.2.0_20250730) 14.2.0
+      Copyright (C) 2024 Free Software Foundation, Inc.
+      This is free software; see the source for copying conditions.  There is NO
+      warranty; not even for MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.
+      
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "E:/ESP32-IDF-SOFTWARE/ENV/tools/cmake/3.30.2/share/cmake-3.30/Modules/CMakeDetermineCompilerABI.cmake:74 (try_compile)"
+      - "E:/ESP32-IDF-SOFTWARE/ENV/tools/cmake/3.30.2/share/cmake-3.30/Modules/CMakeTestCCompiler.cmake:26 (CMAKE_DETERMINE_COMPILER_ABI)"
+      - "E:/ESP32-IDF-SOFTWARE/ENV/frameworks/esp-idf-v5.4.3/tools/cmake/project.cmake:571 (__project)"
+      - "CMakeLists.txt:7 (project)"
+    checks:
+      - "Detecting C compiler ABI info"
+    directories:
+      source: "E:/ESP32-IDF-SOFTWARE/CODE/Update_Firmware/build/CMakeFiles/CMakeScratch/TryCompile-73a11i"
+      binary: "E:/ESP32-IDF-SOFTWARE/CODE/Update_Firmware/build/CMakeFiles/CMakeScratch/TryCompile-73a11i"
+    cmakeVariables:
+      CMAKE_C_FLAGS: "-mlongcalls -Wno-frame-address  -fno-builtin-memcpy -fno-builtin-memset -fno-builtin-bzero -fno-builtin-stpcpy -fno-builtin-strncpy"
+      CMAKE_C_FLAGS_DEBUG: "-g"
+      CMAKE_EXE_LINKER_FLAGS: ""
+      CMAKE_MODULE_PATH: "E:/ESP32-IDF-SOFTWARE/ENV/frameworks/esp-idf-v5.4.3/tools/cmake;E:/ESP32-IDF-SOFTWARE/ENV/frameworks/esp-idf-v5.4.3/tools/cmake/third_party"
+    buildResult:
+      variable: "CMAKE_C_ABI_COMPILED"
+      cached: true
+      stdout: |
+        Change Dir: 'E:/ESP32-IDF-SOFTWARE/CODE/Update_Firmware/build/CMakeFiles/CMakeScratch/TryCompile-73a11i'
+        
+        Run Build Command(s): E:/ESP32-IDF-SOFTWARE/ENV/tools/ninja/1.12.1/ninja.exe -v cmTC_19be5
+        [1/2] E:\\ESP32-IDF-SOFTWARE\\ENV\\tools\\xtensa-esp-elf\\esp-14.2.0_20250730\\xtensa-esp-elf\\bin\\xtensa-esp32-elf-gcc.exe   -mlongcalls -Wno-frame-address  -fno-builtin-memcpy -fno-builtin-memset -fno-builtin-bzero -fno-builtin-stpcpy -fno-builtin-strncpy    -v -o CMakeFiles/cmTC_19be5.dir/CMakeCCompilerABI.c.obj -c E:/ESP32-IDF-SOFTWARE/ENV/tools/cmake/3.30.2/share/cmake-3.30/Modules/CMakeCCompilerABI.c
+        Using built-in specs.
+        COLLECT_GCC=E:\\ESP32-IDF-SOFTWARE\\ENV\\tools\\xtensa-esp-elf\\esp-14.2.0_20250730\\xtensa-esp-elf\\bin\\xtensa-esp-elf-gcc.exe
+        Target: xtensa-esp-elf
+        Configured with: /builds/idf/crosstool-NG/.build/xtensa-esp-elf/src/gcc/configure --build=x86_64-build_pc-linux-gnu --host=x86_64-host_w64-mingw32 --target=xtensa-esp-elf --prefix=/builds/idf/crosstool-NG/builds/xtensa-esp-elf --exec_prefix=/builds/idf/crosstool-NG/builds/xtensa-esp-elf --with-local-prefix=/builds/idf/crosstool-NG/builds/xtensa-esp-elf/xtensa-esp-elf --with-sysroot=/builds/idf/crosstool-NG/builds/xtensa-esp-elf/xtensa-esp-elf --with-native-system-header-dir=/include --with-newlib --enable-threads=no --disable-shared --with-pkgversion='crosstool-NG esp-14.2.0_20250730' --disable-__cxa_atexit --enable-cxx-flags='-ffunction-sections -fdata-sections' --disable-libgomp --disable-libmudflap --disable-libmpx --disable-libssp --disable-libquadmath --disable-libquadmath-support --disable-libstdcxx-verbose --with-gmp=/builds/idf/crosstool-NG/.build/xtensa-esp-elf/buildtools/complibs-host --with-mpfr=/builds/idf/crosstool-NG/.build/xtensa-esp-elf/buildtools/complibs-host --with-mpc=/builds/idf/crosstool-NG/.build/xtensa-esp-elf/buildtools/complibs-host --with-isl=/builds/idf/crosstool-NG/.build/xtensa-esp-elf/buildtools/complibs-host --enable-lto --enable-target-optspace --without-long-double-128 --disable-nls --enable-multiarch --enable-languages=c,c++ --disable-libstdcxx-verbose --enable-threads=posix --enable-gcov-custom-rtio --enable-libstdcxx-time=yes --with-gnu-ld
+        Thread model: posix
+        Supported LTO compression algorithms: zlib zstd
+        gcc version 14.2.0 (crosstool-NG esp-14.2.0_20250730) 
+        COLLECT_GCC_OPTIONS='-mdynconfig=xtensa_esp32.so' '-mlongcalls' '-Wno-frame-address' '-fno-builtin-memcpy' '-fno-builtin-memset' '-fno-builtin-bzero' '-fno-builtin-stpcpy' '-fno-builtin-strncpy' '-v' '-o' 'CMakeFiles/cmTC_19be5.dir/CMakeCCompilerABI.c.obj' '-c' '-dumpdir' 'CMakeFiles/cmTC_19be5.dir/'
+         E:/ESP32-IDF-SOFTWARE/ENV/tools/xtensa-esp-elf/esp-14.2.0_20250730/xtensa-esp-elf/bin/../libexec/gcc/xtensa-esp-elf/14.2.0/cc1.exe -quiet -v -imultilib esp32 -iprefix E:/ESP32-IDF-SOFTWARE/ENV/tools/xtensa-esp-elf/esp-14.2.0_20250730/xtensa-esp-elf/bin/../lib/gcc/xtensa-esp-elf/14.2.0/ -isysroot E:/ESP32-IDF-SOFTWARE/ENV/tools/xtensa-esp-elf/esp-14.2.0_20250730/xtensa-esp-elf/bin/../xtensa-esp-elf E:/ESP32-IDF-SOFTWARE/ENV/tools/cmake/3.30.2/share/cmake-3.30/Modules/CMakeCCompilerABI.c -quiet -dumpdir CMakeFiles/cmTC_19be5.dir/ -dumpbase CMakeCCompilerABI.c.c -dumpbase-ext .c -mdynconfig=xtensa_esp32.so -mlongcalls -Wno-frame-address -version -fno-builtin-memcpy -fno-builtin-memset -fno-builtin-bzero -fno-builtin-stpcpy -fno-builtin-strncpy -o C:\\Users\\THIEN\\AppData\\Local\\Temp\\ccOWJeqw.s
+        GNU C17 (crosstool-NG esp-14.2.0_20250730) version 14.2.0 (xtensa-esp-elf)
+        	compiled by GNU C version 6.3.0 20170516, GMP version 6.2.1, MPFR version 4.2.1, MPC version 1.2.1, isl version isl-0.26-GMP
+        
+        GGC heuristics: --param ggc-min-expand=100 --param ggc-min-heapsize=131072
+        ignoring duplicate directory "E:/ESP32-IDF-SOFTWARE/ENV/tools/xtensa-esp-elf/esp-14.2.0_20250730/xtensa-esp-elf/lib/gcc/../../lib/gcc/xtensa-esp-elf/14.2.0/include"
+        ignoring nonexistent directory "E:/ESP32-IDF-SOFTWARE/ENV/tools/xtensa-esp-elf/esp-14.2.0_20250730/xtensa-esp-elf/bin/../xtensa-esp-elf/builds/idf/crosstool-NG/builds/xtensa-esp-elf/lib/gcc/xtensa-esp-elf/14.2.0/../../../../include"
+        ignoring duplicate directory "E:/ESP32-IDF-SOFTWARE/ENV/tools/xtensa-esp-elf/esp-14.2.0_20250730/xtensa-esp-elf/lib/gcc/../../lib/gcc/xtensa-esp-elf/14.2.0/include-fixed"
+        ignoring duplicate directory "E:/ESP32-IDF-SOFTWARE/ENV/tools/xtensa-esp-elf/esp-14.2.0_20250730/xtensa-esp-elf/lib/gcc/../../lib/gcc/xtensa-esp-elf/14.2.0/../../../../xtensa-esp-elf/include"
+        ignoring duplicate directory "E:/ESP32-IDF-SOFTWARE/ENV/tools/xtensa-esp-elf/esp-14.2.0_20250730/xtensa-esp-elf/bin/../xtensa-esp-elf/include"
+        #include "..." search starts here:
+        #include <...> search starts here:
+         E:/ESP32-IDF-SOFTWARE/ENV/tools/xtensa-esp-elf/esp-14.2.0_20250730/xtensa-esp-elf/bin/../lib/gcc/xtensa-esp-elf/14.2.0/include
+         E:/ESP32-IDF-SOFTWARE/ENV/tools/xtensa-esp-elf/esp-14.2.0_20250730/xtensa-esp-elf/bin/../lib/gcc/xtensa-esp-elf/14.2.0/include-fixed
+         E:/ESP32-IDF-SOFTWARE/ENV/tools/xtensa-esp-elf/esp-14.2.0_20250730/xtensa-esp-elf/bin/../lib/gcc/xtensa-esp-elf/14.2.0/../../../../xtensa-esp-elf/include
+        End of search list.
+        Compiler executable checksum: 38d46cce87b47d821392243f8c902d07
+        COLLECT_GCC_OPTIONS='-mdynconfig=xtensa_esp32.so' '-mlongcalls' '-Wno-frame-address' '-fno-builtin-memcpy' '-fno-builtin-memset' '-fno-builtin-bzero' '-fno-builtin-stpcpy' '-fno-builtin-strncpy' '-v' '-o' 'CMakeFiles/cmTC_19be5.dir/CMakeCCompilerABI.c.obj' '-c' '-dumpdir' 'CMakeFiles/cmTC_19be5.dir/'
+         E:/ESP32-IDF-SOFTWARE/ENV/tools/xtensa-esp-elf/esp-14.2.0_20250730/xtensa-esp-elf/bin/../lib/gcc/xtensa-esp-elf/14.2.0/../../../../xtensa-esp-elf/bin/as.exe --traditional-format --longcalls --dynconfig=xtensa_esp32.so -o CMakeFiles/cmTC_19be5.dir/CMakeCCompilerABI.c.obj C:\\Users\\THIEN\\AppData\\Local\\Temp\\ccOWJeqw.s
+        COMPILER_PATH=E:/ESP32-IDF-SOFTWARE/ENV/tools/xtensa-esp-elf/esp-14.2.0_20250730/xtensa-esp-elf/bin/../libexec/gcc/xtensa-esp-elf/14.2.0/;E:/ESP32-IDF-SOFTWARE/ENV/tools/xtensa-esp-elf/esp-14.2.0_20250730/xtensa-esp-elf/bin/../libexec/gcc/;E:/ESP32-IDF-SOFTWARE/ENV/tools/xtensa-esp-elf/esp-14.2.0_20250730/xtensa-esp-elf/bin/../lib/gcc/xtensa-esp-elf/14.2.0/../../../../xtensa-esp-elf/bin/
+        LIBRARY_PATH=E:/ESP32-IDF-SOFTWARE/ENV/tools/xtensa-esp-elf/esp-14.2.0_20250730/xtensa-esp-elf/bin/../lib/gcc/xtensa-esp-elf/14.2.0/esp32/;E:/ESP32-IDF-SOFTWARE/ENV/tools/xtensa-esp-elf/esp-14.2.0_20250730/xtensa-esp-elf/bin/../lib/gcc/xtensa-esp-elf/14.2.0/../../../../xtensa-esp-elf/lib/esp32/;E:/ESP32-IDF-SOFTWARE/ENV/tools/xtensa-esp-elf/esp-14.2.0_20250730/xtensa-esp-elf/bin/../xtensa-esp-elf/lib/esp32/;E:/ESP32-IDF-SOFTWARE/ENV/tools/xtensa-esp-elf/esp-14.2.0_20250730/xtensa-esp-elf/bin/../lib/gcc/xtensa-esp-elf/14.2.0/;E:/ESP32-IDF-SOFTWARE/ENV/tools/xtensa-esp-elf/esp-14.2.0_20250730/xtensa-esp-elf/bin/../lib/gcc/;E:/ESP32-IDF-SOFTWARE/ENV/tools/xtensa-esp-elf/esp-14.2.0_20250730/xtensa-esp-elf/bin/../lib/gcc/xtensa-esp-elf/14.2.0/../../../../xtensa-esp-elf/lib/;E:/ESP32-IDF-SOFTWARE/ENV/tools/xtensa-esp-elf/esp-14.2.0_20250730/xtensa-esp-elf/bin/../xtensa-esp-elf/lib/
+        COLLECT_GCC_OPTIONS='-mdynconfig=xtensa_esp32.so' '-mlongcalls' '-Wno-frame-address' '-fno-builtin-memcpy' '-fno-builtin-memset' '-fno-builtin-bzero' '-fno-builtin-stpcpy' '-fno-builtin-strncpy' '-v' '-o' 'CMakeFiles/cmTC_19be5.dir/CMakeCCompilerABI.c.obj' '-c' '-dumpdir' 'CMakeFiles/cmTC_19be5.dir/CMakeCCompilerABI.c.'\x0d
+        [2/2] C:\\WINDOWS\\system32\\cmd.exe /C "cd . && E:\\ESP32-IDF-SOFTWARE\\ENV\\tools\\xtensa-esp-elf\\esp-14.2.0_20250730\\xtensa-esp-elf\\bin\\xtensa-esp32-elf-gcc.exe -mlongcalls -Wno-frame-address  -fno-builtin-memcpy -fno-builtin-memset -fno-builtin-bzero -fno-builtin-stpcpy -fno-builtin-strncpy -v CMakeFiles/cmTC_19be5.dir/CMakeCCompilerABI.c.obj -o cmTC_19be5   && cd ."
+        Using built-in specs.
+        COLLECT_GCC=E:\\ESP32-IDF-SOFTWARE\\ENV\\tools\\xtensa-esp-elf\\esp-14.2.0_20250730\\xtensa-esp-elf\\bin\\xtensa-esp-elf-gcc.exe
+        COLLECT_LTO_WRAPPER=E:/ESP32-IDF-SOFTWARE/ENV/tools/xtensa-esp-elf/esp-14.2.0_20250730/xtensa-esp-elf/bin/../libexec/gcc/xtensa-esp-elf/14.2.0/lto-wrapper.exe
+        Target: xtensa-esp-elf
+        Configured with: /builds/idf/crosstool-NG/.build/xtensa-esp-elf/src/gcc/configure --build=x86_64-build_pc-linux-gnu --host=x86_64-host_w64-mingw32 --target=xtensa-esp-elf --prefix=/builds/idf/crosstool-NG/builds/xtensa-esp-elf --exec_prefix=/builds/idf/crosstool-NG/builds/xtensa-esp-elf --with-local-prefix=/builds/idf/crosstool-NG/builds/xtensa-esp-elf/xtensa-esp-elf --with-sysroot=/builds/idf/crosstool-NG/builds/xtensa-esp-elf/xtensa-esp-elf --with-native-system-header-dir=/include --with-newlib --enable-threads=no --disable-shared --with-pkgversion='crosstool-NG esp-14.2.0_20250730' --disable-__cxa_atexit --enable-cxx-flags='-ffunction-sections -fdata-sections' --disable-libgomp --disable-libmudflap --disable-libmpx --disable-libssp --disable-libquadmath --disable-libquadmath-support --disable-libstdcxx-verbose --with-gmp=/builds/idf/crosstool-NG/.build/xtensa-esp-elf/buildtools/complibs-host --with-mpfr=/builds/idf/crosstool-NG/.build/xtensa-esp-elf/buildtools/complibs-host --with-mpc=/builds/idf/crosstool-NG/.build/xtensa-esp-elf/buildtools/complibs-host --with-isl=/builds/idf/crosstool-NG/.build/xtensa-esp-elf/buildtools/complibs-host --enable-lto --enable-target-optspace --without-long-double-128 --disable-nls --enable-multiarch --enable-languages=c,c++ --disable-libstdcxx-verbose --enable-threads=posix --enable-gcov-custom-rtio --enable-libstdcxx-time=yes --with-gnu-ld
+        Thread model: posix
+        Supported LTO compression algorithms: zlib zstd
+        gcc version 14.2.0 (crosstool-NG esp-14.2.0_20250730) 
+        COMPILER_PATH=E:/ESP32-IDF-SOFTWARE/ENV/tools/xtensa-esp-elf/esp-14.2.0_20250730/xtensa-esp-elf/bin/../libexec/gcc/xtensa-esp-elf/14.2.0/;E:/ESP32-IDF-SOFTWARE/ENV/tools/xtensa-esp-elf/esp-14.2.0_20250730/xtensa-esp-elf/bin/../libexec/gcc/;E:/ESP32-IDF-SOFTWARE/ENV/tools/xtensa-esp-elf/esp-14.2.0_20250730/xtensa-esp-elf/bin/../lib/gcc/xtensa-esp-elf/14.2.0/../../../../xtensa-esp-elf/bin/
+        LIBRARY_PATH=E:/ESP32-IDF-SOFTWARE/ENV/tools/xtensa-esp-elf/esp-14.2.0_20250730/xtensa-esp-elf/bin/../lib/gcc/xtensa-esp-elf/14.2.0/esp32/;E:/ESP32-IDF-SOFTWARE/ENV/tools/xtensa-esp-elf/esp-14.2.0_20250730/xtensa-esp-elf/bin/../lib/gcc/xtensa-esp-elf/14.2.0/../../../../xtensa-esp-elf/lib/esp32/;E:/ESP32-IDF-SOFTWARE/ENV/tools/xtensa-esp-elf/esp-14.2.0_20250730/xtensa-esp-elf/bin/../xtensa-esp-elf/lib/esp32/;E:/ESP32-IDF-SOFTWARE/ENV/tools/xtensa-esp-elf/esp-14.2.0_20250730/xtensa-esp-elf/bin/../lib/gcc/xtensa-esp-elf/14.2.0/;E:/ESP32-IDF-SOFTWARE/ENV/tools/xtensa-esp-elf/esp-14.2.0_20250730/xtensa-esp-elf/bin/../lib/gcc/;E:/ESP32-IDF-SOFTWARE/ENV/tools/xtensa-esp-elf/esp-14.2.0_20250730/xtensa-esp-elf/bin/../lib/gcc/xtensa-esp-elf/14.2.0/../../../../xtensa-esp-elf/lib/;E:/ESP32-IDF-SOFTWARE/ENV/tools/xtensa-esp-elf/esp-14.2.0_20250730/xtensa-esp-elf/bin/../xtensa-esp-elf/lib/
+        COLLECT_GCC_OPTIONS='-mdynconfig=xtensa_esp32.so' '-mlongcalls' '-Wno-frame-address' '-fno-builtin-memcpy' '-fno-builtin-memset' '-fno-builtin-bzero' '-fno-builtin-stpcpy' '-fno-builtin-strncpy' '-v' '-o' 'cmTC_19be5' '-dumpdir' 'cmTC_19be5.'
+         E:/ESP32-IDF-SOFTWARE/ENV/tools/xtensa-esp-elf/esp-14.2.0_20250730/xtensa-esp-elf/bin/../libexec/gcc/xtensa-esp-elf/14.2.0/collect2.exe -plugin E:/ESP32-IDF-SOFTWARE/ENV/tools/xtensa-esp-elf/esp-14.2.0_20250730/xtensa-esp-elf/bin/../libexec/gcc/xtensa-esp-elf/14.2.0/liblto_plugin.dll -plugin-opt=E:/ESP32-IDF-SOFTWARE/ENV/tools/xtensa-esp-elf/esp-14.2.0_20250730/xtensa-esp-elf/bin/../libexec/gcc/xtensa-esp-elf/14.2.0/lto-wrapper.exe -plugin-opt=-fresolution=C:\\Users\\THIEN\\AppData\\Local\\Temp\\cckBJcHA.res -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lc -plugin-opt=-pass-through=-lnosys -plugin-opt=-pass-through=-lc -plugin-opt=-pass-through=-lgcc --sysroot=E:/ESP32-IDF-SOFTWARE/ENV/tools/xtensa-esp-elf/esp-14.2.0_20250730/xtensa-esp-elf/bin/../xtensa-esp-elf --dynconfig=xtensa_esp32.so -o cmTC_19be5 E:/ESP32-IDF-SOFTWARE/ENV/tools/xtensa-esp-elf/esp-14.2.0_20250730/xtensa-esp-elf/bin/../lib/gcc/xtensa-esp-elf/14.2.0/../../../../xtensa-esp-elf/lib/esp32/crt0.o E:/ESP32-IDF-SOFTWARE/ENV/tools/xtensa-esp-elf/esp-14.2.0_20250730/xtensa-esp-elf/bin/../lib/gcc/xtensa-esp-elf/14.2.0/esp32/crti.o E:/ESP32-IDF-SOFTWARE/ENV/tools/xtensa-esp-elf/esp-14.2.0_20250730/xtensa-esp-elf/bin/../lib/gcc/xtensa-esp-elf/14.2.0/esp32/crtbegin.o -LE:/ESP32-IDF-SOFTWARE/ENV/tools/xtensa-esp-elf/esp-14.2.0_20250730/xtensa-esp-elf/bin/../lib/gcc/xtensa-esp-elf/14.2.0/esp32 -LE:/ESP32-IDF-SOFTWARE/ENV/tools/xtensa-esp-elf/esp-14.2.0_20250730/xtensa-esp-elf/bin/../lib/gcc/xtensa-esp-elf/14.2.0/../../../../xtensa-esp-elf/lib/esp32 -LE:/ESP32-IDF-SOFTWARE/ENV/tools/xtensa-esp-elf/esp-14.2.0_20250730/xtensa-esp-elf/bin/../xtensa-esp-elf/lib/esp32 -LE:/ESP32-IDF-SOFTWARE/ENV/tools/xtensa-esp-elf/esp-14.2.0_20250730/xtensa-esp-elf/bin/../lib/gcc/xtensa-esp-elf/14.2.0 -LE:/ESP32-IDF-SOFTWARE/ENV/tools/xtensa-esp-elf/esp-14.2.0_20250730/xtensa-esp-elf/bin/../lib/gcc -LE:/ESP32-IDF-SOFTWARE/ENV/tools/xtensa-esp-elf/esp-14.2.0_20250730/xtensa-esp-elf/bin/../lib/gcc/xtensa-esp-elf/14.2.0/../../../../xtensa-esp-elf/lib -LE:/ESP32-IDF-SOFTWARE/ENV/tools/xtensa-esp-elf/esp-14.2.0_20250730/xtensa-esp-elf/bin/../xtensa-esp-elf/lib CMakeFiles/cmTC_19be5.dir/CMakeCCompilerABI.c.obj -lgcc -lc -lnosys -lc -lgcc E:/ESP32-IDF-SOFTWARE/ENV/tools/xtensa-esp-elf/esp-14.2.0_20250730/xtensa-esp-elf/bin/../lib/gcc/xtensa-esp-elf/14.2.0/esp32/crtend.o E:/ESP32-IDF-SOFTWARE/ENV/tools/xtensa-esp-elf/esp-14.2.0_20250730/xtensa-esp-elf/bin/../lib/gcc/xtensa-esp-elf/14.2.0/esp32/crtn.o\x0d
+        COLLECT_GCC_OPTIONS='-mdynconfig=xtensa_esp32.so' '-mlongcalls' '-Wno-frame-address' '-fno-builtin-memcpy' '-fno-builtin-memset' '-fno-builtin-bzero' '-fno-builtin-stpcpy' '-fno-builtin-strncpy' '-v' '-o' 'cmTC_19be5' '-dumpdir' 'cmTC_19be5.'\x0d
+        
+      exitCode: 0
+  -
+    kind: "message-v1"
+    backtrace:
+      - "E:/ESP32-IDF-SOFTWARE/ENV/tools/cmake/3.30.2/share/cmake-3.30/Modules/CMakeDetermineCompilerABI.cmake:182 (message)"
+      - "E:/ESP32-IDF-SOFTWARE/ENV/tools/cmake/3.30.2/share/cmake-3.30/Modules/CMakeTestCCompiler.cmake:26 (CMAKE_DETERMINE_COMPILER_ABI)"
+      - "E:/ESP32-IDF-SOFTWARE/ENV/frameworks/esp-idf-v5.4.3/tools/cmake/project.cmake:571 (__project)"
+      - "CMakeLists.txt:7 (project)"
+    message: |
+      Parsed C implicit include dir info: rv=done
+        found start of include info
+        found start of implicit include info
+          add: [E:/ESP32-IDF-SOFTWARE/ENV/tools/xtensa-esp-elf/esp-14.2.0_20250730/xtensa-esp-elf/bin/../lib/gcc/xtensa-esp-elf/14.2.0/include]
+          add: [E:/ESP32-IDF-SOFTWARE/ENV/tools/xtensa-esp-elf/esp-14.2.0_20250730/xtensa-esp-elf/bin/../lib/gcc/xtensa-esp-elf/14.2.0/include-fixed]
+          add: [E:/ESP32-IDF-SOFTWARE/ENV/tools/xtensa-esp-elf/esp-14.2.0_20250730/xtensa-esp-elf/bin/../lib/gcc/xtensa-esp-elf/14.2.0/../../../../xtensa-esp-elf/include]
+        end of search list found
+        collapse include dir [E:/ESP32-IDF-SOFTWARE/ENV/tools/xtensa-esp-elf/esp-14.2.0_20250730/xtensa-esp-elf/bin/../lib/gcc/xtensa-esp-elf/14.2.0/include] ==> [E:/ESP32-IDF-SOFTWARE/ENV/tools/xtensa-esp-elf/esp-14.2.0_20250730/xtensa-esp-elf/lib/gcc/xtensa-esp-elf/14.2.0/include]
+        collapse include dir [E:/ESP32-IDF-SOFTWARE/ENV/tools/xtensa-esp-elf/esp-14.2.0_20250730/xtensa-esp-elf/bin/../lib/gcc/xtensa-esp-elf/14.2.0/include-fixed] ==> [E:/ESP32-IDF-SOFTWARE/ENV/tools/xtensa-esp-elf/esp-14.2.0_20250730/xtensa-esp-elf/lib/gcc/xtensa-esp-elf/14.2.0/include-fixed]
+        collapse include dir [E:/ESP32-IDF-SOFTWARE/ENV/tools/xtensa-esp-elf/esp-14.2.0_20250730/xtensa-esp-elf/bin/../lib/gcc/xtensa-esp-elf/14.2.0/../../../../xtensa-esp-elf/include] ==> [E:/ESP32-IDF-SOFTWARE/ENV/tools/xtensa-esp-elf/esp-14.2.0_20250730/xtensa-esp-elf/xtensa-esp-elf/include]
+        implicit include dirs: [E:/ESP32-IDF-SOFTWARE/ENV/tools/xtensa-esp-elf/esp-14.2.0_20250730/xtensa-esp-elf/lib/gcc/xtensa-esp-elf/14.2.0/include;E:/ESP32-IDF-SOFTWARE/ENV/tools/xtensa-esp-elf/esp-14.2.0_20250730/xtensa-esp-elf/lib/gcc/xtensa-esp-elf/14.2.0/include-fixed;E:/ESP32-IDF-SOFTWARE/ENV/tools/xtensa-esp-elf/esp-14.2.0_20250730/xtensa-esp-elf/xtensa-esp-elf/include]
+      
+      
+  -
+    kind: "message-v1"
+    backtrace:
+      - "E:/ESP32-IDF-SOFTWARE/ENV/tools/cmake/3.30.2/share/cmake-3.30/Modules/CMakeDetermineCompilerABI.cmake:218 (message)"
+      - "E:/ESP32-IDF-SOFTWARE/ENV/tools/cmake/3.30.2/share/cmake-3.30/Modules/CMakeTestCCompiler.cmake:26 (CMAKE_DETERMINE_COMPILER_ABI)"
+      - "E:/ESP32-IDF-SOFTWARE/ENV/frameworks/esp-idf-v5.4.3/tools/cmake/project.cmake:571 (__project)"
+      - "CMakeLists.txt:7 (project)"
+    message: |
+      Parsed C implicit link information:
+        link line regex: [^( *|.*[/\\])(ld[0-9]*(\\.[a-z]+)?|CMAKE_LINK_STARTFILE-NOTFOUND|([^/\\]+-)?ld|collect2)[^/\\]*( |$)]
+        linker tool regex: [^[ 	]*(->|")?[ 	]*(([^"]*[/\\])?(ld[0-9]*(\\.[a-z]+)?))("|,| |$)]
+        ignore line: [Change Dir: 'E:/ESP32-IDF-SOFTWARE/CODE/Update_Firmware/build/CMakeFiles/CMakeScratch/TryCompile-73a11i']
+        ignore line: []
+        ignore line: [Run Build Command(s): E:/ESP32-IDF-SOFTWARE/ENV/tools/ninja/1.12.1/ninja.exe -v cmTC_19be5]
+        ignore line: [[1/2] E:\\ESP32-IDF-SOFTWARE\\ENV\\tools\\xtensa-esp-elf\\esp-14.2.0_20250730\\xtensa-esp-elf\\bin\\xtensa-esp32-elf-gcc.exe   -mlongcalls -Wno-frame-address  -fno-builtin-memcpy -fno-builtin-memset -fno-builtin-bzero -fno-builtin-stpcpy -fno-builtin-strncpy    -v -o CMakeFiles/cmTC_19be5.dir/CMakeCCompilerABI.c.obj -c E:/ESP32-IDF-SOFTWARE/ENV/tools/cmake/3.30.2/share/cmake-3.30/Modules/CMakeCCompilerABI.c]
+        ignore line: [Using built-in specs.]
+        ignore line: [COLLECT_GCC=E:\\ESP32-IDF-SOFTWARE\\ENV\\tools\\xtensa-esp-elf\\esp-14.2.0_20250730\\xtensa-esp-elf\\bin\\xtensa-esp-elf-gcc.exe]
+        ignore line: [Target: xtensa-esp-elf]
+        ignore line: [Configured with: /builds/idf/crosstool-NG/.build/xtensa-esp-elf/src/gcc/configure --build=x86_64-build_pc-linux-gnu --host=x86_64-host_w64-mingw32 --target=xtensa-esp-elf --prefix=/builds/idf/crosstool-NG/builds/xtensa-esp-elf --exec_prefix=/builds/idf/crosstool-NG/builds/xtensa-esp-elf --with-local-prefix=/builds/idf/crosstool-NG/builds/xtensa-esp-elf/xtensa-esp-elf --with-sysroot=/builds/idf/crosstool-NG/builds/xtensa-esp-elf/xtensa-esp-elf --with-native-system-header-dir=/include --with-newlib --enable-threads=no --disable-shared --with-pkgversion='crosstool-NG esp-14.2.0_20250730' --disable-__cxa_atexit --enable-cxx-flags='-ffunction-sections -fdata-sections' --disable-libgomp --disable-libmudflap --disable-libmpx --disable-libssp --disable-libquadmath --disable-libquadmath-support --disable-libstdcxx-verbose --with-gmp=/builds/idf/crosstool-NG/.build/xtensa-esp-elf/buildtools/complibs-host --with-mpfr=/builds/idf/crosstool-NG/.build/xtensa-esp-elf/buildtools/complibs-host --with-mpc=/builds/idf/crosstool-NG/.build/xtensa-esp-elf/buildtools/complibs-host --with-isl=/builds/idf/crosstool-NG/.build/xtensa-esp-elf/buildtools/complibs-host --enable-lto --enable-target-optspace --without-long-double-128 --disable-nls --enable-multiarch --enable-languages=c,c++ --disable-libstdcxx-verbose --enable-threads=posix --enable-gcov-custom-rtio --enable-libstdcxx-time=yes --with-gnu-ld]
+        ignore line: [Thread model: posix]
+        ignore line: [Supported LTO compression algorithms: zlib zstd]
+        ignore line: [gcc version 14.2.0 (crosstool-NG esp-14.2.0_20250730) ]
+        ignore line: [COLLECT_GCC_OPTIONS='-mdynconfig=xtensa_esp32.so' '-mlongcalls' '-Wno-frame-address' '-fno-builtin-memcpy' '-fno-builtin-memset' '-fno-builtin-bzero' '-fno-builtin-stpcpy' '-fno-builtin-strncpy' '-v' '-o' 'CMakeFiles/cmTC_19be5.dir/CMakeCCompilerABI.c.obj' '-c' '-dumpdir' 'CMakeFiles/cmTC_19be5.dir/']
+        ignore line: [ E:/ESP32-IDF-SOFTWARE/ENV/tools/xtensa-esp-elf/esp-14.2.0_20250730/xtensa-esp-elf/bin/../libexec/gcc/xtensa-esp-elf/14.2.0/cc1.exe -quiet -v -imultilib esp32 -iprefix E:/ESP32-IDF-SOFTWARE/ENV/tools/xtensa-esp-elf/esp-14.2.0_20250730/xtensa-esp-elf/bin/../lib/gcc/xtensa-esp-elf/14.2.0/ -isysroot E:/ESP32-IDF-SOFTWARE/ENV/tools/xtensa-esp-elf/esp-14.2.0_20250730/xtensa-esp-elf/bin/../xtensa-esp-elf E:/ESP32-IDF-SOFTWARE/ENV/tools/cmake/3.30.2/share/cmake-3.30/Modules/CMakeCCompilerABI.c -quiet -dumpdir CMakeFiles/cmTC_19be5.dir/ -dumpbase CMakeCCompilerABI.c.c -dumpbase-ext .c -mdynconfig=xtensa_esp32.so -mlongcalls -Wno-frame-address -version -fno-builtin-memcpy -fno-builtin-memset -fno-builtin-bzero -fno-builtin-stpcpy -fno-builtin-strncpy -o C:\\Users\\THIEN\\AppData\\Local\\Temp\\ccOWJeqw.s]
+        ignore line: [GNU C17 (crosstool-NG esp-14.2.0_20250730) version 14.2.0 (xtensa-esp-elf)]
+        ignore line: [	compiled by GNU C version 6.3.0 20170516  GMP version 6.2.1  MPFR version 4.2.1  MPC version 1.2.1  isl version isl-0.26-GMP]
+        ignore line: []
+        ignore line: [GGC heuristics: --param ggc-min-expand=100 --param ggc-min-heapsize=131072]
+        ignore line: [ignoring duplicate directory "E:/ESP32-IDF-SOFTWARE/ENV/tools/xtensa-esp-elf/esp-14.2.0_20250730/xtensa-esp-elf/lib/gcc/../../lib/gcc/xtensa-esp-elf/14.2.0/include"]
+        ignore line: [ignoring nonexistent directory "E:/ESP32-IDF-SOFTWARE/ENV/tools/xtensa-esp-elf/esp-14.2.0_20250730/xtensa-esp-elf/bin/../xtensa-esp-elf/builds/idf/crosstool-NG/builds/xtensa-esp-elf/lib/gcc/xtensa-esp-elf/14.2.0/../../../../include"]
+        ignore line: [ignoring duplicate directory "E:/ESP32-IDF-SOFTWARE/ENV/tools/xtensa-esp-elf/esp-14.2.0_20250730/xtensa-esp-elf/lib/gcc/../../lib/gcc/xtensa-esp-elf/14.2.0/include-fixed"]
+        ignore line: [ignoring duplicate directory "E:/ESP32-IDF-SOFTWARE/ENV/tools/xtensa-esp-elf/esp-14.2.0_20250730/xtensa-esp-elf/lib/gcc/../../lib/gcc/xtensa-esp-elf/14.2.0/../../../../xtensa-esp-elf/include"]
+        ignore line: [ignoring duplicate directory "E:/ESP32-IDF-SOFTWARE/ENV/tools/xtensa-esp-elf/esp-14.2.0_20250730/xtensa-esp-elf/bin/../xtensa-esp-elf/include"]
+        ignore line: [#include "..." search starts here:]
+        ignore line: [#include <...> search starts here:]
+        ignore line: [ E:/ESP32-IDF-SOFTWARE/ENV/tools/xtensa-esp-elf/esp-14.2.0_20250730/xtensa-esp-elf/bin/../lib/gcc/xtensa-esp-elf/14.2.0/include]
+        ignore line: [ E:/ESP32-IDF-SOFTWARE/ENV/tools/xtensa-esp-elf/esp-14.2.0_20250730/xtensa-esp-elf/bin/../lib/gcc/xtensa-esp-elf/14.2.0/include-fixed]
+        ignore line: [ E:/ESP32-IDF-SOFTWARE/ENV/tools/xtensa-esp-elf/esp-14.2.0_20250730/xtensa-esp-elf/bin/../lib/gcc/xtensa-esp-elf/14.2.0/../../../../xtensa-esp-elf/include]
+        ignore line: [End of search list.]
+        ignore line: [Compiler executable checksum: 38d46cce87b47d821392243f8c902d07]
+        ignore line: [COLLECT_GCC_OPTIONS='-mdynconfig=xtensa_esp32.so' '-mlongcalls' '-Wno-frame-address' '-fno-builtin-memcpy' '-fno-builtin-memset' '-fno-builtin-bzero' '-fno-builtin-stpcpy' '-fno-builtin-strncpy' '-v' '-o' 'CMakeFiles/cmTC_19be5.dir/CMakeCCompilerABI.c.obj' '-c' '-dumpdir' 'CMakeFiles/cmTC_19be5.dir/']
+        ignore line: [ E:/ESP32-IDF-SOFTWARE/ENV/tools/xtensa-esp-elf/esp-14.2.0_20250730/xtensa-esp-elf/bin/../lib/gcc/xtensa-esp-elf/14.2.0/../../../../xtensa-esp-elf/bin/as.exe --traditional-format --longcalls --dynconfig=xtensa_esp32.so -o CMakeFiles/cmTC_19be5.dir/CMakeCCompilerABI.c.obj C:\\Users\\THIEN\\AppData\\Local\\Temp\\ccOWJeqw.s]
+        ignore line: [COMPILER_PATH=E:/ESP32-IDF-SOFTWARE/ENV/tools/xtensa-esp-elf/esp-14.2.0_20250730/xtensa-esp-elf/bin/../libexec/gcc/xtensa-esp-elf/14.2.0/]
+        ignore line: [E:/ESP32-IDF-SOFTWARE/ENV/tools/xtensa-esp-elf/esp-14.2.0_20250730/xtensa-esp-elf/bin/../libexec/gcc/]
+        ignore line: [E:/ESP32-IDF-SOFTWARE/ENV/tools/xtensa-esp-elf/esp-14.2.0_20250730/xtensa-esp-elf/bin/../lib/gcc/xtensa-esp-elf/14.2.0/../../../../xtensa-esp-elf/bin/]
+        ignore line: [LIBRARY_PATH=E:/ESP32-IDF-SOFTWARE/ENV/tools/xtensa-esp-elf/esp-14.2.0_20250730/xtensa-esp-elf/bin/../lib/gcc/xtensa-esp-elf/14.2.0/esp32/]
+        ignore line: [E:/ESP32-IDF-SOFTWARE/ENV/tools/xtensa-esp-elf/esp-14.2.0_20250730/xtensa-esp-elf/bin/../lib/gcc/xtensa-esp-elf/14.2.0/../../../../xtensa-esp-elf/lib/esp32/]
+        ignore line: [E:/ESP32-IDF-SOFTWARE/ENV/tools/xtensa-esp-elf/esp-14.2.0_20250730/xtensa-esp-elf/bin/../xtensa-esp-elf/lib/esp32/]
+        ignore line: [E:/ESP32-IDF-SOFTWARE/ENV/tools/xtensa-esp-elf/esp-14.2.0_20250730/xtensa-esp-elf/bin/../lib/gcc/xtensa-esp-elf/14.2.0/]
+        ignore line: [E:/ESP32-IDF-SOFTWARE/ENV/tools/xtensa-esp-elf/esp-14.2.0_20250730/xtensa-esp-elf/bin/../lib/gcc/]
+        ignore line: [E:/ESP32-IDF-SOFTWARE/ENV/tools/xtensa-esp-elf/esp-14.2.0_20250730/xtensa-esp-elf/bin/../lib/gcc/xtensa-esp-elf/14.2.0/../../../../xtensa-esp-elf/lib/]
+        ignore line: [E:/ESP32-IDF-SOFTWARE/ENV/tools/xtensa-esp-elf/esp-14.2.0_20250730/xtensa-esp-elf/bin/../xtensa-esp-elf/lib/]
+        ignore line: [COLLECT_GCC_OPTIONS='-mdynconfig=xtensa_esp32.so' '-mlongcalls' '-Wno-frame-address' '-fno-builtin-memcpy' '-fno-builtin-memset' '-fno-builtin-bzero' '-fno-builtin-stpcpy' '-fno-builtin-strncpy' '-v' '-o' 'CMakeFiles/cmTC_19be5.dir/CMakeCCompilerABI.c.obj' '-c' '-dumpdir' 'CMakeFiles/cmTC_19be5.dir/CMakeCCompilerABI.c.'\x0d]
+        ignore line: [[2/2] C:\\WINDOWS\\system32\\cmd.exe /C "cd . && E:\\ESP32-IDF-SOFTWARE\\ENV\\tools\\xtensa-esp-elf\\esp-14.2.0_20250730\\xtensa-esp-elf\\bin\\xtensa-esp32-elf-gcc.exe -mlongcalls -Wno-frame-address  -fno-builtin-memcpy -fno-builtin-memset -fno-builtin-bzero -fno-builtin-stpcpy -fno-builtin-strncpy -v CMakeFiles/cmTC_19be5.dir/CMakeCCompilerABI.c.obj -o cmTC_19be5   && cd ."]
+        ignore line: [Using built-in specs.]
+        ignore line: [COLLECT_GCC=E:\\ESP32-IDF-SOFTWARE\\ENV\\tools\\xtensa-esp-elf\\esp-14.2.0_20250730\\xtensa-esp-elf\\bin\\xtensa-esp-elf-gcc.exe]
+        ignore line: [COLLECT_LTO_WRAPPER=E:/ESP32-IDF-SOFTWARE/ENV/tools/xtensa-esp-elf/esp-14.2.0_20250730/xtensa-esp-elf/bin/../libexec/gcc/xtensa-esp-elf/14.2.0/lto-wrapper.exe]
+        ignore line: [Target: xtensa-esp-elf]
+        ignore line: [Configured with: /builds/idf/crosstool-NG/.build/xtensa-esp-elf/src/gcc/configure --build=x86_64-build_pc-linux-gnu --host=x86_64-host_w64-mingw32 --target=xtensa-esp-elf --prefix=/builds/idf/crosstool-NG/builds/xtensa-esp-elf --exec_prefix=/builds/idf/crosstool-NG/builds/xtensa-esp-elf --with-local-prefix=/builds/idf/crosstool-NG/builds/xtensa-esp-elf/xtensa-esp-elf --with-sysroot=/builds/idf/crosstool-NG/builds/xtensa-esp-elf/xtensa-esp-elf --with-native-system-header-dir=/include --with-newlib --enable-threads=no --disable-shared --with-pkgversion='crosstool-NG esp-14.2.0_20250730' --disable-__cxa_atexit --enable-cxx-flags='-ffunction-sections -fdata-sections' --disable-libgomp --disable-libmudflap --disable-libmpx --disable-libssp --disable-libquadmath --disable-libquadmath-support --disable-libstdcxx-verbose --with-gmp=/builds/idf/crosstool-NG/.build/xtensa-esp-elf/buildtools/complibs-host --with-mpfr=/builds/idf/crosstool-NG/.build/xtensa-esp-elf/buildtools/complibs-host --with-mpc=/builds/idf/crosstool-NG/.build/xtensa-esp-elf/buildtools/complibs-host --with-isl=/builds/idf/crosstool-NG/.build/xtensa-esp-elf/buildtools/complibs-host --enable-lto --enable-target-optspace --without-long-double-128 --disable-nls --enable-multiarch --enable-languages=c,c++ --disable-libstdcxx-verbose --enable-threads=posix --enable-gcov-custom-rtio --enable-libstdcxx-time=yes --with-gnu-ld]
+        ignore line: [Thread model: posix]
+        ignore line: [Supported LTO compression algorithms: zlib zstd]
+        ignore line: [gcc version 14.2.0 (crosstool-NG esp-14.2.0_20250730) ]
+        ignore line: [COMPILER_PATH=E:/ESP32-IDF-SOFTWARE/ENV/tools/xtensa-esp-elf/esp-14.2.0_20250730/xtensa-esp-elf/bin/../libexec/gcc/xtensa-esp-elf/14.2.0/]
+        ignore line: [E:/ESP32-IDF-SOFTWARE/ENV/tools/xtensa-esp-elf/esp-14.2.0_20250730/xtensa-esp-elf/bin/../libexec/gcc/]
+        ignore line: [E:/ESP32-IDF-SOFTWARE/ENV/tools/xtensa-esp-elf/esp-14.2.0_20250730/xtensa-esp-elf/bin/../lib/gcc/xtensa-esp-elf/14.2.0/../../../../xtensa-esp-elf/bin/]
+        ignore line: [LIBRARY_PATH=E:/ESP32-IDF-SOFTWARE/ENV/tools/xtensa-esp-elf/esp-14.2.0_20250730/xtensa-esp-elf/bin/../lib/gcc/xtensa-esp-elf/14.2.0/esp32/]
+        ignore line: [E:/ESP32-IDF-SOFTWARE/ENV/tools/xtensa-esp-elf/esp-14.2.0_20250730/xtensa-esp-elf/bin/../lib/gcc/xtensa-esp-elf/14.2.0/../../../../xtensa-esp-elf/lib/esp32/]
+        ignore line: [E:/ESP32-IDF-SOFTWARE/ENV/tools/xtensa-esp-elf/esp-14.2.0_20250730/xtensa-esp-elf/bin/../xtensa-esp-elf/lib/esp32/]
+        ignore line: [E:/ESP32-IDF-SOFTWARE/ENV/tools/xtensa-esp-elf/esp-14.2.0_20250730/xtensa-esp-elf/bin/../lib/gcc/xtensa-esp-elf/14.2.0/]
+        ignore line: [E:/ESP32-IDF-SOFTWARE/ENV/tools/xtensa-esp-elf/esp-14.2.0_20250730/xtensa-esp-elf/bin/../lib/gcc/]
+        ignore line: [E:/ESP32-IDF-SOFTWARE/ENV/tools/xtensa-esp-elf/esp-14.2.0_20250730/xtensa-esp-elf/bin/../lib/gcc/xtensa-esp-elf/14.2.0/../../../../xtensa-esp-elf/lib/]
+        ignore line: [E:/ESP32-IDF-SOFTWARE/ENV/tools/xtensa-esp-elf/esp-14.2.0_20250730/xtensa-esp-elf/bin/../xtensa-esp-elf/lib/]
+        ignore line: [COLLECT_GCC_OPTIONS='-mdynconfig=xtensa_esp32.so' '-mlongcalls' '-Wno-frame-address' '-fno-builtin-memcpy' '-fno-builtin-memset' '-fno-builtin-bzero' '-fno-builtin-stpcpy' '-fno-builtin-strncpy' '-v' '-o' 'cmTC_19be5' '-dumpdir' 'cmTC_19be5.']
+        link line: [ E:/ESP32-IDF-SOFTWARE/ENV/tools/xtensa-esp-elf/esp-14.2.0_20250730/xtensa-esp-elf/bin/../libexec/gcc/xtensa-esp-elf/14.2.0/collect2.exe -plugin E:/ESP32-IDF-SOFTWARE/ENV/tools/xtensa-esp-elf/esp-14.2.0_20250730/xtensa-esp-elf/bin/../libexec/gcc/xtensa-esp-elf/14.2.0/liblto_plugin.dll -plugin-opt=E:/ESP32-IDF-SOFTWARE/ENV/tools/xtensa-esp-elf/esp-14.2.0_20250730/xtensa-esp-elf/bin/../libexec/gcc/xtensa-esp-elf/14.2.0/lto-wrapper.exe -plugin-opt=-fresolution=C:\\Users\\THIEN\\AppData\\Local\\Temp\\cckBJcHA.res -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lc -plugin-opt=-pass-through=-lnosys -plugin-opt=-pass-through=-lc -plugin-opt=-pass-through=-lgcc --sysroot=E:/ESP32-IDF-SOFTWARE/ENV/tools/xtensa-esp-elf/esp-14.2.0_20250730/xtensa-esp-elf/bin/../xtensa-esp-elf --dynconfig=xtensa_esp32.so -o cmTC_19be5 E:/ESP32-IDF-SOFTWARE/ENV/tools/xtensa-esp-elf/esp-14.2.0_20250730/xtensa-esp-elf/bin/../lib/gcc/xtensa-esp-elf/14.2.0/../../../../xtensa-esp-elf/lib/esp32/crt0.o E:/ESP32-IDF-SOFTWARE/ENV/tools/xtensa-esp-elf/esp-14.2.0_20250730/xtensa-esp-elf/bin/../lib/gcc/xtensa-esp-elf/14.2.0/esp32/crti.o E:/ESP32-IDF-SOFTWARE/ENV/tools/xtensa-esp-elf/esp-14.2.0_20250730/xtensa-esp-elf/bin/../lib/gcc/xtensa-esp-elf/14.2.0/esp32/crtbegin.o -LE:/ESP32-IDF-SOFTWARE/ENV/tools/xtensa-esp-elf/esp-14.2.0_20250730/xtensa-esp-elf/bin/../lib/gcc/xtensa-esp-elf/14.2.0/esp32 -LE:/ESP32-IDF-SOFTWARE/ENV/tools/xtensa-esp-elf/esp-14.2.0_20250730/xtensa-esp-elf/bin/../lib/gcc/xtensa-esp-elf/14.2.0/../../../../xtensa-esp-elf/lib/esp32 -LE:/ESP32-IDF-SOFTWARE/ENV/tools/xtensa-esp-elf/esp-14.2.0_20250730/xtensa-esp-elf/bin/../xtensa-esp-elf/lib/esp32 -LE:/ESP32-IDF-SOFTWARE/ENV/tools/xtensa-esp-elf/esp-14.2.0_20250730/xtensa-esp-elf/bin/../lib/gcc/xtensa-esp-elf/14.2.0 -LE:/ESP32-IDF-SOFTWARE/ENV/tools/xtensa-esp-elf/esp-14.2.0_20250730/xtensa-esp-elf/bin/../lib/gcc -LE:/ESP32-IDF-SOFTWARE/ENV/tools/xtensa-esp-elf/esp-14.2.0_20250730/xtensa-esp-elf/bin/../lib/gcc/xtensa-esp-elf/14.2.0/../../../../xtensa-esp-elf/lib -LE:/ESP32-IDF-SOFTWARE/ENV/tools/xtensa-esp-elf/esp-14.2.0_20250730/xtensa-esp-elf/bin/../xtensa-esp-elf/lib CMakeFiles/cmTC_19be5.dir/CMakeCCompilerABI.c.obj -lgcc -lc -lnosys -lc -lgcc E:/ESP32-IDF-SOFTWARE/ENV/tools/xtensa-esp-elf/esp-14.2.0_20250730/xtensa-esp-elf/bin/../lib/gcc/xtensa-esp-elf/14.2.0/esp32/crtend.o E:/ESP32-IDF-SOFTWARE/ENV/tools/xtensa-esp-elf/esp-14.2.0_20250730/xtensa-esp-elf/bin/../lib/gcc/xtensa-esp-elf/14.2.0/esp32/crtn.o\x0d]
+          arg [E:/ESP32-IDF-SOFTWARE/ENV/tools/xtensa-esp-elf/esp-14.2.0_20250730/xtensa-esp-elf/bin/../libexec/gcc/xtensa-esp-elf/14.2.0/collect2.exe] ==> ignore
+          arg [-plugin] ==> ignore
+          arg [E:/ESP32-IDF-SOFTWARE/ENV/tools/xtensa-esp-elf/esp-14.2.0_20250730/xtensa-esp-elf/bin/../libexec/gcc/xtensa-esp-elf/14.2.0/liblto_plugin.dll] ==> ignore
+          arg [-plugin-opt=E:/ESP32-IDF-SOFTWARE/ENV/tools/xtensa-esp-elf/esp-14.2.0_20250730/xtensa-esp-elf/bin/../libexec/gcc/xtensa-esp-elf/14.2.0/lto-wrapper.exe] ==> ignore
+          arg [-plugin-opt=-fresolution=C:\\Users\\THIEN\\AppData\\Local\\Temp\\cckBJcHA.res] ==> ignore
+          arg [-plugin-opt=-pass-through=-lgcc] ==> ignore
+          arg [-plugin-opt=-pass-through=-lc] ==> ignore
+          arg [-plugin-opt=-pass-through=-lnosys] ==> ignore
+          arg [-plugin-opt=-pass-through=-lc] ==> ignore
+          arg [-plugin-opt=-pass-through=-lgcc] ==> ignore
+          arg [--sysroot=E:/ESP32-IDF-SOFTWARE/ENV/tools/xtensa-esp-elf/esp-14.2.0_20250730/xtensa-esp-elf/bin/../xtensa-esp-elf] ==> ignore
+          arg [--dynconfig=xtensa_esp32.so] ==> ignore
+          arg [-o] ==> ignore
+          arg [cmTC_19be5] ==> ignore
+          arg [E:/ESP32-IDF-SOFTWARE/ENV/tools/xtensa-esp-elf/esp-14.2.0_20250730/xtensa-esp-elf/bin/../lib/gcc/xtensa-esp-elf/14.2.0/../../../../xtensa-esp-elf/lib/esp32/crt0.o] ==> obj [E:/ESP32-IDF-SOFTWARE/ENV/tools/xtensa-esp-elf/esp-14.2.0_20250730/xtensa-esp-elf/bin/../lib/gcc/xtensa-esp-elf/14.2.0/../../../../xtensa-esp-elf/lib/esp32/crt0.o]
+          arg [E:/ESP32-IDF-SOFTWARE/ENV/tools/xtensa-esp-elf/esp-14.2.0_20250730/xtensa-esp-elf/bin/../lib/gcc/xtensa-esp-elf/14.2.0/esp32/crti.o] ==> obj [E:/ESP32-IDF-SOFTWARE/ENV/tools/xtensa-esp-elf/esp-14.2.0_20250730/xtensa-esp-elf/bin/../lib/gcc/xtensa-esp-elf/14.2.0/esp32/crti.o]
+          arg [E:/ESP32-IDF-SOFTWARE/ENV/tools/xtensa-esp-elf/esp-14.2.0_20250730/xtensa-esp-elf/bin/../lib/gcc/xtensa-esp-elf/14.2.0/esp32/crtbegin.o] ==> obj [E:/ESP32-IDF-SOFTWARE/ENV/tools/xtensa-esp-elf/esp-14.2.0_20250730/xtensa-esp-elf/bin/../lib/gcc/xtensa-esp-elf/14.2.0/esp32/crtbegin.o]
+          arg [-LE:/ESP32-IDF-SOFTWARE/ENV/tools/xtensa-esp-elf/esp-14.2.0_20250730/xtensa-esp-elf/bin/../lib/gcc/xtensa-esp-elf/14.2.0/esp32] ==> dir [E:/ESP32-IDF-SOFTWARE/ENV/tools/xtensa-esp-elf/esp-14.2.0_20250730/xtensa-esp-elf/bin/../lib/gcc/xtensa-esp-elf/14.2.0/esp32]
+          arg [-LE:/ESP32-IDF-SOFTWARE/ENV/tools/xtensa-esp-elf/esp-14.2.0_20250730/xtensa-esp-elf/bin/../lib/gcc/xtensa-esp-elf/14.2.0/../../../../xtensa-esp-elf/lib/esp32] ==> dir [E:/ESP32-IDF-SOFTWARE/ENV/tools/xtensa-esp-elf/esp-14.2.0_20250730/xtensa-esp-elf/bin/../lib/gcc/xtensa-esp-elf/14.2.0/../../../../xtensa-esp-elf/lib/esp32]
+          arg [-LE:/ESP32-IDF-SOFTWARE/ENV/tools/xtensa-esp-elf/esp-14.2.0_20250730/xtensa-esp-elf/bin/../xtensa-esp-elf/lib/esp32] ==> dir [E:/ESP32-IDF-SOFTWARE/ENV/tools/xtensa-esp-elf/esp-14.2.0_20250730/xtensa-esp-elf/bin/../xtensa-esp-elf/lib/esp32]
+          arg [-LE:/ESP32-IDF-SOFTWARE/ENV/tools/xtensa-esp-elf/esp-14.2.0_20250730/xtensa-esp-elf/bin/../lib/gcc/xtensa-esp-elf/14.2.0] ==> dir [E:/ESP32-IDF-SOFTWARE/ENV/tools/xtensa-esp-elf/esp-14.2.0_20250730/xtensa-esp-elf/bin/../lib/gcc/xtensa-esp-elf/14.2.0]
+          arg [-LE:/ESP32-IDF-SOFTWARE/ENV/tools/xtensa-esp-elf/esp-14.2.0_20250730/xtensa-esp-elf/bin/../lib/gcc] ==> dir [E:/ESP32-IDF-SOFTWARE/ENV/tools/xtensa-esp-elf/esp-14.2.0_20250730/xtensa-esp-elf/bin/../lib/gcc]
+          arg [-LE:/ESP32-IDF-SOFTWARE/ENV/tools/xtensa-esp-elf/esp-14.2.0_20250730/xtensa-esp-elf/bin/../lib/gcc/xtensa-esp-elf/14.2.0/../../../../xtensa-esp-elf/lib] ==> dir [E:/ESP32-IDF-SOFTWARE/ENV/tools/xtensa-esp-elf/esp-14.2.0_20250730/xtensa-esp-elf/bin/../lib/gcc/xtensa-esp-elf/14.2.0/../../../../xtensa-esp-elf/lib]
+          arg [-LE:/ESP32-IDF-SOFTWARE/ENV/tools/xtensa-esp-elf/esp-14.2.0_20250730/xtensa-esp-elf/bin/../xtensa-esp-elf/lib] ==> dir [E:/ESP32-IDF-SOFTWARE/ENV/tools/xtensa-esp-elf/esp-14.2.0_20250730/xtensa-esp-elf/bin/../xtensa-esp-elf/lib]
+          arg [CMakeFiles/cmTC_19be5.dir/CMakeCCompilerABI.c.obj] ==> ignore
+          arg [-lgcc] ==> lib [gcc]
+          arg [-lc] ==> lib [c]
+          arg [-lnosys] ==> lib [nosys]
+          arg [-lc] ==> lib [c]
+          arg [-lgcc] ==> lib [gcc]
+          arg [E:/ESP32-IDF-SOFTWARE/ENV/tools/xtensa-esp-elf/esp-14.2.0_20250730/xtensa-esp-elf/bin/../lib/gcc/xtensa-esp-elf/14.2.0/esp32/crtend.o] ==> obj [E:/ESP32-IDF-SOFTWARE/ENV/tools/xtensa-esp-elf/esp-14.2.0_20250730/xtensa-esp-elf/bin/../lib/gcc/xtensa-esp-elf/14.2.0/esp32/crtend.o]
+          arg [E:/ESP32-IDF-SOFTWARE/ENV/tools/xtensa-esp-elf/esp-14.2.0_20250730/xtensa-esp-elf/bin/../lib/gcc/xtensa-esp-elf/14.2.0/esp32/crtn.o] ==> obj [E:/ESP32-IDF-SOFTWARE/ENV/tools/xtensa-esp-elf/esp-14.2.0_20250730/xtensa-esp-elf/bin/../lib/gcc/xtensa-esp-elf/14.2.0/esp32/crtn.o]
+        ignore line: [COLLECT_GCC_OPTIONS='-mdynconfig=xtensa_esp32.so' '-mlongcalls' '-Wno-frame-address' '-fno-builtin-memcpy' '-fno-builtin-memset' '-fno-builtin-bzero' '-fno-builtin-stpcpy' '-fno-builtin-strncpy' '-v' '-o' 'cmTC_19be5' '-dumpdir' 'cmTC_19be5.'\x0d]
+        ignore line: []
+        ignore line: []
+        collapse obj [E:/ESP32-IDF-SOFTWARE/ENV/tools/xtensa-esp-elf/esp-14.2.0_20250730/xtensa-esp-elf/bin/../lib/gcc/xtensa-esp-elf/14.2.0/../../../../xtensa-esp-elf/lib/esp32/crt0.o] ==> [E:/ESP32-IDF-SOFTWARE/ENV/tools/xtensa-esp-elf/esp-14.2.0_20250730/xtensa-esp-elf/xtensa-esp-elf/lib/esp32/crt0.o]
+        collapse obj [E:/ESP32-IDF-SOFTWARE/ENV/tools/xtensa-esp-elf/esp-14.2.0_20250730/xtensa-esp-elf/bin/../lib/gcc/xtensa-esp-elf/14.2.0/esp32/crti.o] ==> [E:/ESP32-IDF-SOFTWARE/ENV/tools/xtensa-esp-elf/esp-14.2.0_20250730/xtensa-esp-elf/lib/gcc/xtensa-esp-elf/14.2.0/esp32/crti.o]
+        collapse obj [E:/ESP32-IDF-SOFTWARE/ENV/tools/xtensa-esp-elf/esp-14.2.0_20250730/xtensa-esp-elf/bin/../lib/gcc/xtensa-esp-elf/14.2.0/esp32/crtbegin.o] ==> [E:/ESP32-IDF-SOFTWARE/ENV/tools/xtensa-esp-elf/esp-14.2.0_20250730/xtensa-esp-elf/lib/gcc/xtensa-esp-elf/14.2.0/esp32/crtbegin.o]
+        collapse obj [E:/ESP32-IDF-SOFTWARE/ENV/tools/xtensa-esp-elf/esp-14.2.0_20250730/xtensa-esp-elf/bin/../lib/gcc/xtensa-esp-elf/14.2.0/esp32/crtend.o] ==> [E:/ESP32-IDF-SOFTWARE/ENV/tools/xtensa-esp-elf/esp-14.2.0_20250730/xtensa-esp-elf/lib/gcc/xtensa-esp-elf/14.2.0/esp32/crtend.o]
+        collapse obj [E:/ESP32-IDF-SOFTWARE/ENV/tools/xtensa-esp-elf/esp-14.2.0_20250730/xtensa-esp-elf/bin/../lib/gcc/xtensa-esp-elf/14.2.0/esp32/crtn.o] ==> [E:/ESP32-IDF-SOFTWARE/ENV/tools/xtensa-esp-elf/esp-14.2.0_20250730/xtensa-esp-elf/lib/gcc/xtensa-esp-elf/14.2.0/esp32/crtn.o]
+        collapse library dir [E:/ESP32-IDF-SOFTWARE/ENV/tools/xtensa-esp-elf/esp-14.2.0_20250730/xtensa-esp-elf/bin/../lib/gcc/xtensa-esp-elf/14.2.0/esp32] ==> [E:/ESP32-IDF-SOFTWARE/ENV/tools/xtensa-esp-elf/esp-14.2.0_20250730/xtensa-esp-elf/lib/gcc/xtensa-esp-elf/14.2.0/esp32]
+        collapse library dir [E:/ESP32-IDF-SOFTWARE/ENV/tools/xtensa-esp-elf/esp-14.2.0_20250730/xtensa-esp-elf/bin/../lib/gcc/xtensa-esp-elf/14.2.0/../../../../xtensa-esp-elf/lib/esp32] ==> [E:/ESP32-IDF-SOFTWARE/ENV/tools/xtensa-esp-elf/esp-14.2.0_20250730/xtensa-esp-elf/xtensa-esp-elf/lib/esp32]
+        collapse library dir [E:/ESP32-IDF-SOFTWARE/ENV/tools/xtensa-esp-elf/esp-14.2.0_20250730/xtensa-esp-elf/bin/../xtensa-esp-elf/lib/esp32] ==> [E:/ESP32-IDF-SOFTWARE/ENV/tools/xtensa-esp-elf/esp-14.2.0_20250730/xtensa-esp-elf/xtensa-esp-elf/lib/esp32]
+        collapse library dir [E:/ESP32-IDF-SOFTWARE/ENV/tools/xtensa-esp-elf/esp-14.2.0_20250730/xtensa-esp-elf/bin/../lib/gcc/xtensa-esp-elf/14.2.0] ==> [E:/ESP32-IDF-SOFTWARE/ENV/tools/xtensa-esp-elf/esp-14.2.0_20250730/xtensa-esp-elf/lib/gcc/xtensa-esp-elf/14.2.0]
+        collapse library dir [E:/ESP32-IDF-SOFTWARE/ENV/tools/xtensa-esp-elf/esp-14.2.0_20250730/xtensa-esp-elf/bin/../lib/gcc] ==> [E:/ESP32-IDF-SOFTWARE/ENV/tools/xtensa-esp-elf/esp-14.2.0_20250730/xtensa-esp-elf/lib/gcc]
+        collapse library dir [E:/ESP32-IDF-SOFTWARE/ENV/tools/xtensa-esp-elf/esp-14.2.0_20250730/xtensa-esp-elf/bin/../lib/gcc/xtensa-esp-elf/14.2.0/../../../../xtensa-esp-elf/lib] ==> [E:/ESP32-IDF-SOFTWARE/ENV/tools/xtensa-esp-elf/esp-14.2.0_20250730/xtensa-esp-elf/xtensa-esp-elf/lib]
+        collapse library dir [E:/ESP32-IDF-SOFTWARE/ENV/tools/xtensa-esp-elf/esp-14.2.0_20250730/xtensa-esp-elf/bin/../xtensa-esp-elf/lib] ==> [E:/ESP32-IDF-SOFTWARE/ENV/tools/xtensa-esp-elf/esp-14.2.0_20250730/xtensa-esp-elf/xtensa-esp-elf/lib]
+        implicit libs: [gcc;c;nosys;c;gcc]
+        implicit objs: [E:/ESP32-IDF-SOFTWARE/ENV/tools/xtensa-esp-elf/esp-14.2.0_20250730/xtensa-esp-elf/xtensa-esp-elf/lib/esp32/crt0.o;E:/ESP32-IDF-SOFTWARE/ENV/tools/xtensa-esp-elf/esp-14.2.0_20250730/xtensa-esp-elf/lib/gcc/xtensa-esp-elf/14.2.0/esp32/crti.o;E:/ESP32-IDF-SOFTWARE/ENV/tools/xtensa-esp-elf/esp-14.2.0_20250730/xtensa-esp-elf/lib/gcc/xtensa-esp-elf/14.2.0/esp32/crtbegin.o;E:/ESP32-IDF-SOFTWARE/ENV/tools/xtensa-esp-elf/esp-14.2.0_20250730/xtensa-esp-elf/lib/gcc/xtensa-esp-elf/14.2.0/esp32/crtend.o;E:/ESP32-IDF-SOFTWARE/ENV/tools/xtensa-esp-elf/esp-14.2.0_20250730/xtensa-esp-elf/lib/gcc/xtensa-esp-elf/14.2.0/esp32/crtn.o]
+        implicit dirs: [E:/ESP32-IDF-SOFTWARE/ENV/tools/xtensa-esp-elf/esp-14.2.0_20250730/xtensa-esp-elf/lib/gcc/xtensa-esp-elf/14.2.0/esp32;E:/ESP32-IDF-SOFTWARE/ENV/tools/xtensa-esp-elf/esp-14.2.0_20250730/xtensa-esp-elf/xtensa-esp-elf/lib/esp32;E:/ESP32-IDF-SOFTWARE/ENV/tools/xtensa-esp-elf/esp-14.2.0_20250730/xtensa-esp-elf/lib/gcc/xtensa-esp-elf/14.2.0;E:/ESP32-IDF-SOFTWARE/ENV/tools/xtensa-esp-elf/esp-14.2.0_20250730/xtensa-esp-elf/lib/gcc;E:/ESP32-IDF-SOFTWARE/ENV/tools/xtensa-esp-elf/esp-14.2.0_20250730/xtensa-esp-elf/xtensa-esp-elf/lib]
+        implicit fwks: []
+      
+      
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "E:/ESP32-IDF-SOFTWARE/ENV/tools/cmake/3.30.2/share/cmake-3.30/Modules/CMakeDetermineCompilerABI.cmake:74 (try_compile)"
+      - "E:/ESP32-IDF-SOFTWARE/ENV/tools/cmake/3.30.2/share/cmake-3.30/Modules/CMakeTestCXXCompiler.cmake:26 (CMAKE_DETERMINE_COMPILER_ABI)"
+      - "E:/ESP32-IDF-SOFTWARE/ENV/frameworks/esp-idf-v5.4.3/tools/cmake/project.cmake:571 (__project)"
+      - "CMakeLists.txt:7 (project)"
+    checks:
+      - "Detecting CXX compiler ABI info"
+    directories:
+      source: "E:/ESP32-IDF-SOFTWARE/CODE/Update_Firmware/build/CMakeFiles/CMakeScratch/TryCompile-2ed4v3"
+      binary: "E:/ESP32-IDF-SOFTWARE/CODE/Update_Firmware/build/CMakeFiles/CMakeScratch/TryCompile-2ed4v3"
+    cmakeVariables:
+      CMAKE_CXX_FLAGS: "-mlongcalls -Wno-frame-address  -fno-builtin-memcpy -fno-builtin-memset -fno-builtin-bzero -fno-builtin-stpcpy -fno-builtin-strncpy"
+      CMAKE_CXX_FLAGS_DEBUG: "-g"
+      CMAKE_CXX_SCAN_FOR_MODULES: "OFF"
+      CMAKE_EXE_LINKER_FLAGS: ""
+      CMAKE_MODULE_PATH: "E:/ESP32-IDF-SOFTWARE/ENV/frameworks/esp-idf-v5.4.3/tools/cmake;E:/ESP32-IDF-SOFTWARE/ENV/frameworks/esp-idf-v5.4.3/tools/cmake/third_party"
+    buildResult:
+      variable: "CMAKE_CXX_ABI_COMPILED"
+      cached: true
+      stdout: |
+        Change Dir: 'E:/ESP32-IDF-SOFTWARE/CODE/Update_Firmware/build/CMakeFiles/CMakeScratch/TryCompile-2ed4v3'
+        
+        Run Build Command(s): E:/ESP32-IDF-SOFTWARE/ENV/tools/ninja/1.12.1/ninja.exe -v cmTC_6cad3
+        [1/2] E:\\ESP32-IDF-SOFTWARE\\ENV\\tools\\xtensa-esp-elf\\esp-14.2.0_20250730\\xtensa-esp-elf\\bin\\xtensa-esp32-elf-g++.exe   -mlongcalls -Wno-frame-address  -fno-builtin-memcpy -fno-builtin-memset -fno-builtin-bzero -fno-builtin-stpcpy -fno-builtin-strncpy    -v -o CMakeFiles/cmTC_6cad3.dir/CMakeCXXCompilerABI.cpp.obj -c E:/ESP32-IDF-SOFTWARE/ENV/tools/cmake/3.30.2/share/cmake-3.30/Modules/CMakeCXXCompilerABI.cpp
+        Using built-in specs.
+        COLLECT_GCC=E:\\ESP32-IDF-SOFTWARE\\ENV\\tools\\xtensa-esp-elf\\esp-14.2.0_20250730\\xtensa-esp-elf\\bin\\xtensa-esp-elf-g++.exe
+        Target: xtensa-esp-elf
+        Configured with: /builds/idf/crosstool-NG/.build/xtensa-esp-elf/src/gcc/configure --build=x86_64-build_pc-linux-gnu --host=x86_64-host_w64-mingw32 --target=xtensa-esp-elf --prefix=/builds/idf/crosstool-NG/builds/xtensa-esp-elf --exec_prefix=/builds/idf/crosstool-NG/builds/xtensa-esp-elf --with-local-prefix=/builds/idf/crosstool-NG/builds/xtensa-esp-elf/xtensa-esp-elf --with-sysroot=/builds/idf/crosstool-NG/builds/xtensa-esp-elf/xtensa-esp-elf --with-native-system-header-dir=/include --with-newlib --enable-threads=no --disable-shared --with-pkgversion='crosstool-NG esp-14.2.0_20250730' --disable-__cxa_atexit --enable-cxx-flags='-ffunction-sections -fdata-sections' --disable-libgomp --disable-libmudflap --disable-libmpx --disable-libssp --disable-libquadmath --disable-libquadmath-support --disable-libstdcxx-verbose --with-gmp=/builds/idf/crosstool-NG/.build/xtensa-esp-elf/buildtools/complibs-host --with-mpfr=/builds/idf/crosstool-NG/.build/xtensa-esp-elf/buildtools/complibs-host --with-mpc=/builds/idf/crosstool-NG/.build/xtensa-esp-elf/buildtools/complibs-host --with-isl=/builds/idf/crosstool-NG/.build/xtensa-esp-elf/buildtools/complibs-host --enable-lto --enable-target-optspace --without-long-double-128 --disable-nls --enable-multiarch --enable-languages=c,c++ --disable-libstdcxx-verbose --enable-threads=posix --enable-gcov-custom-rtio --enable-libstdcxx-time=yes --with-gnu-ld
+        Thread model: posix
+        Supported LTO compression algorithms: zlib zstd
+        gcc version 14.2.0 (crosstool-NG esp-14.2.0_20250730) 
+        COLLECT_GCC_OPTIONS='-mdynconfig=xtensa_esp32.so' '-mlongcalls' '-Wno-frame-address' '-fno-builtin-memcpy' '-fno-builtin-memset' '-fno-builtin-bzero' '-fno-builtin-stpcpy' '-fno-builtin-strncpy' '-v' '-o' 'CMakeFiles/cmTC_6cad3.dir/CMakeCXXCompilerABI.cpp.obj' '-c' '-dumpdir' 'CMakeFiles/cmTC_6cad3.dir/'
+         E:/ESP32-IDF-SOFTWARE/ENV/tools/xtensa-esp-elf/esp-14.2.0_20250730/xtensa-esp-elf/bin/../libexec/gcc/xtensa-esp-elf/14.2.0/cc1plus.exe -quiet -v -imultilib esp32 -iprefix E:/ESP32-IDF-SOFTWARE/ENV/tools/xtensa-esp-elf/esp-14.2.0_20250730/xtensa-esp-elf/bin/../lib/gcc/xtensa-esp-elf/14.2.0/ -isysroot E:/ESP32-IDF-SOFTWARE/ENV/tools/xtensa-esp-elf/esp-14.2.0_20250730/xtensa-esp-elf/bin/../xtensa-esp-elf E:/ESP32-IDF-SOFTWARE/ENV/tools/cmake/3.30.2/share/cmake-3.30/Modules/CMakeCXXCompilerABI.cpp -quiet -dumpdir CMakeFiles/cmTC_6cad3.dir/ -dumpbase CMakeCXXCompilerABI.cpp.cpp -dumpbase-ext .cpp -mdynconfig=xtensa_esp32.so -mlongcalls -Wno-frame-address -version -fno-builtin-memcpy -fno-builtin-memset -fno-builtin-bzero -fno-builtin-stpcpy -fno-builtin-strncpy -o C:\\Users\\THIEN\\AppData\\Local\\Temp\\cckfQLvJ.s
+        GNU C++17 (crosstool-NG esp-14.2.0_20250730) version 14.2.0 (xtensa-esp-elf)
+        	compiled by GNU C version 6.3.0 20170516, GMP version 6.2.1, MPFR version 4.2.1, MPC version 1.2.1, isl version isl-0.26-GMP
+        
+        GGC heuristics: --param ggc-min-expand=100 --param ggc-min-heapsize=131072
+        ignoring duplicate directory "E:/ESP32-IDF-SOFTWARE/ENV/tools/xtensa-esp-elf/esp-14.2.0_20250730/xtensa-esp-elf/lib/gcc/../../lib/gcc/xtensa-esp-elf/14.2.0/../../../../xtensa-esp-elf/include/c++/14.2.0"
+        ignoring duplicate directory "E:/ESP32-IDF-SOFTWARE/ENV/tools/xtensa-esp-elf/esp-14.2.0_20250730/xtensa-esp-elf/lib/gcc/../../lib/gcc/xtensa-esp-elf/14.2.0/../../../../xtensa-esp-elf/include/c++/14.2.0/xtensa-esp-elf/esp32"
+        ignoring duplicate directory "E:/ESP32-IDF-SOFTWARE/ENV/tools/xtensa-esp-elf/esp-14.2.0_20250730/xtensa-esp-elf/lib/gcc/../../lib/gcc/xtensa-esp-elf/14.2.0/../../../../xtensa-esp-elf/include/c++/14.2.0/backward"
+        ignoring duplicate directory "E:/ESP32-IDF-SOFTWARE/ENV/tools/xtensa-esp-elf/esp-14.2.0_20250730/xtensa-esp-elf/lib/gcc/../../lib/gcc/xtensa-esp-elf/14.2.0/include"
+        ignoring nonexistent directory "E:/ESP32-IDF-SOFTWARE/ENV/tools/xtensa-esp-elf/esp-14.2.0_20250730/xtensa-esp-elf/bin/../xtensa-esp-elf/builds/idf/crosstool-NG/builds/xtensa-esp-elf/lib/gcc/xtensa-esp-elf/14.2.0/../../../../include"
+        ignoring duplicate directory "E:/ESP32-IDF-SOFTWARE/ENV/tools/xtensa-esp-elf/esp-14.2.0_20250730/xtensa-esp-elf/lib/gcc/../../lib/gcc/xtensa-esp-elf/14.2.0/include-fixed"
+        ignoring duplicate directory "E:/ESP32-IDF-SOFTWARE/ENV/tools/xtensa-esp-elf/esp-14.2.0_20250730/xtensa-esp-elf/lib/gcc/../../lib/gcc/xtensa-esp-elf/14.2.0/../../../../xtensa-esp-elf/include"
+        ignoring duplicate directory "E:/ESP32-IDF-SOFTWARE/ENV/tools/xtensa-esp-elf/esp-14.2.0_20250730/xtensa-esp-elf/bin/../xtensa-esp-elf/include"
+        #include "..." search starts here:
+        #include <...> search starts here:
+         E:/ESP32-IDF-SOFTWARE/ENV/tools/xtensa-esp-elf/esp-14.2.0_20250730/xtensa-esp-elf/bin/../lib/gcc/xtensa-esp-elf/14.2.0/../../../../xtensa-esp-elf/include/c++/14.2.0
+         E:/ESP32-IDF-SOFTWARE/ENV/tools/xtensa-esp-elf/esp-14.2.0_20250730/xtensa-esp-elf/bin/../lib/gcc/xtensa-esp-elf/14.2.0/../../../../xtensa-esp-elf/include/c++/14.2.0/xtensa-esp-elf/esp32
+         E:/ESP32-IDF-SOFTWARE/ENV/tools/xtensa-esp-elf/esp-14.2.0_20250730/xtensa-esp-elf/bin/../lib/gcc/xtensa-esp-elf/14.2.0/../../../../xtensa-esp-elf/include/c++/14.2.0/backward
+         E:/ESP32-IDF-SOFTWARE/ENV/tools/xtensa-esp-elf/esp-14.2.0_20250730/xtensa-esp-elf/bin/../lib/gcc/xtensa-esp-elf/14.2.0/include
+         E:/ESP32-IDF-SOFTWARE/ENV/tools/xtensa-esp-elf/esp-14.2.0_20250730/xtensa-esp-elf/bin/../lib/gcc/xtensa-esp-elf/14.2.0/include-fixed
+         E:/ESP32-IDF-SOFTWARE/ENV/tools/xtensa-esp-elf/esp-14.2.0_20250730/xtensa-esp-elf/bin/../lib/gcc/xtensa-esp-elf/14.2.0/../../../../xtensa-esp-elf/include
+        End of search list.
+        Compiler executable checksum: 36f90ab7ffea0d7cc4d0c7b1a89d7e55
+        COLLECT_GCC_OPTIONS='-mdynconfig=xtensa_esp32.so' '-mlongcalls' '-Wno-frame-address' '-fno-builtin-memcpy' '-fno-builtin-memset' '-fno-builtin-bzero' '-fno-builtin-stpcpy' '-fno-builtin-strncpy' '-v' '-o' 'CMakeFiles/cmTC_6cad3.dir/CMakeCXXCompilerABI.cpp.obj' '-c' '-dumpdir' 'CMakeFiles/cmTC_6cad3.dir/'
+         E:/ESP32-IDF-SOFTWARE/ENV/tools/xtensa-esp-elf/esp-14.2.0_20250730/xtensa-esp-elf/bin/../lib/gcc/xtensa-esp-elf/14.2.0/../../../../xtensa-esp-elf/bin/as.exe --traditional-format --longcalls --dynconfig=xtensa_esp32.so -o CMakeFiles/cmTC_6cad3.dir/CMakeCXXCompilerABI.cpp.obj C:\\Users\\THIEN\\AppData\\Local\\Temp\\cckfQLvJ.s
+        COMPILER_PATH=E:/ESP32-IDF-SOFTWARE/ENV/tools/xtensa-esp-elf/esp-14.2.0_20250730/xtensa-esp-elf/bin/../libexec/gcc/xtensa-esp-elf/14.2.0/;E:/ESP32-IDF-SOFTWARE/ENV/tools/xtensa-esp-elf/esp-14.2.0_20250730/xtensa-esp-elf/bin/../libexec/gcc/;E:/ESP32-IDF-SOFTWARE/ENV/tools/xtensa-esp-elf/esp-14.2.0_20250730/xtensa-esp-elf/bin/../lib/gcc/xtensa-esp-elf/14.2.0/../../../../xtensa-esp-elf/bin/
+        LIBRARY_PATH=E:/ESP32-IDF-SOFTWARE/ENV/tools/xtensa-esp-elf/esp-14.2.0_20250730/xtensa-esp-elf/bin/../lib/gcc/xtensa-esp-elf/14.2.0/esp32/;E:/ESP32-IDF-SOFTWARE/ENV/tools/xtensa-esp-elf/esp-14.2.0_20250730/xtensa-esp-elf/bin/../lib/gcc/xtensa-esp-elf/14.2.0/../../../../xtensa-esp-elf/lib/esp32/;E:/ESP32-IDF-SOFTWARE/ENV/tools/xtensa-esp-elf/esp-14.2.0_20250730/xtensa-esp-elf/bin/../xtensa-esp-elf/lib/esp32/;E:/ESP32-IDF-SOFTWARE/ENV/tools/xtensa-esp-elf/esp-14.2.0_20250730/xtensa-esp-elf/bin/../lib/gcc/xtensa-esp-elf/14.2.0/;E:/ESP32-IDF-SOFTWARE/ENV/tools/xtensa-esp-elf/esp-14.2.0_20250730/xtensa-esp-elf/bin/../lib/gcc/;E:/ESP32-IDF-SOFTWARE/ENV/tools/xtensa-esp-elf/esp-14.2.0_20250730/xtensa-esp-elf/bin/../lib/gcc/xtensa-esp-elf/14.2.0/../../../../xtensa-esp-elf/lib/;E:/ESP32-IDF-SOFTWARE/ENV/tools/xtensa-esp-elf/esp-14.2.0_20250730/xtensa-esp-elf/bin/../xtensa-esp-elf/lib/
+        COLLECT_GCC_OPTIONS='-mdynconfig=xtensa_esp32.so' '-mlongcalls' '-Wno-frame-address' '-fno-builtin-memcpy' '-fno-builtin-memset' '-fno-builtin-bzero' '-fno-builtin-stpcpy' '-fno-builtin-strncpy' '-v' '-o' 'CMakeFiles/cmTC_6cad3.dir/CMakeCXXCompilerABI.cpp.obj' '-c' '-dumpdir' 'CMakeFiles/cmTC_6cad3.dir/CMakeCXXCompilerABI.cpp.'\x0d
+        [2/2] C:\\WINDOWS\\system32\\cmd.exe /C "cd . && E:\\ESP32-IDF-SOFTWARE\\ENV\\tools\\xtensa-esp-elf\\esp-14.2.0_20250730\\xtensa-esp-elf\\bin\\xtensa-esp32-elf-g++.exe -mlongcalls -Wno-frame-address  -fno-builtin-memcpy -fno-builtin-memset -fno-builtin-bzero -fno-builtin-stpcpy -fno-builtin-strncpy -v CMakeFiles/cmTC_6cad3.dir/CMakeCXXCompilerABI.cpp.obj -o cmTC_6cad3   && cd ."
+        Using built-in specs.
+        COLLECT_GCC=E:\\ESP32-IDF-SOFTWARE\\ENV\\tools\\xtensa-esp-elf\\esp-14.2.0_20250730\\xtensa-esp-elf\\bin\\xtensa-esp-elf-g++.exe
+        COLLECT_LTO_WRAPPER=E:/ESP32-IDF-SOFTWARE/ENV/tools/xtensa-esp-elf/esp-14.2.0_20250730/xtensa-esp-elf/bin/../libexec/gcc/xtensa-esp-elf/14.2.0/lto-wrapper.exe
+        Target: xtensa-esp-elf
+        Configured with: /builds/idf/crosstool-NG/.build/xtensa-esp-elf/src/gcc/configure --build=x86_64-build_pc-linux-gnu --host=x86_64-host_w64-mingw32 --target=xtensa-esp-elf --prefix=/builds/idf/crosstool-NG/builds/xtensa-esp-elf --exec_prefix=/builds/idf/crosstool-NG/builds/xtensa-esp-elf --with-local-prefix=/builds/idf/crosstool-NG/builds/xtensa-esp-elf/xtensa-esp-elf --with-sysroot=/builds/idf/crosstool-NG/builds/xtensa-esp-elf/xtensa-esp-elf --with-native-system-header-dir=/include --with-newlib --enable-threads=no --disable-shared --with-pkgversion='crosstool-NG esp-14.2.0_20250730' --disable-__cxa_atexit --enable-cxx-flags='-ffunction-sections -fdata-sections' --disable-libgomp --disable-libmudflap --disable-libmpx --disable-libssp --disable-libquadmath --disable-libquadmath-support --disable-libstdcxx-verbose --with-gmp=/builds/idf/crosstool-NG/.build/xtensa-esp-elf/buildtools/complibs-host --with-mpfr=/builds/idf/crosstool-NG/.build/xtensa-esp-elf/buildtools/complibs-host --with-mpc=/builds/idf/crosstool-NG/.build/xtensa-esp-elf/buildtools/complibs-host --with-isl=/builds/idf/crosstool-NG/.build/xtensa-esp-elf/buildtools/complibs-host --enable-lto --enable-target-optspace --without-long-double-128 --disable-nls --enable-multiarch --enable-languages=c,c++ --disable-libstdcxx-verbose --enable-threads=posix --enable-gcov-custom-rtio --enable-libstdcxx-time=yes --with-gnu-ld
+        Thread model: posix
+        Supported LTO compression algorithms: zlib zstd
+        gcc version 14.2.0 (crosstool-NG esp-14.2.0_20250730) 
+        COMPILER_PATH=E:/ESP32-IDF-SOFTWARE/ENV/tools/xtensa-esp-elf/esp-14.2.0_20250730/xtensa-esp-elf/bin/../libexec/gcc/xtensa-esp-elf/14.2.0/;E:/ESP32-IDF-SOFTWARE/ENV/tools/xtensa-esp-elf/esp-14.2.0_20250730/xtensa-esp-elf/bin/../libexec/gcc/;E:/ESP32-IDF-SOFTWARE/ENV/tools/xtensa-esp-elf/esp-14.2.0_20250730/xtensa-esp-elf/bin/../lib/gcc/xtensa-esp-elf/14.2.0/../../../../xtensa-esp-elf/bin/
+        LIBRARY_PATH=E:/ESP32-IDF-SOFTWARE/ENV/tools/xtensa-esp-elf/esp-14.2.0_20250730/xtensa-esp-elf/bin/../lib/gcc/xtensa-esp-elf/14.2.0/esp32/;E:/ESP32-IDF-SOFTWARE/ENV/tools/xtensa-esp-elf/esp-14.2.0_20250730/xtensa-esp-elf/bin/../lib/gcc/xtensa-esp-elf/14.2.0/../../../../xtensa-esp-elf/lib/esp32/;E:/ESP32-IDF-SOFTWARE/ENV/tools/xtensa-esp-elf/esp-14.2.0_20250730/xtensa-esp-elf/bin/../xtensa-esp-elf/lib/esp32/;E:/ESP32-IDF-SOFTWARE/ENV/tools/xtensa-esp-elf/esp-14.2.0_20250730/xtensa-esp-elf/bin/../lib/gcc/xtensa-esp-elf/14.2.0/;E:/ESP32-IDF-SOFTWARE/ENV/tools/xtensa-esp-elf/esp-14.2.0_20250730/xtensa-esp-elf/bin/../lib/gcc/;E:/ESP32-IDF-SOFTWARE/ENV/tools/xtensa-esp-elf/esp-14.2.0_20250730/xtensa-esp-elf/bin/../lib/gcc/xtensa-esp-elf/14.2.0/../../../../xtensa-esp-elf/lib/;E:/ESP32-IDF-SOFTWARE/ENV/tools/xtensa-esp-elf/esp-14.2.0_20250730/xtensa-esp-elf/bin/../xtensa-esp-elf/lib/
+        COLLECT_GCC_OPTIONS='-mdynconfig=xtensa_esp32.so' '-mlongcalls' '-Wno-frame-address' '-fno-builtin-memcpy' '-fno-builtin-memset' '-fno-builtin-bzero' '-fno-builtin-stpcpy' '-fno-builtin-strncpy' '-v' '-o' 'cmTC_6cad3' '-dumpdir' 'cmTC_6cad3.'
+         E:/ESP32-IDF-SOFTWARE/ENV/tools/xtensa-esp-elf/esp-14.2.0_20250730/xtensa-esp-elf/bin/../libexec/gcc/xtensa-esp-elf/14.2.0/collect2.exe -plugin E:/ESP32-IDF-SOFTWARE/ENV/tools/xtensa-esp-elf/esp-14.2.0_20250730/xtensa-esp-elf/bin/../libexec/gcc/xtensa-esp-elf/14.2.0/liblto_plugin.dll -plugin-opt=E:/ESP32-IDF-SOFTWARE/ENV/tools/xtensa-esp-elf/esp-14.2.0_20250730/xtensa-esp-elf/bin/../libexec/gcc/xtensa-esp-elf/14.2.0/lto-wrapper.exe -plugin-opt=-fresolution=C:\\Users\\THIEN\\AppData\\Local\\Temp\\ccuibVFO.res -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lc -plugin-opt=-pass-through=-lnosys -plugin-opt=-pass-through=-lc -plugin-opt=-pass-through=-lgcc --sysroot=E:/ESP32-IDF-SOFTWARE/ENV/tools/xtensa-esp-elf/esp-14.2.0_20250730/xtensa-esp-elf/bin/../xtensa-esp-elf --dynconfig=xtensa_esp32.so -o cmTC_6cad3 E:/ESP32-IDF-SOFTWARE/ENV/tools/xtensa-esp-elf/esp-14.2.0_20250730/xtensa-esp-elf/bin/../lib/gcc/xtensa-esp-elf/14.2.0/../../../../xtensa-esp-elf/lib/esp32/crt0.o E:/ESP32-IDF-SOFTWARE/ENV/tools/xtensa-esp-elf/esp-14.2.0_20250730/xtensa-esp-elf/bin/../lib/gcc/xtensa-esp-elf/14.2.0/esp32/crti.o E:/ESP32-IDF-SOFTWARE/ENV/tools/xtensa-esp-elf/esp-14.2.0_20250730/xtensa-esp-elf/bin/../lib/gcc/xtensa-esp-elf/14.2.0/esp32/crtbegin.o -LE:/ESP32-IDF-SOFTWARE/ENV/tools/xtensa-esp-elf/esp-14.2.0_20250730/xtensa-esp-elf/bin/../lib/gcc/xtensa-esp-elf/14.2.0/esp32 -LE:/ESP32-IDF-SOFTWARE/ENV/tools/xtensa-esp-elf/esp-14.2.0_20250730/xtensa-esp-elf/bin/../lib/gcc/xtensa-esp-elf/14.2.0/../../../../xtensa-esp-elf/lib/esp32 -LE:/ESP32-IDF-SOFTWARE/ENV/tools/xtensa-esp-elf/esp-14.2.0_20250730/xtensa-esp-elf/bin/../xtensa-esp-elf/lib/esp32 -LE:/ESP32-IDF-SOFTWARE/ENV/tools/xtensa-esp-elf/esp-14.2.0_20250730/xtensa-esp-elf/bin/../lib/gcc/xtensa-esp-elf/14.2.0 -LE:/ESP32-IDF-SOFTWARE/ENV/tools/xtensa-esp-elf/esp-14.2.0_20250730/xtensa-esp-elf/bin/../lib/gcc -LE:/ESP32-IDF-SOFTWARE/ENV/tools/xtensa-esp-elf/esp-14.2.0_20250730/xtensa-esp-elf/bin/../lib/gcc/xtensa-esp-elf/14.2.0/../../../../xtensa-esp-elf/lib -LE:/ESP32-IDF-SOFTWARE/ENV/tools/xtensa-esp-elf/esp-14.2.0_20250730/xtensa-esp-elf/bin/../xtensa-esp-elf/lib CMakeFiles/cmTC_6cad3.dir/CMakeCXXCompilerABI.cpp.obj -lstdc++ -lm -lgcc -lc -lnosys -lc -lgcc E:/ESP32-IDF-SOFTWARE/ENV/tools/xtensa-esp-elf/esp-14.2.0_20250730/xtensa-esp-elf/bin/../lib/gcc/xtensa-esp-elf/14.2.0/esp32/crtend.o E:/ESP32-IDF-SOFTWARE/ENV/tools/xtensa-esp-elf/esp-14.2.0_20250730/xtensa-esp-elf/bin/../lib/gcc/xtensa-esp-elf/14.2.0/esp32/crtn.o\x0d
+        COLLECT_GCC_OPTIONS='-mdynconfig=xtensa_esp32.so' '-mlongcalls' '-Wno-frame-address' '-fno-builtin-memcpy' '-fno-builtin-memset' '-fno-builtin-bzero' '-fno-builtin-stpcpy' '-fno-builtin-strncpy' '-v' '-o' 'cmTC_6cad3' '-dumpdir' 'cmTC_6cad3.'\x0d
+        
+      exitCode: 0
+  -
+    kind: "message-v1"
+    backtrace:
+      - "E:/ESP32-IDF-SOFTWARE/ENV/tools/cmake/3.30.2/share/cmake-3.30/Modules/CMakeDetermineCompilerABI.cmake:182 (message)"
+      - "E:/ESP32-IDF-SOFTWARE/ENV/tools/cmake/3.30.2/share/cmake-3.30/Modules/CMakeTestCXXCompiler.cmake:26 (CMAKE_DETERMINE_COMPILER_ABI)"
+      - "E:/ESP32-IDF-SOFTWARE/ENV/frameworks/esp-idf-v5.4.3/tools/cmake/project.cmake:571 (__project)"
+      - "CMakeLists.txt:7 (project)"
+    message: |
+      Parsed CXX implicit include dir info: rv=done
+        found start of include info
+        found start of implicit include info
+          add: [E:/ESP32-IDF-SOFTWARE/ENV/tools/xtensa-esp-elf/esp-14.2.0_20250730/xtensa-esp-elf/bin/../lib/gcc/xtensa-esp-elf/14.2.0/../../../../xtensa-esp-elf/include/c++/14.2.0]
+          add: [E:/ESP32-IDF-SOFTWARE/ENV/tools/xtensa-esp-elf/esp-14.2.0_20250730/xtensa-esp-elf/bin/../lib/gcc/xtensa-esp-elf/14.2.0/../../../../xtensa-esp-elf/include/c++/14.2.0/xtensa-esp-elf/esp32]
+          add: [E:/ESP32-IDF-SOFTWARE/ENV/tools/xtensa-esp-elf/esp-14.2.0_20250730/xtensa-esp-elf/bin/../lib/gcc/xtensa-esp-elf/14.2.0/../../../../xtensa-esp-elf/include/c++/14.2.0/backward]
+          add: [E:/ESP32-IDF-SOFTWARE/ENV/tools/xtensa-esp-elf/esp-14.2.0_20250730/xtensa-esp-elf/bin/../lib/gcc/xtensa-esp-elf/14.2.0/include]
+          add: [E:/ESP32-IDF-SOFTWARE/ENV/tools/xtensa-esp-elf/esp-14.2.0_20250730/xtensa-esp-elf/bin/../lib/gcc/xtensa-esp-elf/14.2.0/include-fixed]
+          add: [E:/ESP32-IDF-SOFTWARE/ENV/tools/xtensa-esp-elf/esp-14.2.0_20250730/xtensa-esp-elf/bin/../lib/gcc/xtensa-esp-elf/14.2.0/../../../../xtensa-esp-elf/include]
+        end of search list found
+        collapse include dir [E:/ESP32-IDF-SOFTWARE/ENV/tools/xtensa-esp-elf/esp-14.2.0_20250730/xtensa-esp-elf/bin/../lib/gcc/xtensa-esp-elf/14.2.0/../../../../xtensa-esp-elf/include/c++/14.2.0] ==> [E:/ESP32-IDF-SOFTWARE/ENV/tools/xtensa-esp-elf/esp-14.2.0_20250730/xtensa-esp-elf/xtensa-esp-elf/include/c++/14.2.0]
+        collapse include dir [E:/ESP32-IDF-SOFTWARE/ENV/tools/xtensa-esp-elf/esp-14.2.0_20250730/xtensa-esp-elf/bin/../lib/gcc/xtensa-esp-elf/14.2.0/../../../../xtensa-esp-elf/include/c++/14.2.0/xtensa-esp-elf/esp32] ==> [E:/ESP32-IDF-SOFTWARE/ENV/tools/xtensa-esp-elf/esp-14.2.0_20250730/xtensa-esp-elf/xtensa-esp-elf/include/c++/14.2.0/xtensa-esp-elf/esp32]
+        collapse include dir [E:/ESP32-IDF-SOFTWARE/ENV/tools/xtensa-esp-elf/esp-14.2.0_20250730/xtensa-esp-elf/bin/../lib/gcc/xtensa-esp-elf/14.2.0/../../../../xtensa-esp-elf/include/c++/14.2.0/backward] ==> [E:/ESP32-IDF-SOFTWARE/ENV/tools/xtensa-esp-elf/esp-14.2.0_20250730/xtensa-esp-elf/xtensa-esp-elf/include/c++/14.2.0/backward]
+        collapse include dir [E:/ESP32-IDF-SOFTWARE/ENV/tools/xtensa-esp-elf/esp-14.2.0_20250730/xtensa-esp-elf/bin/../lib/gcc/xtensa-esp-elf/14.2.0/include] ==> [E:/ESP32-IDF-SOFTWARE/ENV/tools/xtensa-esp-elf/esp-14.2.0_20250730/xtensa-esp-elf/lib/gcc/xtensa-esp-elf/14.2.0/include]
+        collapse include dir [E:/ESP32-IDF-SOFTWARE/ENV/tools/xtensa-esp-elf/esp-14.2.0_20250730/xtensa-esp-elf/bin/../lib/gcc/xtensa-esp-elf/14.2.0/include-fixed] ==> [E:/ESP32-IDF-SOFTWARE/ENV/tools/xtensa-esp-elf/esp-14.2.0_20250730/xtensa-esp-elf/lib/gcc/xtensa-esp-elf/14.2.0/include-fixed]
+        collapse include dir [E:/ESP32-IDF-SOFTWARE/ENV/tools/xtensa-esp-elf/esp-14.2.0_20250730/xtensa-esp-elf/bin/../lib/gcc/xtensa-esp-elf/14.2.0/../../../../xtensa-esp-elf/include] ==> [E:/ESP32-IDF-SOFTWARE/ENV/tools/xtensa-esp-elf/esp-14.2.0_20250730/xtensa-esp-elf/xtensa-esp-elf/include]
+        implicit include dirs: [E:/ESP32-IDF-SOFTWARE/ENV/tools/xtensa-esp-elf/esp-14.2.0_20250730/xtensa-esp-elf/xtensa-esp-elf/include/c++/14.2.0;E:/ESP32-IDF-SOFTWARE/ENV/tools/xtensa-esp-elf/esp-14.2.0_20250730/xtensa-esp-elf/xtensa-esp-elf/include/c++/14.2.0/xtensa-esp-elf/esp32;E:/ESP32-IDF-SOFTWARE/ENV/tools/xtensa-esp-elf/esp-14.2.0_20250730/xtensa-esp-elf/xtensa-esp-elf/include/c++/14.2.0/backward;E:/ESP32-IDF-SOFTWARE/ENV/tools/xtensa-esp-elf/esp-14.2.0_20250730/xtensa-esp-elf/lib/gcc/xtensa-esp-elf/14.2.0/include;E:/ESP32-IDF-SOFTWARE/ENV/tools/xtensa-esp-elf/esp-14.2.0_20250730/xtensa-esp-elf/lib/gcc/xtensa-esp-elf/14.2.0/include-fixed;E:/ESP32-IDF-SOFTWARE/ENV/tools/xtensa-esp-elf/esp-14.2.0_20250730/xtensa-esp-elf/xtensa-esp-elf/include]
+      
+      
+  -
+    kind: "message-v1"
+    backtrace:
+      - "E:/ESP32-IDF-SOFTWARE/ENV/tools/cmake/3.30.2/share/cmake-3.30/Modules/CMakeDetermineCompilerABI.cmake:218 (message)"
+      - "E:/ESP32-IDF-SOFTWARE/ENV/tools/cmake/3.30.2/share/cmake-3.30/Modules/CMakeTestCXXCompiler.cmake:26 (CMAKE_DETERMINE_COMPILER_ABI)"
+      - "E:/ESP32-IDF-SOFTWARE/ENV/frameworks/esp-idf-v5.4.3/tools/cmake/project.cmake:571 (__project)"
+      - "CMakeLists.txt:7 (project)"
+    message: |
+      Parsed CXX implicit link information:
+        link line regex: [^( *|.*[/\\])(ld[0-9]*(\\.[a-z]+)?|CMAKE_LINK_STARTFILE-NOTFOUND|([^/\\]+-)?ld|collect2)[^/\\]*( |$)]
+        linker tool regex: [^[ 	]*(->|")?[ 	]*(([^"]*[/\\])?(ld[0-9]*(\\.[a-z]+)?))("|,| |$)]
+        ignore line: [Change Dir: 'E:/ESP32-IDF-SOFTWARE/CODE/Update_Firmware/build/CMakeFiles/CMakeScratch/TryCompile-2ed4v3']
+        ignore line: []
+        ignore line: [Run Build Command(s): E:/ESP32-IDF-SOFTWARE/ENV/tools/ninja/1.12.1/ninja.exe -v cmTC_6cad3]
+        ignore line: [[1/2] E:\\ESP32-IDF-SOFTWARE\\ENV\\tools\\xtensa-esp-elf\\esp-14.2.0_20250730\\xtensa-esp-elf\\bin\\xtensa-esp32-elf-g++.exe   -mlongcalls -Wno-frame-address  -fno-builtin-memcpy -fno-builtin-memset -fno-builtin-bzero -fno-builtin-stpcpy -fno-builtin-strncpy    -v -o CMakeFiles/cmTC_6cad3.dir/CMakeCXXCompilerABI.cpp.obj -c E:/ESP32-IDF-SOFTWARE/ENV/tools/cmake/3.30.2/share/cmake-3.30/Modules/CMakeCXXCompilerABI.cpp]
+        ignore line: [Using built-in specs.]
+        ignore line: [COLLECT_GCC=E:\\ESP32-IDF-SOFTWARE\\ENV\\tools\\xtensa-esp-elf\\esp-14.2.0_20250730\\xtensa-esp-elf\\bin\\xtensa-esp-elf-g++.exe]
+        ignore line: [Target: xtensa-esp-elf]
+        ignore line: [Configured with: /builds/idf/crosstool-NG/.build/xtensa-esp-elf/src/gcc/configure --build=x86_64-build_pc-linux-gnu --host=x86_64-host_w64-mingw32 --target=xtensa-esp-elf --prefix=/builds/idf/crosstool-NG/builds/xtensa-esp-elf --exec_prefix=/builds/idf/crosstool-NG/builds/xtensa-esp-elf --with-local-prefix=/builds/idf/crosstool-NG/builds/xtensa-esp-elf/xtensa-esp-elf --with-sysroot=/builds/idf/crosstool-NG/builds/xtensa-esp-elf/xtensa-esp-elf --with-native-system-header-dir=/include --with-newlib --enable-threads=no --disable-shared --with-pkgversion='crosstool-NG esp-14.2.0_20250730' --disable-__cxa_atexit --enable-cxx-flags='-ffunction-sections -fdata-sections' --disable-libgomp --disable-libmudflap --disable-libmpx --disable-libssp --disable-libquadmath --disable-libquadmath-support --disable-libstdcxx-verbose --with-gmp=/builds/idf/crosstool-NG/.build/xtensa-esp-elf/buildtools/complibs-host --with-mpfr=/builds/idf/crosstool-NG/.build/xtensa-esp-elf/buildtools/complibs-host --with-mpc=/builds/idf/crosstool-NG/.build/xtensa-esp-elf/buildtools/complibs-host --with-isl=/builds/idf/crosstool-NG/.build/xtensa-esp-elf/buildtools/complibs-host --enable-lto --enable-target-optspace --without-long-double-128 --disable-nls --enable-multiarch --enable-languages=c,c++ --disable-libstdcxx-verbose --enable-threads=posix --enable-gcov-custom-rtio --enable-libstdcxx-time=yes --with-gnu-ld]
+        ignore line: [Thread model: posix]
+        ignore line: [Supported LTO compression algorithms: zlib zstd]
+        ignore line: [gcc version 14.2.0 (crosstool-NG esp-14.2.0_20250730) ]
+        ignore line: [COLLECT_GCC_OPTIONS='-mdynconfig=xtensa_esp32.so' '-mlongcalls' '-Wno-frame-address' '-fno-builtin-memcpy' '-fno-builtin-memset' '-fno-builtin-bzero' '-fno-builtin-stpcpy' '-fno-builtin-strncpy' '-v' '-o' 'CMakeFiles/cmTC_6cad3.dir/CMakeCXXCompilerABI.cpp.obj' '-c' '-dumpdir' 'CMakeFiles/cmTC_6cad3.dir/']
+        ignore line: [ E:/ESP32-IDF-SOFTWARE/ENV/tools/xtensa-esp-elf/esp-14.2.0_20250730/xtensa-esp-elf/bin/../libexec/gcc/xtensa-esp-elf/14.2.0/cc1plus.exe -quiet -v -imultilib esp32 -iprefix E:/ESP32-IDF-SOFTWARE/ENV/tools/xtensa-esp-elf/esp-14.2.0_20250730/xtensa-esp-elf/bin/../lib/gcc/xtensa-esp-elf/14.2.0/ -isysroot E:/ESP32-IDF-SOFTWARE/ENV/tools/xtensa-esp-elf/esp-14.2.0_20250730/xtensa-esp-elf/bin/../xtensa-esp-elf E:/ESP32-IDF-SOFTWARE/ENV/tools/cmake/3.30.2/share/cmake-3.30/Modules/CMakeCXXCompilerABI.cpp -quiet -dumpdir CMakeFiles/cmTC_6cad3.dir/ -dumpbase CMakeCXXCompilerABI.cpp.cpp -dumpbase-ext .cpp -mdynconfig=xtensa_esp32.so -mlongcalls -Wno-frame-address -version -fno-builtin-memcpy -fno-builtin-memset -fno-builtin-bzero -fno-builtin-stpcpy -fno-builtin-strncpy -o C:\\Users\\THIEN\\AppData\\Local\\Temp\\cckfQLvJ.s]
+        ignore line: [GNU C++17 (crosstool-NG esp-14.2.0_20250730) version 14.2.0 (xtensa-esp-elf)]
+        ignore line: [	compiled by GNU C version 6.3.0 20170516  GMP version 6.2.1  MPFR version 4.2.1  MPC version 1.2.1  isl version isl-0.26-GMP]
+        ignore line: []
+        ignore line: [GGC heuristics: --param ggc-min-expand=100 --param ggc-min-heapsize=131072]
+        ignore line: [ignoring duplicate directory "E:/ESP32-IDF-SOFTWARE/ENV/tools/xtensa-esp-elf/esp-14.2.0_20250730/xtensa-esp-elf/lib/gcc/../../lib/gcc/xtensa-esp-elf/14.2.0/../../../../xtensa-esp-elf/include/c++/14.2.0"]
+        ignore line: [ignoring duplicate directory "E:/ESP32-IDF-SOFTWARE/ENV/tools/xtensa-esp-elf/esp-14.2.0_20250730/xtensa-esp-elf/lib/gcc/../../lib/gcc/xtensa-esp-elf/14.2.0/../../../../xtensa-esp-elf/include/c++/14.2.0/xtensa-esp-elf/esp32"]
+        ignore line: [ignoring duplicate directory "E:/ESP32-IDF-SOFTWARE/ENV/tools/xtensa-esp-elf/esp-14.2.0_20250730/xtensa-esp-elf/lib/gcc/../../lib/gcc/xtensa-esp-elf/14.2.0/../../../../xtensa-esp-elf/include/c++/14.2.0/backward"]
+        ignore line: [ignoring duplicate directory "E:/ESP32-IDF-SOFTWARE/ENV/tools/xtensa-esp-elf/esp-14.2.0_20250730/xtensa-esp-elf/lib/gcc/../../lib/gcc/xtensa-esp-elf/14.2.0/include"]
+        ignore line: [ignoring nonexistent directory "E:/ESP32-IDF-SOFTWARE/ENV/tools/xtensa-esp-elf/esp-14.2.0_20250730/xtensa-esp-elf/bin/../xtensa-esp-elf/builds/idf/crosstool-NG/builds/xtensa-esp-elf/lib/gcc/xtensa-esp-elf/14.2.0/../../../../include"]
+        ignore line: [ignoring duplicate directory "E:/ESP32-IDF-SOFTWARE/ENV/tools/xtensa-esp-elf/esp-14.2.0_20250730/xtensa-esp-elf/lib/gcc/../../lib/gcc/xtensa-esp-elf/14.2.0/include-fixed"]
+        ignore line: [ignoring duplicate directory "E:/ESP32-IDF-SOFTWARE/ENV/tools/xtensa-esp-elf/esp-14.2.0_20250730/xtensa-esp-elf/lib/gcc/../../lib/gcc/xtensa-esp-elf/14.2.0/../../../../xtensa-esp-elf/include"]
+        ignore line: [ignoring duplicate directory "E:/ESP32-IDF-SOFTWARE/ENV/tools/xtensa-esp-elf/esp-14.2.0_20250730/xtensa-esp-elf/bin/../xtensa-esp-elf/include"]
+        ignore line: [#include "..." search starts here:]
+        ignore line: [#include <...> search starts here:]
+        ignore line: [ E:/ESP32-IDF-SOFTWARE/ENV/tools/xtensa-esp-elf/esp-14.2.0_20250730/xtensa-esp-elf/bin/../lib/gcc/xtensa-esp-elf/14.2.0/../../../../xtensa-esp-elf/include/c++/14.2.0]
+        ignore line: [ E:/ESP32-IDF-SOFTWARE/ENV/tools/xtensa-esp-elf/esp-14.2.0_20250730/xtensa-esp-elf/bin/../lib/gcc/xtensa-esp-elf/14.2.0/../../../../xtensa-esp-elf/include/c++/14.2.0/xtensa-esp-elf/esp32]
+        ignore line: [ E:/ESP32-IDF-SOFTWARE/ENV/tools/xtensa-esp-elf/esp-14.2.0_20250730/xtensa-esp-elf/bin/../lib/gcc/xtensa-esp-elf/14.2.0/../../../../xtensa-esp-elf/include/c++/14.2.0/backward]
+        ignore line: [ E:/ESP32-IDF-SOFTWARE/ENV/tools/xtensa-esp-elf/esp-14.2.0_20250730/xtensa-esp-elf/bin/../lib/gcc/xtensa-esp-elf/14.2.0/include]
+        ignore line: [ E:/ESP32-IDF-SOFTWARE/ENV/tools/xtensa-esp-elf/esp-14.2.0_20250730/xtensa-esp-elf/bin/../lib/gcc/xtensa-esp-elf/14.2.0/include-fixed]
+        ignore line: [ E:/ESP32-IDF-SOFTWARE/ENV/tools/xtensa-esp-elf/esp-14.2.0_20250730/xtensa-esp-elf/bin/../lib/gcc/xtensa-esp-elf/14.2.0/../../../../xtensa-esp-elf/include]
+        ignore line: [End of search list.]
+        ignore line: [Compiler executable checksum: 36f90ab7ffea0d7cc4d0c7b1a89d7e55]
+        ignore line: [COLLECT_GCC_OPTIONS='-mdynconfig=xtensa_esp32.so' '-mlongcalls' '-Wno-frame-address' '-fno-builtin-memcpy' '-fno-builtin-memset' '-fno-builtin-bzero' '-fno-builtin-stpcpy' '-fno-builtin-strncpy' '-v' '-o' 'CMakeFiles/cmTC_6cad3.dir/CMakeCXXCompilerABI.cpp.obj' '-c' '-dumpdir' 'CMakeFiles/cmTC_6cad3.dir/']
+        ignore line: [ E:/ESP32-IDF-SOFTWARE/ENV/tools/xtensa-esp-elf/esp-14.2.0_20250730/xtensa-esp-elf/bin/../lib/gcc/xtensa-esp-elf/14.2.0/../../../../xtensa-esp-elf/bin/as.exe --traditional-format --longcalls --dynconfig=xtensa_esp32.so -o CMakeFiles/cmTC_6cad3.dir/CMakeCXXCompilerABI.cpp.obj C:\\Users\\THIEN\\AppData\\Local\\Temp\\cckfQLvJ.s]
+        ignore line: [COMPILER_PATH=E:/ESP32-IDF-SOFTWARE/ENV/tools/xtensa-esp-elf/esp-14.2.0_20250730/xtensa-esp-elf/bin/../libexec/gcc/xtensa-esp-elf/14.2.0/]
+        ignore line: [E:/ESP32-IDF-SOFTWARE/ENV/tools/xtensa-esp-elf/esp-14.2.0_20250730/xtensa-esp-elf/bin/../libexec/gcc/]
+        ignore line: [E:/ESP32-IDF-SOFTWARE/ENV/tools/xtensa-esp-elf/esp-14.2.0_20250730/xtensa-esp-elf/bin/../lib/gcc/xtensa-esp-elf/14.2.0/../../../../xtensa-esp-elf/bin/]
+        ignore line: [LIBRARY_PATH=E:/ESP32-IDF-SOFTWARE/ENV/tools/xtensa-esp-elf/esp-14.2.0_20250730/xtensa-esp-elf/bin/../lib/gcc/xtensa-esp-elf/14.2.0/esp32/]
+        ignore line: [E:/ESP32-IDF-SOFTWARE/ENV/tools/xtensa-esp-elf/esp-14.2.0_20250730/xtensa-esp-elf/bin/../lib/gcc/xtensa-esp-elf/14.2.0/../../../../xtensa-esp-elf/lib/esp32/]
+        ignore line: [E:/ESP32-IDF-SOFTWARE/ENV/tools/xtensa-esp-elf/esp-14.2.0_20250730/xtensa-esp-elf/bin/../xtensa-esp-elf/lib/esp32/]
+        ignore line: [E:/ESP32-IDF-SOFTWARE/ENV/tools/xtensa-esp-elf/esp-14.2.0_20250730/xtensa-esp-elf/bin/../lib/gcc/xtensa-esp-elf/14.2.0/]
+        ignore line: [E:/ESP32-IDF-SOFTWARE/ENV/tools/xtensa-esp-elf/esp-14.2.0_20250730/xtensa-esp-elf/bin/../lib/gcc/]
+        ignore line: [E:/ESP32-IDF-SOFTWARE/ENV/tools/xtensa-esp-elf/esp-14.2.0_20250730/xtensa-esp-elf/bin/../lib/gcc/xtensa-esp-elf/14.2.0/../../../../xtensa-esp-elf/lib/]
+        ignore line: [E:/ESP32-IDF-SOFTWARE/ENV/tools/xtensa-esp-elf/esp-14.2.0_20250730/xtensa-esp-elf/bin/../xtensa-esp-elf/lib/]
+        ignore line: [COLLECT_GCC_OPTIONS='-mdynconfig=xtensa_esp32.so' '-mlongcalls' '-Wno-frame-address' '-fno-builtin-memcpy' '-fno-builtin-memset' '-fno-builtin-bzero' '-fno-builtin-stpcpy' '-fno-builtin-strncpy' '-v' '-o' 'CMakeFiles/cmTC_6cad3.dir/CMakeCXXCompilerABI.cpp.obj' '-c' '-dumpdir' 'CMakeFiles/cmTC_6cad3.dir/CMakeCXXCompilerABI.cpp.'\x0d]
+        ignore line: [[2/2] C:\\WINDOWS\\system32\\cmd.exe /C "cd . && E:\\ESP32-IDF-SOFTWARE\\ENV\\tools\\xtensa-esp-elf\\esp-14.2.0_20250730\\xtensa-esp-elf\\bin\\xtensa-esp32-elf-g++.exe -mlongcalls -Wno-frame-address  -fno-builtin-memcpy -fno-builtin-memset -fno-builtin-bzero -fno-builtin-stpcpy -fno-builtin-strncpy -v CMakeFiles/cmTC_6cad3.dir/CMakeCXXCompilerABI.cpp.obj -o cmTC_6cad3   && cd ."]
+        ignore line: [Using built-in specs.]
+        ignore line: [COLLECT_GCC=E:\\ESP32-IDF-SOFTWARE\\ENV\\tools\\xtensa-esp-elf\\esp-14.2.0_20250730\\xtensa-esp-elf\\bin\\xtensa-esp-elf-g++.exe]
+        ignore line: [COLLECT_LTO_WRAPPER=E:/ESP32-IDF-SOFTWARE/ENV/tools/xtensa-esp-elf/esp-14.2.0_20250730/xtensa-esp-elf/bin/../libexec/gcc/xtensa-esp-elf/14.2.0/lto-wrapper.exe]
+        ignore line: [Target: xtensa-esp-elf]
+        ignore line: [Configured with: /builds/idf/crosstool-NG/.build/xtensa-esp-elf/src/gcc/configure --build=x86_64-build_pc-linux-gnu --host=x86_64-host_w64-mingw32 --target=xtensa-esp-elf --prefix=/builds/idf/crosstool-NG/builds/xtensa-esp-elf --exec_prefix=/builds/idf/crosstool-NG/builds/xtensa-esp-elf --with-local-prefix=/builds/idf/crosstool-NG/builds/xtensa-esp-elf/xtensa-esp-elf --with-sysroot=/builds/idf/crosstool-NG/builds/xtensa-esp-elf/xtensa-esp-elf --with-native-system-header-dir=/include --with-newlib --enable-threads=no --disable-shared --with-pkgversion='crosstool-NG esp-14.2.0_20250730' --disable-__cxa_atexit --enable-cxx-flags='-ffunction-sections -fdata-sections' --disable-libgomp --disable-libmudflap --disable-libmpx --disable-libssp --disable-libquadmath --disable-libquadmath-support --disable-libstdcxx-verbose --with-gmp=/builds/idf/crosstool-NG/.build/xtensa-esp-elf/buildtools/complibs-host --with-mpfr=/builds/idf/crosstool-NG/.build/xtensa-esp-elf/buildtools/complibs-host --with-mpc=/builds/idf/crosstool-NG/.build/xtensa-esp-elf/buildtools/complibs-host --with-isl=/builds/idf/crosstool-NG/.build/xtensa-esp-elf/buildtools/complibs-host --enable-lto --enable-target-optspace --without-long-double-128 --disable-nls --enable-multiarch --enable-languages=c,c++ --disable-libstdcxx-verbose --enable-threads=posix --enable-gcov-custom-rtio --enable-libstdcxx-time=yes --with-gnu-ld]
+        ignore line: [Thread model: posix]
+        ignore line: [Supported LTO compression algorithms: zlib zstd]
+        ignore line: [gcc version 14.2.0 (crosstool-NG esp-14.2.0_20250730) ]
+        ignore line: [COMPILER_PATH=E:/ESP32-IDF-SOFTWARE/ENV/tools/xtensa-esp-elf/esp-14.2.0_20250730/xtensa-esp-elf/bin/../libexec/gcc/xtensa-esp-elf/14.2.0/]
+        ignore line: [E:/ESP32-IDF-SOFTWARE/ENV/tools/xtensa-esp-elf/esp-14.2.0_20250730/xtensa-esp-elf/bin/../libexec/gcc/]
+        ignore line: [E:/ESP32-IDF-SOFTWARE/ENV/tools/xtensa-esp-elf/esp-14.2.0_20250730/xtensa-esp-elf/bin/../lib/gcc/xtensa-esp-elf/14.2.0/../../../../xtensa-esp-elf/bin/]
+        ignore line: [LIBRARY_PATH=E:/ESP32-IDF-SOFTWARE/ENV/tools/xtensa-esp-elf/esp-14.2.0_20250730/xtensa-esp-elf/bin/../lib/gcc/xtensa-esp-elf/14.2.0/esp32/]
+        ignore line: [E:/ESP32-IDF-SOFTWARE/ENV/tools/xtensa-esp-elf/esp-14.2.0_20250730/xtensa-esp-elf/bin/../lib/gcc/xtensa-esp-elf/14.2.0/../../../../xtensa-esp-elf/lib/esp32/]
+        ignore line: [E:/ESP32-IDF-SOFTWARE/ENV/tools/xtensa-esp-elf/esp-14.2.0_20250730/xtensa-esp-elf/bin/../xtensa-esp-elf/lib/esp32/]
+        ignore line: [E:/ESP32-IDF-SOFTWARE/ENV/tools/xtensa-esp-elf/esp-14.2.0_20250730/xtensa-esp-elf/bin/../lib/gcc/xtensa-esp-elf/14.2.0/]
+        ignore line: [E:/ESP32-IDF-SOFTWARE/ENV/tools/xtensa-esp-elf/esp-14.2.0_20250730/xtensa-esp-elf/bin/../lib/gcc/]
+        ignore line: [E:/ESP32-IDF-SOFTWARE/ENV/tools/xtensa-esp-elf/esp-14.2.0_20250730/xtensa-esp-elf/bin/../lib/gcc/xtensa-esp-elf/14.2.0/../../../../xtensa-esp-elf/lib/]
+        ignore line: [E:/ESP32-IDF-SOFTWARE/ENV/tools/xtensa-esp-elf/esp-14.2.0_20250730/xtensa-esp-elf/bin/../xtensa-esp-elf/lib/]
+        ignore line: [COLLECT_GCC_OPTIONS='-mdynconfig=xtensa_esp32.so' '-mlongcalls' '-Wno-frame-address' '-fno-builtin-memcpy' '-fno-builtin-memset' '-fno-builtin-bzero' '-fno-builtin-stpcpy' '-fno-builtin-strncpy' '-v' '-o' 'cmTC_6cad3' '-dumpdir' 'cmTC_6cad3.']
+        link line: [ E:/ESP32-IDF-SOFTWARE/ENV/tools/xtensa-esp-elf/esp-14.2.0_20250730/xtensa-esp-elf/bin/../libexec/gcc/xtensa-esp-elf/14.2.0/collect2.exe -plugin E:/ESP32-IDF-SOFTWARE/ENV/tools/xtensa-esp-elf/esp-14.2.0_20250730/xtensa-esp-elf/bin/../libexec/gcc/xtensa-esp-elf/14.2.0/liblto_plugin.dll -plugin-opt=E:/ESP32-IDF-SOFTWARE/ENV/tools/xtensa-esp-elf/esp-14.2.0_20250730/xtensa-esp-elf/bin/../libexec/gcc/xtensa-esp-elf/14.2.0/lto-wrapper.exe -plugin-opt=-fresolution=C:\\Users\\THIEN\\AppData\\Local\\Temp\\ccuibVFO.res -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lc -plugin-opt=-pass-through=-lnosys -plugin-opt=-pass-through=-lc -plugin-opt=-pass-through=-lgcc --sysroot=E:/ESP32-IDF-SOFTWARE/ENV/tools/xtensa-esp-elf/esp-14.2.0_20250730/xtensa-esp-elf/bin/../xtensa-esp-elf --dynconfig=xtensa_esp32.so -o cmTC_6cad3 E:/ESP32-IDF-SOFTWARE/ENV/tools/xtensa-esp-elf/esp-14.2.0_20250730/xtensa-esp-elf/bin/../lib/gcc/xtensa-esp-elf/14.2.0/../../../../xtensa-esp-elf/lib/esp32/crt0.o E:/ESP32-IDF-SOFTWARE/ENV/tools/xtensa-esp-elf/esp-14.2.0_20250730/xtensa-esp-elf/bin/../lib/gcc/xtensa-esp-elf/14.2.0/esp32/crti.o E:/ESP32-IDF-SOFTWARE/ENV/tools/xtensa-esp-elf/esp-14.2.0_20250730/xtensa-esp-elf/bin/../lib/gcc/xtensa-esp-elf/14.2.0/esp32/crtbegin.o -LE:/ESP32-IDF-SOFTWARE/ENV/tools/xtensa-esp-elf/esp-14.2.0_20250730/xtensa-esp-elf/bin/../lib/gcc/xtensa-esp-elf/14.2.0/esp32 -LE:/ESP32-IDF-SOFTWARE/ENV/tools/xtensa-esp-elf/esp-14.2.0_20250730/xtensa-esp-elf/bin/../lib/gcc/xtensa-esp-elf/14.2.0/../../../../xtensa-esp-elf/lib/esp32 -LE:/ESP32-IDF-SOFTWARE/ENV/tools/xtensa-esp-elf/esp-14.2.0_20250730/xtensa-esp-elf/bin/../xtensa-esp-elf/lib/esp32 -LE:/ESP32-IDF-SOFTWARE/ENV/tools/xtensa-esp-elf/esp-14.2.0_20250730/xtensa-esp-elf/bin/../lib/gcc/xtensa-esp-elf/14.2.0 -LE:/ESP32-IDF-SOFTWARE/ENV/tools/xtensa-esp-elf/esp-14.2.0_20250730/xtensa-esp-elf/bin/../lib/gcc -LE:/ESP32-IDF-SOFTWARE/ENV/tools/xtensa-esp-elf/esp-14.2.0_20250730/xtensa-esp-elf/bin/../lib/gcc/xtensa-esp-elf/14.2.0/../../../../xtensa-esp-elf/lib -LE:/ESP32-IDF-SOFTWARE/ENV/tools/xtensa-esp-elf/esp-14.2.0_20250730/xtensa-esp-elf/bin/../xtensa-esp-elf/lib CMakeFiles/cmTC_6cad3.dir/CMakeCXXCompilerABI.cpp.obj -lstdc++ -lm -lgcc -lc -lnosys -lc -lgcc E:/ESP32-IDF-SOFTWARE/ENV/tools/xtensa-esp-elf/esp-14.2.0_20250730/xtensa-esp-elf/bin/../lib/gcc/xtensa-esp-elf/14.2.0/esp32/crtend.o E:/ESP32-IDF-SOFTWARE/ENV/tools/xtensa-esp-elf/esp-14.2.0_20250730/xtensa-esp-elf/bin/../lib/gcc/xtensa-esp-elf/14.2.0/esp32/crtn.o\x0d]
+          arg [E:/ESP32-IDF-SOFTWARE/ENV/tools/xtensa-esp-elf/esp-14.2.0_20250730/xtensa-esp-elf/bin/../libexec/gcc/xtensa-esp-elf/14.2.0/collect2.exe] ==> ignore
+          arg [-plugin] ==> ignore
+          arg [E:/ESP32-IDF-SOFTWARE/ENV/tools/xtensa-esp-elf/esp-14.2.0_20250730/xtensa-esp-elf/bin/../libexec/gcc/xtensa-esp-elf/14.2.0/liblto_plugin.dll] ==> ignore
+          arg [-plugin-opt=E:/ESP32-IDF-SOFTWARE/ENV/tools/xtensa-esp-elf/esp-14.2.0_20250730/xtensa-esp-elf/bin/../libexec/gcc/xtensa-esp-elf/14.2.0/lto-wrapper.exe] ==> ignore
+          arg [-plugin-opt=-fresolution=C:\\Users\\THIEN\\AppData\\Local\\Temp\\ccuibVFO.res] ==> ignore
+          arg [-plugin-opt=-pass-through=-lgcc] ==> ignore
+          arg [-plugin-opt=-pass-through=-lc] ==> ignore
+          arg [-plugin-opt=-pass-through=-lnosys] ==> ignore
+          arg [-plugin-opt=-pass-through=-lc] ==> ignore
+          arg [-plugin-opt=-pass-through=-lgcc] ==> ignore
+          arg [--sysroot=E:/ESP32-IDF-SOFTWARE/ENV/tools/xtensa-esp-elf/esp-14.2.0_20250730/xtensa-esp-elf/bin/../xtensa-esp-elf] ==> ignore
+          arg [--dynconfig=xtensa_esp32.so] ==> ignore
+          arg [-o] ==> ignore
+          arg [cmTC_6cad3] ==> ignore
+          arg [E:/ESP32-IDF-SOFTWARE/ENV/tools/xtensa-esp-elf/esp-14.2.0_20250730/xtensa-esp-elf/bin/../lib/gcc/xtensa-esp-elf/14.2.0/../../../../xtensa-esp-elf/lib/esp32/crt0.o] ==> obj [E:/ESP32-IDF-SOFTWARE/ENV/tools/xtensa-esp-elf/esp-14.2.0_20250730/xtensa-esp-elf/bin/../lib/gcc/xtensa-esp-elf/14.2.0/../../../../xtensa-esp-elf/lib/esp32/crt0.o]
+          arg [E:/ESP32-IDF-SOFTWARE/ENV/tools/xtensa-esp-elf/esp-14.2.0_20250730/xtensa-esp-elf/bin/../lib/gcc/xtensa-esp-elf/14.2.0/esp32/crti.o] ==> obj [E:/ESP32-IDF-SOFTWARE/ENV/tools/xtensa-esp-elf/esp-14.2.0_20250730/xtensa-esp-elf/bin/../lib/gcc/xtensa-esp-elf/14.2.0/esp32/crti.o]
+          arg [E:/ESP32-IDF-SOFTWARE/ENV/tools/xtensa-esp-elf/esp-14.2.0_20250730/xtensa-esp-elf/bin/../lib/gcc/xtensa-esp-elf/14.2.0/esp32/crtbegin.o] ==> obj [E:/ESP32-IDF-SOFTWARE/ENV/tools/xtensa-esp-elf/esp-14.2.0_20250730/xtensa-esp-elf/bin/../lib/gcc/xtensa-esp-elf/14.2.0/esp32/crtbegin.o]
+          arg [-LE:/ESP32-IDF-SOFTWARE/ENV/tools/xtensa-esp-elf/esp-14.2.0_20250730/xtensa-esp-elf/bin/../lib/gcc/xtensa-esp-elf/14.2.0/esp32] ==> dir [E:/ESP32-IDF-SOFTWARE/ENV/tools/xtensa-esp-elf/esp-14.2.0_20250730/xtensa-esp-elf/bin/../lib/gcc/xtensa-esp-elf/14.2.0/esp32]
+          arg [-LE:/ESP32-IDF-SOFTWARE/ENV/tools/xtensa-esp-elf/esp-14.2.0_20250730/xtensa-esp-elf/bin/../lib/gcc/xtensa-esp-elf/14.2.0/../../../../xtensa-esp-elf/lib/esp32] ==> dir [E:/ESP32-IDF-SOFTWARE/ENV/tools/xtensa-esp-elf/esp-14.2.0_20250730/xtensa-esp-elf/bin/../lib/gcc/xtensa-esp-elf/14.2.0/../../../../xtensa-esp-elf/lib/esp32]
+          arg [-LE:/ESP32-IDF-SOFTWARE/ENV/tools/xtensa-esp-elf/esp-14.2.0_20250730/xtensa-esp-elf/bin/../xtensa-esp-elf/lib/esp32] ==> dir [E:/ESP32-IDF-SOFTWARE/ENV/tools/xtensa-esp-elf/esp-14.2.0_20250730/xtensa-esp-elf/bin/../xtensa-esp-elf/lib/esp32]
+          arg [-LE:/ESP32-IDF-SOFTWARE/ENV/tools/xtensa-esp-elf/esp-14.2.0_20250730/xtensa-esp-elf/bin/../lib/gcc/xtensa-esp-elf/14.2.0] ==> dir [E:/ESP32-IDF-SOFTWARE/ENV/tools/xtensa-esp-elf/esp-14.2.0_20250730/xtensa-esp-elf/bin/../lib/gcc/xtensa-esp-elf/14.2.0]
+          arg [-LE:/ESP32-IDF-SOFTWARE/ENV/tools/xtensa-esp-elf/esp-14.2.0_20250730/xtensa-esp-elf/bin/../lib/gcc] ==> dir [E:/ESP32-IDF-SOFTWARE/ENV/tools/xtensa-esp-elf/esp-14.2.0_20250730/xtensa-esp-elf/bin/../lib/gcc]
+          arg [-LE:/ESP32-IDF-SOFTWARE/ENV/tools/xtensa-esp-elf/esp-14.2.0_20250730/xtensa-esp-elf/bin/../lib/gcc/xtensa-esp-elf/14.2.0/../../../../xtensa-esp-elf/lib] ==> dir [E:/ESP32-IDF-SOFTWARE/ENV/tools/xtensa-esp-elf/esp-14.2.0_20250730/xtensa-esp-elf/bin/../lib/gcc/xtensa-esp-elf/14.2.0/../../../../xtensa-esp-elf/lib]
+          arg [-LE:/ESP32-IDF-SOFTWARE/ENV/tools/xtensa-esp-elf/esp-14.2.0_20250730/xtensa-esp-elf/bin/../xtensa-esp-elf/lib] ==> dir [E:/ESP32-IDF-SOFTWARE/ENV/tools/xtensa-esp-elf/esp-14.2.0_20250730/xtensa-esp-elf/bin/../xtensa-esp-elf/lib]
+          arg [CMakeFiles/cmTC_6cad3.dir/CMakeCXXCompilerABI.cpp.obj] ==> ignore
+          arg [-lstdc++] ==> lib [stdc++]
+          arg [-lm] ==> lib [m]
+          arg [-lgcc] ==> lib [gcc]
+          arg [-lc] ==> lib [c]
+          arg [-lnosys] ==> lib [nosys]
+          arg [-lc] ==> lib [c]
+          arg [-lgcc] ==> lib [gcc]
+          arg [E:/ESP32-IDF-SOFTWARE/ENV/tools/xtensa-esp-elf/esp-14.2.0_20250730/xtensa-esp-elf/bin/../lib/gcc/xtensa-esp-elf/14.2.0/esp32/crtend.o] ==> obj [E:/ESP32-IDF-SOFTWARE/ENV/tools/xtensa-esp-elf/esp-14.2.0_20250730/xtensa-esp-elf/bin/../lib/gcc/xtensa-esp-elf/14.2.0/esp32/crtend.o]
+          arg [E:/ESP32-IDF-SOFTWARE/ENV/tools/xtensa-esp-elf/esp-14.2.0_20250730/xtensa-esp-elf/bin/../lib/gcc/xtensa-esp-elf/14.2.0/esp32/crtn.o] ==> obj [E:/ESP32-IDF-SOFTWARE/ENV/tools/xtensa-esp-elf/esp-14.2.0_20250730/xtensa-esp-elf/bin/../lib/gcc/xtensa-esp-elf/14.2.0/esp32/crtn.o]
+        ignore line: [COLLECT_GCC_OPTIONS='-mdynconfig=xtensa_esp32.so' '-mlongcalls' '-Wno-frame-address' '-fno-builtin-memcpy' '-fno-builtin-memset' '-fno-builtin-bzero' '-fno-builtin-stpcpy' '-fno-builtin-strncpy' '-v' '-o' 'cmTC_6cad3' '-dumpdir' 'cmTC_6cad3.'\x0d]
+        ignore line: []
+        ignore line: []
+        collapse obj [E:/ESP32-IDF-SOFTWARE/ENV/tools/xtensa-esp-elf/esp-14.2.0_20250730/xtensa-esp-elf/bin/../lib/gcc/xtensa-esp-elf/14.2.0/../../../../xtensa-esp-elf/lib/esp32/crt0.o] ==> [E:/ESP32-IDF-SOFTWARE/ENV/tools/xtensa-esp-elf/esp-14.2.0_20250730/xtensa-esp-elf/xtensa-esp-elf/lib/esp32/crt0.o]
+        collapse obj [E:/ESP32-IDF-SOFTWARE/ENV/tools/xtensa-esp-elf/esp-14.2.0_20250730/xtensa-esp-elf/bin/../lib/gcc/xtensa-esp-elf/14.2.0/esp32/crti.o] ==> [E:/ESP32-IDF-SOFTWARE/ENV/tools/xtensa-esp-elf/esp-14.2.0_20250730/xtensa-esp-elf/lib/gcc/xtensa-esp-elf/14.2.0/esp32/crti.o]
+        collapse obj [E:/ESP32-IDF-SOFTWARE/ENV/tools/xtensa-esp-elf/esp-14.2.0_20250730/xtensa-esp-elf/bin/../lib/gcc/xtensa-esp-elf/14.2.0/esp32/crtbegin.o] ==> [E:/ESP32-IDF-SOFTWARE/ENV/tools/xtensa-esp-elf/esp-14.2.0_20250730/xtensa-esp-elf/lib/gcc/xtensa-esp-elf/14.2.0/esp32/crtbegin.o]
+        collapse obj [E:/ESP32-IDF-SOFTWARE/ENV/tools/xtensa-esp-elf/esp-14.2.0_20250730/xtensa-esp-elf/bin/../lib/gcc/xtensa-esp-elf/14.2.0/esp32/crtend.o] ==> [E:/ESP32-IDF-SOFTWARE/ENV/tools/xtensa-esp-elf/esp-14.2.0_20250730/xtensa-esp-elf/lib/gcc/xtensa-esp-elf/14.2.0/esp32/crtend.o]
+        collapse obj [E:/ESP32-IDF-SOFTWARE/ENV/tools/xtensa-esp-elf/esp-14.2.0_20250730/xtensa-esp-elf/bin/../lib/gcc/xtensa-esp-elf/14.2.0/esp32/crtn.o] ==> [E:/ESP32-IDF-SOFTWARE/ENV/tools/xtensa-esp-elf/esp-14.2.0_20250730/xtensa-esp-elf/lib/gcc/xtensa-esp-elf/14.2.0/esp32/crtn.o]
+        collapse library dir [E:/ESP32-IDF-SOFTWARE/ENV/tools/xtensa-esp-elf/esp-14.2.0_20250730/xtensa-esp-elf/bin/../lib/gcc/xtensa-esp-elf/14.2.0/esp32] ==> [E:/ESP32-IDF-SOFTWARE/ENV/tools/xtensa-esp-elf/esp-14.2.0_20250730/xtensa-esp-elf/lib/gcc/xtensa-esp-elf/14.2.0/esp32]
+        collapse library dir [E:/ESP32-IDF-SOFTWARE/ENV/tools/xtensa-esp-elf/esp-14.2.0_20250730/xtensa-esp-elf/bin/../lib/gcc/xtensa-esp-elf/14.2.0/../../../../xtensa-esp-elf/lib/esp32] ==> [E:/ESP32-IDF-SOFTWARE/ENV/tools/xtensa-esp-elf/esp-14.2.0_20250730/xtensa-esp-elf/xtensa-esp-elf/lib/esp32]
+        collapse library dir [E:/ESP32-IDF-SOFTWARE/ENV/tools/xtensa-esp-elf/esp-14.2.0_20250730/xtensa-esp-elf/bin/../xtensa-esp-elf/lib/esp32] ==> [E:/ESP32-IDF-SOFTWARE/ENV/tools/xtensa-esp-elf/esp-14.2.0_20250730/xtensa-esp-elf/xtensa-esp-elf/lib/esp32]
+        collapse library dir [E:/ESP32-IDF-SOFTWARE/ENV/tools/xtensa-esp-elf/esp-14.2.0_20250730/xtensa-esp-elf/bin/../lib/gcc/xtensa-esp-elf/14.2.0] ==> [E:/ESP32-IDF-SOFTWARE/ENV/tools/xtensa-esp-elf/esp-14.2.0_20250730/xtensa-esp-elf/lib/gcc/xtensa-esp-elf/14.2.0]
+        collapse library dir [E:/ESP32-IDF-SOFTWARE/ENV/tools/xtensa-esp-elf/esp-14.2.0_20250730/xtensa-esp-elf/bin/../lib/gcc] ==> [E:/ESP32-IDF-SOFTWARE/ENV/tools/xtensa-esp-elf/esp-14.2.0_20250730/xtensa-esp-elf/lib/gcc]
+        collapse library dir [E:/ESP32-IDF-SOFTWARE/ENV/tools/xtensa-esp-elf/esp-14.2.0_20250730/xtensa-esp-elf/bin/../lib/gcc/xtensa-esp-elf/14.2.0/../../../../xtensa-esp-elf/lib] ==> [E:/ESP32-IDF-SOFTWARE/ENV/tools/xtensa-esp-elf/esp-14.2.0_20250730/xtensa-esp-elf/xtensa-esp-elf/lib]
+        collapse library dir [E:/ESP32-IDF-SOFTWARE/ENV/tools/xtensa-esp-elf/esp-14.2.0_20250730/xtensa-esp-elf/bin/../xtensa-esp-elf/lib] ==> [E:/ESP32-IDF-SOFTWARE/ENV/tools/xtensa-esp-elf/esp-14.2.0_20250730/xtensa-esp-elf/xtensa-esp-elf/lib]
+        implicit libs: [stdc++;m;gcc;c;nosys;c;gcc]
+        implicit objs: [E:/ESP32-IDF-SOFTWARE/ENV/tools/xtensa-esp-elf/esp-14.2.0_20250730/xtensa-esp-elf/xtensa-esp-elf/lib/esp32/crt0.o;E:/ESP32-IDF-SOFTWARE/ENV/tools/xtensa-esp-elf/esp-14.2.0_20250730/xtensa-esp-elf/lib/gcc/xtensa-esp-elf/14.2.0/esp32/crti.o;E:/ESP32-IDF-SOFTWARE/ENV/tools/xtensa-esp-elf/esp-14.2.0_20250730/xtensa-esp-elf/lib/gcc/xtensa-esp-elf/14.2.0/esp32/crtbegin.o;E:/ESP32-IDF-SOFTWARE/ENV/tools/xtensa-esp-elf/esp-14.2.0_20250730/xtensa-esp-elf/lib/gcc/xtensa-esp-elf/14.2.0/esp32/crtend.o;E:/ESP32-IDF-SOFTWARE/ENV/tools/xtensa-esp-elf/esp-14.2.0_20250730/xtensa-esp-elf/lib/gcc/xtensa-esp-elf/14.2.0/esp32/crtn.o]
+        implicit dirs: [E:/ESP32-IDF-SOFTWARE/ENV/tools/xtensa-esp-elf/esp-14.2.0_20250730/xtensa-esp-elf/lib/gcc/xtensa-esp-elf/14.2.0/esp32;E:/ESP32-IDF-SOFTWARE/ENV/tools/xtensa-esp-elf/esp-14.2.0_20250730/xtensa-esp-elf/xtensa-esp-elf/lib/esp32;E:/ESP32-IDF-SOFTWARE/ENV/tools/xtensa-esp-elf/esp-14.2.0_20250730/xtensa-esp-elf/lib/gcc/xtensa-esp-elf/14.2.0;E:/ESP32-IDF-SOFTWARE/ENV/tools/xtensa-esp-elf/esp-14.2.0_20250730/xtensa-esp-elf/lib/gcc;E:/ESP32-IDF-SOFTWARE/ENV/tools/xtensa-esp-elf/esp-14.2.0_20250730/xtensa-esp-elf/xtensa-esp-elf/lib]
+        implicit fwks: []
+      
+      
+...
+
+---
+events:
+  -
+    kind: "message-v1"
+    backtrace:
+      - "E:/ESP32-IDF-SOFTWARE/ENV/tools/cmake/3.30.2/share/cmake-3.30/Modules/CMakeDetermineSystem.cmake:200 (message)"
+      - "E:/ESP32-IDF-SOFTWARE/ENV/frameworks/esp-idf-v5.4.3/tools/cmake/project.cmake:571 (__project)"
+      - "CMakeLists.txt:7 (project)"
+    message: |
+      The target system is: Generic -  - 
+      The host system is: Windows - 10.0.26200 - AMD64
+  -
+    kind: "message-v1"
+    backtrace:
+      - "E:/ESP32-IDF-SOFTWARE/ENV/tools/cmake/3.30.2/share/cmake-3.30/Modules/CMakeDetermineCompilerId.cmake:17 (message)"
+      - "E:/ESP32-IDF-SOFTWARE/ENV/tools/cmake/3.30.2/share/cmake-3.30/Modules/CMakeDetermineCompilerId.cmake:64 (__determine_compiler_id_test)"
+      - "E:/ESP32-IDF-SOFTWARE/ENV/tools/cmake/3.30.2/share/cmake-3.30/Modules/CMakeDetermineCCompiler.cmake:123 (CMAKE_DETERMINE_COMPILER_ID)"
+      - "E:/ESP32-IDF-SOFTWARE/ENV/frameworks/esp-idf-v5.4.3/tools/cmake/project.cmake:571 (__project)"
+      - "CMakeLists.txt:7 (project)"
+    message: |
+      Compiling the C compiler identification source file "CMakeCCompilerId.c" succeeded.
+      Compiler: E:/ESP32-IDF-SOFTWARE/ENV/tools/xtensa-esp-elf/esp-14.2.0_20250730/xtensa-esp-elf/bin/xtensa-esp32-elf-gcc.exe 
+      Build flags: -mlongcalls;-Wno-frame-address;-fno-builtin-memcpy;-fno-builtin-memset;-fno-builtin-bzero;-fno-builtin-stpcpy;-fno-builtin-strncpy
+      Id flags:  
+      
+      The output was:
+      0
+      
+      
+      Compilation of the C compiler identification source "CMakeCCompilerId.c" produced "a.out"
+      
+      The C compiler identification is GNU, found in:
+        E:/ESP32-IDF-SOFTWARE/CODE/Update_Firmware/build/CMakeFiles/3.30.2/CompilerIdC/a.out
+      
+  -
+    kind: "message-v1"
+    backtrace:
+      - "E:/ESP32-IDF-SOFTWARE/ENV/tools/cmake/3.30.2/share/cmake-3.30/Modules/CMakeDetermineCompilerId.cmake:17 (message)"
+      - "E:/ESP32-IDF-SOFTWARE/ENV/tools/cmake/3.30.2/share/cmake-3.30/Modules/CMakeDetermineCompilerId.cmake:64 (__determine_compiler_id_test)"
+      - "E:/ESP32-IDF-SOFTWARE/ENV/tools/cmake/3.30.2/share/cmake-3.30/Modules/CMakeDetermineCXXCompiler.cmake:126 (CMAKE_DETERMINE_COMPILER_ID)"
+      - "E:/ESP32-IDF-SOFTWARE/ENV/frameworks/esp-idf-v5.4.3/tools/cmake/project.cmake:571 (__project)"
+      - "CMakeLists.txt:7 (project)"
+    message: |
+      Compiling the CXX compiler identification source file "CMakeCXXCompilerId.cpp" succeeded.
+      Compiler: E:/ESP32-IDF-SOFTWARE/ENV/tools/xtensa-esp-elf/esp-14.2.0_20250730/xtensa-esp-elf/bin/xtensa-esp32-elf-g++.exe 
+      Build flags: -mlongcalls;-Wno-frame-address;-fno-builtin-memcpy;-fno-builtin-memset;-fno-builtin-bzero;-fno-builtin-stpcpy;-fno-builtin-strncpy
+      Id flags:  
+      
+      The output was:
+      0
+      
+      
+      Compilation of the CXX compiler identification source "CMakeCXXCompilerId.cpp" produced "a.out"
+      
+      The CXX compiler identification is GNU, found in:
+        E:/ESP32-IDF-SOFTWARE/CODE/Update_Firmware/build/CMakeFiles/3.30.2/CompilerIdCXX/a.out
+      
+  -
+    kind: "message-v1"
+    backtrace:
+      - "E:/ESP32-IDF-SOFTWARE/ENV/tools/cmake/3.30.2/share/cmake-3.30/Modules/CMakeDetermineCompilerId.cmake:1192 (message)"
+      - "E:/ESP32-IDF-SOFTWARE/ENV/tools/cmake/3.30.2/share/cmake-3.30/Modules/CMakeDetermineASMCompiler.cmake:135 (CMAKE_DETERMINE_COMPILER_ID_VENDOR)"
+      - "E:/ESP32-IDF-SOFTWARE/ENV/frameworks/esp-idf-v5.4.3/tools/cmake/project.cmake:571 (__project)"
+      - "CMakeLists.txt:7 (project)"
+    message: |
+      Checking whether the ASM compiler is GNU using "--version" matched "(GNU assembler)|(GCC)|(Free Software Foundation)":
+      xtensa-esp-elf-gcc.exe (crosstool-NG esp-14.2.0_20250730) 14.2.0
+      Copyright (C) 2024 Free Software Foundation, Inc.
+      This is free software; see the source for copying conditions.  There is NO
+      warranty; not even for MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.
+      
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "E:/ESP32-IDF-SOFTWARE/ENV/tools/cmake/3.30.2/share/cmake-3.30/Modules/CMakeDetermineCompilerABI.cmake:74 (try_compile)"
+      - "E:/ESP32-IDF-SOFTWARE/ENV/tools/cmake/3.30.2/share/cmake-3.30/Modules/CMakeTestCCompiler.cmake:26 (CMAKE_DETERMINE_COMPILER_ABI)"
+      - "E:/ESP32-IDF-SOFTWARE/ENV/frameworks/esp-idf-v5.4.3/tools/cmake/project.cmake:571 (__project)"
+      - "CMakeLists.txt:7 (project)"
+    checks:
+      - "Detecting C compiler ABI info"
+    directories:
+      source: "E:/ESP32-IDF-SOFTWARE/CODE/Update_Firmware/build/CMakeFiles/CMakeScratch/TryCompile-l06hhd"
+      binary: "E:/ESP32-IDF-SOFTWARE/CODE/Update_Firmware/build/CMakeFiles/CMakeScratch/TryCompile-l06hhd"
+    cmakeVariables:
+      CMAKE_C_FLAGS: "-mlongcalls -Wno-frame-address  -fno-builtin-memcpy -fno-builtin-memset -fno-builtin-bzero -fno-builtin-stpcpy -fno-builtin-strncpy"
+      CMAKE_C_FLAGS_DEBUG: "-g"
+      CMAKE_EXE_LINKER_FLAGS: ""
+      CMAKE_MODULE_PATH: "E:/ESP32-IDF-SOFTWARE/ENV/frameworks/esp-idf-v5.4.3/tools/cmake;E:/ESP32-IDF-SOFTWARE/ENV/frameworks/esp-idf-v5.4.3/tools/cmake/third_party"
+    buildResult:
+      variable: "CMAKE_C_ABI_COMPILED"
+      cached: true
+      stdout: |
+        Change Dir: 'E:/ESP32-IDF-SOFTWARE/CODE/Update_Firmware/build/CMakeFiles/CMakeScratch/TryCompile-l06hhd'
+        
+        Run Build Command(s): E:/ESP32-IDF-SOFTWARE/ENV/tools/ninja/1.12.1/ninja.exe -v cmTC_08f80
+        [1/2] E:\\ESP32-IDF-SOFTWARE\\ENV\\tools\\xtensa-esp-elf\\esp-14.2.0_20250730\\xtensa-esp-elf\\bin\\xtensa-esp32-elf-gcc.exe   -mlongcalls -Wno-frame-address  -fno-builtin-memcpy -fno-builtin-memset -fno-builtin-bzero -fno-builtin-stpcpy -fno-builtin-strncpy    -v -o CMakeFiles/cmTC_08f80.dir/CMakeCCompilerABI.c.obj -c E:/ESP32-IDF-SOFTWARE/ENV/tools/cmake/3.30.2/share/cmake-3.30/Modules/CMakeCCompilerABI.c
+        Using built-in specs.
+        COLLECT_GCC=E:\\ESP32-IDF-SOFTWARE\\ENV\\tools\\xtensa-esp-elf\\esp-14.2.0_20250730\\xtensa-esp-elf\\bin\\xtensa-esp-elf-gcc.exe
+        Target: xtensa-esp-elf
+        Configured with: /builds/idf/crosstool-NG/.build/xtensa-esp-elf/src/gcc/configure --build=x86_64-build_pc-linux-gnu --host=x86_64-host_w64-mingw32 --target=xtensa-esp-elf --prefix=/builds/idf/crosstool-NG/builds/xtensa-esp-elf --exec_prefix=/builds/idf/crosstool-NG/builds/xtensa-esp-elf --with-local-prefix=/builds/idf/crosstool-NG/builds/xtensa-esp-elf/xtensa-esp-elf --with-sysroot=/builds/idf/crosstool-NG/builds/xtensa-esp-elf/xtensa-esp-elf --with-native-system-header-dir=/include --with-newlib --enable-threads=no --disable-shared --with-pkgversion='crosstool-NG esp-14.2.0_20250730' --disable-__cxa_atexit --enable-cxx-flags='-ffunction-sections -fdata-sections' --disable-libgomp --disable-libmudflap --disable-libmpx --disable-libssp --disable-libquadmath --disable-libquadmath-support --disable-libstdcxx-verbose --with-gmp=/builds/idf/crosstool-NG/.build/xtensa-esp-elf/buildtools/complibs-host --with-mpfr=/builds/idf/crosstool-NG/.build/xtensa-esp-elf/buildtools/complibs-host --with-mpc=/builds/idf/crosstool-NG/.build/xtensa-esp-elf/buildtools/complibs-host --with-isl=/builds/idf/crosstool-NG/.build/xtensa-esp-elf/buildtools/complibs-host --enable-lto --enable-target-optspace --without-long-double-128 --disable-nls --enable-multiarch --enable-languages=c,c++ --disable-libstdcxx-verbose --enable-threads=posix --enable-gcov-custom-rtio --enable-libstdcxx-time=yes --with-gnu-ld
+        Thread model: posix
+        Supported LTO compression algorithms: zlib zstd
+        gcc version 14.2.0 (crosstool-NG esp-14.2.0_20250730) 
+        COLLECT_GCC_OPTIONS='-mdynconfig=xtensa_esp32.so' '-mlongcalls' '-Wno-frame-address' '-fno-builtin-memcpy' '-fno-builtin-memset' '-fno-builtin-bzero' '-fno-builtin-stpcpy' '-fno-builtin-strncpy' '-v' '-o' 'CMakeFiles/cmTC_08f80.dir/CMakeCCompilerABI.c.obj' '-c' '-dumpdir' 'CMakeFiles/cmTC_08f80.dir/'
+         E:/ESP32-IDF-SOFTWARE/ENV/tools/xtensa-esp-elf/esp-14.2.0_20250730/xtensa-esp-elf/bin/../libexec/gcc/xtensa-esp-elf/14.2.0/cc1.exe -quiet -v -imultilib esp32 -iprefix E:/ESP32-IDF-SOFTWARE/ENV/tools/xtensa-esp-elf/esp-14.2.0_20250730/xtensa-esp-elf/bin/../lib/gcc/xtensa-esp-elf/14.2.0/ -isysroot E:/ESP32-IDF-SOFTWARE/ENV/tools/xtensa-esp-elf/esp-14.2.0_20250730/xtensa-esp-elf/bin/../xtensa-esp-elf E:/ESP32-IDF-SOFTWARE/ENV/tools/cmake/3.30.2/share/cmake-3.30/Modules/CMakeCCompilerABI.c -quiet -dumpdir CMakeFiles/cmTC_08f80.dir/ -dumpbase CMakeCCompilerABI.c.c -dumpbase-ext .c -mdynconfig=xtensa_esp32.so -mlongcalls -Wno-frame-address -version -fno-builtin-memcpy -fno-builtin-memset -fno-builtin-bzero -fno-builtin-stpcpy -fno-builtin-strncpy -o C:\\Users\\THIEN\\AppData\\Local\\Temp\\ccqQ4wKR.s
+        GNU C17 (crosstool-NG esp-14.2.0_20250730) version 14.2.0 (xtensa-esp-elf)
+        	compiled by GNU C version 6.3.0 20170516, GMP version 6.2.1, MPFR version 4.2.1, MPC version 1.2.1, isl version isl-0.26-GMP
+        
+        GGC heuristics: --param ggc-min-expand=100 --param ggc-min-heapsize=131072
+        ignoring duplicate directory "E:/ESP32-IDF-SOFTWARE/ENV/tools/xtensa-esp-elf/esp-14.2.0_20250730/xtensa-esp-elf/lib/gcc/../../lib/gcc/xtensa-esp-elf/14.2.0/include"
+        ignoring nonexistent directory "E:/ESP32-IDF-SOFTWARE/ENV/tools/xtensa-esp-elf/esp-14.2.0_20250730/xtensa-esp-elf/bin/../xtensa-esp-elf/builds/idf/crosstool-NG/builds/xtensa-esp-elf/lib/gcc/xtensa-esp-elf/14.2.0/../../../../include"
+        ignoring duplicate directory "E:/ESP32-IDF-SOFTWARE/ENV/tools/xtensa-esp-elf/esp-14.2.0_20250730/xtensa-esp-elf/lib/gcc/../../lib/gcc/xtensa-esp-elf/14.2.0/include-fixed"
+        ignoring duplicate directory "E:/ESP32-IDF-SOFTWARE/ENV/tools/xtensa-esp-elf/esp-14.2.0_20250730/xtensa-esp-elf/lib/gcc/../../lib/gcc/xtensa-esp-elf/14.2.0/../../../../xtensa-esp-elf/include"
+        ignoring duplicate directory "E:/ESP32-IDF-SOFTWARE/ENV/tools/xtensa-esp-elf/esp-14.2.0_20250730/xtensa-esp-elf/bin/../xtensa-esp-elf/include"
+        #include "..." search starts here:
+        #include <...> search starts here:
+         E:/ESP32-IDF-SOFTWARE/ENV/tools/xtensa-esp-elf/esp-14.2.0_20250730/xtensa-esp-elf/bin/../lib/gcc/xtensa-esp-elf/14.2.0/include
+         E:/ESP32-IDF-SOFTWARE/ENV/tools/xtensa-esp-elf/esp-14.2.0_20250730/xtensa-esp-elf/bin/../lib/gcc/xtensa-esp-elf/14.2.0/include-fixed
+         E:/ESP32-IDF-SOFTWARE/ENV/tools/xtensa-esp-elf/esp-14.2.0_20250730/xtensa-esp-elf/bin/../lib/gcc/xtensa-esp-elf/14.2.0/../../../../xtensa-esp-elf/include
+        End of search list.
+        Compiler executable checksum: 38d46cce87b47d821392243f8c902d07
+        COLLECT_GCC_OPTIONS='-mdynconfig=xtensa_esp32.so' '-mlongcalls' '-Wno-frame-address' '-fno-builtin-memcpy' '-fno-builtin-memset' '-fno-builtin-bzero' '-fno-builtin-stpcpy' '-fno-builtin-strncpy' '-v' '-o' 'CMakeFiles/cmTC_08f80.dir/CMakeCCompilerABI.c.obj' '-c' '-dumpdir' 'CMakeFiles/cmTC_08f80.dir/'
+         E:/ESP32-IDF-SOFTWARE/ENV/tools/xtensa-esp-elf/esp-14.2.0_20250730/xtensa-esp-elf/bin/../lib/gcc/xtensa-esp-elf/14.2.0/../../../../xtensa-esp-elf/bin/as.exe --traditional-format --longcalls --dynconfig=xtensa_esp32.so -o CMakeFiles/cmTC_08f80.dir/CMakeCCompilerABI.c.obj C:\\Users\\THIEN\\AppData\\Local\\Temp\\ccqQ4wKR.s
+        COMPILER_PATH=E:/ESP32-IDF-SOFTWARE/ENV/tools/xtensa-esp-elf/esp-14.2.0_20250730/xtensa-esp-elf/bin/../libexec/gcc/xtensa-esp-elf/14.2.0/;E:/ESP32-IDF-SOFTWARE/ENV/tools/xtensa-esp-elf/esp-14.2.0_20250730/xtensa-esp-elf/bin/../libexec/gcc/;E:/ESP32-IDF-SOFTWARE/ENV/tools/xtensa-esp-elf/esp-14.2.0_20250730/xtensa-esp-elf/bin/../lib/gcc/xtensa-esp-elf/14.2.0/../../../../xtensa-esp-elf/bin/
+        LIBRARY_PATH=E:/ESP32-IDF-SOFTWARE/ENV/tools/xtensa-esp-elf/esp-14.2.0_20250730/xtensa-esp-elf/bin/../lib/gcc/xtensa-esp-elf/14.2.0/esp32/;E:/ESP32-IDF-SOFTWARE/ENV/tools/xtensa-esp-elf/esp-14.2.0_20250730/xtensa-esp-elf/bin/../lib/gcc/xtensa-esp-elf/14.2.0/../../../../xtensa-esp-elf/lib/esp32/;E:/ESP32-IDF-SOFTWARE/ENV/tools/xtensa-esp-elf/esp-14.2.0_20250730/xtensa-esp-elf/bin/../xtensa-esp-elf/lib/esp32/;E:/ESP32-IDF-SOFTWARE/ENV/tools/xtensa-esp-elf/esp-14.2.0_20250730/xtensa-esp-elf/bin/../lib/gcc/xtensa-esp-elf/14.2.0/;E:/ESP32-IDF-SOFTWARE/ENV/tools/xtensa-esp-elf/esp-14.2.0_20250730/xtensa-esp-elf/bin/../lib/gcc/;E:/ESP32-IDF-SOFTWARE/ENV/tools/xtensa-esp-elf/esp-14.2.0_20250730/xtensa-esp-elf/bin/../lib/gcc/xtensa-esp-elf/14.2.0/../../../../xtensa-esp-elf/lib/;E:/ESP32-IDF-SOFTWARE/ENV/tools/xtensa-esp-elf/esp-14.2.0_20250730/xtensa-esp-elf/bin/../xtensa-esp-elf/lib/
+        COLLECT_GCC_OPTIONS='-mdynconfig=xtensa_esp32.so' '-mlongcalls' '-Wno-frame-address' '-fno-builtin-memcpy' '-fno-builtin-memset' '-fno-builtin-bzero' '-fno-builtin-stpcpy' '-fno-builtin-strncpy' '-v' '-o' 'CMakeFiles/cmTC_08f80.dir/CMakeCCompilerABI.c.obj' '-c' '-dumpdir' 'CMakeFiles/cmTC_08f80.dir/CMakeCCompilerABI.c.'\x0d
+        [2/2] C:\\WINDOWS\\system32\\cmd.exe /C "cd . && E:\\ESP32-IDF-SOFTWARE\\ENV\\tools\\xtensa-esp-elf\\esp-14.2.0_20250730\\xtensa-esp-elf\\bin\\xtensa-esp32-elf-gcc.exe -mlongcalls -Wno-frame-address  -fno-builtin-memcpy -fno-builtin-memset -fno-builtin-bzero -fno-builtin-stpcpy -fno-builtin-strncpy -v CMakeFiles/cmTC_08f80.dir/CMakeCCompilerABI.c.obj -o cmTC_08f80   && cd ."
+        Using built-in specs.
+        COLLECT_GCC=E:\\ESP32-IDF-SOFTWARE\\ENV\\tools\\xtensa-esp-elf\\esp-14.2.0_20250730\\xtensa-esp-elf\\bin\\xtensa-esp-elf-gcc.exe
+        COLLECT_LTO_WRAPPER=E:/ESP32-IDF-SOFTWARE/ENV/tools/xtensa-esp-elf/esp-14.2.0_20250730/xtensa-esp-elf/bin/../libexec/gcc/xtensa-esp-elf/14.2.0/lto-wrapper.exe
+        Target: xtensa-esp-elf
+        Configured with: /builds/idf/crosstool-NG/.build/xtensa-esp-elf/src/gcc/configure --build=x86_64-build_pc-linux-gnu --host=x86_64-host_w64-mingw32 --target=xtensa-esp-elf --prefix=/builds/idf/crosstool-NG/builds/xtensa-esp-elf --exec_prefix=/builds/idf/crosstool-NG/builds/xtensa-esp-elf --with-local-prefix=/builds/idf/crosstool-NG/builds/xtensa-esp-elf/xtensa-esp-elf --with-sysroot=/builds/idf/crosstool-NG/builds/xtensa-esp-elf/xtensa-esp-elf --with-native-system-header-dir=/include --with-newlib --enable-threads=no --disable-shared --with-pkgversion='crosstool-NG esp-14.2.0_20250730' --disable-__cxa_atexit --enable-cxx-flags='-ffunction-sections -fdata-sections' --disable-libgomp --disable-libmudflap --disable-libmpx --disable-libssp --disable-libquadmath --disable-libquadmath-support --disable-libstdcxx-verbose --with-gmp=/builds/idf/crosstool-NG/.build/xtensa-esp-elf/buildtools/complibs-host --with-mpfr=/builds/idf/crosstool-NG/.build/xtensa-esp-elf/buildtools/complibs-host --with-mpc=/builds/idf/crosstool-NG/.build/xtensa-esp-elf/buildtools/complibs-host --with-isl=/builds/idf/crosstool-NG/.build/xtensa-esp-elf/buildtools/complibs-host --enable-lto --enable-target-optspace --without-long-double-128 --disable-nls --enable-multiarch --enable-languages=c,c++ --disable-libstdcxx-verbose --enable-threads=posix --enable-gcov-custom-rtio --enable-libstdcxx-time=yes --with-gnu-ld
+        Thread model: posix
+        Supported LTO compression algorithms: zlib zstd
+        gcc version 14.2.0 (crosstool-NG esp-14.2.0_20250730) 
+        COMPILER_PATH=E:/ESP32-IDF-SOFTWARE/ENV/tools/xtensa-esp-elf/esp-14.2.0_20250730/xtensa-esp-elf/bin/../libexec/gcc/xtensa-esp-elf/14.2.0/;E:/ESP32-IDF-SOFTWARE/ENV/tools/xtensa-esp-elf/esp-14.2.0_20250730/xtensa-esp-elf/bin/../libexec/gcc/;E:/ESP32-IDF-SOFTWARE/ENV/tools/xtensa-esp-elf/esp-14.2.0_20250730/xtensa-esp-elf/bin/../lib/gcc/xtensa-esp-elf/14.2.0/../../../../xtensa-esp-elf/bin/
+        LIBRARY_PATH=E:/ESP32-IDF-SOFTWARE/ENV/tools/xtensa-esp-elf/esp-14.2.0_20250730/xtensa-esp-elf/bin/../lib/gcc/xtensa-esp-elf/14.2.0/esp32/;E:/ESP32-IDF-SOFTWARE/ENV/tools/xtensa-esp-elf/esp-14.2.0_20250730/xtensa-esp-elf/bin/../lib/gcc/xtensa-esp-elf/14.2.0/../../../../xtensa-esp-elf/lib/esp32/;E:/ESP32-IDF-SOFTWARE/ENV/tools/xtensa-esp-elf/esp-14.2.0_20250730/xtensa-esp-elf/bin/../xtensa-esp-elf/lib/esp32/;E:/ESP32-IDF-SOFTWARE/ENV/tools/xtensa-esp-elf/esp-14.2.0_20250730/xtensa-esp-elf/bin/../lib/gcc/xtensa-esp-elf/14.2.0/;E:/ESP32-IDF-SOFTWARE/ENV/tools/xtensa-esp-elf/esp-14.2.0_20250730/xtensa-esp-elf/bin/../lib/gcc/;E:/ESP32-IDF-SOFTWARE/ENV/tools/xtensa-esp-elf/esp-14.2.0_20250730/xtensa-esp-elf/bin/../lib/gcc/xtensa-esp-elf/14.2.0/../../../../xtensa-esp-elf/lib/;E:/ESP32-IDF-SOFTWARE/ENV/tools/xtensa-esp-elf/esp-14.2.0_20250730/xtensa-esp-elf/bin/../xtensa-esp-elf/lib/
+        COLLECT_GCC_OPTIONS='-mdynconfig=xtensa_esp32.so' '-mlongcalls' '-Wno-frame-address' '-fno-builtin-memcpy' '-fno-builtin-memset' '-fno-builtin-bzero' '-fno-builtin-stpcpy' '-fno-builtin-strncpy' '-v' '-o' 'cmTC_08f80' '-dumpdir' 'cmTC_08f80.'
+         E:/ESP32-IDF-SOFTWARE/ENV/tools/xtensa-esp-elf/esp-14.2.0_20250730/xtensa-esp-elf/bin/../libexec/gcc/xtensa-esp-elf/14.2.0/collect2.exe -plugin E:/ESP32-IDF-SOFTWARE/ENV/tools/xtensa-esp-elf/esp-14.2.0_20250730/xtensa-esp-elf/bin/../libexec/gcc/xtensa-esp-elf/14.2.0/liblto_plugin.dll -plugin-opt=E:/ESP32-IDF-SOFTWARE/ENV/tools/xtensa-esp-elf/esp-14.2.0_20250730/xtensa-esp-elf/bin/../libexec/gcc/xtensa-esp-elf/14.2.0/lto-wrapper.exe -plugin-opt=-fresolution=C:\\Users\\THIEN\\AppData\\Local\\Temp\\ccmaQg5W.res -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lc -plugin-opt=-pass-through=-lnosys -plugin-opt=-pass-through=-lc -plugin-opt=-pass-through=-lgcc --sysroot=E:/ESP32-IDF-SOFTWARE/ENV/tools/xtensa-esp-elf/esp-14.2.0_20250730/xtensa-esp-elf/bin/../xtensa-esp-elf --dynconfig=xtensa_esp32.so -o cmTC_08f80 E:/ESP32-IDF-SOFTWARE/ENV/tools/xtensa-esp-elf/esp-14.2.0_20250730/xtensa-esp-elf/bin/../lib/gcc/xtensa-esp-elf/14.2.0/../../../../xtensa-esp-elf/lib/esp32/crt0.o E:/ESP32-IDF-SOFTWARE/ENV/tools/xtensa-esp-elf/esp-14.2.0_20250730/xtensa-esp-elf/bin/../lib/gcc/xtensa-esp-elf/14.2.0/esp32/crti.o E:/ESP32-IDF-SOFTWARE/ENV/tools/xtensa-esp-elf/esp-14.2.0_20250730/xtensa-esp-elf/bin/../lib/gcc/xtensa-esp-elf/14.2.0/esp32/crtbegin.o -LE:/ESP32-IDF-SOFTWARE/ENV/tools/xtensa-esp-elf/esp-14.2.0_20250730/xtensa-esp-elf/bin/../lib/gcc/xtensa-esp-elf/14.2.0/esp32 -LE:/ESP32-IDF-SOFTWARE/ENV/tools/xtensa-esp-elf/esp-14.2.0_20250730/xtensa-esp-elf/bin/../lib/gcc/xtensa-esp-elf/14.2.0/../../../../xtensa-esp-elf/lib/esp32 -LE:/ESP32-IDF-SOFTWARE/ENV/tools/xtensa-esp-elf/esp-14.2.0_20250730/xtensa-esp-elf/bin/../xtensa-esp-elf/lib/esp32 -LE:/ESP32-IDF-SOFTWARE/ENV/tools/xtensa-esp-elf/esp-14.2.0_20250730/xtensa-esp-elf/bin/../lib/gcc/xtensa-esp-elf/14.2.0 -LE:/ESP32-IDF-SOFTWARE/ENV/tools/xtensa-esp-elf/esp-14.2.0_20250730/xtensa-esp-elf/bin/../lib/gcc -LE:/ESP32-IDF-SOFTWARE/ENV/tools/xtensa-esp-elf/esp-14.2.0_20250730/xtensa-esp-elf/bin/../lib/gcc/xtensa-esp-elf/14.2.0/../../../../xtensa-esp-elf/lib -LE:/ESP32-IDF-SOFTWARE/ENV/tools/xtensa-esp-elf/esp-14.2.0_20250730/xtensa-esp-elf/bin/../xtensa-esp-elf/lib CMakeFiles/cmTC_08f80.dir/CMakeCCompilerABI.c.obj -lgcc -lc -lnosys -lc -lgcc E:/ESP32-IDF-SOFTWARE/ENV/tools/xtensa-esp-elf/esp-14.2.0_20250730/xtensa-esp-elf/bin/../lib/gcc/xtensa-esp-elf/14.2.0/esp32/crtend.o E:/ESP32-IDF-SOFTWARE/ENV/tools/xtensa-esp-elf/esp-14.2.0_20250730/xtensa-esp-elf/bin/../lib/gcc/xtensa-esp-elf/14.2.0/esp32/crtn.o\x0d
+        COLLECT_GCC_OPTIONS='-mdynconfig=xtensa_esp32.so' '-mlongcalls' '-Wno-frame-address' '-fno-builtin-memcpy' '-fno-builtin-memset' '-fno-builtin-bzero' '-fno-builtin-stpcpy' '-fno-builtin-strncpy' '-v' '-o' 'cmTC_08f80' '-dumpdir' 'cmTC_08f80.'\x0d
+        
+      exitCode: 0
+  -
+    kind: "message-v1"
+    backtrace:
+      - "E:/ESP32-IDF-SOFTWARE/ENV/tools/cmake/3.30.2/share/cmake-3.30/Modules/CMakeDetermineCompilerABI.cmake:182 (message)"
+      - "E:/ESP32-IDF-SOFTWARE/ENV/tools/cmake/3.30.2/share/cmake-3.30/Modules/CMakeTestCCompiler.cmake:26 (CMAKE_DETERMINE_COMPILER_ABI)"
+      - "E:/ESP32-IDF-SOFTWARE/ENV/frameworks/esp-idf-v5.4.3/tools/cmake/project.cmake:571 (__project)"
+      - "CMakeLists.txt:7 (project)"
+    message: |
+      Parsed C implicit include dir info: rv=done
+        found start of include info
+        found start of implicit include info
+          add: [E:/ESP32-IDF-SOFTWARE/ENV/tools/xtensa-esp-elf/esp-14.2.0_20250730/xtensa-esp-elf/bin/../lib/gcc/xtensa-esp-elf/14.2.0/include]
+          add: [E:/ESP32-IDF-SOFTWARE/ENV/tools/xtensa-esp-elf/esp-14.2.0_20250730/xtensa-esp-elf/bin/../lib/gcc/xtensa-esp-elf/14.2.0/include-fixed]
+          add: [E:/ESP32-IDF-SOFTWARE/ENV/tools/xtensa-esp-elf/esp-14.2.0_20250730/xtensa-esp-elf/bin/../lib/gcc/xtensa-esp-elf/14.2.0/../../../../xtensa-esp-elf/include]
+        end of search list found
+        collapse include dir [E:/ESP32-IDF-SOFTWARE/ENV/tools/xtensa-esp-elf/esp-14.2.0_20250730/xtensa-esp-elf/bin/../lib/gcc/xtensa-esp-elf/14.2.0/include] ==> [E:/ESP32-IDF-SOFTWARE/ENV/tools/xtensa-esp-elf/esp-14.2.0_20250730/xtensa-esp-elf/lib/gcc/xtensa-esp-elf/14.2.0/include]
+        collapse include dir [E:/ESP32-IDF-SOFTWARE/ENV/tools/xtensa-esp-elf/esp-14.2.0_20250730/xtensa-esp-elf/bin/../lib/gcc/xtensa-esp-elf/14.2.0/include-fixed] ==> [E:/ESP32-IDF-SOFTWARE/ENV/tools/xtensa-esp-elf/esp-14.2.0_20250730/xtensa-esp-elf/lib/gcc/xtensa-esp-elf/14.2.0/include-fixed]
+        collapse include dir [E:/ESP32-IDF-SOFTWARE/ENV/tools/xtensa-esp-elf/esp-14.2.0_20250730/xtensa-esp-elf/bin/../lib/gcc/xtensa-esp-elf/14.2.0/../../../../xtensa-esp-elf/include] ==> [E:/ESP32-IDF-SOFTWARE/ENV/tools/xtensa-esp-elf/esp-14.2.0_20250730/xtensa-esp-elf/xtensa-esp-elf/include]
+        implicit include dirs: [E:/ESP32-IDF-SOFTWARE/ENV/tools/xtensa-esp-elf/esp-14.2.0_20250730/xtensa-esp-elf/lib/gcc/xtensa-esp-elf/14.2.0/include;E:/ESP32-IDF-SOFTWARE/ENV/tools/xtensa-esp-elf/esp-14.2.0_20250730/xtensa-esp-elf/lib/gcc/xtensa-esp-elf/14.2.0/include-fixed;E:/ESP32-IDF-SOFTWARE/ENV/tools/xtensa-esp-elf/esp-14.2.0_20250730/xtensa-esp-elf/xtensa-esp-elf/include]
+      
+      
+  -
+    kind: "message-v1"
+    backtrace:
+      - "E:/ESP32-IDF-SOFTWARE/ENV/tools/cmake/3.30.2/share/cmake-3.30/Modules/CMakeDetermineCompilerABI.cmake:218 (message)"
+      - "E:/ESP32-IDF-SOFTWARE/ENV/tools/cmake/3.30.2/share/cmake-3.30/Modules/CMakeTestCCompiler.cmake:26 (CMAKE_DETERMINE_COMPILER_ABI)"
+      - "E:/ESP32-IDF-SOFTWARE/ENV/frameworks/esp-idf-v5.4.3/tools/cmake/project.cmake:571 (__project)"
+      - "CMakeLists.txt:7 (project)"
+    message: |
+      Parsed C implicit link information:
+        link line regex: [^( *|.*[/\\])(ld[0-9]*(\\.[a-z]+)?|CMAKE_LINK_STARTFILE-NOTFOUND|([^/\\]+-)?ld|collect2)[^/\\]*( |$)]
+        linker tool regex: [^[ 	]*(->|")?[ 	]*(([^"]*[/\\])?(ld[0-9]*(\\.[a-z]+)?))("|,| |$)]
+        ignore line: [Change Dir: 'E:/ESP32-IDF-SOFTWARE/CODE/Update_Firmware/build/CMakeFiles/CMakeScratch/TryCompile-l06hhd']
+        ignore line: []
+        ignore line: [Run Build Command(s): E:/ESP32-IDF-SOFTWARE/ENV/tools/ninja/1.12.1/ninja.exe -v cmTC_08f80]
+        ignore line: [[1/2] E:\\ESP32-IDF-SOFTWARE\\ENV\\tools\\xtensa-esp-elf\\esp-14.2.0_20250730\\xtensa-esp-elf\\bin\\xtensa-esp32-elf-gcc.exe   -mlongcalls -Wno-frame-address  -fno-builtin-memcpy -fno-builtin-memset -fno-builtin-bzero -fno-builtin-stpcpy -fno-builtin-strncpy    -v -o CMakeFiles/cmTC_08f80.dir/CMakeCCompilerABI.c.obj -c E:/ESP32-IDF-SOFTWARE/ENV/tools/cmake/3.30.2/share/cmake-3.30/Modules/CMakeCCompilerABI.c]
+        ignore line: [Using built-in specs.]
+        ignore line: [COLLECT_GCC=E:\\ESP32-IDF-SOFTWARE\\ENV\\tools\\xtensa-esp-elf\\esp-14.2.0_20250730\\xtensa-esp-elf\\bin\\xtensa-esp-elf-gcc.exe]
+        ignore line: [Target: xtensa-esp-elf]
+        ignore line: [Configured with: /builds/idf/crosstool-NG/.build/xtensa-esp-elf/src/gcc/configure --build=x86_64-build_pc-linux-gnu --host=x86_64-host_w64-mingw32 --target=xtensa-esp-elf --prefix=/builds/idf/crosstool-NG/builds/xtensa-esp-elf --exec_prefix=/builds/idf/crosstool-NG/builds/xtensa-esp-elf --with-local-prefix=/builds/idf/crosstool-NG/builds/xtensa-esp-elf/xtensa-esp-elf --with-sysroot=/builds/idf/crosstool-NG/builds/xtensa-esp-elf/xtensa-esp-elf --with-native-system-header-dir=/include --with-newlib --enable-threads=no --disable-shared --with-pkgversion='crosstool-NG esp-14.2.0_20250730' --disable-__cxa_atexit --enable-cxx-flags='-ffunction-sections -fdata-sections' --disable-libgomp --disable-libmudflap --disable-libmpx --disable-libssp --disable-libquadmath --disable-libquadmath-support --disable-libstdcxx-verbose --with-gmp=/builds/idf/crosstool-NG/.build/xtensa-esp-elf/buildtools/complibs-host --with-mpfr=/builds/idf/crosstool-NG/.build/xtensa-esp-elf/buildtools/complibs-host --with-mpc=/builds/idf/crosstool-NG/.build/xtensa-esp-elf/buildtools/complibs-host --with-isl=/builds/idf/crosstool-NG/.build/xtensa-esp-elf/buildtools/complibs-host --enable-lto --enable-target-optspace --without-long-double-128 --disable-nls --enable-multiarch --enable-languages=c,c++ --disable-libstdcxx-verbose --enable-threads=posix --enable-gcov-custom-rtio --enable-libstdcxx-time=yes --with-gnu-ld]
+        ignore line: [Thread model: posix]
+        ignore line: [Supported LTO compression algorithms: zlib zstd]
+        ignore line: [gcc version 14.2.0 (crosstool-NG esp-14.2.0_20250730) ]
+        ignore line: [COLLECT_GCC_OPTIONS='-mdynconfig=xtensa_esp32.so' '-mlongcalls' '-Wno-frame-address' '-fno-builtin-memcpy' '-fno-builtin-memset' '-fno-builtin-bzero' '-fno-builtin-stpcpy' '-fno-builtin-strncpy' '-v' '-o' 'CMakeFiles/cmTC_08f80.dir/CMakeCCompilerABI.c.obj' '-c' '-dumpdir' 'CMakeFiles/cmTC_08f80.dir/']
+        ignore line: [ E:/ESP32-IDF-SOFTWARE/ENV/tools/xtensa-esp-elf/esp-14.2.0_20250730/xtensa-esp-elf/bin/../libexec/gcc/xtensa-esp-elf/14.2.0/cc1.exe -quiet -v -imultilib esp32 -iprefix E:/ESP32-IDF-SOFTWARE/ENV/tools/xtensa-esp-elf/esp-14.2.0_20250730/xtensa-esp-elf/bin/../lib/gcc/xtensa-esp-elf/14.2.0/ -isysroot E:/ESP32-IDF-SOFTWARE/ENV/tools/xtensa-esp-elf/esp-14.2.0_20250730/xtensa-esp-elf/bin/../xtensa-esp-elf E:/ESP32-IDF-SOFTWARE/ENV/tools/cmake/3.30.2/share/cmake-3.30/Modules/CMakeCCompilerABI.c -quiet -dumpdir CMakeFiles/cmTC_08f80.dir/ -dumpbase CMakeCCompilerABI.c.c -dumpbase-ext .c -mdynconfig=xtensa_esp32.so -mlongcalls -Wno-frame-address -version -fno-builtin-memcpy -fno-builtin-memset -fno-builtin-bzero -fno-builtin-stpcpy -fno-builtin-strncpy -o C:\\Users\\THIEN\\AppData\\Local\\Temp\\ccqQ4wKR.s]
+        ignore line: [GNU C17 (crosstool-NG esp-14.2.0_20250730) version 14.2.0 (xtensa-esp-elf)]
+        ignore line: [	compiled by GNU C version 6.3.0 20170516  GMP version 6.2.1  MPFR version 4.2.1  MPC version 1.2.1  isl version isl-0.26-GMP]
+        ignore line: []
+        ignore line: [GGC heuristics: --param ggc-min-expand=100 --param ggc-min-heapsize=131072]
+        ignore line: [ignoring duplicate directory "E:/ESP32-IDF-SOFTWARE/ENV/tools/xtensa-esp-elf/esp-14.2.0_20250730/xtensa-esp-elf/lib/gcc/../../lib/gcc/xtensa-esp-elf/14.2.0/include"]
+        ignore line: [ignoring nonexistent directory "E:/ESP32-IDF-SOFTWARE/ENV/tools/xtensa-esp-elf/esp-14.2.0_20250730/xtensa-esp-elf/bin/../xtensa-esp-elf/builds/idf/crosstool-NG/builds/xtensa-esp-elf/lib/gcc/xtensa-esp-elf/14.2.0/../../../../include"]
+        ignore line: [ignoring duplicate directory "E:/ESP32-IDF-SOFTWARE/ENV/tools/xtensa-esp-elf/esp-14.2.0_20250730/xtensa-esp-elf/lib/gcc/../../lib/gcc/xtensa-esp-elf/14.2.0/include-fixed"]
+        ignore line: [ignoring duplicate directory "E:/ESP32-IDF-SOFTWARE/ENV/tools/xtensa-esp-elf/esp-14.2.0_20250730/xtensa-esp-elf/lib/gcc/../../lib/gcc/xtensa-esp-elf/14.2.0/../../../../xtensa-esp-elf/include"]
+        ignore line: [ignoring duplicate directory "E:/ESP32-IDF-SOFTWARE/ENV/tools/xtensa-esp-elf/esp-14.2.0_20250730/xtensa-esp-elf/bin/../xtensa-esp-elf/include"]
+        ignore line: [#include "..." search starts here:]
+        ignore line: [#include <...> search starts here:]
+        ignore line: [ E:/ESP32-IDF-SOFTWARE/ENV/tools/xtensa-esp-elf/esp-14.2.0_20250730/xtensa-esp-elf/bin/../lib/gcc/xtensa-esp-elf/14.2.0/include]
+        ignore line: [ E:/ESP32-IDF-SOFTWARE/ENV/tools/xtensa-esp-elf/esp-14.2.0_20250730/xtensa-esp-elf/bin/../lib/gcc/xtensa-esp-elf/14.2.0/include-fixed]
+        ignore line: [ E:/ESP32-IDF-SOFTWARE/ENV/tools/xtensa-esp-elf/esp-14.2.0_20250730/xtensa-esp-elf/bin/../lib/gcc/xtensa-esp-elf/14.2.0/../../../../xtensa-esp-elf/include]
+        ignore line: [End of search list.]
+        ignore line: [Compiler executable checksum: 38d46cce87b47d821392243f8c902d07]
+        ignore line: [COLLECT_GCC_OPTIONS='-mdynconfig=xtensa_esp32.so' '-mlongcalls' '-Wno-frame-address' '-fno-builtin-memcpy' '-fno-builtin-memset' '-fno-builtin-bzero' '-fno-builtin-stpcpy' '-fno-builtin-strncpy' '-v' '-o' 'CMakeFiles/cmTC_08f80.dir/CMakeCCompilerABI.c.obj' '-c' '-dumpdir' 'CMakeFiles/cmTC_08f80.dir/']
+        ignore line: [ E:/ESP32-IDF-SOFTWARE/ENV/tools/xtensa-esp-elf/esp-14.2.0_20250730/xtensa-esp-elf/bin/../lib/gcc/xtensa-esp-elf/14.2.0/../../../../xtensa-esp-elf/bin/as.exe --traditional-format --longcalls --dynconfig=xtensa_esp32.so -o CMakeFiles/cmTC_08f80.dir/CMakeCCompilerABI.c.obj C:\\Users\\THIEN\\AppData\\Local\\Temp\\ccqQ4wKR.s]
+        ignore line: [COMPILER_PATH=E:/ESP32-IDF-SOFTWARE/ENV/tools/xtensa-esp-elf/esp-14.2.0_20250730/xtensa-esp-elf/bin/../libexec/gcc/xtensa-esp-elf/14.2.0/]
+        ignore line: [E:/ESP32-IDF-SOFTWARE/ENV/tools/xtensa-esp-elf/esp-14.2.0_20250730/xtensa-esp-elf/bin/../libexec/gcc/]
+        ignore line: [E:/ESP32-IDF-SOFTWARE/ENV/tools/xtensa-esp-elf/esp-14.2.0_20250730/xtensa-esp-elf/bin/../lib/gcc/xtensa-esp-elf/14.2.0/../../../../xtensa-esp-elf/bin/]
+        ignore line: [LIBRARY_PATH=E:/ESP32-IDF-SOFTWARE/ENV/tools/xtensa-esp-elf/esp-14.2.0_20250730/xtensa-esp-elf/bin/../lib/gcc/xtensa-esp-elf/14.2.0/esp32/]
+        ignore line: [E:/ESP32-IDF-SOFTWARE/ENV/tools/xtensa-esp-elf/esp-14.2.0_20250730/xtensa-esp-elf/bin/../lib/gcc/xtensa-esp-elf/14.2.0/../../../../xtensa-esp-elf/lib/esp32/]
+        ignore line: [E:/ESP32-IDF-SOFTWARE/ENV/tools/xtensa-esp-elf/esp-14.2.0_20250730/xtensa-esp-elf/bin/../xtensa-esp-elf/lib/esp32/]
+        ignore line: [E:/ESP32-IDF-SOFTWARE/ENV/tools/xtensa-esp-elf/esp-14.2.0_20250730/xtensa-esp-elf/bin/../lib/gcc/xtensa-esp-elf/14.2.0/]
+        ignore line: [E:/ESP32-IDF-SOFTWARE/ENV/tools/xtensa-esp-elf/esp-14.2.0_20250730/xtensa-esp-elf/bin/../lib/gcc/]
+        ignore line: [E:/ESP32-IDF-SOFTWARE/ENV/tools/xtensa-esp-elf/esp-14.2.0_20250730/xtensa-esp-elf/bin/../lib/gcc/xtensa-esp-elf/14.2.0/../../../../xtensa-esp-elf/lib/]
+        ignore line: [E:/ESP32-IDF-SOFTWARE/ENV/tools/xtensa-esp-elf/esp-14.2.0_20250730/xtensa-esp-elf/bin/../xtensa-esp-elf/lib/]
+        ignore line: [COLLECT_GCC_OPTIONS='-mdynconfig=xtensa_esp32.so' '-mlongcalls' '-Wno-frame-address' '-fno-builtin-memcpy' '-fno-builtin-memset' '-fno-builtin-bzero' '-fno-builtin-stpcpy' '-fno-builtin-strncpy' '-v' '-o' 'CMakeFiles/cmTC_08f80.dir/CMakeCCompilerABI.c.obj' '-c' '-dumpdir' 'CMakeFiles/cmTC_08f80.dir/CMakeCCompilerABI.c.'\x0d]
+        ignore line: [[2/2] C:\\WINDOWS\\system32\\cmd.exe /C "cd . && E:\\ESP32-IDF-SOFTWARE\\ENV\\tools\\xtensa-esp-elf\\esp-14.2.0_20250730\\xtensa-esp-elf\\bin\\xtensa-esp32-elf-gcc.exe -mlongcalls -Wno-frame-address  -fno-builtin-memcpy -fno-builtin-memset -fno-builtin-bzero -fno-builtin-stpcpy -fno-builtin-strncpy -v CMakeFiles/cmTC_08f80.dir/CMakeCCompilerABI.c.obj -o cmTC_08f80   && cd ."]
+        ignore line: [Using built-in specs.]
+        ignore line: [COLLECT_GCC=E:\\ESP32-IDF-SOFTWARE\\ENV\\tools\\xtensa-esp-elf\\esp-14.2.0_20250730\\xtensa-esp-elf\\bin\\xtensa-esp-elf-gcc.exe]
+        ignore line: [COLLECT_LTO_WRAPPER=E:/ESP32-IDF-SOFTWARE/ENV/tools/xtensa-esp-elf/esp-14.2.0_20250730/xtensa-esp-elf/bin/../libexec/gcc/xtensa-esp-elf/14.2.0/lto-wrapper.exe]
+        ignore line: [Target: xtensa-esp-elf]
+        ignore line: [Configured with: /builds/idf/crosstool-NG/.build/xtensa-esp-elf/src/gcc/configure --build=x86_64-build_pc-linux-gnu --host=x86_64-host_w64-mingw32 --target=xtensa-esp-elf --prefix=/builds/idf/crosstool-NG/builds/xtensa-esp-elf --exec_prefix=/builds/idf/crosstool-NG/builds/xtensa-esp-elf --with-local-prefix=/builds/idf/crosstool-NG/builds/xtensa-esp-elf/xtensa-esp-elf --with-sysroot=/builds/idf/crosstool-NG/builds/xtensa-esp-elf/xtensa-esp-elf --with-native-system-header-dir=/include --with-newlib --enable-threads=no --disable-shared --with-pkgversion='crosstool-NG esp-14.2.0_20250730' --disable-__cxa_atexit --enable-cxx-flags='-ffunction-sections -fdata-sections' --disable-libgomp --disable-libmudflap --disable-libmpx --disable-libssp --disable-libquadmath --disable-libquadmath-support --disable-libstdcxx-verbose --with-gmp=/builds/idf/crosstool-NG/.build/xtensa-esp-elf/buildtools/complibs-host --with-mpfr=/builds/idf/crosstool-NG/.build/xtensa-esp-elf/buildtools/complibs-host --with-mpc=/builds/idf/crosstool-NG/.build/xtensa-esp-elf/buildtools/complibs-host --with-isl=/builds/idf/crosstool-NG/.build/xtensa-esp-elf/buildtools/complibs-host --enable-lto --enable-target-optspace --without-long-double-128 --disable-nls --enable-multiarch --enable-languages=c,c++ --disable-libstdcxx-verbose --enable-threads=posix --enable-gcov-custom-rtio --enable-libstdcxx-time=yes --with-gnu-ld]
+        ignore line: [Thread model: posix]
+        ignore line: [Supported LTO compression algorithms: zlib zstd]
+        ignore line: [gcc version 14.2.0 (crosstool-NG esp-14.2.0_20250730) ]
+        ignore line: [COMPILER_PATH=E:/ESP32-IDF-SOFTWARE/ENV/tools/xtensa-esp-elf/esp-14.2.0_20250730/xtensa-esp-elf/bin/../libexec/gcc/xtensa-esp-elf/14.2.0/]
+        ignore line: [E:/ESP32-IDF-SOFTWARE/ENV/tools/xtensa-esp-elf/esp-14.2.0_20250730/xtensa-esp-elf/bin/../libexec/gcc/]
+        ignore line: [E:/ESP32-IDF-SOFTWARE/ENV/tools/xtensa-esp-elf/esp-14.2.0_20250730/xtensa-esp-elf/bin/../lib/gcc/xtensa-esp-elf/14.2.0/../../../../xtensa-esp-elf/bin/]
+        ignore line: [LIBRARY_PATH=E:/ESP32-IDF-SOFTWARE/ENV/tools/xtensa-esp-elf/esp-14.2.0_20250730/xtensa-esp-elf/bin/../lib/gcc/xtensa-esp-elf/14.2.0/esp32/]
+        ignore line: [E:/ESP32-IDF-SOFTWARE/ENV/tools/xtensa-esp-elf/esp-14.2.0_20250730/xtensa-esp-elf/bin/../lib/gcc/xtensa-esp-elf/14.2.0/../../../../xtensa-esp-elf/lib/esp32/]
+        ignore line: [E:/ESP32-IDF-SOFTWARE/ENV/tools/xtensa-esp-elf/esp-14.2.0_20250730/xtensa-esp-elf/bin/../xtensa-esp-elf/lib/esp32/]
+        ignore line: [E:/ESP32-IDF-SOFTWARE/ENV/tools/xtensa-esp-elf/esp-14.2.0_20250730/xtensa-esp-elf/bin/../lib/gcc/xtensa-esp-elf/14.2.0/]
+        ignore line: [E:/ESP32-IDF-SOFTWARE/ENV/tools/xtensa-esp-elf/esp-14.2.0_20250730/xtensa-esp-elf/bin/../lib/gcc/]
+        ignore line: [E:/ESP32-IDF-SOFTWARE/ENV/tools/xtensa-esp-elf/esp-14.2.0_20250730/xtensa-esp-elf/bin/../lib/gcc/xtensa-esp-elf/14.2.0/../../../../xtensa-esp-elf/lib/]
+        ignore line: [E:/ESP32-IDF-SOFTWARE/ENV/tools/xtensa-esp-elf/esp-14.2.0_20250730/xtensa-esp-elf/bin/../xtensa-esp-elf/lib/]
+        ignore line: [COLLECT_GCC_OPTIONS='-mdynconfig=xtensa_esp32.so' '-mlongcalls' '-Wno-frame-address' '-fno-builtin-memcpy' '-fno-builtin-memset' '-fno-builtin-bzero' '-fno-builtin-stpcpy' '-fno-builtin-strncpy' '-v' '-o' 'cmTC_08f80' '-dumpdir' 'cmTC_08f80.']
+        link line: [ E:/ESP32-IDF-SOFTWARE/ENV/tools/xtensa-esp-elf/esp-14.2.0_20250730/xtensa-esp-elf/bin/../libexec/gcc/xtensa-esp-elf/14.2.0/collect2.exe -plugin E:/ESP32-IDF-SOFTWARE/ENV/tools/xtensa-esp-elf/esp-14.2.0_20250730/xtensa-esp-elf/bin/../libexec/gcc/xtensa-esp-elf/14.2.0/liblto_plugin.dll -plugin-opt=E:/ESP32-IDF-SOFTWARE/ENV/tools/xtensa-esp-elf/esp-14.2.0_20250730/xtensa-esp-elf/bin/../libexec/gcc/xtensa-esp-elf/14.2.0/lto-wrapper.exe -plugin-opt=-fresolution=C:\\Users\\THIEN\\AppData\\Local\\Temp\\ccmaQg5W.res -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lc -plugin-opt=-pass-through=-lnosys -plugin-opt=-pass-through=-lc -plugin-opt=-pass-through=-lgcc --sysroot=E:/ESP32-IDF-SOFTWARE/ENV/tools/xtensa-esp-elf/esp-14.2.0_20250730/xtensa-esp-elf/bin/../xtensa-esp-elf --dynconfig=xtensa_esp32.so -o cmTC_08f80 E:/ESP32-IDF-SOFTWARE/ENV/tools/xtensa-esp-elf/esp-14.2.0_20250730/xtensa-esp-elf/bin/../lib/gcc/xtensa-esp-elf/14.2.0/../../../../xtensa-esp-elf/lib/esp32/crt0.o E:/ESP32-IDF-SOFTWARE/ENV/tools/xtensa-esp-elf/esp-14.2.0_20250730/xtensa-esp-elf/bin/../lib/gcc/xtensa-esp-elf/14.2.0/esp32/crti.o E:/ESP32-IDF-SOFTWARE/ENV/tools/xtensa-esp-elf/esp-14.2.0_20250730/xtensa-esp-elf/bin/../lib/gcc/xtensa-esp-elf/14.2.0/esp32/crtbegin.o -LE:/ESP32-IDF-SOFTWARE/ENV/tools/xtensa-esp-elf/esp-14.2.0_20250730/xtensa-esp-elf/bin/../lib/gcc/xtensa-esp-elf/14.2.0/esp32 -LE:/ESP32-IDF-SOFTWARE/ENV/tools/xtensa-esp-elf/esp-14.2.0_20250730/xtensa-esp-elf/bin/../lib/gcc/xtensa-esp-elf/14.2.0/../../../../xtensa-esp-elf/lib/esp32 -LE:/ESP32-IDF-SOFTWARE/ENV/tools/xtensa-esp-elf/esp-14.2.0_20250730/xtensa-esp-elf/bin/../xtensa-esp-elf/lib/esp32 -LE:/ESP32-IDF-SOFTWARE/ENV/tools/xtensa-esp-elf/esp-14.2.0_20250730/xtensa-esp-elf/bin/../lib/gcc/xtensa-esp-elf/14.2.0 -LE:/ESP32-IDF-SOFTWARE/ENV/tools/xtensa-esp-elf/esp-14.2.0_20250730/xtensa-esp-elf/bin/../lib/gcc -LE:/ESP32-IDF-SOFTWARE/ENV/tools/xtensa-esp-elf/esp-14.2.0_20250730/xtensa-esp-elf/bin/../lib/gcc/xtensa-esp-elf/14.2.0/../../../../xtensa-esp-elf/lib -LE:/ESP32-IDF-SOFTWARE/ENV/tools/xtensa-esp-elf/esp-14.2.0_20250730/xtensa-esp-elf/bin/../xtensa-esp-elf/lib CMakeFiles/cmTC_08f80.dir/CMakeCCompilerABI.c.obj -lgcc -lc -lnosys -lc -lgcc E:/ESP32-IDF-SOFTWARE/ENV/tools/xtensa-esp-elf/esp-14.2.0_20250730/xtensa-esp-elf/bin/../lib/gcc/xtensa-esp-elf/14.2.0/esp32/crtend.o E:/ESP32-IDF-SOFTWARE/ENV/tools/xtensa-esp-elf/esp-14.2.0_20250730/xtensa-esp-elf/bin/../lib/gcc/xtensa-esp-elf/14.2.0/esp32/crtn.o\x0d]
+          arg [E:/ESP32-IDF-SOFTWARE/ENV/tools/xtensa-esp-elf/esp-14.2.0_20250730/xtensa-esp-elf/bin/../libexec/gcc/xtensa-esp-elf/14.2.0/collect2.exe] ==> ignore
+          arg [-plugin] ==> ignore
+          arg [E:/ESP32-IDF-SOFTWARE/ENV/tools/xtensa-esp-elf/esp-14.2.0_20250730/xtensa-esp-elf/bin/../libexec/gcc/xtensa-esp-elf/14.2.0/liblto_plugin.dll] ==> ignore
+          arg [-plugin-opt=E:/ESP32-IDF-SOFTWARE/ENV/tools/xtensa-esp-elf/esp-14.2.0_20250730/xtensa-esp-elf/bin/../libexec/gcc/xtensa-esp-elf/14.2.0/lto-wrapper.exe] ==> ignore
+          arg [-plugin-opt=-fresolution=C:\\Users\\THIEN\\AppData\\Local\\Temp\\ccmaQg5W.res] ==> ignore
+          arg [-plugin-opt=-pass-through=-lgcc] ==> ignore
+          arg [-plugin-opt=-pass-through=-lc] ==> ignore
+          arg [-plugin-opt=-pass-through=-lnosys] ==> ignore
+          arg [-plugin-opt=-pass-through=-lc] ==> ignore
+          arg [-plugin-opt=-pass-through=-lgcc] ==> ignore
+          arg [--sysroot=E:/ESP32-IDF-SOFTWARE/ENV/tools/xtensa-esp-elf/esp-14.2.0_20250730/xtensa-esp-elf/bin/../xtensa-esp-elf] ==> ignore
+          arg [--dynconfig=xtensa_esp32.so] ==> ignore
+          arg [-o] ==> ignore
+          arg [cmTC_08f80] ==> ignore
+          arg [E:/ESP32-IDF-SOFTWARE/ENV/tools/xtensa-esp-elf/esp-14.2.0_20250730/xtensa-esp-elf/bin/../lib/gcc/xtensa-esp-elf/14.2.0/../../../../xtensa-esp-elf/lib/esp32/crt0.o] ==> obj [E:/ESP32-IDF-SOFTWARE/ENV/tools/xtensa-esp-elf/esp-14.2.0_20250730/xtensa-esp-elf/bin/../lib/gcc/xtensa-esp-elf/14.2.0/../../../../xtensa-esp-elf/lib/esp32/crt0.o]
+          arg [E:/ESP32-IDF-SOFTWARE/ENV/tools/xtensa-esp-elf/esp-14.2.0_20250730/xtensa-esp-elf/bin/../lib/gcc/xtensa-esp-elf/14.2.0/esp32/crti.o] ==> obj [E:/ESP32-IDF-SOFTWARE/ENV/tools/xtensa-esp-elf/esp-14.2.0_20250730/xtensa-esp-elf/bin/../lib/gcc/xtensa-esp-elf/14.2.0/esp32/crti.o]
+          arg [E:/ESP32-IDF-SOFTWARE/ENV/tools/xtensa-esp-elf/esp-14.2.0_20250730/xtensa-esp-elf/bin/../lib/gcc/xtensa-esp-elf/14.2.0/esp32/crtbegin.o] ==> obj [E:/ESP32-IDF-SOFTWARE/ENV/tools/xtensa-esp-elf/esp-14.2.0_20250730/xtensa-esp-elf/bin/../lib/gcc/xtensa-esp-elf/14.2.0/esp32/crtbegin.o]
+          arg [-LE:/ESP32-IDF-SOFTWARE/ENV/tools/xtensa-esp-elf/esp-14.2.0_20250730/xtensa-esp-elf/bin/../lib/gcc/xtensa-esp-elf/14.2.0/esp32] ==> dir [E:/ESP32-IDF-SOFTWARE/ENV/tools/xtensa-esp-elf/esp-14.2.0_20250730/xtensa-esp-elf/bin/../lib/gcc/xtensa-esp-elf/14.2.0/esp32]
+          arg [-LE:/ESP32-IDF-SOFTWARE/ENV/tools/xtensa-esp-elf/esp-14.2.0_20250730/xtensa-esp-elf/bin/../lib/gcc/xtensa-esp-elf/14.2.0/../../../../xtensa-esp-elf/lib/esp32] ==> dir [E:/ESP32-IDF-SOFTWARE/ENV/tools/xtensa-esp-elf/esp-14.2.0_20250730/xtensa-esp-elf/bin/../lib/gcc/xtensa-esp-elf/14.2.0/../../../../xtensa-esp-elf/lib/esp32]
+          arg [-LE:/ESP32-IDF-SOFTWARE/ENV/tools/xtensa-esp-elf/esp-14.2.0_20250730/xtensa-esp-elf/bin/../xtensa-esp-elf/lib/esp32] ==> dir [E:/ESP32-IDF-SOFTWARE/ENV/tools/xtensa-esp-elf/esp-14.2.0_20250730/xtensa-esp-elf/bin/../xtensa-esp-elf/lib/esp32]
+          arg [-LE:/ESP32-IDF-SOFTWARE/ENV/tools/xtensa-esp-elf/esp-14.2.0_20250730/xtensa-esp-elf/bin/../lib/gcc/xtensa-esp-elf/14.2.0] ==> dir [E:/ESP32-IDF-SOFTWARE/ENV/tools/xtensa-esp-elf/esp-14.2.0_20250730/xtensa-esp-elf/bin/../lib/gcc/xtensa-esp-elf/14.2.0]
+          arg [-LE:/ESP32-IDF-SOFTWARE/ENV/tools/xtensa-esp-elf/esp-14.2.0_20250730/xtensa-esp-elf/bin/../lib/gcc] ==> dir [E:/ESP32-IDF-SOFTWARE/ENV/tools/xtensa-esp-elf/esp-14.2.0_20250730/xtensa-esp-elf/bin/../lib/gcc]
+          arg [-LE:/ESP32-IDF-SOFTWARE/ENV/tools/xtensa-esp-elf/esp-14.2.0_20250730/xtensa-esp-elf/bin/../lib/gcc/xtensa-esp-elf/14.2.0/../../../../xtensa-esp-elf/lib] ==> dir [E:/ESP32-IDF-SOFTWARE/ENV/tools/xtensa-esp-elf/esp-14.2.0_20250730/xtensa-esp-elf/bin/../lib/gcc/xtensa-esp-elf/14.2.0/../../../../xtensa-esp-elf/lib]
+          arg [-LE:/ESP32-IDF-SOFTWARE/ENV/tools/xtensa-esp-elf/esp-14.2.0_20250730/xtensa-esp-elf/bin/../xtensa-esp-elf/lib] ==> dir [E:/ESP32-IDF-SOFTWARE/ENV/tools/xtensa-esp-elf/esp-14.2.0_20250730/xtensa-esp-elf/bin/../xtensa-esp-elf/lib]
+          arg [CMakeFiles/cmTC_08f80.dir/CMakeCCompilerABI.c.obj] ==> ignore
+          arg [-lgcc] ==> lib [gcc]
+          arg [-lc] ==> lib [c]
+          arg [-lnosys] ==> lib [nosys]
+          arg [-lc] ==> lib [c]
+          arg [-lgcc] ==> lib [gcc]
+          arg [E:/ESP32-IDF-SOFTWARE/ENV/tools/xtensa-esp-elf/esp-14.2.0_20250730/xtensa-esp-elf/bin/../lib/gcc/xtensa-esp-elf/14.2.0/esp32/crtend.o] ==> obj [E:/ESP32-IDF-SOFTWARE/ENV/tools/xtensa-esp-elf/esp-14.2.0_20250730/xtensa-esp-elf/bin/../lib/gcc/xtensa-esp-elf/14.2.0/esp32/crtend.o]
+          arg [E:/ESP32-IDF-SOFTWARE/ENV/tools/xtensa-esp-elf/esp-14.2.0_20250730/xtensa-esp-elf/bin/../lib/gcc/xtensa-esp-elf/14.2.0/esp32/crtn.o] ==> obj [E:/ESP32-IDF-SOFTWARE/ENV/tools/xtensa-esp-elf/esp-14.2.0_20250730/xtensa-esp-elf/bin/../lib/gcc/xtensa-esp-elf/14.2.0/esp32/crtn.o]
+        ignore line: [COLLECT_GCC_OPTIONS='-mdynconfig=xtensa_esp32.so' '-mlongcalls' '-Wno-frame-address' '-fno-builtin-memcpy' '-fno-builtin-memset' '-fno-builtin-bzero' '-fno-builtin-stpcpy' '-fno-builtin-strncpy' '-v' '-o' 'cmTC_08f80' '-dumpdir' 'cmTC_08f80.'\x0d]
+        ignore line: []
+        ignore line: []
+        collapse obj [E:/ESP32-IDF-SOFTWARE/ENV/tools/xtensa-esp-elf/esp-14.2.0_20250730/xtensa-esp-elf/bin/../lib/gcc/xtensa-esp-elf/14.2.0/../../../../xtensa-esp-elf/lib/esp32/crt0.o] ==> [E:/ESP32-IDF-SOFTWARE/ENV/tools/xtensa-esp-elf/esp-14.2.0_20250730/xtensa-esp-elf/xtensa-esp-elf/lib/esp32/crt0.o]
+        collapse obj [E:/ESP32-IDF-SOFTWARE/ENV/tools/xtensa-esp-elf/esp-14.2.0_20250730/xtensa-esp-elf/bin/../lib/gcc/xtensa-esp-elf/14.2.0/esp32/crti.o] ==> [E:/ESP32-IDF-SOFTWARE/ENV/tools/xtensa-esp-elf/esp-14.2.0_20250730/xtensa-esp-elf/lib/gcc/xtensa-esp-elf/14.2.0/esp32/crti.o]
+        collapse obj [E:/ESP32-IDF-SOFTWARE/ENV/tools/xtensa-esp-elf/esp-14.2.0_20250730/xtensa-esp-elf/bin/../lib/gcc/xtensa-esp-elf/14.2.0/esp32/crtbegin.o] ==> [E:/ESP32-IDF-SOFTWARE/ENV/tools/xtensa-esp-elf/esp-14.2.0_20250730/xtensa-esp-elf/lib/gcc/xtensa-esp-elf/14.2.0/esp32/crtbegin.o]
+        collapse obj [E:/ESP32-IDF-SOFTWARE/ENV/tools/xtensa-esp-elf/esp-14.2.0_20250730/xtensa-esp-elf/bin/../lib/gcc/xtensa-esp-elf/14.2.0/esp32/crtend.o] ==> [E:/ESP32-IDF-SOFTWARE/ENV/tools/xtensa-esp-elf/esp-14.2.0_20250730/xtensa-esp-elf/lib/gcc/xtensa-esp-elf/14.2.0/esp32/crtend.o]
+        collapse obj [E:/ESP32-IDF-SOFTWARE/ENV/tools/xtensa-esp-elf/esp-14.2.0_20250730/xtensa-esp-elf/bin/../lib/gcc/xtensa-esp-elf/14.2.0/esp32/crtn.o] ==> [E:/ESP32-IDF-SOFTWARE/ENV/tools/xtensa-esp-elf/esp-14.2.0_20250730/xtensa-esp-elf/lib/gcc/xtensa-esp-elf/14.2.0/esp32/crtn.o]
+        collapse library dir [E:/ESP32-IDF-SOFTWARE/ENV/tools/xtensa-esp-elf/esp-14.2.0_20250730/xtensa-esp-elf/bin/../lib/gcc/xtensa-esp-elf/14.2.0/esp32] ==> [E:/ESP32-IDF-SOFTWARE/ENV/tools/xtensa-esp-elf/esp-14.2.0_20250730/xtensa-esp-elf/lib/gcc/xtensa-esp-elf/14.2.0/esp32]
+        collapse library dir [E:/ESP32-IDF-SOFTWARE/ENV/tools/xtensa-esp-elf/esp-14.2.0_20250730/xtensa-esp-elf/bin/../lib/gcc/xtensa-esp-elf/14.2.0/../../../../xtensa-esp-elf/lib/esp32] ==> [E:/ESP32-IDF-SOFTWARE/ENV/tools/xtensa-esp-elf/esp-14.2.0_20250730/xtensa-esp-elf/xtensa-esp-elf/lib/esp32]
+        collapse library dir [E:/ESP32-IDF-SOFTWARE/ENV/tools/xtensa-esp-elf/esp-14.2.0_20250730/xtensa-esp-elf/bin/../xtensa-esp-elf/lib/esp32] ==> [E:/ESP32-IDF-SOFTWARE/ENV/tools/xtensa-esp-elf/esp-14.2.0_20250730/xtensa-esp-elf/xtensa-esp-elf/lib/esp32]
+        collapse library dir [E:/ESP32-IDF-SOFTWARE/ENV/tools/xtensa-esp-elf/esp-14.2.0_20250730/xtensa-esp-elf/bin/../lib/gcc/xtensa-esp-elf/14.2.0] ==> [E:/ESP32-IDF-SOFTWARE/ENV/tools/xtensa-esp-elf/esp-14.2.0_20250730/xtensa-esp-elf/lib/gcc/xtensa-esp-elf/14.2.0]
+        collapse library dir [E:/ESP32-IDF-SOFTWARE/ENV/tools/xtensa-esp-elf/esp-14.2.0_20250730/xtensa-esp-elf/bin/../lib/gcc] ==> [E:/ESP32-IDF-SOFTWARE/ENV/tools/xtensa-esp-elf/esp-14.2.0_20250730/xtensa-esp-elf/lib/gcc]
+        collapse library dir [E:/ESP32-IDF-SOFTWARE/ENV/tools/xtensa-esp-elf/esp-14.2.0_20250730/xtensa-esp-elf/bin/../lib/gcc/xtensa-esp-elf/14.2.0/../../../../xtensa-esp-elf/lib] ==> [E:/ESP32-IDF-SOFTWARE/ENV/tools/xtensa-esp-elf/esp-14.2.0_20250730/xtensa-esp-elf/xtensa-esp-elf/lib]
+        collapse library dir [E:/ESP32-IDF-SOFTWARE/ENV/tools/xtensa-esp-elf/esp-14.2.0_20250730/xtensa-esp-elf/bin/../xtensa-esp-elf/lib] ==> [E:/ESP32-IDF-SOFTWARE/ENV/tools/xtensa-esp-elf/esp-14.2.0_20250730/xtensa-esp-elf/xtensa-esp-elf/lib]
+        implicit libs: [gcc;c;nosys;c;gcc]
+        implicit objs: [E:/ESP32-IDF-SOFTWARE/ENV/tools/xtensa-esp-elf/esp-14.2.0_20250730/xtensa-esp-elf/xtensa-esp-elf/lib/esp32/crt0.o;E:/ESP32-IDF-SOFTWARE/ENV/tools/xtensa-esp-elf/esp-14.2.0_20250730/xtensa-esp-elf/lib/gcc/xtensa-esp-elf/14.2.0/esp32/crti.o;E:/ESP32-IDF-SOFTWARE/ENV/tools/xtensa-esp-elf/esp-14.2.0_20250730/xtensa-esp-elf/lib/gcc/xtensa-esp-elf/14.2.0/esp32/crtbegin.o;E:/ESP32-IDF-SOFTWARE/ENV/tools/xtensa-esp-elf/esp-14.2.0_20250730/xtensa-esp-elf/lib/gcc/xtensa-esp-elf/14.2.0/esp32/crtend.o;E:/ESP32-IDF-SOFTWARE/ENV/tools/xtensa-esp-elf/esp-14.2.0_20250730/xtensa-esp-elf/lib/gcc/xtensa-esp-elf/14.2.0/esp32/crtn.o]
+        implicit dirs: [E:/ESP32-IDF-SOFTWARE/ENV/tools/xtensa-esp-elf/esp-14.2.0_20250730/xtensa-esp-elf/lib/gcc/xtensa-esp-elf/14.2.0/esp32;E:/ESP32-IDF-SOFTWARE/ENV/tools/xtensa-esp-elf/esp-14.2.0_20250730/xtensa-esp-elf/xtensa-esp-elf/lib/esp32;E:/ESP32-IDF-SOFTWARE/ENV/tools/xtensa-esp-elf/esp-14.2.0_20250730/xtensa-esp-elf/lib/gcc/xtensa-esp-elf/14.2.0;E:/ESP32-IDF-SOFTWARE/ENV/tools/xtensa-esp-elf/esp-14.2.0_20250730/xtensa-esp-elf/lib/gcc;E:/ESP32-IDF-SOFTWARE/ENV/tools/xtensa-esp-elf/esp-14.2.0_20250730/xtensa-esp-elf/xtensa-esp-elf/lib]
+        implicit fwks: []
+      
+      
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "E:/ESP32-IDF-SOFTWARE/ENV/tools/cmake/3.30.2/share/cmake-3.30/Modules/CMakeDetermineCompilerABI.cmake:74 (try_compile)"
+      - "E:/ESP32-IDF-SOFTWARE/ENV/tools/cmake/3.30.2/share/cmake-3.30/Modules/CMakeTestCXXCompiler.cmake:26 (CMAKE_DETERMINE_COMPILER_ABI)"
+      - "E:/ESP32-IDF-SOFTWARE/ENV/frameworks/esp-idf-v5.4.3/tools/cmake/project.cmake:571 (__project)"
+      - "CMakeLists.txt:7 (project)"
+    checks:
+      - "Detecting CXX compiler ABI info"
+    directories:
+      source: "E:/ESP32-IDF-SOFTWARE/CODE/Update_Firmware/build/CMakeFiles/CMakeScratch/TryCompile-v87ykz"
+      binary: "E:/ESP32-IDF-SOFTWARE/CODE/Update_Firmware/build/CMakeFiles/CMakeScratch/TryCompile-v87ykz"
+    cmakeVariables:
+      CMAKE_CXX_FLAGS: "-mlongcalls -Wno-frame-address  -fno-builtin-memcpy -fno-builtin-memset -fno-builtin-bzero -fno-builtin-stpcpy -fno-builtin-strncpy"
+      CMAKE_CXX_FLAGS_DEBUG: "-g"
+      CMAKE_CXX_SCAN_FOR_MODULES: "OFF"
+      CMAKE_EXE_LINKER_FLAGS: ""
+      CMAKE_MODULE_PATH: "E:/ESP32-IDF-SOFTWARE/ENV/frameworks/esp-idf-v5.4.3/tools/cmake;E:/ESP32-IDF-SOFTWARE/ENV/frameworks/esp-idf-v5.4.3/tools/cmake/third_party"
+    buildResult:
+      variable: "CMAKE_CXX_ABI_COMPILED"
+      cached: true
+      stdout: |
+        Change Dir: 'E:/ESP32-IDF-SOFTWARE/CODE/Update_Firmware/build/CMakeFiles/CMakeScratch/TryCompile-v87ykz'
+        
+        Run Build Command(s): E:/ESP32-IDF-SOFTWARE/ENV/tools/ninja/1.12.1/ninja.exe -v cmTC_568ac
+        [1/2] E:\\ESP32-IDF-SOFTWARE\\ENV\\tools\\xtensa-esp-elf\\esp-14.2.0_20250730\\xtensa-esp-elf\\bin\\xtensa-esp32-elf-g++.exe   -mlongcalls -Wno-frame-address  -fno-builtin-memcpy -fno-builtin-memset -fno-builtin-bzero -fno-builtin-stpcpy -fno-builtin-strncpy    -v -o CMakeFiles/cmTC_568ac.dir/CMakeCXXCompilerABI.cpp.obj -c E:/ESP32-IDF-SOFTWARE/ENV/tools/cmake/3.30.2/share/cmake-3.30/Modules/CMakeCXXCompilerABI.cpp
+        Using built-in specs.
+        COLLECT_GCC=E:\\ESP32-IDF-SOFTWARE\\ENV\\tools\\xtensa-esp-elf\\esp-14.2.0_20250730\\xtensa-esp-elf\\bin\\xtensa-esp-elf-g++.exe
+        Target: xtensa-esp-elf
+        Configured with: /builds/idf/crosstool-NG/.build/xtensa-esp-elf/src/gcc/configure --build=x86_64-build_pc-linux-gnu --host=x86_64-host_w64-mingw32 --target=xtensa-esp-elf --prefix=/builds/idf/crosstool-NG/builds/xtensa-esp-elf --exec_prefix=/builds/idf/crosstool-NG/builds/xtensa-esp-elf --with-local-prefix=/builds/idf/crosstool-NG/builds/xtensa-esp-elf/xtensa-esp-elf --with-sysroot=/builds/idf/crosstool-NG/builds/xtensa-esp-elf/xtensa-esp-elf --with-native-system-header-dir=/include --with-newlib --enable-threads=no --disable-shared --with-pkgversion='crosstool-NG esp-14.2.0_20250730' --disable-__cxa_atexit --enable-cxx-flags='-ffunction-sections -fdata-sections' --disable-libgomp --disable-libmudflap --disable-libmpx --disable-libssp --disable-libquadmath --disable-libquadmath-support --disable-libstdcxx-verbose --with-gmp=/builds/idf/crosstool-NG/.build/xtensa-esp-elf/buildtools/complibs-host --with-mpfr=/builds/idf/crosstool-NG/.build/xtensa-esp-elf/buildtools/complibs-host --with-mpc=/builds/idf/crosstool-NG/.build/xtensa-esp-elf/buildtools/complibs-host --with-isl=/builds/idf/crosstool-NG/.build/xtensa-esp-elf/buildtools/complibs-host --enable-lto --enable-target-optspace --without-long-double-128 --disable-nls --enable-multiarch --enable-languages=c,c++ --disable-libstdcxx-verbose --enable-threads=posix --enable-gcov-custom-rtio --enable-libstdcxx-time=yes --with-gnu-ld
+        Thread model: posix
+        Supported LTO compression algorithms: zlib zstd
+        gcc version 14.2.0 (crosstool-NG esp-14.2.0_20250730) 
+        COLLECT_GCC_OPTIONS='-mdynconfig=xtensa_esp32.so' '-mlongcalls' '-Wno-frame-address' '-fno-builtin-memcpy' '-fno-builtin-memset' '-fno-builtin-bzero' '-fno-builtin-stpcpy' '-fno-builtin-strncpy' '-v' '-o' 'CMakeFiles/cmTC_568ac.dir/CMakeCXXCompilerABI.cpp.obj' '-c' '-dumpdir' 'CMakeFiles/cmTC_568ac.dir/'
+         E:/ESP32-IDF-SOFTWARE/ENV/tools/xtensa-esp-elf/esp-14.2.0_20250730/xtensa-esp-elf/bin/../libexec/gcc/xtensa-esp-elf/14.2.0/cc1plus.exe -quiet -v -imultilib esp32 -iprefix E:/ESP32-IDF-SOFTWARE/ENV/tools/xtensa-esp-elf/esp-14.2.0_20250730/xtensa-esp-elf/bin/../lib/gcc/xtensa-esp-elf/14.2.0/ -isysroot E:/ESP32-IDF-SOFTWARE/ENV/tools/xtensa-esp-elf/esp-14.2.0_20250730/xtensa-esp-elf/bin/../xtensa-esp-elf E:/ESP32-IDF-SOFTWARE/ENV/tools/cmake/3.30.2/share/cmake-3.30/Modules/CMakeCXXCompilerABI.cpp -quiet -dumpdir CMakeFiles/cmTC_568ac.dir/ -dumpbase CMakeCXXCompilerABI.cpp.cpp -dumpbase-ext .cpp -mdynconfig=xtensa_esp32.so -mlongcalls -Wno-frame-address -version -fno-builtin-memcpy -fno-builtin-memset -fno-builtin-bzero -fno-builtin-stpcpy -fno-builtin-strncpy -o C:\\Users\\THIEN\\AppData\\Local\\Temp\\ccMPeu91.s
+        GNU C++17 (crosstool-NG esp-14.2.0_20250730) version 14.2.0 (xtensa-esp-elf)
+        	compiled by GNU C version 6.3.0 20170516, GMP version 6.2.1, MPFR version 4.2.1, MPC version 1.2.1, isl version isl-0.26-GMP
+        
+        GGC heuristics: --param ggc-min-expand=100 --param ggc-min-heapsize=131072
+        ignoring duplicate directory "E:/ESP32-IDF-SOFTWARE/ENV/tools/xtensa-esp-elf/esp-14.2.0_20250730/xtensa-esp-elf/lib/gcc/../../lib/gcc/xtensa-esp-elf/14.2.0/../../../../xtensa-esp-elf/include/c++/14.2.0"
+        ignoring duplicate directory "E:/ESP32-IDF-SOFTWARE/ENV/tools/xtensa-esp-elf/esp-14.2.0_20250730/xtensa-esp-elf/lib/gcc/../../lib/gcc/xtensa-esp-elf/14.2.0/../../../../xtensa-esp-elf/include/c++/14.2.0/xtensa-esp-elf/esp32"
+        ignoring duplicate directory "E:/ESP32-IDF-SOFTWARE/ENV/tools/xtensa-esp-elf/esp-14.2.0_20250730/xtensa-esp-elf/lib/gcc/../../lib/gcc/xtensa-esp-elf/14.2.0/../../../../xtensa-esp-elf/include/c++/14.2.0/backward"
+        ignoring duplicate directory "E:/ESP32-IDF-SOFTWARE/ENV/tools/xtensa-esp-elf/esp-14.2.0_20250730/xtensa-esp-elf/lib/gcc/../../lib/gcc/xtensa-esp-elf/14.2.0/include"
+        ignoring nonexistent directory "E:/ESP32-IDF-SOFTWARE/ENV/tools/xtensa-esp-elf/esp-14.2.0_20250730/xtensa-esp-elf/bin/../xtensa-esp-elf/builds/idf/crosstool-NG/builds/xtensa-esp-elf/lib/gcc/xtensa-esp-elf/14.2.0/../../../../include"
+        ignoring duplicate directory "E:/ESP32-IDF-SOFTWARE/ENV/tools/xtensa-esp-elf/esp-14.2.0_20250730/xtensa-esp-elf/lib/gcc/../../lib/gcc/xtensa-esp-elf/14.2.0/include-fixed"
+        ignoring duplicate directory "E:/ESP32-IDF-SOFTWARE/ENV/tools/xtensa-esp-elf/esp-14.2.0_20250730/xtensa-esp-elf/lib/gcc/../../lib/gcc/xtensa-esp-elf/14.2.0/../../../../xtensa-esp-elf/include"
+        ignoring duplicate directory "E:/ESP32-IDF-SOFTWARE/ENV/tools/xtensa-esp-elf/esp-14.2.0_20250730/xtensa-esp-elf/bin/../xtensa-esp-elf/include"
+        #include "..." search starts here:
+        #include <...> search starts here:
+         E:/ESP32-IDF-SOFTWARE/ENV/tools/xtensa-esp-elf/esp-14.2.0_20250730/xtensa-esp-elf/bin/../lib/gcc/xtensa-esp-elf/14.2.0/../../../../xtensa-esp-elf/include/c++/14.2.0
+         E:/ESP32-IDF-SOFTWARE/ENV/tools/xtensa-esp-elf/esp-14.2.0_20250730/xtensa-esp-elf/bin/../lib/gcc/xtensa-esp-elf/14.2.0/../../../../xtensa-esp-elf/include/c++/14.2.0/xtensa-esp-elf/esp32
+         E:/ESP32-IDF-SOFTWARE/ENV/tools/xtensa-esp-elf/esp-14.2.0_20250730/xtensa-esp-elf/bin/../lib/gcc/xtensa-esp-elf/14.2.0/../../../../xtensa-esp-elf/include/c++/14.2.0/backward
+         E:/ESP32-IDF-SOFTWARE/ENV/tools/xtensa-esp-elf/esp-14.2.0_20250730/xtensa-esp-elf/bin/../lib/gcc/xtensa-esp-elf/14.2.0/include
+         E:/ESP32-IDF-SOFTWARE/ENV/tools/xtensa-esp-elf/esp-14.2.0_20250730/xtensa-esp-elf/bin/../lib/gcc/xtensa-esp-elf/14.2.0/include-fixed
+         E:/ESP32-IDF-SOFTWARE/ENV/tools/xtensa-esp-elf/esp-14.2.0_20250730/xtensa-esp-elf/bin/../lib/gcc/xtensa-esp-elf/14.2.0/../../../../xtensa-esp-elf/include
+        End of search list.
+        Compiler executable checksum: 36f90ab7ffea0d7cc4d0c7b1a89d7e55
+        COLLECT_GCC_OPTIONS='-mdynconfig=xtensa_esp32.so' '-mlongcalls' '-Wno-frame-address' '-fno-builtin-memcpy' '-fno-builtin-memset' '-fno-builtin-bzero' '-fno-builtin-stpcpy' '-fno-builtin-strncpy' '-v' '-o' 'CMakeFiles/cmTC_568ac.dir/CMakeCXXCompilerABI.cpp.obj' '-c' '-dumpdir' 'CMakeFiles/cmTC_568ac.dir/'
+         E:/ESP32-IDF-SOFTWARE/ENV/tools/xtensa-esp-elf/esp-14.2.0_20250730/xtensa-esp-elf/bin/../lib/gcc/xtensa-esp-elf/14.2.0/../../../../xtensa-esp-elf/bin/as.exe --traditional-format --longcalls --dynconfig=xtensa_esp32.so -o CMakeFiles/cmTC_568ac.dir/CMakeCXXCompilerABI.cpp.obj C:\\Users\\THIEN\\AppData\\Local\\Temp\\ccMPeu91.s
+        COMPILER_PATH=E:/ESP32-IDF-SOFTWARE/ENV/tools/xtensa-esp-elf/esp-14.2.0_20250730/xtensa-esp-elf/bin/../libexec/gcc/xtensa-esp-elf/14.2.0/;E:/ESP32-IDF-SOFTWARE/ENV/tools/xtensa-esp-elf/esp-14.2.0_20250730/xtensa-esp-elf/bin/../libexec/gcc/;E:/ESP32-IDF-SOFTWARE/ENV/tools/xtensa-esp-elf/esp-14.2.0_20250730/xtensa-esp-elf/bin/../lib/gcc/xtensa-esp-elf/14.2.0/../../../../xtensa-esp-elf/bin/
+        LIBRARY_PATH=E:/ESP32-IDF-SOFTWARE/ENV/tools/xtensa-esp-elf/esp-14.2.0_20250730/xtensa-esp-elf/bin/../lib/gcc/xtensa-esp-elf/14.2.0/esp32/;E:/ESP32-IDF-SOFTWARE/ENV/tools/xtensa-esp-elf/esp-14.2.0_20250730/xtensa-esp-elf/bin/../lib/gcc/xtensa-esp-elf/14.2.0/../../../../xtensa-esp-elf/lib/esp32/;E:/ESP32-IDF-SOFTWARE/ENV/tools/xtensa-esp-elf/esp-14.2.0_20250730/xtensa-esp-elf/bin/../xtensa-esp-elf/lib/esp32/;E:/ESP32-IDF-SOFTWARE/ENV/tools/xtensa-esp-elf/esp-14.2.0_20250730/xtensa-esp-elf/bin/../lib/gcc/xtensa-esp-elf/14.2.0/;E:/ESP32-IDF-SOFTWARE/ENV/tools/xtensa-esp-elf/esp-14.2.0_20250730/xtensa-esp-elf/bin/../lib/gcc/;E:/ESP32-IDF-SOFTWARE/ENV/tools/xtensa-esp-elf/esp-14.2.0_20250730/xtensa-esp-elf/bin/../lib/gcc/xtensa-esp-elf/14.2.0/../../../../xtensa-esp-elf/lib/;E:/ESP32-IDF-SOFTWARE/ENV/tools/xtensa-esp-elf/esp-14.2.0_20250730/xtensa-esp-elf/bin/../xtensa-esp-elf/lib/
+        COLLECT_GCC_OPTIONS='-mdynconfig=xtensa_esp32.so' '-mlongcalls' '-Wno-frame-address' '-fno-builtin-memcpy' '-fno-builtin-memset' '-fno-builtin-bzero' '-fno-builtin-stpcpy' '-fno-builtin-strncpy' '-v' '-o' 'CMakeFiles/cmTC_568ac.dir/CMakeCXXCompilerABI.cpp.obj' '-c' '-dumpdir' 'CMakeFiles/cmTC_568ac.dir/CMakeCXXCompilerABI.cpp.'\x0d
+        [2/2] C:\\WINDOWS\\system32\\cmd.exe /C "cd . && E:\\ESP32-IDF-SOFTWARE\\ENV\\tools\\xtensa-esp-elf\\esp-14.2.0_20250730\\xtensa-esp-elf\\bin\\xtensa-esp32-elf-g++.exe -mlongcalls -Wno-frame-address  -fno-builtin-memcpy -fno-builtin-memset -fno-builtin-bzero -fno-builtin-stpcpy -fno-builtin-strncpy -v CMakeFiles/cmTC_568ac.dir/CMakeCXXCompilerABI.cpp.obj -o cmTC_568ac   && cd ."
+        Using built-in specs.
+        COLLECT_GCC=E:\\ESP32-IDF-SOFTWARE\\ENV\\tools\\xtensa-esp-elf\\esp-14.2.0_20250730\\xtensa-esp-elf\\bin\\xtensa-esp-elf-g++.exe
+        COLLECT_LTO_WRAPPER=E:/ESP32-IDF-SOFTWARE/ENV/tools/xtensa-esp-elf/esp-14.2.0_20250730/xtensa-esp-elf/bin/../libexec/gcc/xtensa-esp-elf/14.2.0/lto-wrapper.exe
+        Target: xtensa-esp-elf
+        Configured with: /builds/idf/crosstool-NG/.build/xtensa-esp-elf/src/gcc/configure --build=x86_64-build_pc-linux-gnu --host=x86_64-host_w64-mingw32 --target=xtensa-esp-elf --prefix=/builds/idf/crosstool-NG/builds/xtensa-esp-elf --exec_prefix=/builds/idf/crosstool-NG/builds/xtensa-esp-elf --with-local-prefix=/builds/idf/crosstool-NG/builds/xtensa-esp-elf/xtensa-esp-elf --with-sysroot=/builds/idf/crosstool-NG/builds/xtensa-esp-elf/xtensa-esp-elf --with-native-system-header-dir=/include --with-newlib --enable-threads=no --disable-shared --with-pkgversion='crosstool-NG esp-14.2.0_20250730' --disable-__cxa_atexit --enable-cxx-flags='-ffunction-sections -fdata-sections' --disable-libgomp --disable-libmudflap --disable-libmpx --disable-libssp --disable-libquadmath --disable-libquadmath-support --disable-libstdcxx-verbose --with-gmp=/builds/idf/crosstool-NG/.build/xtensa-esp-elf/buildtools/complibs-host --with-mpfr=/builds/idf/crosstool-NG/.build/xtensa-esp-elf/buildtools/complibs-host --with-mpc=/builds/idf/crosstool-NG/.build/xtensa-esp-elf/buildtools/complibs-host --with-isl=/builds/idf/crosstool-NG/.build/xtensa-esp-elf/buildtools/complibs-host --enable-lto --enable-target-optspace --without-long-double-128 --disable-nls --enable-multiarch --enable-languages=c,c++ --disable-libstdcxx-verbose --enable-threads=posix --enable-gcov-custom-rtio --enable-libstdcxx-time=yes --with-gnu-ld
+        Thread model: posix
+        Supported LTO compression algorithms: zlib zstd
+        gcc version 14.2.0 (crosstool-NG esp-14.2.0_20250730) 
+        COMPILER_PATH=E:/ESP32-IDF-SOFTWARE/ENV/tools/xtensa-esp-elf/esp-14.2.0_20250730/xtensa-esp-elf/bin/../libexec/gcc/xtensa-esp-elf/14.2.0/;E:/ESP32-IDF-SOFTWARE/ENV/tools/xtensa-esp-elf/esp-14.2.0_20250730/xtensa-esp-elf/bin/../libexec/gcc/;E:/ESP32-IDF-SOFTWARE/ENV/tools/xtensa-esp-elf/esp-14.2.0_20250730/xtensa-esp-elf/bin/../lib/gcc/xtensa-esp-elf/14.2.0/../../../../xtensa-esp-elf/bin/
+        LIBRARY_PATH=E:/ESP32-IDF-SOFTWARE/ENV/tools/xtensa-esp-elf/esp-14.2.0_20250730/xtensa-esp-elf/bin/../lib/gcc/xtensa-esp-elf/14.2.0/esp32/;E:/ESP32-IDF-SOFTWARE/ENV/tools/xtensa-esp-elf/esp-14.2.0_20250730/xtensa-esp-elf/bin/../lib/gcc/xtensa-esp-elf/14.2.0/../../../../xtensa-esp-elf/lib/esp32/;E:/ESP32-IDF-SOFTWARE/ENV/tools/xtensa-esp-elf/esp-14.2.0_20250730/xtensa-esp-elf/bin/../xtensa-esp-elf/lib/esp32/;E:/ESP32-IDF-SOFTWARE/ENV/tools/xtensa-esp-elf/esp-14.2.0_20250730/xtensa-esp-elf/bin/../lib/gcc/xtensa-esp-elf/14.2.0/;E:/ESP32-IDF-SOFTWARE/ENV/tools/xtensa-esp-elf/esp-14.2.0_20250730/xtensa-esp-elf/bin/../lib/gcc/;E:/ESP32-IDF-SOFTWARE/ENV/tools/xtensa-esp-elf/esp-14.2.0_20250730/xtensa-esp-elf/bin/../lib/gcc/xtensa-esp-elf/14.2.0/../../../../xtensa-esp-elf/lib/;E:/ESP32-IDF-SOFTWARE/ENV/tools/xtensa-esp-elf/esp-14.2.0_20250730/xtensa-esp-elf/bin/../xtensa-esp-elf/lib/
+        COLLECT_GCC_OPTIONS='-mdynconfig=xtensa_esp32.so' '-mlongcalls' '-Wno-frame-address' '-fno-builtin-memcpy' '-fno-builtin-memset' '-fno-builtin-bzero' '-fno-builtin-stpcpy' '-fno-builtin-strncpy' '-v' '-o' 'cmTC_568ac' '-dumpdir' 'cmTC_568ac.'
+         E:/ESP32-IDF-SOFTWARE/ENV/tools/xtensa-esp-elf/esp-14.2.0_20250730/xtensa-esp-elf/bin/../libexec/gcc/xtensa-esp-elf/14.2.0/collect2.exe -plugin E:/ESP32-IDF-SOFTWARE/ENV/tools/xtensa-esp-elf/esp-14.2.0_20250730/xtensa-esp-elf/bin/../libexec/gcc/xtensa-esp-elf/14.2.0/liblto_plugin.dll -plugin-opt=E:/ESP32-IDF-SOFTWARE/ENV/tools/xtensa-esp-elf/esp-14.2.0_20250730/xtensa-esp-elf/bin/../libexec/gcc/xtensa-esp-elf/14.2.0/lto-wrapper.exe -plugin-opt=-fresolution=C:\\Users\\THIEN\\AppData\\Local\\Temp\\ccQjJwA7.res -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lc -plugin-opt=-pass-through=-lnosys -plugin-opt=-pass-through=-lc -plugin-opt=-pass-through=-lgcc --sysroot=E:/ESP32-IDF-SOFTWARE/ENV/tools/xtensa-esp-elf/esp-14.2.0_20250730/xtensa-esp-elf/bin/../xtensa-esp-elf --dynconfig=xtensa_esp32.so -o cmTC_568ac E:/ESP32-IDF-SOFTWARE/ENV/tools/xtensa-esp-elf/esp-14.2.0_20250730/xtensa-esp-elf/bin/../lib/gcc/xtensa-esp-elf/14.2.0/../../../../xtensa-esp-elf/lib/esp32/crt0.o E:/ESP32-IDF-SOFTWARE/ENV/tools/xtensa-esp-elf/esp-14.2.0_20250730/xtensa-esp-elf/bin/../lib/gcc/xtensa-esp-elf/14.2.0/esp32/crti.o E:/ESP32-IDF-SOFTWARE/ENV/tools/xtensa-esp-elf/esp-14.2.0_20250730/xtensa-esp-elf/bin/../lib/gcc/xtensa-esp-elf/14.2.0/esp32/crtbegin.o -LE:/ESP32-IDF-SOFTWARE/ENV/tools/xtensa-esp-elf/esp-14.2.0_20250730/xtensa-esp-elf/bin/../lib/gcc/xtensa-esp-elf/14.2.0/esp32 -LE:/ESP32-IDF-SOFTWARE/ENV/tools/xtensa-esp-elf/esp-14.2.0_20250730/xtensa-esp-elf/bin/../lib/gcc/xtensa-esp-elf/14.2.0/../../../../xtensa-esp-elf/lib/esp32 -LE:/ESP32-IDF-SOFTWARE/ENV/tools/xtensa-esp-elf/esp-14.2.0_20250730/xtensa-esp-elf/bin/../xtensa-esp-elf/lib/esp32 -LE:/ESP32-IDF-SOFTWARE/ENV/tools/xtensa-esp-elf/esp-14.2.0_20250730/xtensa-esp-elf/bin/../lib/gcc/xtensa-esp-elf/14.2.0 -LE:/ESP32-IDF-SOFTWARE/ENV/tools/xtensa-esp-elf/esp-14.2.0_20250730/xtensa-esp-elf/bin/../lib/gcc -LE:/ESP32-IDF-SOFTWARE/ENV/tools/xtensa-esp-elf/esp-14.2.0_20250730/xtensa-esp-elf/bin/../lib/gcc/xtensa-esp-elf/14.2.0/../../../../xtensa-esp-elf/lib -LE:/ESP32-IDF-SOFTWARE/ENV/tools/xtensa-esp-elf/esp-14.2.0_20250730/xtensa-esp-elf/bin/../xtensa-esp-elf/lib CMakeFiles/cmTC_568ac.dir/CMakeCXXCompilerABI.cpp.obj -lstdc++ -lm -lgcc -lc -lnosys -lc -lgcc E:/ESP32-IDF-SOFTWARE/ENV/tools/xtensa-esp-elf/esp-14.2.0_20250730/xtensa-esp-elf/bin/../lib/gcc/xtensa-esp-elf/14.2.0/esp32/crtend.o E:/ESP32-IDF-SOFTWARE/ENV/tools/xtensa-esp-elf/esp-14.2.0_20250730/xtensa-esp-elf/bin/../lib/gcc/xtensa-esp-elf/14.2.0/esp32/crtn.o\x0d
+        COLLECT_GCC_OPTIONS='-mdynconfig=xtensa_esp32.so' '-mlongcalls' '-Wno-frame-address' '-fno-builtin-memcpy' '-fno-builtin-memset' '-fno-builtin-bzero' '-fno-builtin-stpcpy' '-fno-builtin-strncpy' '-v' '-o' 'cmTC_568ac' '-dumpdir' 'cmTC_568ac.'\x0d
+        
+      exitCode: 0
+  -
+    kind: "message-v1"
+    backtrace:
+      - "E:/ESP32-IDF-SOFTWARE/ENV/tools/cmake/3.30.2/share/cmake-3.30/Modules/CMakeDetermineCompilerABI.cmake:182 (message)"
+      - "E:/ESP32-IDF-SOFTWARE/ENV/tools/cmake/3.30.2/share/cmake-3.30/Modules/CMakeTestCXXCompiler.cmake:26 (CMAKE_DETERMINE_COMPILER_ABI)"
+      - "E:/ESP32-IDF-SOFTWARE/ENV/frameworks/esp-idf-v5.4.3/tools/cmake/project.cmake:571 (__project)"
+      - "CMakeLists.txt:7 (project)"
+    message: |
+      Parsed CXX implicit include dir info: rv=done
+        found start of include info
+        found start of implicit include info
+          add: [E:/ESP32-IDF-SOFTWARE/ENV/tools/xtensa-esp-elf/esp-14.2.0_20250730/xtensa-esp-elf/bin/../lib/gcc/xtensa-esp-elf/14.2.0/../../../../xtensa-esp-elf/include/c++/14.2.0]
+          add: [E:/ESP32-IDF-SOFTWARE/ENV/tools/xtensa-esp-elf/esp-14.2.0_20250730/xtensa-esp-elf/bin/../lib/gcc/xtensa-esp-elf/14.2.0/../../../../xtensa-esp-elf/include/c++/14.2.0/xtensa-esp-elf/esp32]
+          add: [E:/ESP32-IDF-SOFTWARE/ENV/tools/xtensa-esp-elf/esp-14.2.0_20250730/xtensa-esp-elf/bin/../lib/gcc/xtensa-esp-elf/14.2.0/../../../../xtensa-esp-elf/include/c++/14.2.0/backward]
+          add: [E:/ESP32-IDF-SOFTWARE/ENV/tools/xtensa-esp-elf/esp-14.2.0_20250730/xtensa-esp-elf/bin/../lib/gcc/xtensa-esp-elf/14.2.0/include]
+          add: [E:/ESP32-IDF-SOFTWARE/ENV/tools/xtensa-esp-elf/esp-14.2.0_20250730/xtensa-esp-elf/bin/../lib/gcc/xtensa-esp-elf/14.2.0/include-fixed]
+          add: [E:/ESP32-IDF-SOFTWARE/ENV/tools/xtensa-esp-elf/esp-14.2.0_20250730/xtensa-esp-elf/bin/../lib/gcc/xtensa-esp-elf/14.2.0/../../../../xtensa-esp-elf/include]
+        end of search list found
+        collapse include dir [E:/ESP32-IDF-SOFTWARE/ENV/tools/xtensa-esp-elf/esp-14.2.0_20250730/xtensa-esp-elf/bin/../lib/gcc/xtensa-esp-elf/14.2.0/../../../../xtensa-esp-elf/include/c++/14.2.0] ==> [E:/ESP32-IDF-SOFTWARE/ENV/tools/xtensa-esp-elf/esp-14.2.0_20250730/xtensa-esp-elf/xtensa-esp-elf/include/c++/14.2.0]
+        collapse include dir [E:/ESP32-IDF-SOFTWARE/ENV/tools/xtensa-esp-elf/esp-14.2.0_20250730/xtensa-esp-elf/bin/../lib/gcc/xtensa-esp-elf/14.2.0/../../../../xtensa-esp-elf/include/c++/14.2.0/xtensa-esp-elf/esp32] ==> [E:/ESP32-IDF-SOFTWARE/ENV/tools/xtensa-esp-elf/esp-14.2.0_20250730/xtensa-esp-elf/xtensa-esp-elf/include/c++/14.2.0/xtensa-esp-elf/esp32]
+        collapse include dir [E:/ESP32-IDF-SOFTWARE/ENV/tools/xtensa-esp-elf/esp-14.2.0_20250730/xtensa-esp-elf/bin/../lib/gcc/xtensa-esp-elf/14.2.0/../../../../xtensa-esp-elf/include/c++/14.2.0/backward] ==> [E:/ESP32-IDF-SOFTWARE/ENV/tools/xtensa-esp-elf/esp-14.2.0_20250730/xtensa-esp-elf/xtensa-esp-elf/include/c++/14.2.0/backward]
+        collapse include dir [E:/ESP32-IDF-SOFTWARE/ENV/tools/xtensa-esp-elf/esp-14.2.0_20250730/xtensa-esp-elf/bin/../lib/gcc/xtensa-esp-elf/14.2.0/include] ==> [E:/ESP32-IDF-SOFTWARE/ENV/tools/xtensa-esp-elf/esp-14.2.0_20250730/xtensa-esp-elf/lib/gcc/xtensa-esp-elf/14.2.0/include]
+        collapse include dir [E:/ESP32-IDF-SOFTWARE/ENV/tools/xtensa-esp-elf/esp-14.2.0_20250730/xtensa-esp-elf/bin/../lib/gcc/xtensa-esp-elf/14.2.0/include-fixed] ==> [E:/ESP32-IDF-SOFTWARE/ENV/tools/xtensa-esp-elf/esp-14.2.0_20250730/xtensa-esp-elf/lib/gcc/xtensa-esp-elf/14.2.0/include-fixed]
+        collapse include dir [E:/ESP32-IDF-SOFTWARE/ENV/tools/xtensa-esp-elf/esp-14.2.0_20250730/xtensa-esp-elf/bin/../lib/gcc/xtensa-esp-elf/14.2.0/../../../../xtensa-esp-elf/include] ==> [E:/ESP32-IDF-SOFTWARE/ENV/tools/xtensa-esp-elf/esp-14.2.0_20250730/xtensa-esp-elf/xtensa-esp-elf/include]
+        implicit include dirs: [E:/ESP32-IDF-SOFTWARE/ENV/tools/xtensa-esp-elf/esp-14.2.0_20250730/xtensa-esp-elf/xtensa-esp-elf/include/c++/14.2.0;E:/ESP32-IDF-SOFTWARE/ENV/tools/xtensa-esp-elf/esp-14.2.0_20250730/xtensa-esp-elf/xtensa-esp-elf/include/c++/14.2.0/xtensa-esp-elf/esp32;E:/ESP32-IDF-SOFTWARE/ENV/tools/xtensa-esp-elf/esp-14.2.0_20250730/xtensa-esp-elf/xtensa-esp-elf/include/c++/14.2.0/backward;E:/ESP32-IDF-SOFTWARE/ENV/tools/xtensa-esp-elf/esp-14.2.0_20250730/xtensa-esp-elf/lib/gcc/xtensa-esp-elf/14.2.0/include;E:/ESP32-IDF-SOFTWARE/ENV/tools/xtensa-esp-elf/esp-14.2.0_20250730/xtensa-esp-elf/lib/gcc/xtensa-esp-elf/14.2.0/include-fixed;E:/ESP32-IDF-SOFTWARE/ENV/tools/xtensa-esp-elf/esp-14.2.0_20250730/xtensa-esp-elf/xtensa-esp-elf/include]
+      
+      
+  -
+    kind: "message-v1"
+    backtrace:
+      - "E:/ESP32-IDF-SOFTWARE/ENV/tools/cmake/3.30.2/share/cmake-3.30/Modules/CMakeDetermineCompilerABI.cmake:218 (message)"
+      - "E:/ESP32-IDF-SOFTWARE/ENV/tools/cmake/3.30.2/share/cmake-3.30/Modules/CMakeTestCXXCompiler.cmake:26 (CMAKE_DETERMINE_COMPILER_ABI)"
+      - "E:/ESP32-IDF-SOFTWARE/ENV/frameworks/esp-idf-v5.4.3/tools/cmake/project.cmake:571 (__project)"
+      - "CMakeLists.txt:7 (project)"
+    message: |
+      Parsed CXX implicit link information:
+        link line regex: [^( *|.*[/\\])(ld[0-9]*(\\.[a-z]+)?|CMAKE_LINK_STARTFILE-NOTFOUND|([^/\\]+-)?ld|collect2)[^/\\]*( |$)]
+        linker tool regex: [^[ 	]*(->|")?[ 	]*(([^"]*[/\\])?(ld[0-9]*(\\.[a-z]+)?))("|,| |$)]
+        ignore line: [Change Dir: 'E:/ESP32-IDF-SOFTWARE/CODE/Update_Firmware/build/CMakeFiles/CMakeScratch/TryCompile-v87ykz']
+        ignore line: []
+        ignore line: [Run Build Command(s): E:/ESP32-IDF-SOFTWARE/ENV/tools/ninja/1.12.1/ninja.exe -v cmTC_568ac]
+        ignore line: [[1/2] E:\\ESP32-IDF-SOFTWARE\\ENV\\tools\\xtensa-esp-elf\\esp-14.2.0_20250730\\xtensa-esp-elf\\bin\\xtensa-esp32-elf-g++.exe   -mlongcalls -Wno-frame-address  -fno-builtin-memcpy -fno-builtin-memset -fno-builtin-bzero -fno-builtin-stpcpy -fno-builtin-strncpy    -v -o CMakeFiles/cmTC_568ac.dir/CMakeCXXCompilerABI.cpp.obj -c E:/ESP32-IDF-SOFTWARE/ENV/tools/cmake/3.30.2/share/cmake-3.30/Modules/CMakeCXXCompilerABI.cpp]
+        ignore line: [Using built-in specs.]
+        ignore line: [COLLECT_GCC=E:\\ESP32-IDF-SOFTWARE\\ENV\\tools\\xtensa-esp-elf\\esp-14.2.0_20250730\\xtensa-esp-elf\\bin\\xtensa-esp-elf-g++.exe]
+        ignore line: [Target: xtensa-esp-elf]
+        ignore line: [Configured with: /builds/idf/crosstool-NG/.build/xtensa-esp-elf/src/gcc/configure --build=x86_64-build_pc-linux-gnu --host=x86_64-host_w64-mingw32 --target=xtensa-esp-elf --prefix=/builds/idf/crosstool-NG/builds/xtensa-esp-elf --exec_prefix=/builds/idf/crosstool-NG/builds/xtensa-esp-elf --with-local-prefix=/builds/idf/crosstool-NG/builds/xtensa-esp-elf/xtensa-esp-elf --with-sysroot=/builds/idf/crosstool-NG/builds/xtensa-esp-elf/xtensa-esp-elf --with-native-system-header-dir=/include --with-newlib --enable-threads=no --disable-shared --with-pkgversion='crosstool-NG esp-14.2.0_20250730' --disable-__cxa_atexit --enable-cxx-flags='-ffunction-sections -fdata-sections' --disable-libgomp --disable-libmudflap --disable-libmpx --disable-libssp --disable-libquadmath --disable-libquadmath-support --disable-libstdcxx-verbose --with-gmp=/builds/idf/crosstool-NG/.build/xtensa-esp-elf/buildtools/complibs-host --with-mpfr=/builds/idf/crosstool-NG/.build/xtensa-esp-elf/buildtools/complibs-host --with-mpc=/builds/idf/crosstool-NG/.build/xtensa-esp-elf/buildtools/complibs-host --with-isl=/builds/idf/crosstool-NG/.build/xtensa-esp-elf/buildtools/complibs-host --enable-lto --enable-target-optspace --without-long-double-128 --disable-nls --enable-multiarch --enable-languages=c,c++ --disable-libstdcxx-verbose --enable-threads=posix --enable-gcov-custom-rtio --enable-libstdcxx-time=yes --with-gnu-ld]
+        ignore line: [Thread model: posix]
+        ignore line: [Supported LTO compression algorithms: zlib zstd]
+        ignore line: [gcc version 14.2.0 (crosstool-NG esp-14.2.0_20250730) ]
+        ignore line: [COLLECT_GCC_OPTIONS='-mdynconfig=xtensa_esp32.so' '-mlongcalls' '-Wno-frame-address' '-fno-builtin-memcpy' '-fno-builtin-memset' '-fno-builtin-bzero' '-fno-builtin-stpcpy' '-fno-builtin-strncpy' '-v' '-o' 'CMakeFiles/cmTC_568ac.dir/CMakeCXXCompilerABI.cpp.obj' '-c' '-dumpdir' 'CMakeFiles/cmTC_568ac.dir/']
+        ignore line: [ E:/ESP32-IDF-SOFTWARE/ENV/tools/xtensa-esp-elf/esp-14.2.0_20250730/xtensa-esp-elf/bin/../libexec/gcc/xtensa-esp-elf/14.2.0/cc1plus.exe -quiet -v -imultilib esp32 -iprefix E:/ESP32-IDF-SOFTWARE/ENV/tools/xtensa-esp-elf/esp-14.2.0_20250730/xtensa-esp-elf/bin/../lib/gcc/xtensa-esp-elf/14.2.0/ -isysroot E:/ESP32-IDF-SOFTWARE/ENV/tools/xtensa-esp-elf/esp-14.2.0_20250730/xtensa-esp-elf/bin/../xtensa-esp-elf E:/ESP32-IDF-SOFTWARE/ENV/tools/cmake/3.30.2/share/cmake-3.30/Modules/CMakeCXXCompilerABI.cpp -quiet -dumpdir CMakeFiles/cmTC_568ac.dir/ -dumpbase CMakeCXXCompilerABI.cpp.cpp -dumpbase-ext .cpp -mdynconfig=xtensa_esp32.so -mlongcalls -Wno-frame-address -version -fno-builtin-memcpy -fno-builtin-memset -fno-builtin-bzero -fno-builtin-stpcpy -fno-builtin-strncpy -o C:\\Users\\THIEN\\AppData\\Local\\Temp\\ccMPeu91.s]
+        ignore line: [GNU C++17 (crosstool-NG esp-14.2.0_20250730) version 14.2.0 (xtensa-esp-elf)]
+        ignore line: [	compiled by GNU C version 6.3.0 20170516  GMP version 6.2.1  MPFR version 4.2.1  MPC version 1.2.1  isl version isl-0.26-GMP]
+        ignore line: []
+        ignore line: [GGC heuristics: --param ggc-min-expand=100 --param ggc-min-heapsize=131072]
+        ignore line: [ignoring duplicate directory "E:/ESP32-IDF-SOFTWARE/ENV/tools/xtensa-esp-elf/esp-14.2.0_20250730/xtensa-esp-elf/lib/gcc/../../lib/gcc/xtensa-esp-elf/14.2.0/../../../../xtensa-esp-elf/include/c++/14.2.0"]
+        ignore line: [ignoring duplicate directory "E:/ESP32-IDF-SOFTWARE/ENV/tools/xtensa-esp-elf/esp-14.2.0_20250730/xtensa-esp-elf/lib/gcc/../../lib/gcc/xtensa-esp-elf/14.2.0/../../../../xtensa-esp-elf/include/c++/14.2.0/xtensa-esp-elf/esp32"]
+        ignore line: [ignoring duplicate directory "E:/ESP32-IDF-SOFTWARE/ENV/tools/xtensa-esp-elf/esp-14.2.0_20250730/xtensa-esp-elf/lib/gcc/../../lib/gcc/xtensa-esp-elf/14.2.0/../../../../xtensa-esp-elf/include/c++/14.2.0/backward"]
+        ignore line: [ignoring duplicate directory "E:/ESP32-IDF-SOFTWARE/ENV/tools/xtensa-esp-elf/esp-14.2.0_20250730/xtensa-esp-elf/lib/gcc/../../lib/gcc/xtensa-esp-elf/14.2.0/include"]
+        ignore line: [ignoring nonexistent directory "E:/ESP32-IDF-SOFTWARE/ENV/tools/xtensa-esp-elf/esp-14.2.0_20250730/xtensa-esp-elf/bin/../xtensa-esp-elf/builds/idf/crosstool-NG/builds/xtensa-esp-elf/lib/gcc/xtensa-esp-elf/14.2.0/../../../../include"]
+        ignore line: [ignoring duplicate directory "E:/ESP32-IDF-SOFTWARE/ENV/tools/xtensa-esp-elf/esp-14.2.0_20250730/xtensa-esp-elf/lib/gcc/../../lib/gcc/xtensa-esp-elf/14.2.0/include-fixed"]
+        ignore line: [ignoring duplicate directory "E:/ESP32-IDF-SOFTWARE/ENV/tools/xtensa-esp-elf/esp-14.2.0_20250730/xtensa-esp-elf/lib/gcc/../../lib/gcc/xtensa-esp-elf/14.2.0/../../../../xtensa-esp-elf/include"]
+        ignore line: [ignoring duplicate directory "E:/ESP32-IDF-SOFTWARE/ENV/tools/xtensa-esp-elf/esp-14.2.0_20250730/xtensa-esp-elf/bin/../xtensa-esp-elf/include"]
+        ignore line: [#include "..." search starts here:]
+        ignore line: [#include <...> search starts here:]
+        ignore line: [ E:/ESP32-IDF-SOFTWARE/ENV/tools/xtensa-esp-elf/esp-14.2.0_20250730/xtensa-esp-elf/bin/../lib/gcc/xtensa-esp-elf/14.2.0/../../../../xtensa-esp-elf/include/c++/14.2.0]
+        ignore line: [ E:/ESP32-IDF-SOFTWARE/ENV/tools/xtensa-esp-elf/esp-14.2.0_20250730/xtensa-esp-elf/bin/../lib/gcc/xtensa-esp-elf/14.2.0/../../../../xtensa-esp-elf/include/c++/14.2.0/xtensa-esp-elf/esp32]
+        ignore line: [ E:/ESP32-IDF-SOFTWARE/ENV/tools/xtensa-esp-elf/esp-14.2.0_20250730/xtensa-esp-elf/bin/../lib/gcc/xtensa-esp-elf/14.2.0/../../../../xtensa-esp-elf/include/c++/14.2.0/backward]
+        ignore line: [ E:/ESP32-IDF-SOFTWARE/ENV/tools/xtensa-esp-elf/esp-14.2.0_20250730/xtensa-esp-elf/bin/../lib/gcc/xtensa-esp-elf/14.2.0/include]
+        ignore line: [ E:/ESP32-IDF-SOFTWARE/ENV/tools/xtensa-esp-elf/esp-14.2.0_20250730/xtensa-esp-elf/bin/../lib/gcc/xtensa-esp-elf/14.2.0/include-fixed]
+        ignore line: [ E:/ESP32-IDF-SOFTWARE/ENV/tools/xtensa-esp-elf/esp-14.2.0_20250730/xtensa-esp-elf/bin/../lib/gcc/xtensa-esp-elf/14.2.0/../../../../xtensa-esp-elf/include]
+        ignore line: [End of search list.]
+        ignore line: [Compiler executable checksum: 36f90ab7ffea0d7cc4d0c7b1a89d7e55]
+        ignore line: [COLLECT_GCC_OPTIONS='-mdynconfig=xtensa_esp32.so' '-mlongcalls' '-Wno-frame-address' '-fno-builtin-memcpy' '-fno-builtin-memset' '-fno-builtin-bzero' '-fno-builtin-stpcpy' '-fno-builtin-strncpy' '-v' '-o' 'CMakeFiles/cmTC_568ac.dir/CMakeCXXCompilerABI.cpp.obj' '-c' '-dumpdir' 'CMakeFiles/cmTC_568ac.dir/']
+        ignore line: [ E:/ESP32-IDF-SOFTWARE/ENV/tools/xtensa-esp-elf/esp-14.2.0_20250730/xtensa-esp-elf/bin/../lib/gcc/xtensa-esp-elf/14.2.0/../../../../xtensa-esp-elf/bin/as.exe --traditional-format --longcalls --dynconfig=xtensa_esp32.so -o CMakeFiles/cmTC_568ac.dir/CMakeCXXCompilerABI.cpp.obj C:\\Users\\THIEN\\AppData\\Local\\Temp\\ccMPeu91.s]
+        ignore line: [COMPILER_PATH=E:/ESP32-IDF-SOFTWARE/ENV/tools/xtensa-esp-elf/esp-14.2.0_20250730/xtensa-esp-elf/bin/../libexec/gcc/xtensa-esp-elf/14.2.0/]
+        ignore line: [E:/ESP32-IDF-SOFTWARE/ENV/tools/xtensa-esp-elf/esp-14.2.0_20250730/xtensa-esp-elf/bin/../libexec/gcc/]
+        ignore line: [E:/ESP32-IDF-SOFTWARE/ENV/tools/xtensa-esp-elf/esp-14.2.0_20250730/xtensa-esp-elf/bin/../lib/gcc/xtensa-esp-elf/14.2.0/../../../../xtensa-esp-elf/bin/]
+        ignore line: [LIBRARY_PATH=E:/ESP32-IDF-SOFTWARE/ENV/tools/xtensa-esp-elf/esp-14.2.0_20250730/xtensa-esp-elf/bin/../lib/gcc/xtensa-esp-elf/14.2.0/esp32/]
+        ignore line: [E:/ESP32-IDF-SOFTWARE/ENV/tools/xtensa-esp-elf/esp-14.2.0_20250730/xtensa-esp-elf/bin/../lib/gcc/xtensa-esp-elf/14.2.0/../../../../xtensa-esp-elf/lib/esp32/]
+        ignore line: [E:/ESP32-IDF-SOFTWARE/ENV/tools/xtensa-esp-elf/esp-14.2.0_20250730/xtensa-esp-elf/bin/../xtensa-esp-elf/lib/esp32/]
+        ignore line: [E:/ESP32-IDF-SOFTWARE/ENV/tools/xtensa-esp-elf/esp-14.2.0_20250730/xtensa-esp-elf/bin/../lib/gcc/xtensa-esp-elf/14.2.0/]
+        ignore line: [E:/ESP32-IDF-SOFTWARE/ENV/tools/xtensa-esp-elf/esp-14.2.0_20250730/xtensa-esp-elf/bin/../lib/gcc/]
+        ignore line: [E:/ESP32-IDF-SOFTWARE/ENV/tools/xtensa-esp-elf/esp-14.2.0_20250730/xtensa-esp-elf/bin/../lib/gcc/xtensa-esp-elf/14.2.0/../../../../xtensa-esp-elf/lib/]
+        ignore line: [E:/ESP32-IDF-SOFTWARE/ENV/tools/xtensa-esp-elf/esp-14.2.0_20250730/xtensa-esp-elf/bin/../xtensa-esp-elf/lib/]
+        ignore line: [COLLECT_GCC_OPTIONS='-mdynconfig=xtensa_esp32.so' '-mlongcalls' '-Wno-frame-address' '-fno-builtin-memcpy' '-fno-builtin-memset' '-fno-builtin-bzero' '-fno-builtin-stpcpy' '-fno-builtin-strncpy' '-v' '-o' 'CMakeFiles/cmTC_568ac.dir/CMakeCXXCompilerABI.cpp.obj' '-c' '-dumpdir' 'CMakeFiles/cmTC_568ac.dir/CMakeCXXCompilerABI.cpp.'\x0d]
+        ignore line: [[2/2] C:\\WINDOWS\\system32\\cmd.exe /C "cd . && E:\\ESP32-IDF-SOFTWARE\\ENV\\tools\\xtensa-esp-elf\\esp-14.2.0_20250730\\xtensa-esp-elf\\bin\\xtensa-esp32-elf-g++.exe -mlongcalls -Wno-frame-address  -fno-builtin-memcpy -fno-builtin-memset -fno-builtin-bzero -fno-builtin-stpcpy -fno-builtin-strncpy -v CMakeFiles/cmTC_568ac.dir/CMakeCXXCompilerABI.cpp.obj -o cmTC_568ac   && cd ."]
+        ignore line: [Using built-in specs.]
+        ignore line: [COLLECT_GCC=E:\\ESP32-IDF-SOFTWARE\\ENV\\tools\\xtensa-esp-elf\\esp-14.2.0_20250730\\xtensa-esp-elf\\bin\\xtensa-esp-elf-g++.exe]
+        ignore line: [COLLECT_LTO_WRAPPER=E:/ESP32-IDF-SOFTWARE/ENV/tools/xtensa-esp-elf/esp-14.2.0_20250730/xtensa-esp-elf/bin/../libexec/gcc/xtensa-esp-elf/14.2.0/lto-wrapper.exe]
+        ignore line: [Target: xtensa-esp-elf]
+        ignore line: [Configured with: /builds/idf/crosstool-NG/.build/xtensa-esp-elf/src/gcc/configure --build=x86_64-build_pc-linux-gnu --host=x86_64-host_w64-mingw32 --target=xtensa-esp-elf --prefix=/builds/idf/crosstool-NG/builds/xtensa-esp-elf --exec_prefix=/builds/idf/crosstool-NG/builds/xtensa-esp-elf --with-local-prefix=/builds/idf/crosstool-NG/builds/xtensa-esp-elf/xtensa-esp-elf --with-sysroot=/builds/idf/crosstool-NG/builds/xtensa-esp-elf/xtensa-esp-elf --with-native-system-header-dir=/include --with-newlib --enable-threads=no --disable-shared --with-pkgversion='crosstool-NG esp-14.2.0_20250730' --disable-__cxa_atexit --enable-cxx-flags='-ffunction-sections -fdata-sections' --disable-libgomp --disable-libmudflap --disable-libmpx --disable-libssp --disable-libquadmath --disable-libquadmath-support --disable-libstdcxx-verbose --with-gmp=/builds/idf/crosstool-NG/.build/xtensa-esp-elf/buildtools/complibs-host --with-mpfr=/builds/idf/crosstool-NG/.build/xtensa-esp-elf/buildtools/complibs-host --with-mpc=/builds/idf/crosstool-NG/.build/xtensa-esp-elf/buildtools/complibs-host --with-isl=/builds/idf/crosstool-NG/.build/xtensa-esp-elf/buildtools/complibs-host --enable-lto --enable-target-optspace --without-long-double-128 --disable-nls --enable-multiarch --enable-languages=c,c++ --disable-libstdcxx-verbose --enable-threads=posix --enable-gcov-custom-rtio --enable-libstdcxx-time=yes --with-gnu-ld]
+        ignore line: [Thread model: posix]
+        ignore line: [Supported LTO compression algorithms: zlib zstd]
+        ignore line: [gcc version 14.2.0 (crosstool-NG esp-14.2.0_20250730) ]
+        ignore line: [COMPILER_PATH=E:/ESP32-IDF-SOFTWARE/ENV/tools/xtensa-esp-elf/esp-14.2.0_20250730/xtensa-esp-elf/bin/../libexec/gcc/xtensa-esp-elf/14.2.0/]
+        ignore line: [E:/ESP32-IDF-SOFTWARE/ENV/tools/xtensa-esp-elf/esp-14.2.0_20250730/xtensa-esp-elf/bin/../libexec/gcc/]
+        ignore line: [E:/ESP32-IDF-SOFTWARE/ENV/tools/xtensa-esp-elf/esp-14.2.0_20250730/xtensa-esp-elf/bin/../lib/gcc/xtensa-esp-elf/14.2.0/../../../../xtensa-esp-elf/bin/]
+        ignore line: [LIBRARY_PATH=E:/ESP32-IDF-SOFTWARE/ENV/tools/xtensa-esp-elf/esp-14.2.0_20250730/xtensa-esp-elf/bin/../lib/gcc/xtensa-esp-elf/14.2.0/esp32/]
+        ignore line: [E:/ESP32-IDF-SOFTWARE/ENV/tools/xtensa-esp-elf/esp-14.2.0_20250730/xtensa-esp-elf/bin/../lib/gcc/xtensa-esp-elf/14.2.0/../../../../xtensa-esp-elf/lib/esp32/]
+        ignore line: [E:/ESP32-IDF-SOFTWARE/ENV/tools/xtensa-esp-elf/esp-14.2.0_20250730/xtensa-esp-elf/bin/../xtensa-esp-elf/lib/esp32/]
+        ignore line: [E:/ESP32-IDF-SOFTWARE/ENV/tools/xtensa-esp-elf/esp-14.2.0_20250730/xtensa-esp-elf/bin/../lib/gcc/xtensa-esp-elf/14.2.0/]
+        ignore line: [E:/ESP32-IDF-SOFTWARE/ENV/tools/xtensa-esp-elf/esp-14.2.0_20250730/xtensa-esp-elf/bin/../lib/gcc/]
+        ignore line: [E:/ESP32-IDF-SOFTWARE/ENV/tools/xtensa-esp-elf/esp-14.2.0_20250730/xtensa-esp-elf/bin/../lib/gcc/xtensa-esp-elf/14.2.0/../../../../xtensa-esp-elf/lib/]
+        ignore line: [E:/ESP32-IDF-SOFTWARE/ENV/tools/xtensa-esp-elf/esp-14.2.0_20250730/xtensa-esp-elf/bin/../xtensa-esp-elf/lib/]
+        ignore line: [COLLECT_GCC_OPTIONS='-mdynconfig=xtensa_esp32.so' '-mlongcalls' '-Wno-frame-address' '-fno-builtin-memcpy' '-fno-builtin-memset' '-fno-builtin-bzero' '-fno-builtin-stpcpy' '-fno-builtin-strncpy' '-v' '-o' 'cmTC_568ac' '-dumpdir' 'cmTC_568ac.']
+        link line: [ E:/ESP32-IDF-SOFTWARE/ENV/tools/xtensa-esp-elf/esp-14.2.0_20250730/xtensa-esp-elf/bin/../libexec/gcc/xtensa-esp-elf/14.2.0/collect2.exe -plugin E:/ESP32-IDF-SOFTWARE/ENV/tools/xtensa-esp-elf/esp-14.2.0_20250730/xtensa-esp-elf/bin/../libexec/gcc/xtensa-esp-elf/14.2.0/liblto_plugin.dll -plugin-opt=E:/ESP32-IDF-SOFTWARE/ENV/tools/xtensa-esp-elf/esp-14.2.0_20250730/xtensa-esp-elf/bin/../libexec/gcc/xtensa-esp-elf/14.2.0/lto-wrapper.exe -plugin-opt=-fresolution=C:\\Users\\THIEN\\AppData\\Local\\Temp\\ccQjJwA7.res -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lc -plugin-opt=-pass-through=-lnosys -plugin-opt=-pass-through=-lc -plugin-opt=-pass-through=-lgcc --sysroot=E:/ESP32-IDF-SOFTWARE/ENV/tools/xtensa-esp-elf/esp-14.2.0_20250730/xtensa-esp-elf/bin/../xtensa-esp-elf --dynconfig=xtensa_esp32.so -o cmTC_568ac E:/ESP32-IDF-SOFTWARE/ENV/tools/xtensa-esp-elf/esp-14.2.0_20250730/xtensa-esp-elf/bin/../lib/gcc/xtensa-esp-elf/14.2.0/../../../../xtensa-esp-elf/lib/esp32/crt0.o E:/ESP32-IDF-SOFTWARE/ENV/tools/xtensa-esp-elf/esp-14.2.0_20250730/xtensa-esp-elf/bin/../lib/gcc/xtensa-esp-elf/14.2.0/esp32/crti.o E:/ESP32-IDF-SOFTWARE/ENV/tools/xtensa-esp-elf/esp-14.2.0_20250730/xtensa-esp-elf/bin/../lib/gcc/xtensa-esp-elf/14.2.0/esp32/crtbegin.o -LE:/ESP32-IDF-SOFTWARE/ENV/tools/xtensa-esp-elf/esp-14.2.0_20250730/xtensa-esp-elf/bin/../lib/gcc/xtensa-esp-elf/14.2.0/esp32 -LE:/ESP32-IDF-SOFTWARE/ENV/tools/xtensa-esp-elf/esp-14.2.0_20250730/xtensa-esp-elf/bin/../lib/gcc/xtensa-esp-elf/14.2.0/../../../../xtensa-esp-elf/lib/esp32 -LE:/ESP32-IDF-SOFTWARE/ENV/tools/xtensa-esp-elf/esp-14.2.0_20250730/xtensa-esp-elf/bin/../xtensa-esp-elf/lib/esp32 -LE:/ESP32-IDF-SOFTWARE/ENV/tools/xtensa-esp-elf/esp-14.2.0_20250730/xtensa-esp-elf/bin/../lib/gcc/xtensa-esp-elf/14.2.0 -LE:/ESP32-IDF-SOFTWARE/ENV/tools/xtensa-esp-elf/esp-14.2.0_20250730/xtensa-esp-elf/bin/../lib/gcc -LE:/ESP32-IDF-SOFTWARE/ENV/tools/xtensa-esp-elf/esp-14.2.0_20250730/xtensa-esp-elf/bin/../lib/gcc/xtensa-esp-elf/14.2.0/../../../../xtensa-esp-elf/lib -LE:/ESP32-IDF-SOFTWARE/ENV/tools/xtensa-esp-elf/esp-14.2.0_20250730/xtensa-esp-elf/bin/../xtensa-esp-elf/lib CMakeFiles/cmTC_568ac.dir/CMakeCXXCompilerABI.cpp.obj -lstdc++ -lm -lgcc -lc -lnosys -lc -lgcc E:/ESP32-IDF-SOFTWARE/ENV/tools/xtensa-esp-elf/esp-14.2.0_20250730/xtensa-esp-elf/bin/../lib/gcc/xtensa-esp-elf/14.2.0/esp32/crtend.o E:/ESP32-IDF-SOFTWARE/ENV/tools/xtensa-esp-elf/esp-14.2.0_20250730/xtensa-esp-elf/bin/../lib/gcc/xtensa-esp-elf/14.2.0/esp32/crtn.o\x0d]
+          arg [E:/ESP32-IDF-SOFTWARE/ENV/tools/xtensa-esp-elf/esp-14.2.0_20250730/xtensa-esp-elf/bin/../libexec/gcc/xtensa-esp-elf/14.2.0/collect2.exe] ==> ignore
+          arg [-plugin] ==> ignore
+          arg [E:/ESP32-IDF-SOFTWARE/ENV/tools/xtensa-esp-elf/esp-14.2.0_20250730/xtensa-esp-elf/bin/../libexec/gcc/xtensa-esp-elf/14.2.0/liblto_plugin.dll] ==> ignore
+          arg [-plugin-opt=E:/ESP32-IDF-SOFTWARE/ENV/tools/xtensa-esp-elf/esp-14.2.0_20250730/xtensa-esp-elf/bin/../libexec/gcc/xtensa-esp-elf/14.2.0/lto-wrapper.exe] ==> ignore
+          arg [-plugin-opt=-fresolution=C:\\Users\\THIEN\\AppData\\Local\\Temp\\ccQjJwA7.res] ==> ignore
+          arg [-plugin-opt=-pass-through=-lgcc] ==> ignore
+          arg [-plugin-opt=-pass-through=-lc] ==> ignore
+          arg [-plugin-opt=-pass-through=-lnosys] ==> ignore
+          arg [-plugin-opt=-pass-through=-lc] ==> ignore
+          arg [-plugin-opt=-pass-through=-lgcc] ==> ignore
+          arg [--sysroot=E:/ESP32-IDF-SOFTWARE/ENV/tools/xtensa-esp-elf/esp-14.2.0_20250730/xtensa-esp-elf/bin/../xtensa-esp-elf] ==> ignore
+          arg [--dynconfig=xtensa_esp32.so] ==> ignore
+          arg [-o] ==> ignore
+          arg [cmTC_568ac] ==> ignore
+          arg [E:/ESP32-IDF-SOFTWARE/ENV/tools/xtensa-esp-elf/esp-14.2.0_20250730/xtensa-esp-elf/bin/../lib/gcc/xtensa-esp-elf/14.2.0/../../../../xtensa-esp-elf/lib/esp32/crt0.o] ==> obj [E:/ESP32-IDF-SOFTWARE/ENV/tools/xtensa-esp-elf/esp-14.2.0_20250730/xtensa-esp-elf/bin/../lib/gcc/xtensa-esp-elf/14.2.0/../../../../xtensa-esp-elf/lib/esp32/crt0.o]
+          arg [E:/ESP32-IDF-SOFTWARE/ENV/tools/xtensa-esp-elf/esp-14.2.0_20250730/xtensa-esp-elf/bin/../lib/gcc/xtensa-esp-elf/14.2.0/esp32/crti.o] ==> obj [E:/ESP32-IDF-SOFTWARE/ENV/tools/xtensa-esp-elf/esp-14.2.0_20250730/xtensa-esp-elf/bin/../lib/gcc/xtensa-esp-elf/14.2.0/esp32/crti.o]
+          arg [E:/ESP32-IDF-SOFTWARE/ENV/tools/xtensa-esp-elf/esp-14.2.0_20250730/xtensa-esp-elf/bin/../lib/gcc/xtensa-esp-elf/14.2.0/esp32/crtbegin.o] ==> obj [E:/ESP32-IDF-SOFTWARE/ENV/tools/xtensa-esp-elf/esp-14.2.0_20250730/xtensa-esp-elf/bin/../lib/gcc/xtensa-esp-elf/14.2.0/esp32/crtbegin.o]
+          arg [-LE:/ESP32-IDF-SOFTWARE/ENV/tools/xtensa-esp-elf/esp-14.2.0_20250730/xtensa-esp-elf/bin/../lib/gcc/xtensa-esp-elf/14.2.0/esp32] ==> dir [E:/ESP32-IDF-SOFTWARE/ENV/tools/xtensa-esp-elf/esp-14.2.0_20250730/xtensa-esp-elf/bin/../lib/gcc/xtensa-esp-elf/14.2.0/esp32]
+          arg [-LE:/ESP32-IDF-SOFTWARE/ENV/tools/xtensa-esp-elf/esp-14.2.0_20250730/xtensa-esp-elf/bin/../lib/gcc/xtensa-esp-elf/14.2.0/../../../../xtensa-esp-elf/lib/esp32] ==> dir [E:/ESP32-IDF-SOFTWARE/ENV/tools/xtensa-esp-elf/esp-14.2.0_20250730/xtensa-esp-elf/bin/../lib/gcc/xtensa-esp-elf/14.2.0/../../../../xtensa-esp-elf/lib/esp32]
+          arg [-LE:/ESP32-IDF-SOFTWARE/ENV/tools/xtensa-esp-elf/esp-14.2.0_20250730/xtensa-esp-elf/bin/../xtensa-esp-elf/lib/esp32] ==> dir [E:/ESP32-IDF-SOFTWARE/ENV/tools/xtensa-esp-elf/esp-14.2.0_20250730/xtensa-esp-elf/bin/../xtensa-esp-elf/lib/esp32]
+          arg [-LE:/ESP32-IDF-SOFTWARE/ENV/tools/xtensa-esp-elf/esp-14.2.0_20250730/xtensa-esp-elf/bin/../lib/gcc/xtensa-esp-elf/14.2.0] ==> dir [E:/ESP32-IDF-SOFTWARE/ENV/tools/xtensa-esp-elf/esp-14.2.0_20250730/xtensa-esp-elf/bin/../lib/gcc/xtensa-esp-elf/14.2.0]
+          arg [-LE:/ESP32-IDF-SOFTWARE/ENV/tools/xtensa-esp-elf/esp-14.2.0_20250730/xtensa-esp-elf/bin/../lib/gcc] ==> dir [E:/ESP32-IDF-SOFTWARE/ENV/tools/xtensa-esp-elf/esp-14.2.0_20250730/xtensa-esp-elf/bin/../lib/gcc]
+          arg [-LE:/ESP32-IDF-SOFTWARE/ENV/tools/xtensa-esp-elf/esp-14.2.0_20250730/xtensa-esp-elf/bin/../lib/gcc/xtensa-esp-elf/14.2.0/../../../../xtensa-esp-elf/lib] ==> dir [E:/ESP32-IDF-SOFTWARE/ENV/tools/xtensa-esp-elf/esp-14.2.0_20250730/xtensa-esp-elf/bin/../lib/gcc/xtensa-esp-elf/14.2.0/../../../../xtensa-esp-elf/lib]
+          arg [-LE:/ESP32-IDF-SOFTWARE/ENV/tools/xtensa-esp-elf/esp-14.2.0_20250730/xtensa-esp-elf/bin/../xtensa-esp-elf/lib] ==> dir [E:/ESP32-IDF-SOFTWARE/ENV/tools/xtensa-esp-elf/esp-14.2.0_20250730/xtensa-esp-elf/bin/../xtensa-esp-elf/lib]
+          arg [CMakeFiles/cmTC_568ac.dir/CMakeCXXCompilerABI.cpp.obj] ==> ignore
+          arg [-lstdc++] ==> lib [stdc++]
+          arg [-lm] ==> lib [m]
+          arg [-lgcc] ==> lib [gcc]
+          arg [-lc] ==> lib [c]
+          arg [-lnosys] ==> lib [nosys]
+          arg [-lc] ==> lib [c]
+          arg [-lgcc] ==> lib [gcc]
+          arg [E:/ESP32-IDF-SOFTWARE/ENV/tools/xtensa-esp-elf/esp-14.2.0_20250730/xtensa-esp-elf/bin/../lib/gcc/xtensa-esp-elf/14.2.0/esp32/crtend.o] ==> obj [E:/ESP32-IDF-SOFTWARE/ENV/tools/xtensa-esp-elf/esp-14.2.0_20250730/xtensa-esp-elf/bin/../lib/gcc/xtensa-esp-elf/14.2.0/esp32/crtend.o]
+          arg [E:/ESP32-IDF-SOFTWARE/ENV/tools/xtensa-esp-elf/esp-14.2.0_20250730/xtensa-esp-elf/bin/../lib/gcc/xtensa-esp-elf/14.2.0/esp32/crtn.o] ==> obj [E:/ESP32-IDF-SOFTWARE/ENV/tools/xtensa-esp-elf/esp-14.2.0_20250730/xtensa-esp-elf/bin/../lib/gcc/xtensa-esp-elf/14.2.0/esp32/crtn.o]
+        ignore line: [COLLECT_GCC_OPTIONS='-mdynconfig=xtensa_esp32.so' '-mlongcalls' '-Wno-frame-address' '-fno-builtin-memcpy' '-fno-builtin-memset' '-fno-builtin-bzero' '-fno-builtin-stpcpy' '-fno-builtin-strncpy' '-v' '-o' 'cmTC_568ac' '-dumpdir' 'cmTC_568ac.'\x0d]
+        ignore line: []
+        ignore line: []
+        collapse obj [E:/ESP32-IDF-SOFTWARE/ENV/tools/xtensa-esp-elf/esp-14.2.0_20250730/xtensa-esp-elf/bin/../lib/gcc/xtensa-esp-elf/14.2.0/../../../../xtensa-esp-elf/lib/esp32/crt0.o] ==> [E:/ESP32-IDF-SOFTWARE/ENV/tools/xtensa-esp-elf/esp-14.2.0_20250730/xtensa-esp-elf/xtensa-esp-elf/lib/esp32/crt0.o]
+        collapse obj [E:/ESP32-IDF-SOFTWARE/ENV/tools/xtensa-esp-elf/esp-14.2.0_20250730/xtensa-esp-elf/bin/../lib/gcc/xtensa-esp-elf/14.2.0/esp32/crti.o] ==> [E:/ESP32-IDF-SOFTWARE/ENV/tools/xtensa-esp-elf/esp-14.2.0_20250730/xtensa-esp-elf/lib/gcc/xtensa-esp-elf/14.2.0/esp32/crti.o]
+        collapse obj [E:/ESP32-IDF-SOFTWARE/ENV/tools/xtensa-esp-elf/esp-14.2.0_20250730/xtensa-esp-elf/bin/../lib/gcc/xtensa-esp-elf/14.2.0/esp32/crtbegin.o] ==> [E:/ESP32-IDF-SOFTWARE/ENV/tools/xtensa-esp-elf/esp-14.2.0_20250730/xtensa-esp-elf/lib/gcc/xtensa-esp-elf/14.2.0/esp32/crtbegin.o]
+        collapse obj [E:/ESP32-IDF-SOFTWARE/ENV/tools/xtensa-esp-elf/esp-14.2.0_20250730/xtensa-esp-elf/bin/../lib/gcc/xtensa-esp-elf/14.2.0/esp32/crtend.o] ==> [E:/ESP32-IDF-SOFTWARE/ENV/tools/xtensa-esp-elf/esp-14.2.0_20250730/xtensa-esp-elf/lib/gcc/xtensa-esp-elf/14.2.0/esp32/crtend.o]
+        collapse obj [E:/ESP32-IDF-SOFTWARE/ENV/tools/xtensa-esp-elf/esp-14.2.0_20250730/xtensa-esp-elf/bin/../lib/gcc/xtensa-esp-elf/14.2.0/esp32/crtn.o] ==> [E:/ESP32-IDF-SOFTWARE/ENV/tools/xtensa-esp-elf/esp-14.2.0_20250730/xtensa-esp-elf/lib/gcc/xtensa-esp-elf/14.2.0/esp32/crtn.o]
+        collapse library dir [E:/ESP32-IDF-SOFTWARE/ENV/tools/xtensa-esp-elf/esp-14.2.0_20250730/xtensa-esp-elf/bin/../lib/gcc/xtensa-esp-elf/14.2.0/esp32] ==> [E:/ESP32-IDF-SOFTWARE/ENV/tools/xtensa-esp-elf/esp-14.2.0_20250730/xtensa-esp-elf/lib/gcc/xtensa-esp-elf/14.2.0/esp32]
+        collapse library dir [E:/ESP32-IDF-SOFTWARE/ENV/tools/xtensa-esp-elf/esp-14.2.0_20250730/xtensa-esp-elf/bin/../lib/gcc/xtensa-esp-elf/14.2.0/../../../../xtensa-esp-elf/lib/esp32] ==> [E:/ESP32-IDF-SOFTWARE/ENV/tools/xtensa-esp-elf/esp-14.2.0_20250730/xtensa-esp-elf/xtensa-esp-elf/lib/esp32]
+        collapse library dir [E:/ESP32-IDF-SOFTWARE/ENV/tools/xtensa-esp-elf/esp-14.2.0_20250730/xtensa-esp-elf/bin/../xtensa-esp-elf/lib/esp32] ==> [E:/ESP32-IDF-SOFTWARE/ENV/tools/xtensa-esp-elf/esp-14.2.0_20250730/xtensa-esp-elf/xtensa-esp-elf/lib/esp32]
+        collapse library dir [E:/ESP32-IDF-SOFTWARE/ENV/tools/xtensa-esp-elf/esp-14.2.0_20250730/xtensa-esp-elf/bin/../lib/gcc/xtensa-esp-elf/14.2.0] ==> [E:/ESP32-IDF-SOFTWARE/ENV/tools/xtensa-esp-elf/esp-14.2.0_20250730/xtensa-esp-elf/lib/gcc/xtensa-esp-elf/14.2.0]
+        collapse library dir [E:/ESP32-IDF-SOFTWARE/ENV/tools/xtensa-esp-elf/esp-14.2.0_20250730/xtensa-esp-elf/bin/../lib/gcc] ==> [E:/ESP32-IDF-SOFTWARE/ENV/tools/xtensa-esp-elf/esp-14.2.0_20250730/xtensa-esp-elf/lib/gcc]
+        collapse library dir [E:/ESP32-IDF-SOFTWARE/ENV/tools/xtensa-esp-elf/esp-14.2.0_20250730/xtensa-esp-elf/bin/../lib/gcc/xtensa-esp-elf/14.2.0/../../../../xtensa-esp-elf/lib] ==> [E:/ESP32-IDF-SOFTWARE/ENV/tools/xtensa-esp-elf/esp-14.2.0_20250730/xtensa-esp-elf/xtensa-esp-elf/lib]
+        collapse library dir [E:/ESP32-IDF-SOFTWARE/ENV/tools/xtensa-esp-elf/esp-14.2.0_20250730/xtensa-esp-elf/bin/../xtensa-esp-elf/lib] ==> [E:/ESP32-IDF-SOFTWARE/ENV/tools/xtensa-esp-elf/esp-14.2.0_20250730/xtensa-esp-elf/xtensa-esp-elf/lib]
+        implicit libs: [stdc++;m;gcc;c;nosys;c;gcc]
+        implicit objs: [E:/ESP32-IDF-SOFTWARE/ENV/tools/xtensa-esp-elf/esp-14.2.0_20250730/xtensa-esp-elf/xtensa-esp-elf/lib/esp32/crt0.o;E:/ESP32-IDF-SOFTWARE/ENV/tools/xtensa-esp-elf/esp-14.2.0_20250730/xtensa-esp-elf/lib/gcc/xtensa-esp-elf/14.2.0/esp32/crti.o;E:/ESP32-IDF-SOFTWARE/ENV/tools/xtensa-esp-elf/esp-14.2.0_20250730/xtensa-esp-elf/lib/gcc/xtensa-esp-elf/14.2.0/esp32/crtbegin.o;E:/ESP32-IDF-SOFTWARE/ENV/tools/xtensa-esp-elf/esp-14.2.0_20250730/xtensa-esp-elf/lib/gcc/xtensa-esp-elf/14.2.0/esp32/crtend.o;E:/ESP32-IDF-SOFTWARE/ENV/tools/xtensa-esp-elf/esp-14.2.0_20250730/xtensa-esp-elf/lib/gcc/xtensa-esp-elf/14.2.0/esp32/crtn.o]
+        implicit dirs: [E:/ESP32-IDF-SOFTWARE/ENV/tools/xtensa-esp-elf/esp-14.2.0_20250730/xtensa-esp-elf/lib/gcc/xtensa-esp-elf/14.2.0/esp32;E:/ESP32-IDF-SOFTWARE/ENV/tools/xtensa-esp-elf/esp-14.2.0_20250730/xtensa-esp-elf/xtensa-esp-elf/lib/esp32;E:/ESP32-IDF-SOFTWARE/ENV/tools/xtensa-esp-elf/esp-14.2.0_20250730/xtensa-esp-elf/lib/gcc/xtensa-esp-elf/14.2.0;E:/ESP32-IDF-SOFTWARE/ENV/tools/xtensa-esp-elf/esp-14.2.0_20250730/xtensa-esp-elf/lib/gcc;E:/ESP32-IDF-SOFTWARE/ENV/tools/xtensa-esp-elf/esp-14.2.0_20250730/xtensa-esp-elf/xtensa-esp-elf/lib]
+        implicit fwks: []
+      
+      
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "E:/ESP32-IDF-SOFTWARE/ENV/tools/cmake/3.30.2/share/cmake-3.30/Modules/Internal/CheckSourceCompiles.cmake:101 (try_compile)"
+      - "E:/ESP32-IDF-SOFTWARE/ENV/tools/cmake/3.30.2/share/cmake-3.30/Modules/CheckCSourceCompiles.cmake:52 (cmake_check_source_compiles)"
+      - "E:/ESP32-IDF-SOFTWARE/ENV/tools/cmake/3.30.2/share/cmake-3.30/Modules/FindThreads.cmake:97 (CHECK_C_SOURCE_COMPILES)"
+      - "E:/ESP32-IDF-SOFTWARE/ENV/tools/cmake/3.30.2/share/cmake-3.30/Modules/FindThreads.cmake:163 (_threads_check_libc)"
+      - "E:/ESP32-IDF-SOFTWARE/ENV/frameworks/esp-idf-v5.4.3/components/mbedtls/mbedtls/CMakeLists.txt:139 (find_package)"
+    checks:
+      - "Performing Test CMAKE_HAVE_LIBC_PTHREAD"
+    directories:
+      source: "E:/ESP32-IDF-SOFTWARE/CODE/Update_Firmware/build/CMakeFiles/CMakeScratch/TryCompile-20eyos"
+      binary: "E:/ESP32-IDF-SOFTWARE/CODE/Update_Firmware/build/CMakeFiles/CMakeScratch/TryCompile-20eyos"
+    cmakeVariables:
+      CMAKE_C_FLAGS: "-mlongcalls -Wno-frame-address  -fno-builtin-memcpy -fno-builtin-memset -fno-builtin-bzero -fno-builtin-stpcpy -fno-builtin-strncpy"
+      CMAKE_C_FLAGS_DEBUG: "-g"
+      CMAKE_EXE_LINKER_FLAGS: ""
+      CMAKE_MODULE_PATH: "E:/ESP32-IDF-SOFTWARE/ENV/frameworks/esp-idf-v5.4.3/tools/cmake;E:/ESP32-IDF-SOFTWARE/ENV/frameworks/esp-idf-v5.4.3/tools/cmake/third_party"
+    buildResult:
+      variable: "CMAKE_HAVE_LIBC_PTHREAD"
+      cached: true
+      stdout: |
+        Change Dir: 'E:/ESP32-IDF-SOFTWARE/CODE/Update_Firmware/build/CMakeFiles/CMakeScratch/TryCompile-20eyos'
+        
+        Run Build Command(s): E:/ESP32-IDF-SOFTWARE/ENV/tools/ninja/1.12.1/ninja.exe -v cmTC_5574f
+        [1/2] E:\\ESP32-IDF-SOFTWARE\\ENV\\tools\\xtensa-esp-elf\\esp-14.2.0_20250730\\xtensa-esp-elf\\bin\\xtensa-esp32-elf-gcc.exe -DCMAKE_HAVE_LIBC_PTHREAD  -mlongcalls -Wno-frame-address  -fno-builtin-memcpy -fno-builtin-memset -fno-builtin-bzero -fno-builtin-stpcpy -fno-builtin-strncpy -o CMakeFiles/cmTC_5574f.dir/src.c.obj -c E:/ESP32-IDF-SOFTWARE/CODE/Update_Firmware/build/CMakeFiles/CMakeScratch/TryCompile-20eyos/src.c
+        [2/2] C:\\WINDOWS\\system32\\cmd.exe /C "cd . && E:\\ESP32-IDF-SOFTWARE\\ENV\\tools\\xtensa-esp-elf\\esp-14.2.0_20250730\\xtensa-esp-elf\\bin\\xtensa-esp32-elf-gcc.exe -mlongcalls -Wno-frame-address  -fno-builtin-memcpy -fno-builtin-memset -fno-builtin-bzero -fno-builtin-stpcpy -fno-builtin-strncpy  CMakeFiles/cmTC_5574f.dir/src.c.obj -o cmTC_5574f   && cd ."
+        E:/ESP32-IDF-SOFTWARE/ENV/tools/xtensa-esp-elf/esp-14.2.0_20250730/xtensa-esp-elf/bin/../lib/gcc/xtensa-esp-elf/14.2.0/../../../../xtensa-esp-elf/bin/ld.exe: CMakeFiles/cmTC_5574f.dir/src.c.obj:(.literal+0x14): warning: pthread_atfork is not implemented and will always fail
+        E:/ESP32-IDF-SOFTWARE/ENV/tools/xtensa-esp-elf/esp-14.2.0_20250730/xtensa-esp-elf/bin/../lib/gcc/xtensa-esp-elf/14.2.0/../../../../xtensa-esp-elf/bin/ld.exe: CMakeFiles/cmTC_5574f.dir/src.c.obj:(.literal+0xc): warning: pthread_cancel is not implemented and will always fail
+        E:/ESP32-IDF-SOFTWARE/ENV/tools/xtensa-esp-elf/esp-14.2.0_20250730/xtensa-esp-elf/bin/../lib/gcc/xtensa-esp-elf/14.2.0/../../../../xtensa-esp-elf/bin/ld.exe: CMakeFiles/cmTC_5574f.dir/src.c.obj:(.literal+0x4): warning: pthread_create is not implemented and will always fail
+        E:/ESP32-IDF-SOFTWARE/ENV/tools/xtensa-esp-elf/esp-14.2.0_20250730/xtensa-esp-elf/bin/../lib/gcc/xtensa-esp-elf/14.2.0/../../../../xtensa-esp-elf/bin/ld.exe: CMakeFiles/cmTC_5574f.dir/src.c.obj:(.literal+0x8): warning: pthread_detach is not implemented and will always fail
+        E:/ESP32-IDF-SOFTWARE/ENV/tools/xtensa-esp-elf/esp-14.2.0_20250730/xtensa-esp-elf/bin/../lib/gcc/xtensa-esp-elf/14.2.0/../../../../xtensa-esp-elf/bin/ld.exe: CMakeFiles/cmTC_5574f.dir/src.c.obj:(.literal+0x18): warning: pthread_exit is not implemented and will always fail
+        E:/ESP32-IDF-SOFTWARE/ENV/tools/xtensa-esp-elf/esp-14.2.0_20250730/xtensa-esp-elf/bin/../lib/gcc/xtensa-esp-elf/14.2.0/../../../../xtensa-esp-elf/bin/ld.exe: CMakeFiles/cmTC_5574f.dir/src.c.obj:(.literal+0x10): warning: pthread_join is not implemented and will always fail\x0d
+        
+      exitCode: 0
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "E:/ESP32-IDF-SOFTWARE/ENV/tools/cmake/3.30.2/share/cmake-3.30/Modules/Internal/CheckSourceCompiles.cmake:101 (try_compile)"
+      - "E:/ESP32-IDF-SOFTWARE/ENV/tools/cmake/3.30.2/share/cmake-3.30/Modules/Internal/CheckCompilerFlag.cmake:18 (cmake_check_source_compiles)"
+      - "E:/ESP32-IDF-SOFTWARE/ENV/tools/cmake/3.30.2/share/cmake-3.30/Modules/CheckCCompilerFlag.cmake:51 (cmake_check_compiler_flag)"
+      - "E:/ESP32-IDF-SOFTWARE/ENV/frameworks/esp-idf-v5.4.3/components/mbedtls/mbedtls/CMakeLists.txt:222 (CHECK_C_COMPILER_FLAG)"
+    checks:
+      - "Performing Test C_COMPILER_SUPPORTS_WFORMAT_SIGNEDNESS"
+    directories:
+      source: "E:/ESP32-IDF-SOFTWARE/CODE/Update_Firmware/build/CMakeFiles/CMakeScratch/TryCompile-8suz3s"
+      binary: "E:/ESP32-IDF-SOFTWARE/CODE/Update_Firmware/build/CMakeFiles/CMakeScratch/TryCompile-8suz3s"
+    cmakeVariables:
+      CMAKE_C_FLAGS: "-mlongcalls -Wno-frame-address  -fno-builtin-memcpy -fno-builtin-memset -fno-builtin-bzero -fno-builtin-stpcpy -fno-builtin-strncpy -Wall -Wextra -Wwrite-strings -Wmissing-prototypes -Wformat=2 -Wno-format-nonliteral -Wvla -Wlogical-op -Wshadow"
+      CMAKE_C_FLAGS_DEBUG: "-g"
+      CMAKE_EXE_LINKER_FLAGS: ""
+      CMAKE_MODULE_PATH: "E:/ESP32-IDF-SOFTWARE/ENV/frameworks/esp-idf-v5.4.3/tools/cmake;E:/ESP32-IDF-SOFTWARE/ENV/frameworks/esp-idf-v5.4.3/tools/cmake/third_party"
+    buildResult:
+      variable: "C_COMPILER_SUPPORTS_WFORMAT_SIGNEDNESS"
+      cached: true
+      stdout: |
+        Change Dir: 'E:/ESP32-IDF-SOFTWARE/CODE/Update_Firmware/build/CMakeFiles/CMakeScratch/TryCompile-8suz3s'
+        
+        Run Build Command(s): E:/ESP32-IDF-SOFTWARE/ENV/tools/ninja/1.12.1/ninja.exe -v cmTC_e7dc3
+        [1/2] E:\\ESP32-IDF-SOFTWARE\\ENV\\tools\\xtensa-esp-elf\\esp-14.2.0_20250730\\xtensa-esp-elf\\bin\\xtensa-esp32-elf-gcc.exe -DC_COMPILER_SUPPORTS_WFORMAT_SIGNEDNESS  -mlongcalls -Wno-frame-address  -fno-builtin-memcpy -fno-builtin-memset -fno-builtin-bzero -fno-builtin-stpcpy -fno-builtin-strncpy -Wall -Wextra -Wwrite-strings -Wmissing-prototypes -Wformat=2 -Wno-format-nonliteral -Wvla -Wlogical-op -Wshadow    -Wformat-signedness -o CMakeFiles/cmTC_e7dc3.dir/src.c.obj -c E:/ESP32-IDF-SOFTWARE/CODE/Update_Firmware/build/CMakeFiles/CMakeScratch/TryCompile-8suz3s/src.c
+        [2/2] C:\\WINDOWS\\system32\\cmd.exe /C "cd . && E:\\ESP32-IDF-SOFTWARE\\ENV\\tools\\xtensa-esp-elf\\esp-14.2.0_20250730\\xtensa-esp-elf\\bin\\xtensa-esp32-elf-gcc.exe -mlongcalls -Wno-frame-address  -fno-builtin-memcpy -fno-builtin-memset -fno-builtin-bzero -fno-builtin-stpcpy -fno-builtin-strncpy -Wall -Wextra -Wwrite-strings -Wmissing-prototypes -Wformat=2 -Wno-format-nonliteral -Wvla -Wlogical-op -Wshadow  CMakeFiles/cmTC_e7dc3.dir/src.c.obj -o cmTC_e7dc3   && cd ."
+        
+      exitCode: 0
+...

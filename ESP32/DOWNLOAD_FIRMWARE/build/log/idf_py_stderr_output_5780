@@ -1,0 +1,18 @@
+fatal: detected dubious ownership in repository at 'E:/ESP32-IDF-SOFTWARE/ENV/frameworks/esp-idf-v5.4.3'
+'E:/ESP32-IDF-SOFTWARE/ENV/frameworks/esp-idf-v5.4.3' is owned by:
+	BUILTIN/Administrators (S-1-5-32-544)
+but the current user is:
+	MSI/THIEN (S-1-5-21-249186868-4249935041-4026552979-1001)
+To add an exception for this directory, call:
+
+	git config --global --add safe.directory E:/ESP32-IDF-SOFTWARE/ENV/frameworks/esp-idf-v5.4.3
+CMake Error at E:/ESP32-IDF-SOFTWARE/ENV/frameworks/esp-idf-v5.4.3/tools/cmake/build.cmake:328 (message):
+  Failed to resolve component 'Bootloader_APP' required by component 'OTA':
+  unknown name.
+Call Stack (most recent call first):
+  E:/ESP32-IDF-SOFTWARE/ENV/frameworks/esp-idf-v5.4.3/tools/cmake/build.cmake:371 (__build_resolve_and_add_req)
+  E:/ESP32-IDF-SOFTWARE/ENV/frameworks/esp-idf-v5.4.3/tools/cmake/build.cmake:684 (__build_expand_requirements)
+  E:/ESP32-IDF-SOFTWARE/ENV/frameworks/esp-idf-v5.4.3/tools/cmake/project.cmake:722 (idf_build_process)
+  CMakeLists.txt:7 (project)
+
+
