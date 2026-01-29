@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html lang="vi">
+<head>
+    <meta charset="UTF-8">
+    <title>OTA Firmware Upload</title>
+    <style>
+        body { font-family: Arial; margin: 40px; }
+        input, button { padding: 8px; font-size: 16px; }
+        .ok { color: green; }
+    </style>
+</head>
+<body>
+
+<h2>OTA Firmware Upload</h2>
+
+<form id="uploadForm">
+    Firmware name:<br>
+    <input type="text" name="name" placeholder="vd: stm32_main" required>
+    <br><br>
+
+    Firmware file:<br>
+    <input type="file" name="firmware" required>
+    <br><br>
+
+    Version:<br>
+    <input type="text" name="version" placeholder="vd: 1.2.3" required>
+    <br><br>
+
+    <button type="submit">Upload</button>
+</form>
+
+<p id="status"></p>
+
+<hr>
+
+<h3>OTA Control</h3>
+<button id="otaBtn">OTA: OFF</button>
+<p id="otaStatus"></p>
+
+<script>
+/* =========================
+   UPLOAD
+========================= */
+document.getElementById("uploadForm").onsubmit = async (e) => {
+    e.preventDefault();
+
+    const fd = new FormData(e.target);
+    document.getElementById("status").innerText = "Uploading...";
+
+    const r = await fetch("/upload", {
+        method: "POST",
+        body: fd
+    });
+
+    const j = await r.json();
+
+    if (j.ok) {
+        document.getElementById("status").innerHTML =
+            `✅ Upload OK<br>Name: <b>${j.name}</b><br>Version: <b>${j.version}</b>`;
+    } else {
+        document.getElementById("status").innerText = "❌ Upload failed";
+    }
+};
+
+/* =========================
+   OTA BUTTON
+========================= */
+let otaState = false;
+
+async function loadOtaState() {
+    const r = await fetch('/status-ota');
+    const j = await r.json();
+    otaState = j.ota;
+    updateOtaBtn();
+}
+
+function updateOtaBtn() {
+    const btn = document.getElementById('otaBtn');
+    const st = document.getElementById('otaStatus');
+
+    btn.innerText = otaState ? 'OTA: ON' : 'OTA: OFF';
+    btn.style.background = otaState ? '#ffb300' : '';
+    st.innerText = otaState ? 'OTA ON' : 'OTA OFF';
+}
+
+document.getElementById('otaBtn').onclick = async () => {
+    otaState = !otaState;
+    await fetch('/status-ota', {
+        method: 'POST',
+        headers: { 'Content-Type': 'application/json' },
+        body: JSON.stringify({ ota: otaState })
+    });
+    updateOtaBtn();
+};
+
+loadOtaState();
+</script>
+
+</body>
+</html>
